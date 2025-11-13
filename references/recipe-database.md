@@ -23,6 +23,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - Grünkohl
 - Rosenkohl
 - Wirsing
+- Rosinen
 - Tierische Produkte jeglicher Art
 - Verarbeitete Lebensmittel
 
@@ -80,7 +81,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 mittelgroßer Apfel, gewürfelt
 - 1 EL gehackte Walnüsse
 - 1 TL Zimt
-- 1 EL Rosinen (optional)
+- 1 EL zusätzliche Walnüsse oder getrocknete Cranberries
 
 **Gesamt-Nährwerte:** ~370 kcal | ~23g Protein
 
@@ -304,13 +305,13 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Walnüsse, gehackt
 - 1 kleiner Apfel, gewürfelt
 - 1 TL Zimt
-- 1 EL Rosinen
+- 1 EL getrocknete Cranberries oder zusätzliche Beeren
 - Prise Salz
 
 **Zubereitung:**
 1. Quinoa nach Packungsanweisung kochen
 2. Mit Hafermilch erwärmen
-3. Mit Apfel, Walnüssen, Rosinen toppen
+3. Mit Apfel, Walnüssen, Cranberries toppen
 4. Mit Zimt würzen
 
 **Meal Prep:** Quinoa vorkochen, morgens nur aufwärmen (2-3 Min)
@@ -629,11 +630,20 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 ## NÄHRWERT-DURCHSCHNITTE
 
-**Frühstück:** 320-380 kcal | 12-14g Protein
-**Mittagessen:** 280-420 kcal | 8-22g Protein
-**Abendessen:** 260-340 kcal | 9-18g Protein
-**Snacks (optional):** 150-180 kcal | 7-9g Protein
+**Empfohlene Mahlzeiten-Ranges (entsprechend SKILL.md Targets):**
+- **Frühstück:** 300-400 kcal, 15-30g Protein
+- **Mittagessen:** 350-450 kcal, 25-45g Protein
+- **Abendessen:** 350-400 kcal, 25-45g Protein
+- **Snacks (optional):** 150-180 kcal, 7-9g Protein
 
-**Tagesziel erreichen (1200 kcal / 100g+ Protein):**
-- 3 Hauptmahlzeiten: ~900-1100 kcal, ~60-80g Protein
-- 1 Snack optional: ~150-180 kcal, ~7-9g Protein
+**Tagesziele (1200 kcal / 100g+ Protein):**
+- **Kalorien:** 1200 kcal (Range: 1100-1300)
+- **Protein:** 100-110g (Minimum: 100g)
+- **Ballaststoffe:** 30g (Minimum: 25g)
+
+**Hinweis zu den Rezepten:**
+Die in dieser Datenbank aufgeführten Rezepte haben teilweise niedrigere Protein-Werte als die empfohlenen Ranges. Um die Protein-Ziele zu erreichen:
+- **Erbsenprotein-Pulver** zu Frühstücks-Rezepten hinzufügen (15-20g für +15-20g Protein)
+- **Tofu** zu Mittag-/Abendessen hinzufügen (100-150g für +10-15g Protein)
+- **Zusätzliche Hülsenfrüchte** einplanen
+- **Nussmus und Samen** als Protein-Booster verwenden

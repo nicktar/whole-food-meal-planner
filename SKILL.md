@@ -316,7 +316,6 @@ python3 scripts/mealie_export.py
 - Linsen: ~9g Protein/100g (gekocht)
 - Kichererbsen: ~9g Protein/100g (gekocht)
 - Tofu: ~8g Protein/100g
-- Tempeh: ~19g Protein/100g
 - Quinoa: ~4g Protein/100g (gekocht)
 - Edamame: ~11g Protein/100g
 

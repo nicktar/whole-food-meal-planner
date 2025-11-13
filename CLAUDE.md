@@ -182,7 +182,7 @@ The challenge has specific exclusions (check before suggesting recipes):
 3. **Create Plan**: Use templates from workflow guide
 4. **Verify Nutrition**: Run `verify_nutrition.py` - **CRITICAL STEP**
 5. **Adjust if Needed**:
-   - Protein too low → Add Tofu/Tempeh/extra legumes
+   - Protein too low → Add Tofu/extra legumes
    - Calories too high → Reduce nuts/oil
    - Calories too low → Add nuts/avocado
 6. **Generate Shopping List**: Group by category, add storage tips
@@ -297,7 +297,6 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 
 **Protein too low (<100g)**:
 - Add 100g tofu (+15g protein)
-- Swap chickpeas for tempeh (+8g protein)
 - Add extra Nussmus to breakfast (+4g protein)
 - Include edamame snack (+11g protein)
 

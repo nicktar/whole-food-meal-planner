@@ -316,7 +316,6 @@ python3 scripts/verify_nutrition.py
 **Lösungen:**
 - Tofu-Würfel hinzufügen (+10-15g Protein)
 - Edamame als Snack (+11g Protein/100g)
-- Tempeh statt Kichererbsen (+19g Protein/100g)
 - Extra Nussmus (+3-4g Protein/EL)
 
 ### Problem: Zu viele Kalorien
