@@ -13,6 +13,23 @@ The **Whole Food Meal Planner** is a meal planning system for the "Whole Food Ch
 
 **Technology**: Python 3.11.14 with **no external dependencies** (standard library only)
 
+## Claude Skill Architecture
+
+**This repository defines a Claude skill** that can be invoked by other Claude instances. The skill is defined in `SKILL.md` with:
+
+- **Skill name**: `whole-food-meal-planner`
+- **Skill description**: Provides meal planning capabilities for the Whole Food Challenge
+- **When to invoke**: Creating multi-day plans (3-7 days) with specific caloric/protein targets, ingredient synergies, and meal prep strategies
+
+The SKILL.md file serves as the skill's prompt that gets loaded when the skill is invoked. It contains:
+- Quick start workflow
+- Challenge rules and nutritional targets
+- Links to bundled resources (scripts, reference docs)
+- Best practices and common scenarios
+- Quality control checklist
+
+When working on this codebase, remember that changes to SKILL.md affect how other Claude instances will use this skill.
+
 ## Key Commands
 
 ### Nutritional Verification
@@ -188,6 +205,16 @@ When modifying scripts:
 2. Maintain type hints for clarity
 3. Update example code in `if __name__ == "__main__"` blocks
 4. Test with actual meal plan data before finalizing
+
+### Modifying the Skill Definition
+When updating `SKILL.md`:
+1. **Frontmatter**: The YAML frontmatter (`name` and `description`) defines how the skill appears to other Claude instances
+2. **Description field**: Should clearly state when to invoke this skill and what it provides
+3. **Content structure**: Keep the existing sections (Quick Start, Challenge Rules, Workflow, etc.) as they form the skill's "prompt"
+4. **Resource links**: Ensure all references to bundled files (scripts, references) are accurate
+5. **Test changes**: After modifying SKILL.md, test by simulating how another Claude instance would use the skill
+
+The skill can be created/updated using the `session-start-hook` skill if needed.
 
 ### Common Adjustments
 
