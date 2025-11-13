@@ -7,6 +7,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Erlaubt:**
 - Vollkornprodukte (Hafer, Quinoa, Buchweizen, Dinkel, etc.)
 - Hülsenfrüchte (Linsen, Kichererbsen, Cannellini-Bohnen, schwarze Bohnen, etc.)
+- Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Früchte (frisch oder getrocknet)
 - Gemüse (alle Sorten)
 - Nüsse und Samen (roh oder geröstet)
@@ -38,7 +39,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Nussmus (Mandel, Cashew oder Erdnuss)
-- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)*
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Prise Salz
 - Optional: 1/2 TL Ahornsirup oder 2-3 entsteinte Datteln, fein gehackt
 
@@ -57,8 +58,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - Kohlenhydrate: ~25g
 
 **Basis ohne Proteinpulver:** ~210 kcal | ~7g Protein
-
-*Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 ---
 
@@ -155,7 +154,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 200ml Hafermilch (ungesüßt)
 - 1/2 TL Vanilleextrakt oder -pulver
 - 1 EL Nussmus (Mandel oder Cashew)
-- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)*
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Optional: 1 TL Ahornsirup oder 2 entsteinte Datteln, püriert
 - Prise Salz
 
@@ -175,8 +174,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - Kohlenhydrate: ~25g
 
 **Basis ohne Proteinpulver:** ~260 kcal | ~9g Protein
-
-*Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 **Konsistenz-Tipp:**
 - Dickflüssiger: Nur 150ml Hafermilch verwenden oder 4 EL Chiasamen statt 3 EL
@@ -293,7 +290,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Vergleich Overnight Oats vs. Chia Pudding:**
 - **Chiasamen:** Mehr Omega-3, mehr Ballaststoffe, glutenfrei
 - **Hafer:** Mehr Energie, sättigender, günstiger
-- **Beide:** Challenge-konform (ohne Proteinpulver), proteinreich, extrem Meal-Prep-freundlich
+- **Beide:** Challenge-konform (auch mit Erbsenprotein-Pulver), proteinreich, extrem Meal-Prep-freundlich
 - **Mit Erbsenprotein:** Beide erreichen 20-30g Protein pro Portion!
 
 ---

@@ -63,6 +63,7 @@ python3 scripts/mealie_export.py
 **Erlaubte Zutaten:**
 - Vollkornprodukte (Hafer, Quinoa, Buchweizen, Dinkel, etc.)
 - Hülsenfrüchte (Linsen, Kichererbsen, Cannellini-Bohnen, schwarze Bohnen)
+- Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Früchte (frisch oder getrocknet)
 - Gemüse (alle Sorten)
 - Nüsse und Samen
