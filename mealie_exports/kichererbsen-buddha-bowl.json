@@ -1,0 +1,117 @@
+{
+  "name": "Kichererbsen-Buddha-Bowl",
+  "description": "Ausgewogene Bowl mit gerösteten Kichererbsen, Quinoa und frischem Gemüse. Perfekt für Meal Prep.",
+  "recipeYield": "1 Portion",
+  "recipeIngredient": [
+    {
+      "title": "Kichererbsen",
+      "note": "gekocht",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 120
+    },
+    {
+      "title": "Quinoa",
+      "note": "gekocht",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Brokkoli",
+      "note": "gedämpft",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Rotkohl",
+      "note": "roh, gehobelt",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 50
+    },
+    {
+      "title": "Avocado",
+      "unit": {
+        "name": "Stück"
+      },
+      "quantity": 0.25
+    },
+    {
+      "title": "Kürbiskerne",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Tahini-Dressing",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 2
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Kichererbsen auf einem Backblech mit Kreuzkümmel, Paprika und Knoblauchpulver würzen.",
+      "title": "Schritt 1"
+    },
+    {
+      "text": "Bei 200°C ca. 20 Minuten rösten bis knusprig.",
+      "title": "Schritt 2"
+    },
+    {
+      "text": "Quinoa als Basis in die Bowl geben.",
+      "title": "Schritt 3"
+    },
+    {
+      "text": "Alle Komponenten (Kichererbsen, Brokkoli, Rotkohl, Avocado) arrangieren.",
+      "title": "Schritt 4"
+    },
+    {
+      "text": "Mit Tahini-Dressing beträufeln und Kürbiskerne darüberstreuen.",
+      "title": "Schritt 5"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Whole Food Challenge"
+    },
+    {
+      "name": "Lunch"
+    },
+    {
+      "name": "Vegan"
+    },
+    {
+      "name": "Meal Prep"
+    },
+    {
+      "name": "Bowl"
+    }
+  ],
+  "recipeCategory": [
+    {
+      "name": "Mittagessen"
+    },
+    {
+      "name": "Bowl"
+    }
+  ],
+  "totalTime": "PT30M",
+  "prepTime": "PT10M",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "420 kcal",
+    "protein": "22g",
+    "carbohydrateContent": "58g",
+    "fatContent": "14g",
+    "fiberContent": "15g"
+  }
+}

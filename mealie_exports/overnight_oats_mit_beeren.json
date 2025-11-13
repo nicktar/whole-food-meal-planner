@@ -1,0 +1,102 @@
+{
+  "name": "Overnight Oats mit Beeren",
+  "description": "Einfaches, nährstoffreiches Frühstück für die Whole Food Challenge. Über Nacht vorbereitet, morgens sofort verzehrfertig.",
+  "recipeYield": "1 Portion",
+  "recipeIngredient": [
+    {
+      "title": "Haferflocken",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 50
+    },
+    {
+      "title": "Hafermilch",
+      "note": "ungesüßt",
+      "unit": {
+        "name": "ml"
+      },
+      "quantity": 150
+    },
+    {
+      "title": "Chiasamen",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Leinsamen",
+      "note": "gemahlen",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Gemischte Beeren",
+      "note": "frisch oder TK",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 100
+    },
+    {
+      "title": "Ahornsirup",
+      "note": "optional",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Zimt",
+      "note": "Prise"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Haferflocken, Hafermilch, Chiasamen, Leinsamen und Zimt in einem Glas vermischen.",
+      "title": "Schritt 1"
+    },
+    {
+      "text": "Über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.",
+      "title": "Schritt 2"
+    },
+    {
+      "text": "Am Morgen mit gemischten Beeren toppen und optional mit Ahornsirup süßen.",
+      "title": "Schritt 3"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Whole Food Challenge"
+    },
+    {
+      "name": "Frühstück"
+    },
+    {
+      "name": "Vegan"
+    },
+    {
+      "name": "Meal Prep"
+    }
+  ],
+  "recipeCategory": [
+    {
+      "name": "Frühstück"
+    },
+    {
+      "name": "Overnight"
+    }
+  ],
+  "totalTime": "PT6H5M",
+  "prepTime": "PT5M",
+  "nutrition": {
+    "calories": "320 kcal",
+    "protein": "12g",
+    "carbohydrateContent": "55g",
+    "fatContent": "8g",
+    "fiberContent": "10g"
+  }
+}
