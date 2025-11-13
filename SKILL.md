@@ -75,7 +75,7 @@ python3 scripts/mealie_export.py
 
 **Ausgeschlossen:**
 - Auberginen
-- Dicke Bohnen (Ackerbohnen/Puffbohnen)
+- Dicke Bohnen/Ackerbohnen/Puffbohnen (alle anderen Bohnen sind erlaubt!)
 - Grünkohl
 - Rosenkohl
 - Wirsing

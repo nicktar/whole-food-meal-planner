@@ -19,7 +19,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Ausgeschlossen:**
 - Auberginen
-- Dicke Bohnen (Ackerbohnen/Puffbohnen)
+- Dicke Bohnen/Ackerbohnen/Puffbohnen (alle anderen Bohnen sind erlaubt!)
 - Grünkohl
 - Rosenkohl
 - Wirsing
