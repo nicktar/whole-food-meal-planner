@@ -10,7 +10,7 @@
 
 ---
 
-## TAG 1 - Sonntag, 17. November
+## TAG 1 - Montag, 17. November
 
 ### Frühstück: Apfel-Zimt Overnight Oats
 **Kalorien:** 390 | **Protein:** 28g | **Ballaststoffe:** 11g | **Prep:** 5 Min (Vorabend)
@@ -87,7 +87,7 @@
 
 ---
 
-## TAG 2 - Montag, 18. November
+## TAG 2 - Dienstag, 18. November
 
 ### Frühstück: Protein-Boost Overnight Oats
 **Kalorien:** 380 | **Protein:** 33g | **Ballaststoffe:** 12g | **Prep:** 5 Min
@@ -168,7 +168,7 @@
 
 ---
 
-## TAG 3 - Dienstag, 19. November
+## TAG 3 - Mittwoch, 19. November
 
 ### Frühstück: Schoko-Banane Overnight Oats
 **Kalorien:** 410 | **Protein:** 29g | **Ballaststoffe:** 12g | **Prep:** 5 Min
@@ -246,7 +246,7 @@
 
 ---
 
-## TAG 4 - Mittwoch, 20. November
+## TAG 4 - Donnerstag, 20. November
 
 ### Frühstück: Apfel-Walnuss Quinoa-Frühstücksbowl mit Protein-Boost
 **Kalorien:** 480 | **Protein:** 39g | **Ballaststoffe:** 10g | **Prep:** 15 Min
@@ -345,7 +345,7 @@
 
 ---
 
-## TAG 5 - Donnerstag, 21. November
+## TAG 5 - Freitag, 21. November
 
 ### Frühstück: Beeren-Power Overnight Oats
 **Kalorien:** 370 | **Protein:** 27g | **Ballaststoffe:** 11g | **Prep:** 5 Min

@@ -368,11 +368,11 @@ if __name__ == "__main__":
                     "Walnüsse", "Apfelessig", "Olivenöl", "Rucola"]
     )
     day1 = DailyPlan(
-        date="2024-11-17 (Sonntag)",
+        date="2024-11-17 (Montag)",
         meals=[day1_breakfast, day1_lunch, day1_dinner]
     )
 
-    # TAG 2 - Montag, 18. November (PROTEIN-OPTIMIERT)
+    # TAG 2 - Dienstag, 18. November (PROTEIN-OPTIMIERT)
     day2_breakfast = Meal(
         name="Protein-Boost Overnight Oats",
         nutrition=NutritionInfo(calories=380, protein=33, carbs=44, fat=11, fiber=12),
@@ -392,11 +392,11 @@ if __name__ == "__main__":
                     "Walnüsse", "Zitrone", "Olivenöl"]
     )
     day2 = DailyPlan(
-        date="2024-11-18 (Montag)",
+        date="2024-11-18 (Dienstag)",
         meals=[day2_breakfast, day2_lunch, day2_dinner]
     )
 
-    # TAG 3 - Dienstag, 19. November (PROTEIN-OPTIMIERT)
+    # TAG 3 - Mittwoch, 19. November (PROTEIN-OPTIMIERT)
     day3_breakfast = Meal(
         name="Schoko-Banane Overnight Oats",
         nutrition=NutritionInfo(calories=410, protein=29, carbs=54, fat=12, fiber=12),
@@ -416,11 +416,11 @@ if __name__ == "__main__":
                     "Olivenöl", "Balsamico", "Rucola", "Quinoa"]
     )
     day3 = DailyPlan(
-        date="2024-11-19 (Dienstag)",
+        date="2024-11-19 (Mittwoch)",
         meals=[day3_breakfast, day3_lunch, day3_dinner]
     )
 
-    # TAG 4 - Mittwoch, 20. November (PROTEIN-OPTIMIERT)
+    # TAG 4 - Donnerstag, 20. November (PROTEIN-OPTIMIERT)
     day4_breakfast = Meal(
         name="Apfel-Walnuss Quinoa-Frühstücksbowl mit Protein-Boost",
         nutrition=NutritionInfo(calories=480, protein=39, carbs=62, fat=12, fiber=10),
@@ -440,11 +440,11 @@ if __name__ == "__main__":
                     "Fenchel", "Tahini", "Hanfsamen", "Kürbiskerne", "Petersilie"]
     )
     day4 = DailyPlan(
-        date="2024-11-20 (Mittwoch)",
+        date="2024-11-20 (Donnerstag)",
         meals=[day4_breakfast, day4_lunch, day4_dinner]
     )
 
-    # TAG 5 - Donnerstag, 21. November (PROTEIN-OPTIMIERT)
+    # TAG 5 - Freitag, 21. November (PROTEIN-OPTIMIERT)
     day5_breakfast = Meal(
         name="Beeren-Power Overnight Oats",
         nutrition=NutritionInfo(calories=370, protein=27, carbs=48, fat=10, fiber=11),
@@ -464,7 +464,7 @@ if __name__ == "__main__":
                     "Quinoa", "Apfel-Balsamico-Vinaigrette"]
     )
     day5 = DailyPlan(
-        date="2024-11-21 (Donnerstag)",
+        date="2024-11-21 (Freitag)",
         meals=[day5_breakfast, day5_lunch, day5_dinner]
     )
 

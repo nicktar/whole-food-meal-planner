@@ -1,14 +1,14 @@
 # 🍳 MEAL PREP STRATEGIE
 ## Wochenplan: 17. bis 21. November 2024
 
-**Prep-Tag:** Sonntag, 17. November (oder Samstag, 16. November)
+**Prep-Tag:** Sonntag, 16. November (für Mo-Fr Woche)
 **Gesamtzeit:** ~3,5-4 Stunden
 **Schwierigkeitsgrad:** Mittel
 **Portionen:** 5 Tage (15 Mahlzeiten)
 
 ---
 
-## 📅 VORBEREITUNG (Samstag Abend, 16. November)
+## 📅 VORBEREITUNG (Samstag Abend, 15. November)
 ⏰ **10-15 Min**
 
 ### Hülsenfrüchte einweichen (falls getrocknet)
@@ -277,7 +277,7 @@
 - [ ] 120g geröstete Kichererbsen
 - [ ] 80g gedämpfter Brokkoli
 - [ ] 100g gerösteter Hokkaido-Kürbis
-- [ ] Label: "So Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
+- [ ] Label: "Mo Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
 
 #### Container 2 - Tag 2 Mittag (Rotkohl-Curry mit Tofu):
 - [ ] **Am Sonntag nicht komplett vorbereiten!**
