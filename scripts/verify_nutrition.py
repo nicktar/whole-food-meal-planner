@@ -80,7 +80,8 @@ CHALLENGE_RULES = {
         "fava bohne",
         "grünkohl",
         "rosenkohl",
-        "wirsing"
+        "wirsing",
+        "rosinen"
     ],
     "excluded_categories": [
         "tierische produkte",
@@ -93,22 +94,22 @@ CHALLENGE_RULES = {
 # Nutritional Targets
 NUTRITIONAL_TARGETS = {
     "daily": {
-        "calories": {"min": 1150, "max": 1250, "target": 1200},
+        "calories": {"min": 1100, "max": 1300, "target": 1200},
         "protein": {"min": 100, "target": 110},
-        "fiber": {"min": 30, "target": 40}
+        "fiber": {"min": 25, "target": 30}
     },
     "meal_ranges": {
         "breakfast": {
             "calories": {"min": 300, "max": 400},
-            "protein": {"min": 10, "target": 15}
+            "protein": {"min": 15, "target": 30}
         },
         "lunch": {
-            "calories": {"min": 250, "max": 450},
-            "protein": {"min": 15, "target": 25}
+            "calories": {"min": 350, "max": 450},
+            "protein": {"min": 25, "target": 45}
         },
         "dinner": {
-            "calories": {"min": 250, "max": 400},
-            "protein": {"min": 15, "target": 25}
+            "calories": {"min": 350, "max": 400},
+            "protein": {"min": 25, "target": 45}
         }
     }
 }

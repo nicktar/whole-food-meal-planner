@@ -140,6 +140,7 @@ Ensure all recipes exclude:
 - ❌ Grünkohl (kale)
 - ❌ Rosenkohl (Brussels sprouts)
 - ❌ Wirsing (savoy cabbage)
+- ❌ Rosinen (raisins)
 - ❌ All animal products
 - ❌ All processed foods
 

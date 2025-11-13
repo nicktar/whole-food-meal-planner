@@ -160,18 +160,19 @@ CLAUDE.md                       # This file - developer guidance
 ### Excluded Ingredients
 The challenge has specific exclusions (check before suggesting recipes):
 - **Vegetables**: Auberginen (eggplant), Dicke Bohnen (fava beans), Grünkohl (kale), Rosenkohl (Brussels sprouts), Wirsing (savoy cabbage)
+- **Fruits**: Rosinen (raisins)
 - **All animal products**
 - **All processed foods**
 
 ### Nutritional Targets (Daily)
-- **Calories**: 1200 kcal (acceptable range: 1150-1250)
+- **Calories**: 1200 kcal (acceptable range: 1100-1300)
 - **Protein**: 110g target (minimum: 100g)
-- **Fiber**: 40g target (minimum: 30g)
+- **Fiber**: 30g target (minimum: 25g)
 
 ### Meal Ranges
-- **Frühstück (Breakfast)**: 300-400 kcal, 10-15g protein
-- **Mittagessen (Lunch)**: 250-450 kcal, 15-25g protein
-- **Abendessen (Dinner)**: 250-400 kcal, 15-25g protein
+- **Frühstück (Breakfast)**: 300-400 kcal, 15-30g protein
+- **Mittagessen (Lunch)**: 350-450 kcal, 25-45g protein
+- **Abendessen (Dinner)**: 350-400 kcal, 25-45g protein
 
 ## Meal Planning Workflow
 
@@ -300,7 +301,7 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 - Add extra Nussmus to breakfast (+4g protein)
 - Include edamame snack (+11g protein)
 
-**Calories too high (>1250)**:
+**Calories too high (>1300)**:
 - Reduce oil in dressings
 - Smaller nut portions
 - Replace avocado with vegetables
@@ -329,7 +330,7 @@ Typical time: **3-4 hours on Sunday for 5 days**, with 5-15 min daily assembly.
 ## Quality Checklist
 
 Before finalizing any meal plan, verify:
-- [ ] No excluded ingredients (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing)
+- [ ] No excluded ingredients (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing, Rosinen)
 - [ ] All animal products and processed foods excluded
 - [ ] Nutritional targets met (run `verify_nutrition.py`)
 - [ ] Meal prep synergies maximized
