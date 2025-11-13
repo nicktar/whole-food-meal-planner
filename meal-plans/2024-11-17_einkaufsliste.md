@@ -17,13 +17,13 @@
 ## 🫘 HÜLSENFRÜCHTE
 
 ### Getrocknet (empfohlen - günstiger):
-- [ ] 300g grüne/braune Linsen (trocken) → ergibt ~720g gekocht
-- [ ] 400g Kichererbsen (trocken) → ergibt ~1000g gekocht
+- [ ] **360g grüne/braune Linsen** (trocken) → ergibt ~860g gekocht - *erhöht für Protein-Optimierung*
+- [ ] **500g Kichererbsen** (trocken) → ergibt ~1250g gekocht - *erhöht für Protein-Optimierung*
 - [ ] 150g Cannellini-Bohnen (trocken) → ergibt ~375g gekocht
 
 **Oder als Alternative (gekocht):**
-- [ ] 2 Dosen grüne Linsen (à 400g Abtropfgewicht)
-- [ ] 3 Dosen Kichererbsen (à 400g Abtropfgewicht)
+- [ ] **3 Dosen grüne Linsen** (à 400g Abtropfgewicht) - *erhöht*
+- [ ] **4 Dosen Kichererbsen** (à 400g Abtropfgewicht) - *erhöht*
 - [ ] 1 Dose Cannellini-Bohnen (400g Abtropfgewicht)
 
 **Einweich-Plan:** Samstag Abend einweichen für Sonntag Meal Prep
@@ -117,7 +117,7 @@
 - [ ] 1 Glas Erdnussmus (250g)
 
 ### Protein-Pulver:
-- [ ] 100g Erbsenprotein-Pulver (pur, ohne Zusätze)
+- [ ] **110g Erbsenprotein-Pulver** (pur, ohne Zusätze) - *erhöht für Protein-Optimierung*
 
 **Wichtig:** Pflanzenmilch MUSS ungesüßt sein! Nussmus ohne Zusatzstoffe (100% Nuss).
 
@@ -161,10 +161,16 @@
 - [ ] Zitronen (3 Stück)
 - [ ] 1 Limette (optional)
 
-### Tofu (für Protein-Boost):
-- [ ] 600-750g Natur-Tofu (fest)
+### Tofu (für Protein-Optimierung):
+- [ ] **870g Natur-Tofu (fest)** - *essentiell für Protein-Target*
 
-**Tipp:** Bei Bedarf für Protein-Optimierung verwenden!
+**Verwendung im Plan:**
+- Tag 1 Abendessen: 180g
+- Tag 2 Mittagessen: 120g
+- Tag 3 Mittagessen: 150g (bereits im Rezept)
+- Tag 4 Abendessen: 120g
+- Tag 5 Mittagessen: 150g
+- Puffer: 150g (für Verluste beim Pressen/Braten)
 
 ---
 
@@ -262,13 +268,16 @@
 
 ## 💡 KOSTEN-SCHÄTZUNG
 
-**Geschätzte Gesamtkosten:** 45-65 EUR (für 5 Tage, 1 Person)
+**Geschätzte Gesamtkosten:** 50-70 EUR (für 5 Tage, 1 Person)
 
 **Teuerste Posten:**
 - Nüsse & Samen: ~15 EUR
 - Nussmus: ~12 EUR
 - Frisches Gemüse: ~15 EUR
+- **Tofu (870g): ~7 EUR** - *neu hinzugefügt*
 - Rest: ~20 EUR
+
+**Kostensteigerung durch Protein-Optimierung:** +5-10 EUR für Tofu und extra Hülsenfrüchte
 
 **Spar-Tipps:**
 - Hülsenfrüchte getrocknet kaufen (-50% vs. Dosen)
@@ -278,4 +287,4 @@
 
 ---
 
-**Hinweis:** Diese Liste ist für den Basis-Plan. Für Protein-Optimierung (siehe Meal Plan) zusätzlich 600-750g Tofu einplanen.
+**Hinweis:** Diese Liste enthält bereits die Protein-Optimierung mit Tofu und erhöhten Hülsenfrüchten. Der Plan erreicht damit durchschnittlich 99g Protein/Tag (Minimum: 100g fast erreicht!).

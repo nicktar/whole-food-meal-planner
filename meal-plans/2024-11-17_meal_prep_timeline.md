@@ -12,7 +12,7 @@
 ⏰ **10-15 Min**
 
 ### Hülsenfrüchte einweichen (falls getrocknet)
-- [ ] 400g Kichererbsen in große Schüssel, reichlich Wasser, über Nacht stehen lassen
+- [ ] **500g Kichererbsen** in große Schüssel, reichlich Wasser, über Nacht stehen lassen - *erhöht für Protein-Optimierung*
 - [ ] 150g Cannellini-Bohnen einweichen
 - [ ] **Tipp:** Mit 1 TL Natron einweichen (bessere Verdaulichkeit)
 
@@ -65,33 +65,32 @@
 - Rest: Reserve
 
 #### Task 1B: Linsen kochen (10 Min aktiv + 25 Min passiv)
-- [ ] 300g grüne/braune Linsen in Topf
-- [ ] 700ml Wasser hinzufügen
+- [ ] **360g grüne/braune Linsen** in Topf - *erhöht für Protein-Optimierung*
+- [ ] 850ml Wasser hinzufügen
 - [ ] Aufkochen, dann 20-25 Min köcheln (bissfest!)
 - [ ] Abgießen, auskühlen lassen
-- [ ] **Ergebnis:** ~720g gekochte Linsen
+- [ ] **Ergebnis:** ~860g gekochte Linsen
 
-**Aufteilung:**
-- 120g für Tag 2 Abend
+**Aufteilung (Protein-optimiert):**
+- 180g für Tag 2 Abend (erhöht!)
 - 120g für Tag 4 Abend
-- 120g für Tag 5 Abend
+- 180g für Tag 5 Abend (erhöht!)
 - Rest: Reserve oder einfrieren
 
 #### Task 1C: Kichererbsen kochen (10 Min aktiv + 60 Min passiv)
-- [ ] Eingeweichte Kichererbsen abgießen, abspülen
+- [ ] Eingeweichte **500g Kichererbsen** abgießen, abspülen - *erhöht*
 - [ ] In großen Topf mit viel frischem Wasser
 - [ ] Aufkochen, Schaum abschöpfen
 - [ ] 60-90 Min köcheln bis weich
 - [ ] **Alternative:** Drucktopf 20-25 Min
-- [ ] **Ergebnis:** ~1000g gekochte Kichererbsen
+- [ ] **Ergebnis:** ~1250g gekochte Kichererbsen
 
-**Aufteilung:**
+**Aufteilung (Protein-optimiert):**
 - 120g für Tag 1 Mittag (geröstet)
 - 150g für Tag 2 Mittag (Curry)
-- 100g für Tag 3 Abend (geröstet)
-- 120g für Tag 3 Abend (zusätzlich)
+- **300g für Tag 3 Abend** (geröstet, erhöht!)
 - 150g für Tag 5 Mittag (Curry)
-- Rest: Reserve
+- Rest: Reserve oder einfrieren
 
 #### Task 1D: Cannellini-Bohnen kochen (10 Min aktiv + 60 Min passiv)
 - [ ] Eingeweichte Bohnen abgießen, abspülen
@@ -150,15 +149,16 @@
 - [ ] **Rösten:** 25-30 Min
 
 #### Task 2D: Kichererbsen rösten - Blech 3 (5 Min Prep + 25 Min Ofen)
-- [ ] 220g gekochte Kichererbsen gut abtropfen und trockentupfen
+- [ ] **420g gekochte Kichererbsen** gut abtropfen und trockentupfen - *erhöht für Protein-Optimierung*
 - [ ] Mit Gewürzmischung vermengen:
-  - 1 TL Kreuzkümmel
-  - 1 TL Paprikapulver
-  - 1 TL Knoblauchpulver
-  - 1 EL Olivenöl
+  - 2 TL Kreuzkümmel
+  - 2 TL Paprikapulver
+  - 2 TL Knoblauchpulver
+  - 1,5 EL Olivenöl
   - Salz, Pfeffer
-- [ ] Auf Blech verteilen
+- [ ] Auf großem Blech verteilen (eventuell 2 Bleche nutzen für Knusprigkeit!)
 - [ ] **Rösten:** 25-30 Min (knusprig!)
+- [ ] **Verwendung:** 120g Tag 1 Mittag, 300g Tag 3 Abend
 
 #### Task 2E: Gemüse dämpfen (während Ofen läuft)
 - [ ] 250g Brokkoli in Röschen schneiden
@@ -168,29 +168,30 @@
 
 #### Task 2F: Overnight Oats vorbereiten (15 Min)
 
-**5 Gläser vorbereiten:**
+**5 Gläser vorbereiten (Protein-optimiert):**
 
 **Glas 1 - Tag 1 (Apfel-Zimt):**
-- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, 15g Protein
+- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, **20g Protein** ✨
 - 150ml Hafermilch, 1 EL Mandelmus
 - Mix gut, verschließen
 
 **Glas 2 - Tag 2 (Protein-Boost):**
-- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, 20g Protein
+- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, **25g Protein** ✨
 - 200ml Hafermilch, 1 EL Cashewmus
 - 1 EL Hanfsamen zur Basis
 - Mix gut, verschließen
 
 **Glas 3 - Tag 3 (Schoko-Banane):**
-- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, 15g Protein
+- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, **20g Protein** ✨
 - 150ml Hafermilch, 1 EL Erdnussmus, 1 EL Kakao
 - Mix gut, verschließen
 
-**Glas 4 - Tag 4 (Quinoa-Bowl, separat):**
-- [ ] Keine Overnight Oats (Quinoa-Frühstück am Morgen frisch)
+**Glas 4 - Tag 4 (Quinoa-Bowl mit Protein-Boost):**
+- [ ] Keine Overnight Oats - Quinoa-Frühstück am Morgen frisch
+- [ ] **WICHTIG:** 25g Erbsenprotein-Pulver bereitstellen für Tag 4 Morgen ✨
 
 **Glas 5 - Tag 5 (Beeren-Power):**
-- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, 15g Protein
+- 30g Haferflocken, 1 EL Chia, 1 EL Leinsamen, **20g Protein** ✨
 - 150ml Hafermilch, 1 EL Mandelmus
 - Mix gut, verschließen
 
@@ -240,13 +241,20 @@
 - [ ] Abkühlen lassen, in Container
 - [ ] **Haltbarkeit:** 4-5 Tage
 
-### Task 3D: Tofu vorbereiten (optional, für Protein-Boost)
-- [ ] 600-750g Tofu aus Packung nehmen
-- [ ] Pressen (15 Min zwischen Küchentüchern, beschwert)
+### Task 3D: Tofu vorbereiten (ESSENTIELL für Protein-Optimierung!) ✨
+- [ ] **870g Tofu** aus Packung nehmen (ca. 4 Blöcke à 200g)
+- [ ] **Pressen:** 15-20 Min zwischen Küchentüchern, mit Buch/Brett beschwert
 - [ ] In Würfel schneiden (2x2cm)
-- [ ] **Option 1:** Marinieren (Sojasauce, Ingwer) für spätere Verwendung
-- [ ] **Option 2:** Sofort anbraten und zu Mahlzeiten geben
-- [ ] In Container portionieren (je 100-150g)
+- [ ] In 5 Portionen aufteilen:
+  - **180g** für Tag 1 Abend (mariniert mit Sojasauce)
+  - **120g** für Tag 2 Mittag (Curry)
+  - **150g** für Tag 3 Mittag (bereits im Original-Rezept, Miso-Suppe)
+  - **120g** für Tag 4 Abend (Buddha-Bowl, mariniert mit Sojasauce)
+  - **150g** für Tag 5 Mittag (Curry)
+  - Rest: Puffer
+- [ ] **Marinade vorbereiten:** 4 EL Sojasauce, 1 TL Ingwer, 1 Knoblauchzehe
+- [ ] Tofu-Portionen in separaten Containern mit/ohne Marinade lagern
+- [ ] **Haltbarkeit:** 4-5 Tage im Kühlschrank
 
 ---
 
@@ -269,16 +277,17 @@
 - [ ] 120g geröstete Kichererbsen
 - [ ] 80g gedämpfter Brokkoli
 - [ ] 100g gerösteter Hokkaido-Kürbis
-- [ ] Label: "Mo Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
+- [ ] Label: "So Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
 
-#### Container 2 - Tag 2 Mittag (Rotkohl-Curry):
+#### Container 2 - Tag 2 Mittag (Rotkohl-Curry mit Tofu):
 - [ ] **Am Sonntag nicht komplett vorbereiten!**
 - [ ] Komponenten vorbereitet:
   - 150g geschnittener Rotkohl (in Beutel)
   - 150g gekochte Kichererbsen (in Container)
+  - **120g Tofu-Würfel** (in Container) ✨
   - 80g Quinoa (in Container)
   - Curry-Gewürze abmessen (in kleinem Beutel)
-- [ ] **Montag Morgen/Abend:** 15 Min Curry kochen (frisch besser!)
+- [ ] **Montag Morgen/Abend:** 20 Min Curry kochen - Tofu zuerst anbraten! ✨
 
 #### Container 3 - Tag 3 Mittag (Miso-Suppe):
 - [ ] **Nicht komplett vorkochen!**
@@ -299,38 +308,42 @@
   - Wrap (separat)
 - [ ] **Assembly:** Am Morgen oder direkt vor Essen
 
-#### Container 5 - Tag 5 Mittag (Kichererbsen-Curry):
+#### Container 5 - Tag 5 Mittag (Kichererbsen-Curry mit Tofu):
 - [ ] Siehe Tag 2 - ähnliche Strategie
-- [ ] Komponenten vorbereitet, Curry frisch kochen
+- [ ] Komponenten: 150g Kichererbsen, **150g Tofu**, Pilze, Spinat, Gewürze ✨
+- [ ] Curry frisch kochen (20 Min)
 
 ### Abendessen portionieren:
 
-#### Container 6 - Tag 1 Abend (Rotkohl-Apfel-Salat):
+#### Container 6 - Tag 1 Abend (Rotkohl-Apfel-Salat mit Tofu):
 - [ ] 120g fein gehobelter Rotkohl
 - [ ] 120g Cannellini-Bohnen
+- [ ] **180g marinierter Tofu** (angebraten oder roh mariniert) ✨
 - [ ] Dressing separat (kleiner Container)
 - [ ] **Am Abend frisch:** Apfel schneiden, Walnüsse, Rucola hinzufügen
+- [ ] **Wenn roh:** Tofu 5-7 Min anbraten vor Servieren
 
-#### Container 7 - Tag 2 Abend (Linsen-Salat):
-- [ ] 120g gekochte Linsen
+#### Container 7 - Tag 2 Abend (Linsen-Salat, Protein-optimiert):
+- [ ] **180g gekochte Linsen** (erhöht!) ✨
 - [ ] **Am Abend frisch:** Tomaten, Gurke, Rucola, Dressing
 
-#### Container 8 - Tag 3 Abend (Gerösteter Rotkohl-Salat):
+#### Container 8 - Tag 3 Abend (Gerösteter Rotkohl-Salat, Protein-optimiert):
 - [ ] Gerösteter Rotkohl (Container)
-- [ ] 100g geröstete Kichererbsen
+- [ ] **300g geröstete Kichererbsen** (erhöht!) ✨
 - [ ] 80g Quinoa
 - [ ] Walnüsse, Rucola (frisch hinzufügen)
 
-#### Container 9 - Tag 4 Abend (Buddha-Bowl):
+#### Container 9 - Tag 4 Abend (Buddha-Bowl mit Tofu):
 - [ ] 120g Linsen
+- [ ] **120g marinierter Tofu** (separat rösten am Tag, oder vorbereiten) ✨
 - [ ] 80g Quinoa
 - [ ] Geröstete Karotten
 - [ ] Geröstete Rote Bete
 - [ ] Gerösteter Fenchel
 - [ ] Tahini, Hanfsamen, Kürbiskerne separat
 
-#### Container 10 - Tag 5 Abend (Linsen-Salat):
-- [ ] 120g Linsen
+#### Container 10 - Tag 5 Abend (Linsen-Salat, Protein-optimiert):
+- [ ] **180g Linsen** (erhöht!) ✨
 - [ ] 80g Quinoa/Buchweizen
 - [ ] 120g gerösteter Hokkaido-Kürbis
 - [ ] **Am Abend:** Apfel, Walnüsse, Feldsalat, Dressing
