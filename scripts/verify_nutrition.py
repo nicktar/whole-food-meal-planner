@@ -272,7 +272,7 @@ def verify_daily_plan(plan: DailyPlan) -> Dict[str, any]:
     # Verify individual meals
     meal_types = ["breakfast", "lunch", "dinner"]
     for i, meal in enumerate(plan.meals):
-        meal_type = meal_types[i] if i < len(meal_types) else "snack"
+        meal_type = meal_types[i] if i < len(meal_types) else "additional_meal"
         meal_verification = verify_meal_nutrition(meal, meal_type)
         results["meal_verifications"].append(meal_verification)
         

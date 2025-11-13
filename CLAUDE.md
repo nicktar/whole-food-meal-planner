@@ -82,7 +82,7 @@ When working on the skill:
 
 Both bundled and external recipes must follow the same format:
 - Challenge rules section (ingredient compliance)
-- Recipe sections: FRÜHSTÜCK, MITTAGESSEN & ABENDESSEN, DRESSINGS & SAUCEN, SNACKS & EXTRAS
+- Recipe sections: FRÜHSTÜCK, MITTAGESSEN & ABENDESSEN, DRESSINGS & SAUCEN
 - Each recipe: name, metadata (portion/calories/protein/prep), ingredients, instructions, meal prep notes
 - Separator `---` between recipes
 
@@ -248,7 +248,6 @@ The `references/recipe-database.md` contains:
 - **Breakfast**: Overnight Oats, Quinoa Bowls, Porridge variations
 - **Lunch/Dinner**: Buddha Bowls, Curries, Salads, Soups, Wraps
 - **Components**: Base grains, legumes, dressings
-- **Snacks**: Energy balls, roasted chickpeas
 
 Each recipe includes:
 - Complete nutritional information
@@ -299,7 +298,7 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 **Protein too low (<100g)**:
 - Add 100g tofu (+15g protein)
 - Add extra Nussmus to breakfast (+4g protein)
-- Include edamame snack (+11g protein)
+- Add extra legumes to meals (+8-12g protein per 100g)
 
 **Calories too high (>1300)**:
 - Reduce oil in dressings

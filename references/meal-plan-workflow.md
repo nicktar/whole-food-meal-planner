@@ -44,7 +44,6 @@ Mahlzeitenstruktur:
 - Frühstück: [Ja/Nein]
 - Mittagessen: [Ja/Nein]
 - Abendessen: [Ja/Nein]
-- Snacks: [Anzahl]
 
 Präferenzen:
 - Bevorzugte Zutaten: [___]
@@ -267,7 +266,6 @@ python3 scripts/verify_nutrition.py
 - [ ] Frühstück: [Anzahl] Portionen in Gläsern
 - [ ] Mittagessen: [Anzahl] Portionen in Containern
 - [ ] Abendessen: [Anzahl] Portionen in Containern
-- [ ] Snacks: Kleine Container
 
 **Lagerung:**
 - Kühlschrank: [Liste]
@@ -315,7 +313,7 @@ python3 scripts/verify_nutrition.py
 ### Problem: Zu wenig Protein
 **Lösungen:**
 - Tofu-Würfel hinzufügen (+10-15g Protein)
-- Edamame als Snack (+11g Protein/100g)
+- Extra Hülsenfrüchte zu Mahlzeiten (+8-12g Protein/100g)
 - Extra Nussmus (+3-4g Protein/EL)
 
 ### Problem: Zu viele Kalorien

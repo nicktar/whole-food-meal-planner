@@ -554,42 +554,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 ---
 
-## SNACKS & EXTRAS
-
-### Geröstete Kichererbsen
-**Portion: 50g | Kalorien: ~150 | Protein: ~9g | Prep: 30 Min**
-
-**Zutaten:**
-- 150g gekochte Kichererbsen (1 Dose, abgetropft)
-- 1 TL Olivenöl
-- 1 TL Kreuzkümmel
-- 1/2 TL Paprika
-- 1/2 TL Knoblauchpulver
-- Salz
-
-**Zubereitung:**
-1. Kichererbsen gut abtropfen und trockentupfen
-2. Mit Öl und Gewürzen vermischen
-3. Bei 200°C 25-30 Min rösten, alle 10 Min wenden
-4. Komplett auskühlen lassen (werden knuspriger)
-
-**Lagerung:** Luftdicht 3-4 Tage
-
----
-
-### Nuss-Samen-Mix
-**Portion: 30g | Kalorien: ~180 | Protein: ~7g**
-
-**Zusammensetzung:**
-- 10g Walnüsse
-- 10g Mandeln
-- 5g Kürbiskerne
-- 5g Sonnenblumenkerne
-
-**Optional:** Leicht rösten für mehr Aroma
-
----
-
 ## MEAL PREP BASISKOMPONENTEN
 
 ### Gekochtes Vollkorn (Batch)
@@ -634,7 +598,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - **Frühstück:** 300-400 kcal, 15-30g Protein
 - **Mittagessen:** 350-450 kcal, 25-45g Protein
 - **Abendessen:** 350-400 kcal, 25-45g Protein
-- **Snacks (optional):** 150-180 kcal, 7-9g Protein
 
 **Tagesziele (1200 kcal / 100g+ Protein):**
 - **Kalorien:** 1200 kcal (Range: 1100-1300)
