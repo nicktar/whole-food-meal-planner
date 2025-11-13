@@ -69,7 +69,7 @@ python3 scripts/mealie_export.py
 - Gemüse (alle Sorten)
 - Nüsse und Samen
 - Nussmus (natürlich, ohne Zusätze)
-- Hafermilchmilch (ungesüßt)
+- Hafermilch (ungesüßt)
 - Würzpasten (Curry-, Miso- etc., vegan)
 - Nährhefe-Flocken
 - Gewürze, Kräuter, Essig, Öl
@@ -389,7 +389,7 @@ python3 scripts/mealie_export.py
 2. Anpassungen:
    - Tofu zu Suppen hinzufügen (+15g)
    - Extra Nussmus im Frühstück (+4g)
-   - wo möglich Erbsenprotein-Pulver hinzufügen/erhöhen
+   - Erbsenprotein-Pulver in Flüssig-Mahlzeiten erhöhen (Overnight Oats, Smoothies, Porridge)
 3. Erneut verifizieren
 ```
 

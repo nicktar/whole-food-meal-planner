@@ -64,7 +64,7 @@ Meal Prep:
 ### Frühstücks-Rotation (3-5 Rezepte)
 **Kriterien:**
 - 300-400 kcal
-- 10-15g Protein
+- 15-30g Protein
 - Schnelle Zubereitung oder Overnight
 - Abwechslung in Textur (cremig, knusprig, warm, kalt)
 
@@ -75,8 +75,8 @@ Meal Prep:
 
 ### Mittags-/Abendessen-Rotation (5-7 Rezepte)
 **Kriterien:**
-- 250-450 kcal
-- 15-25g Protein
+- 350-450 kcal
+- 25-45g Protein
 - Meal Prep freundlich
 - Verschiedene Proteinquellen (Linsen, Kichererbsen, Bohnen)
 - Mix aus warmen und kalten Gerichten
@@ -139,14 +139,14 @@ python3 scripts/verify_nutrition.py
 ### Verifikations-Checkliste
 
 **Tägliche Targets:**
-- ✅ Kalorien: 1150-1250 kcal (Ziel: 1200)
+- ✅ Kalorien: 1100-1300 kcal (Ziel: 1200)
 - ✅ Protein: >100g (Ziel: 110g)
-- ✅ Ballaststoffe: >30g (Ziel: 40g)
+- ✅ Ballaststoffe: >25g (Ziel: 30g)
 
 **Mahlzeiten-Ranges:**
-- ✅ Frühstück: 300-400 kcal, 10-15g Protein
-- ✅ Mittagessen: 250-450 kcal, 15-25g Protein
-- ✅ Abendessen: 250-400 kcal, 15-25g Protein
+- ✅ Frühstück: 300-400 kcal, 15-30g Protein
+- ✅ Mittagessen: 350-450 kcal, 25-45g Protein
+- ✅ Abendessen: 350-400 kcal, 25-45g Protein
 
 **Anpassungen bei Abweichungen:**
 - Kalorien zu niedrig → Nüsse/Samen/Avocado hinzufügen
