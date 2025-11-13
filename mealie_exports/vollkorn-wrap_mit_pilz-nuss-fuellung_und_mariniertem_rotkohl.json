@@ -1,0 +1,170 @@
+{
+  "name": "Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl",
+  "description": "Herzhafter Wrap mit 28g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
+  "recipeYield": "1 Portion",
+  "recipeIngredient": [
+    {
+      "title": "Vollkorn-Wrap",
+      "note": "groß",
+      "unit": {
+        "name": "Stück"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Gemischte Pilze",
+      "note": "klein gehackt",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 150
+    },
+    {
+      "title": "Walnüsse",
+      "note": "fein gehackt",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 20
+    },
+    {
+      "title": "Cashews",
+      "note": "fein gehackt",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 15
+    },
+    {
+      "title": "Rotkohl",
+      "note": "fein gehobelt, mariniert",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 60
+    },
+    {
+      "title": "Hummus",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 50
+    },
+    {
+      "title": "Rucola",
+      "note": "frisch",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 20
+    },
+    {
+      "title": "Tahini-Dressing",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Sojasauce",
+      "note": "für Pilzfüllung",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1.5
+    },
+    {
+      "title": "Ahornsirup",
+      "note": "für Pilzfüllung",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 0.5
+    },
+    {
+      "title": "Paprika geräuchert",
+      "note": "für Pilzfüllung",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 0.5
+    },
+    {
+      "title": "Apfelessig",
+      "note": "für Rotkohl-Marinade",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 2
+    },
+    {
+      "title": "Kreuzkümmel",
+      "note": "für Rotkohl",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 0.5
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Rotkohl marinieren: 60g fein gehobelten Rotkohl mit 2 EL Apfelessig, 1 TL Ahornsirup, Zitronensaft und Kreuzkümmel kräftig massieren. Mind. 1h ziehen lassen.",
+      "title": "Schritt 1"
+    },
+    {
+      "text": "Pilz-Nuss-Füllung: Pilze klein hacken, trocken in Pfanne anbraten bis Wasser verdampft (5 Min).",
+      "title": "Schritt 2"
+    },
+    {
+      "text": "1 TL Olivenöl, 1 Knoblauchzehe hinzufügen. Walnüsse und Cashews (fein gehackt) hinzufügen.",
+      "title": "Schritt 3"
+    },
+    {
+      "text": "1.5 EL Sojasauce, 0.5 TL Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.",
+      "title": "Schritt 4"
+    },
+    {
+      "text": "Wrap zusammenstellen: Hummus auf Wrap streichen. Pilz-Nuss-Füllung, marinierten Rotkohl und Rucola darauf verteilen.",
+      "title": "Schritt 5"
+    },
+    {
+      "text": "Mit Tahini-Dressing beträufeln. Wrap fest einrollen, halbieren und servieren.",
+      "title": "Schritt 6"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Whole Food Challenge"
+    },
+    {
+      "name": "Lunch"
+    },
+    {
+      "name": "Vegan"
+    },
+    {
+      "name": "Meal Prep"
+    },
+    {
+      "name": "Wrap"
+    },
+    {
+      "name": "High Protein"
+    }
+  ],
+  "recipeCategory": [
+    {
+      "name": "Mittagessen"
+    }
+  ],
+  "totalTime": "PT27M",
+  "prepTime": "PT15M",
+  "performTime": "PT12M",
+  "nutrition": {
+    "calories": "450 kcal",
+    "protein": "28g",
+    "carbohydrateContent": "52g",
+    "fatContent": "16g",
+    "fiberContent": "12g"
+  }
+}

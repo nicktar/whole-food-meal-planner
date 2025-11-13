@@ -1,0 +1,155 @@
+{
+  "name": "Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen (Protein-optimiert)",
+  "description": "Herzhafter Salat mit 44g Protein und 18g Ballaststoffen! Karamellisierter Rotkohl und knusprige Kichererbsen. Komplett warm servieren für beste Textur.",
+  "recipeYield": "1 Portion",
+  "recipeIngredient": [
+    {
+      "title": "Rotkohl",
+      "note": "in Wedges geschnitten",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 150
+    },
+    {
+      "title": "Kichererbsen",
+      "note": "gekocht, geröstet",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 300
+    },
+    {
+      "title": "Quinoa",
+      "note": "gekocht",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Walnüsse",
+      "note": "gehackt, geröstet",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 30
+    },
+    {
+      "title": "Rucola",
+      "note": "frisch",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 30
+    },
+    {
+      "title": "Olivenöl",
+      "note": "zum Rösten",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Ahornsirup",
+      "note": "zum Rösten",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Balsamico",
+      "note": "für Dressing",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 2
+    },
+    {
+      "title": "Kreuzkümmel",
+      "note": "für Kichererbsen",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Paprikapulver",
+      "note": "für Kichererbsen",
+      "unit": {
+        "name": "TL"
+      },
+      "quantity": 1
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Ofen auf 200°C vorheizen.",
+      "title": "Schritt 1"
+    },
+    {
+      "text": "Rotkohl in Wedges schneiden, mit 1 EL Olivenöl und 1 TL Ahornsirup marinieren. Auf Backblech geben.",
+      "title": "Schritt 2"
+    },
+    {
+      "text": "Kichererbsen mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, Salz und Pfeffer würzen. Auf separatem Backblech verteilen.",
+      "title": "Schritt 3"
+    },
+    {
+      "text": "Beide Bleche im Ofen: Rotkohl 20-25 Min (bis Ränder karamellisieren), Kichererbsen 25-30 Min (bis knusprig).",
+      "title": "Schritt 4"
+    },
+    {
+      "text": "Walnüsse in den letzten 5 Min mitrösten.",
+      "title": "Schritt 5"
+    },
+    {
+      "text": "Quinoa kochen: 80g Quinoa mit 160ml Wasser 15 Min köcheln, 5 Min ruhen lassen.",
+      "title": "Schritt 6"
+    },
+    {
+      "text": "Salat zusammenstellen: Quinoa als Basis, gerösteten Rotkohl, knusprige Kichererbsen und frischen Rucola arrangieren. Mit Balsamico beträufeln, Walnüsse darüberstreuen.",
+      "title": "Schritt 7"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Whole Food Challenge"
+    },
+    {
+      "name": "Dinner"
+    },
+    {
+      "name": "Vegan"
+    },
+    {
+      "name": "Salat"
+    },
+    {
+      "name": "High Protein"
+    },
+    {
+      "name": "High Fiber"
+    },
+    {
+      "name": "Geröstetes Gemüse"
+    }
+  ],
+  "recipeCategory": [
+    {
+      "name": "Abendessen"
+    }
+  ],
+  "totalTime": "PT40M",
+  "prepTime": "PT10M",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "570 kcal",
+    "protein": "44g",
+    "carbohydrateContent": "72g",
+    "fatContent": "16g",
+    "fiberContent": "18g"
+  }
+}

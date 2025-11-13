@@ -655,13 +655,431 @@ def create_linsen_feldsalat_rohkost() -> MealieRecipe:
     )
 
 
+def create_rotkohl_apfel_salat_tofu() -> MealieRecipe:
+    """Create Rotkohl-Apfel-Salat mit Cannellini-Bohnen und mariniertem Tofu recipe."""
+    ingredients = [
+        MealieIngredient(title="Rotkohl", quantity=120, unit="g", note="fein gehobelt"),
+        MealieIngredient(title="Cannellini-Bohnen", quantity=120, unit="g", note="gekocht"),
+        MealieIngredient(title="Tofu", quantity=180, unit="g", note="mariniert und angebraten"),
+        MealieIngredient(title="Apfel", quantity=1, unit="Stück", note="in Spalten geschnitten"),
+        MealieIngredient(title="Walnüsse", quantity=20, unit="g", note="gehackt"),
+        MealieIngredient(title="Rucola", quantity=30, unit="g"),
+        MealieIngredient(title="Apfelessig", quantity=2, unit="EL", note="für Dressing"),
+        MealieIngredient(title="Olivenöl", quantity=1, unit="EL", note="für Dressing"),
+        MealieIngredient(title="Ahornsirup", quantity=1, unit="TL", note="für Dressing"),
+        MealieIngredient(title="Sojasauce", quantity=2, unit="EL", note="für Tofu-Marinade"),
+        MealieIngredient(title="Senf", quantity=0.5, unit="TL", note="für Dressing")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Tofu-Marinade: Tofu in Würfel schneiden, mit 2 EL Sojasauce marinieren (mind. 30 Min).",
+            1
+        ),
+        create_instruction_step(
+            "Marinierten Tofu in heißer Pfanne 5-7 Min von allen Seiten goldbraun braten. Beiseite stellen.",
+            2
+        ),
+        create_instruction_step(
+            "Rotkohl fein hobeln. Apfel in dünne Spalten schneiden.",
+            3
+        ),
+        create_instruction_step(
+            "Dressing: 2 EL Apfelessig, 1 EL Olivenöl, 1 TL Ahornsirup und 0.5 TL Senf in Schraubglas schütteln.",
+            4
+        ),
+        create_instruction_step(
+            "Salat zusammenstellen: Rotkohl, Cannellini-Bohnen, gebratenen Tofu, Apfel und Rucola in Schüssel geben.",
+            5
+        ),
+        create_instruction_step(
+            "Mit Dressing beträufeln, gehackte Walnüsse darüberstreuen.",
+            6
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="524 kcal",
+        protein="33g",
+        carbohydrate="56g",
+        fat="18g",
+        fiber="14g"
+    )
+
+    return MealieRecipe(
+        name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen und mariniertem Tofu",
+        description="Protein-reicher Salat mit 33g Protein. Frischer Rotkohl kombiniert mit gebratenen Tofu-Würfeln. Dressing separat lagern für Meal Prep!",
+        recipe_yield="1 Portion",
+        prep_time="PT15M",
+        perform_time="PT7M",
+        total_time="PT22M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Dinner", "Vegan", "Meal Prep", "Salat", "High Protein"],
+        categories=["Abendessen"]
+    )
+
+
+def create_linsen_gemuese_salat_rote_bete() -> MealieRecipe:
+    """Create Linsen-Gemüse-Salat mit Rote-Bete recipe."""
+    ingredients = [
+        MealieIngredient(title="Grüne Linsen", quantity=180, unit="g", note="gekocht"),
+        MealieIngredient(title="Rote Bete", quantity=80, unit="g", note="gekocht, gewürfelt"),
+        MealieIngredient(title="Kirschtomaten", quantity=80, unit="g", note="halbiert"),
+        MealieIngredient(title="Gurke", quantity=60, unit="g", note="gewürfelt"),
+        MealieIngredient(title="Rucola", quantity=30, unit="g"),
+        MealieIngredient(title="Walnüsse", quantity=15, unit="g", note="gehackt"),
+        MealieIngredient(title="Zitronensaft", quantity=2, unit="EL", note="frisch gepresst"),
+        MealieIngredient(title="Olivenöl", quantity=1, unit="EL"),
+        MealieIngredient(title="Knoblauch", quantity=0.5, unit="Zehe", note="gepresst")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Grüne Linsen kochen: 180g Linsen mit 450ml Wasser 25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.",
+            1
+        ),
+        create_instruction_step(
+            "Rote Bete kochen: Würfeln, in Wasser 30 Min kochen bis weich (Handschuhe tragen!). Abkühlen lassen.",
+            2
+        ),
+        create_instruction_step(
+            "Dressing: 2 EL Zitronensaft, 1 EL Olivenöl und 0.5 Zehe gepressten Knoblauch vermischen. Mit Salz und Pfeffer abschmecken.",
+            3
+        ),
+        create_instruction_step(
+            "Kirschtomaten halbieren, Gurke würfeln.",
+            4
+        ),
+        create_instruction_step(
+            "Salat zusammenstellen: Linsen, Rote Bete, Tomaten, Gurke und Rucola in Schüssel geben.",
+            5
+        ),
+        create_instruction_step(
+            "Mit Dressing beträufeln, gehackte Walnüsse darüberstreuen.",
+            6
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="432 kcal",
+        protein="31g",
+        carbohydrate="58g",
+        fat="10g",
+        fiber="16g"
+    )
+
+    return MealieRecipe(
+        name="Linsen-Gemüse-Salat mit Rote-Bete (Protein-optimiert)",
+        description="Bunter, protein-reicher Salat mit 31g Protein und 16g Ballaststoffen. Rote Bete färbt - separat lagern! Dressing vor dem Servieren hinzufügen.",
+        recipe_yield="1 Portion",
+        prep_time="PT15M",
+        perform_time="PT30M",
+        total_time="PT45M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Dinner", "Vegan", "Meal Prep", "Salat", "High Protein", "High Fiber"],
+        categories=["Abendessen"]
+    )
+
+
+def create_lauch_miso_suppe_tofu() -> MealieRecipe:
+    """Create Lauch-Miso-Suppe mit Tofu und Pilzen recipe."""
+    ingredients = [
+        MealieIngredient(title="Lauch/Porree", quantity=150, unit="g", note="in Ringe geschnitten"),
+        MealieIngredient(title="Tofu", quantity=150, unit="g", note="gewürfelt"),
+        MealieIngredient(title="Shiitake-Pilze", quantity=100, unit="g", note="in Scheiben"),
+        MealieIngredient(title="Miso-Paste", quantity=2, unit="EL", note="helle oder dunkle"),
+        MealieIngredient(title="Gemüsebrühe", quantity=500, unit="ml"),
+        MealieIngredient(title="Ingwer", quantity=1, unit="TL", note="frisch, gerieben"),
+        MealieIngredient(title="Frühlingszwiebeln", quantity=2, unit="Stück", note="in Ringe"),
+        MealieIngredient(title="Hanfsamen", quantity=1, unit="EL", note="zum Topping"),
+        MealieIngredient(title="Sesamöl", quantity=0.5, unit="TL", note="zum Verfeinern")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Lauch in feine Ringe schneiden, gründlich waschen. Shiitake-Pilze in Scheiben schneiden.",
+            1
+        ),
+        create_instruction_step(
+            "Tofu in kleine Würfel schneiden.",
+            2
+        ),
+        create_instruction_step(
+            "Gemüsebrühe in Topf zum Kochen bringen. Ingwer hinzufügen.",
+            3
+        ),
+        create_instruction_step(
+            "Lauch und Pilze hinzugeben, 5 Min köcheln lassen.",
+            4
+        ),
+        create_instruction_step(
+            "Tofu-Würfel hinzufügen, weitere 3 Min köcheln.",
+            5
+        ),
+        create_instruction_step(
+            "Hitze ausschalten. Miso-Paste in etwas Brühe auflösen, dann in die Suppe einrühren (NICHT kochen, sonst verliert Miso Nährstoffe!).",
+            6
+        ),
+        create_instruction_step(
+            "Mit Frühlingszwiebeln, Hanfsamen und einem Tropfen Sesamöl servieren.",
+            7
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="335 kcal",
+        protein="28g",
+        carbohydrate="28g",
+        fat="12g",
+        fiber="9g"
+    )
+
+    return MealieRecipe(
+        name="Lauch-Miso-Suppe mit Tofu und Pilzen",
+        description="Leichte, aromatische Suppe mit 28g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
+        recipe_yield="1 Portion",
+        prep_time="PT10M",
+        perform_time="PT10M",
+        total_time="PT20M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Lunch", "Vegan", "Suppe", "Asiatisch", "Schnell"],
+        categories=["Mittagessen"]
+    )
+
+
+def create_geroesteter_rotkohl_salat_kichererbsen() -> MealieRecipe:
+    """Create Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen recipe."""
+    ingredients = [
+        MealieIngredient(title="Rotkohl", quantity=150, unit="g", note="in Wedges geschnitten"),
+        MealieIngredient(title="Kichererbsen", quantity=300, unit="g", note="gekocht, geröstet"),
+        MealieIngredient(title="Quinoa", quantity=80, unit="g", note="gekocht"),
+        MealieIngredient(title="Walnüsse", quantity=30, unit="g", note="gehackt, geröstet"),
+        MealieIngredient(title="Rucola", quantity=30, unit="g", note="frisch"),
+        MealieIngredient(title="Olivenöl", quantity=1, unit="EL", note="zum Rösten"),
+        MealieIngredient(title="Ahornsirup", quantity=1, unit="TL", note="zum Rösten"),
+        MealieIngredient(title="Balsamico", quantity=2, unit="EL", note="für Dressing"),
+        MealieIngredient(title="Kreuzkümmel", quantity=1, unit="TL", note="für Kichererbsen"),
+        MealieIngredient(title="Paprikapulver", quantity=1, unit="TL", note="für Kichererbsen")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Ofen auf 200°C vorheizen.",
+            1
+        ),
+        create_instruction_step(
+            "Rotkohl in Wedges schneiden, mit 1 EL Olivenöl und 1 TL Ahornsirup marinieren. Auf Backblech geben.",
+            2
+        ),
+        create_instruction_step(
+            "Kichererbsen mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, Salz und Pfeffer würzen. Auf separatem Backblech verteilen.",
+            3
+        ),
+        create_instruction_step(
+            "Beide Bleche im Ofen: Rotkohl 20-25 Min (bis Ränder karamellisieren), Kichererbsen 25-30 Min (bis knusprig).",
+            4
+        ),
+        create_instruction_step(
+            "Walnüsse in den letzten 5 Min mitrösten.",
+            5
+        ),
+        create_instruction_step(
+            "Quinoa kochen: 80g Quinoa mit 160ml Wasser 15 Min köcheln, 5 Min ruhen lassen.",
+            6
+        ),
+        create_instruction_step(
+            "Salat zusammenstellen: Quinoa als Basis, gerösteten Rotkohl, knusprige Kichererbsen und frischen Rucola arrangieren. Mit Balsamico beträufeln, Walnüsse darüberstreuen.",
+            7
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="570 kcal",
+        protein="44g",
+        carbohydrate="72g",
+        fat="16g",
+        fiber="18g"
+    )
+
+    return MealieRecipe(
+        name="Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen (Protein-optimiert)",
+        description="Herzhafter Salat mit 44g Protein und 18g Ballaststoffen! Karamellisierter Rotkohl und knusprige Kichererbsen. Komplett warm servieren für beste Textur.",
+        recipe_yield="1 Portion",
+        prep_time="PT10M",
+        perform_time="PT30M",
+        total_time="PT40M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Dinner", "Vegan", "Salat", "High Protein", "High Fiber", "Geröstetes Gemüse"],
+        categories=["Abendessen"]
+    )
+
+
+def create_vollkorn_wrap_pilz_nuss() -> MealieRecipe:
+    """Create Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl recipe."""
+    ingredients = [
+        MealieIngredient(title="Vollkorn-Wrap", quantity=1, unit="Stück", note="groß"),
+        MealieIngredient(title="Gemischte Pilze", quantity=150, unit="g", note="klein gehackt"),
+        MealieIngredient(title="Walnüsse", quantity=20, unit="g", note="fein gehackt"),
+        MealieIngredient(title="Cashews", quantity=15, unit="g", note="fein gehackt"),
+        MealieIngredient(title="Rotkohl", quantity=60, unit="g", note="fein gehobelt, mariniert"),
+        MealieIngredient(title="Hummus", quantity=50, unit="g"),
+        MealieIngredient(title="Rucola", quantity=20, unit="g", note="frisch"),
+        MealieIngredient(title="Tahini-Dressing", quantity=1, unit="EL"),
+        MealieIngredient(title="Sojasauce", quantity=1.5, unit="EL", note="für Pilzfüllung"),
+        MealieIngredient(title="Ahornsirup", quantity=0.5, unit="TL", note="für Pilzfüllung"),
+        MealieIngredient(title="Paprika geräuchert", quantity=0.5, unit="TL", note="für Pilzfüllung"),
+        MealieIngredient(title="Apfelessig", quantity=2, unit="EL", note="für Rotkohl-Marinade"),
+        MealieIngredient(title="Kreuzkümmel", quantity=0.5, unit="TL", note="für Rotkohl")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Rotkohl marinieren: 60g fein gehobelten Rotkohl mit 2 EL Apfelessig, 1 TL Ahornsirup, Zitronensaft und Kreuzkümmel kräftig massieren. Mind. 1h ziehen lassen.",
+            1
+        ),
+        create_instruction_step(
+            "Pilz-Nuss-Füllung: Pilze klein hacken, trocken in Pfanne anbraten bis Wasser verdampft (5 Min).",
+            2
+        ),
+        create_instruction_step(
+            "1 TL Olivenöl, 1 Knoblauchzehe hinzufügen. Walnüsse und Cashews (fein gehackt) hinzufügen.",
+            3
+        ),
+        create_instruction_step(
+            "1.5 EL Sojasauce, 0.5 TL Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.",
+            4
+        ),
+        create_instruction_step(
+            "Wrap zusammenstellen: Hummus auf Wrap streichen. Pilz-Nuss-Füllung, marinierten Rotkohl und Rucola darauf verteilen.",
+            5
+        ),
+        create_instruction_step(
+            "Mit Tahini-Dressing beträufeln. Wrap fest einrollen, halbieren und servieren.",
+            6
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="450 kcal",
+        protein="28g",
+        carbohydrate="52g",
+        fat="16g",
+        fiber="12g"
+    )
+
+    return MealieRecipe(
+        name="Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl",
+        description="Herzhafter Wrap mit 28g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
+        recipe_yield="1 Portion",
+        prep_time="PT15M",
+        perform_time="PT12M",
+        total_time="PT27M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Lunch", "Vegan", "Meal Prep", "Wrap", "High Protein"],
+        categories=["Mittagessen"]
+    )
+
+
+def create_kichererbsen_curry_spinat_tofu() -> MealieRecipe:
+    """Create Kichererbsen-Curry mit Spinat, Pilzen und Tofu recipe."""
+    ingredients = [
+        MealieIngredient(title="Kichererbsen", quantity=150, unit="g", note="gekocht"),
+        MealieIngredient(title="Tofu", quantity=150, unit="g", note="gewürfelt"),
+        MealieIngredient(title="Champignons", quantity=100, unit="g", note="in Scheiben"),
+        MealieIngredient(title="Spinat", quantity=80, unit="g", note="frisch"),
+        MealieIngredient(title="Zwiebel", quantity=50, unit="g", note="gewürfelt"),
+        MealieIngredient(title="Knoblauch", quantity=2, unit="Zehen", note="gehackt"),
+        MealieIngredient(title="Currypaste", quantity=2, unit="EL", note="z.B. gelbe Currypaste"),
+        MealieIngredient(title="Ingwer", quantity=1, unit="TL", note="frisch, gerieben"),
+        MealieIngredient(title="Kokosmilch", quantity=150, unit="ml"),
+        MealieIngredient(title="Gemüsebrühe", quantity=50, unit="ml"),
+        MealieIngredient(title="Kurkuma", quantity=1, unit="TL"),
+        MealieIngredient(title="Kreuzkümmel", quantity=0.5, unit="TL"),
+        MealieIngredient(title="Kokosöl", quantity=1, unit="EL"),
+        MealieIngredient(title="Quinoa", quantity=80, unit="g", note="gekocht, zum Servieren"),
+        MealieIngredient(title="Kürbiskerne", quantity=1, unit="EL", note="zum Topping")
+    ]
+
+    instructions = [
+        create_instruction_step(
+            "Tofu würfeln und in 1 TL Kokosöl kräftig anbraten (5 Min), aus der Pfanne nehmen.",
+            1
+        ),
+        create_instruction_step(
+            "Zwiebel und Knoblauch im restlichen Öl glasig anbraten.",
+            2
+        ),
+        create_instruction_step(
+            "Champignons hinzufügen, 3 Min anbraten.",
+            3
+        ),
+        create_instruction_step(
+            "Currypaste, Ingwer, Kurkuma und Kreuzkümmel hinzufügen, 1 Min unter Rühren anbraten.",
+            4
+        ),
+        create_instruction_step(
+            "Kichererbsen, Kokosmilch und Gemüsebrühe hinzufügen. 10 Min köcheln lassen.",
+            5
+        ),
+        create_instruction_step(
+            "Spinat und gebratenen Tofu hinzufügen, 2 Min mitköcheln bis Spinat zusammenfällt. Mit Salz und Pfeffer abschmecken.",
+            6
+        ),
+        create_instruction_step(
+            "Über gekochte Quinoa servieren, mit Kürbiskernen bestreuen.",
+            7
+        )
+    ]
+
+    nutrition = MealieNutrition(
+        calories="540 kcal",
+        protein="41g",
+        carbohydrate="56g",
+        fat="18g",
+        fiber="13g"
+    )
+
+    return MealieRecipe(
+        name="Kichererbsen-Curry mit Spinat, Pilzen und Tofu",
+        description="Protein-reiches Curry mit 41g Protein! Tofu wird separat angebraten für perfekte Textur. Spinat erst am Ende hinzufügen. Frisch zubereiten - 20 Min.",
+        recipe_yield="1 Portion",
+        prep_time="PT10M",
+        perform_time="PT20M",
+        total_time="PT30M",
+        ingredients=ingredients,
+        instructions=instructions,
+        nutrition=nutrition,
+        tags=["Whole Food Challenge", "Lunch", "Vegan", "Curry", "High Protein", "Schnell"],
+        categories=["Mittagessen"]
+    )
+
+
 # Example usage
 if __name__ == "__main__":
     # Create November 2024 recipes (Protein-optimiert, Meal-Prep-kompatibel)
     recipes = [
+        # Frühstück
         create_apfel_zimt_overnight_oats_protein(),
+        # Mittagessen
         create_kichererbsen_buddha_bowl_rohkost(),
         create_rotkohl_curry_tofu(),
+        create_lauch_miso_suppe_tofu(),
+        create_vollkorn_wrap_pilz_nuss(),
+        create_kichererbsen_curry_spinat_tofu(),
+        # Abendessen
+        create_rotkohl_apfel_salat_tofu(),
+        create_linsen_gemuese_salat_rote_bete(),
+        create_geroesteter_rotkohl_salat_kichererbsen(),
         create_buddha_bowl_linsen_tofu_rohkost(),
         create_linsen_feldsalat_rohkost()
     ]
@@ -671,10 +1089,19 @@ if __name__ == "__main__":
 
     print("\n📦 All recipes exported to mealie_exports/")
     print("📝 Import these JSON files directly into Mealie")
-    print("\n🌟 November 2024 Recipes - Protein-optimiert & Meal-Prep-kompatibel:")
+    print("\n🌟 November 2024 Recipes - Komplett-Set (11 Rezepte):")
+    print("\n   FRÜHSTÜCK:")
     print("   • Apfel-Zimt Overnight Oats (28g Protein)")
+    print("\n   MITTAGESSEN:")
     print("   • Kichererbsen-Buddha-Bowl mit Rohkost (24g Protein)")
     print("   • Rotkohl-Curry mit Tofu (42g Protein)")
+    print("   • Lauch-Miso-Suppe mit Tofu (28g Protein)")
+    print("   • Vollkorn-Wrap mit Pilz-Nuss-Füllung (28g Protein)")
+    print("   • Kichererbsen-Curry mit Spinat und Tofu (41g Protein)")
+    print("\n   ABENDESSEN:")
+    print("   • Rotkohl-Apfel-Salat mit Tofu (33g Protein)")
+    print("   • Linsen-Gemüse-Salat mit Rote-Bete (31g Protein)")
+    print("   • Gerösteter Rotkohl-Salat mit Kichererbsen (44g Protein)")
     print("   • Buddha-Bowl mit Linsen, Tofu und Rohkost (36g Protein)")
     print("   • Linsen-Feldsalat mit Rohkost (31g Protein)")
-    print("\n✨ Alle Rezepte mit Rohkost für 4-5 Tage Meal-Prep-Haltbarkeit!")
+    print("\n✨ Wochendurchschnitt: 1332 kcal, 98.8g Protein, 39.6g Ballaststoffe!")
