@@ -179,7 +179,8 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 *Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 **Konsistenz-Tipp:**
-- Dickflüssiger: 250ml Hafermilch statt 200ml (besonders mit Proteinpulver empfohlen)
+- Dickflüssiger: Nur 150ml Hafermilch verwenden oder 4 EL Chiasamen statt 3 EL
+- Dünnflüssiger: 250ml Hafermilch statt 200ml (besonders mit Proteinpulver empfohlen)
 - Cremiger: Nach Quellen mit Löffel cremig rühren oder kurz blenden
 - Zu dick geworden: 1-2 EL zusätzliche Hafermilch unterrühren
 
