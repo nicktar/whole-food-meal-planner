@@ -34,7 +34,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Basis-Zutaten:**
 - 30g Haferflocken (Vollkorn)
-- 150ml Pflanzenmilch (Hafer, Mandel, Soja - ungesüßt)
+- 150ml Hafermilch (ungesüßt)
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Nussmus (Mandel, Cashew oder Erdnuss)
@@ -44,7 +44,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Basis-Zubereitung:**
 1. Alle trockenen Zutaten (Haferflocken, Chiasamen, Leinsamen, Proteinpulver) in Glas mischen
-2. Pflanzenmilch und Nussmus hinzufügen, sehr gut durchrühren (Proteinpulver neigt zu Klumpen!)
+2. Hafermilch und Nussmus hinzufügen, sehr gut durchrühren (Proteinpulver neigt zu Klumpen!)
 3. Nach 5 Min nochmal umrühren
 4. Mindestens 4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
 5. Am Morgen kurz umrühren und mit Toppings servieren
@@ -119,7 +119,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **+75 kcal | +8g Protein**
 
 **Basis-Anpassung:**
-- 50ml zusätzliche Sojamilch (höchster Proteingehalt)
+- 50ml zusätzliche Hafermilch
 
 **Toppings:**
 - 1 EL Hanfsamen
@@ -140,7 +140,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Anpassungsmöglichkeiten:**
 - **Mehr Kalorien:** Nussmenge erhöhen, Avocado hinzufügen
-- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, zusätzliche Samen, proteinreichere Pflanzenmilch (Soja)
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, zusätzliche Samen (Hanfsamen, Kürbiskerne)
 - **Weniger Kalorien:** Haferflocken auf 20g reduzieren, Nussmus reduzieren/weglassen, mehr Beeren statt Nüsse
 - **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~210 kcal und ~7g Protein
 - **Mehr Ballaststoffe:** Zusätzliche Leinsamen, mehr Chiasamen
@@ -152,7 +152,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Basis-Zutaten:**
 - 3 EL Chiasamen (~30g)
-- 200ml Pflanzenmilch (Hafer, Mandel, Soja - ungesüßt)
+- 200ml Hafermilch (ungesüßt)
 - 1/2 TL Vanilleextrakt oder -pulver
 - 1 EL Nussmus (Mandel oder Cashew)
 - 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)*
@@ -161,7 +161,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Basis-Zubereitung:**
 1. Chiasamen und Proteinpulver in Glas oder Shaker geben
-2. Pflanzenmilch, Vanille, Nussmus hinzufügen
+2. Hafermilch, Vanille, Nussmus hinzufügen
 3. Sehr kräftig schütteln oder mit Schneebesen rühren (Proteinpulver + Chiasamen = Klumpengefahr!)
 4. Nach 5 Minuten nochmal kräftig durchrühren
 5. Mindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
@@ -179,9 +179,9 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 *Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 **Konsistenz-Tipp:**
-- Dickflüssiger: 250ml Milch statt 200ml (besonders mit Proteinpulver empfohlen)
+- Dickflüssiger: 250ml Hafermilch statt 200ml (besonders mit Proteinpulver empfohlen)
 - Cremiger: Nach Quellen mit Löffel cremig rühren oder kurz blenden
-- Zu dick geworden: 1-2 EL zusätzliche Pflanzenmilch unterrühren
+- Zu dick geworden: 1-2 EL zusätzliche Hafermilch unterrühren
 
 ---
 
@@ -201,7 +201,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **+95 kcal | +2g Protein**
 
 **Basis-Anpassung:**
-- Ersetzt 50ml Pflanzenmilch durch 50ml Kokosmilch (aus Dose)
+- Ersetzt 50ml Hafermilch durch 50ml Kokosmilch (aus Dose)
 
 **Toppings:**
 - 100g Mango, gewürfelt
@@ -262,7 +262,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **+90 kcal | +10g Protein**
 
 **Basis-Anpassung:**
-- Verwende Sojamilch statt andere Pflanzenmilch
 - Zusätzlich 1 EL Hanfsamen zur Basis
 
 **Toppings:**
@@ -285,7 +284,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Anpassungsmöglichkeiten:**
 - **Dickerer Pudding:** 4 EL Chiasamen statt 3 EL
 - **Mehr Kalorien:** Nussanteil erhöhen, Avocado als Topping
-- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, Hanfsamen, Sojamilch, zusätzliche Samen-Toppings
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, Hanfsamen, zusätzliche Samen-Toppings
 - **Weniger Kalorien:** Nur 2 EL Chiasamen, Nussmus weglassen
 - **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~260 kcal und ~9g Protein
 - **Cremiger:** Nach Quellen kurz im Mixer pürieren
