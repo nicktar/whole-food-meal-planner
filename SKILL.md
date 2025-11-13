@@ -63,12 +63,13 @@ python3 scripts/mealie_export.py
 **Erlaubte Zutaten:**
 - Vollkornprodukte (Hafer, Quinoa, Buchweizen, Dinkel, etc.)
 - Hülsenfrüchte (Linsen, Kichererbsen, Cannellini-Bohnen, schwarze Bohnen)
+- Tofu
 - Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Früchte (frisch oder getrocknet)
 - Gemüse (alle Sorten)
 - Nüsse und Samen
 - Nussmus (natürlich, ohne Zusätze)
-- Pflanzenmilch (ungesüßt)
+- Hafermilchmilch (ungesüßt)
 - Würzpasten (Curry-, Miso- etc., vegan)
 - Nährhefe-Flocken
 - Gewürze, Kräuter, Essig, Öl
@@ -79,20 +80,21 @@ python3 scripts/mealie_export.py
 - Grünkohl
 - Rosenkohl
 - Wirsing
+- Rosinen
 - Alle tierischen Produkte
 - Verarbeitete Lebensmittel
 
 ## Standard-Targets
 
 **Tägliche Ziele (typisch):**
-- Kalorien: 1200 kcal (Range: 1150-1250)
+- Kalorien: 1200 kcal (Range: 1100-1300)
 - Protein: 100-110g (Minimum: 100g)
-- Ballaststoffe: 40g (Minimum: 30g)
+- Ballaststoffe: 30g (Minimum: 25g)
 
 **Mahlzeiten-Ranges:**
-- Frühstück: 300-400 kcal, 10-15g Protein
-- Mittagessen: 250-450 kcal, 15-25g Protein
-- Abendessen: 250-400 kcal, 15-25g Protein
+- Frühstück: 300-400 kcal, 15-30g Protein
+- Mittagessen: 350-450 kcal, 25-45g Protein
+- Abendessen: 350-400 kcal, 25-45g Protein
 
 ## Bundled Resources
 
@@ -237,7 +239,7 @@ python3 scripts/mealie_export.py
 
 2. **Challenge-Compliance prüfen:**
    - ✅ Nur erlaubte Zutaten verwenden (siehe Challenge-Regeln oben)
-   - ❌ Keine ausgeschlossenen Zutaten (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing)
+   - ❌ Keine ausgeschlossenen Zutaten (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing, Rosinen)
    - ❌ Keine tierischen Produkte
    - ❌ Keine verarbeiteten Lebensmittel
 
@@ -249,18 +251,19 @@ python3 scripts/mealie_export.py
 
 4. **Rezept auf Vollständigkeit und Stimmigkeit prüfen:**
    - ✅ **Proteinpulver richtig eingesetzt:** Erbsenprotein-Pulver NUR in Flüssigkeiten (Smoothies, Porridge, Overnight Oats) - NICHT in trockenen Gerichten
-   - ✅ **Marinaden vorhanden:** Tofu, Tempeh brauchen Marinaden (Misopaste, Sojasauce, Gewürze + Öl)
+   - ✅ **Marinaden vorhanden:** Tofu braucht Marinaden (Misopaste, Sojasauce, Gewürze + Öl)
    - ✅ **Ausreichend gewürzt:** Alle Komponenten haben Würzung/Geschmack (nicht nur Salz & Pfeffer)
    - ✅ **Konsistenz stimmig:**
      - Nicht zu trocken (genug Sauce/Dressing/Flüssigkeit)
      - Nicht zu wässrig (Gemüse richtig zubereitet, nicht überkocht)
      - Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
    - ✅ **Zubereitungsschritte vollständig:** Alle Komponenten werden in der Anleitung behandelt
-   - ✅ **Garzeiten realistisch:** Quinoa 15 Min, Linsen 20-25 Min, Kichererbsen (Dose) 10 Min aufwärmen
+   - ✅ **Garzeiten realistisch:** Quinoa 15 Min, Linsen 20-25 Min, Kichererbsen 60-90 Min
    - ✅ **Fette/Öle enthalten:** Für Geschmack und Nährstoffaufnahme (1-2 EL Öl oder Nussmus)
    - ⚠️ **Häufige Fehler vermeiden:**
      - Trockenes Tofu ohne Marinade
      - Rohes Gemüse ohne Dressing in warmen Gerichten
+     - Kaltes geröstetes Gemüse wird oft glibbrig
      - Nur Basis-Zutaten ohne Geschmacksträger
      - Erbsenprotein in Salaten/Bowls (funktioniert nicht!)
 
@@ -344,9 +347,9 @@ python3 scripts/mealie_export.py
 - Paralleles Kochen: Getreide + Hülsenfrüchte gleichzeitig
 
 ### Nährwert-Optimierung
-- **Protein boosten:** Tofu, Tempeh, extra Hülsenfrüchte
+- **Protein boosten:** Tofu, extra Hülsenfrüchte
 - **Kalorien reduzieren:** Öl/Nüsse limitieren
-- **Ballaststoffe erhöhen:** Mehr Gemüse, Vollkorn
+- **Ballaststoffe erhöhen:** Mehr Gemüse, Vollkorn - oder auf zusätzliche Flohsamenschalen hinweisen (nicht in Rezepte einbauen)
 
 ### Abwechslung
 - Gleiche Basis, verschiedene Gewürze
@@ -386,9 +389,8 @@ python3 scripts/mealie_export.py
 1. Erste Verifikation zeigt <100g Protein
 2. Anpassungen:
    - Tofu zu Suppen hinzufügen (+15g)
-   - Tempeh statt Kichererbsen (+8g)
    - Extra Nussmus im Frühstück (+4g)
-   - Edamame als Snack (+11g)
+   - wo möglich Erbsenprotein-Pulver hinzufügen/erhöhen
 3. Erneut verifizieren
 ```
 
@@ -450,7 +452,7 @@ python3 scripts/mealie_export.py
 **Problem:** Neue Rezepte schmecken fade oder Konsistenz stimmt nicht
 → Qualitätskontrolle-Checkliste durchgehen (siehe "Rezept auf Vollständigkeit und Stimmigkeit prüfen")
 → Häufigste Fehler:
-  - Tofu/Tempeh ohne Marinade → Mindestens 30 Min marinieren
+  - Tofu ohne Marinade → Mindestens 30 Min marinieren
   - Zu wenig Gewürze → Pro Portion mind. 1 TL Gewürzmischung
   - Fehlendes Fett → 1-2 EL Öl oder Nussmus hinzufügen
   - Erbsenprotein falsch verwendet → Nur in Flüssigkeiten/Brei
@@ -489,7 +491,7 @@ python3 scripts/mealie_export.py
 
 ### Für neue Rezepte (vor Nährwert-Validierung):
 - [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
-- [ ] Tofu/Tempeh haben Marinaden (mind. 30 Min Marinierzeit)
+- [ ] Tofu haben Marinaden (mind. 30 Min Marinierzeit)
 - [ ] Alle Komponenten ausreichend gewürzt (nicht fade)
 - [ ] Konsistenz stimmig (nicht zu trocken, nicht zu wässrig)
 - [ ] Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
