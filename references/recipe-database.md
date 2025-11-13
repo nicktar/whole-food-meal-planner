@@ -7,18 +7,19 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Erlaubt:**
 - Vollkornprodukte (Hafer, Quinoa, Buchweizen, Dinkel, etc.)
 - Hülsenfrüchte (Linsen, Kichererbsen, Cannellini-Bohnen, schwarze Bohnen, etc.)
+- Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Früchte (frisch oder getrocknet)
 - Gemüse (alle Sorten)
 - Nüsse und Samen (roh oder geröstet)
 - Nussmus (natürlich, ohne Zusätze)
 - Pflanzenmilch (ungesüßt)
-- Currypasten (ohne tierische Produkte)
-- Nährhefe
+- Würzpasten (Curry-, Miso- etc., ohne tierische Produkte)
+- Nährhefe-Flocken
 - Gewürze, Kräuter, Essig
 
 **Ausgeschlossen:**
 - Auberginen
-- Dicke Bohnen (Ackerbohnen/Puffbohnen)
+- Dicke Bohnen/Ackerbohnen/Puffbohnen (alle anderen Bohnen sind erlaubt!)
 - Grünkohl
 - Rosenkohl
 - Wirsing
@@ -29,24 +30,268 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 ## FRÜHSTÜCK
 
-### Overnight Oats mit Beeren
-**Portion: 1 Person | Kalorien: ~320 | Protein: ~12g | Prep: 5 Min + Overnight**
+### Overnight Oats (Basis-Rezept)
+**Portion: 1 Person | Kalorien: ~280 | Protein: ~20g (mit Proteinpulver) | Prep: 5 Min + Overnight**
 
-**Zutaten:**
-- 50g Haferflocken
-- 150ml Hafermilch
+**Basis-Zutaten:**
+- 30g Haferflocken (Vollkorn)
+- 150ml Hafermilch (ungesüßt)
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
-- 100g gemischte Beeren (frisch/TK)
-- 1 TL Ahornsirup (optional)
+- 1 EL Nussmus (Mandel, Cashew oder Erdnuss)
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)
+- Prise Salz
+- Optional: 1/2 TL Ahornsirup oder 2-3 entsteinte Datteln, fein gehackt
+
+**Basis-Zubereitung:**
+1. Alle trockenen Zutaten (Haferflocken, Chiasamen, Leinsamen, Proteinpulver) in Glas mischen
+2. Hafermilch und Nussmus hinzufügen, sehr gut durchrühren (Proteinpulver neigt zu Klumpen!)
+3. Nach 5 Min nochmal umrühren
+4. Mindestens 4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
+5. Am Morgen kurz umrühren und mit Toppings servieren
+
+**Standard-Nährwerte (Basis ohne Toppings):**
+- Kalorien: ~280 kcal
+- Protein: ~20g (mit 15g Erbsenprotein-Pulver)
+- Ballaststoffe: ~9g
+- Fett: ~10g
+- Kohlenhydrate: ~25g
+
+**Basis ohne Proteinpulver:** ~210 kcal | ~7g Protein
+
+---
+
+#### Variation 1: Beeren-Power
+**+70 kcal | +2g Protein**
+
+**Toppings:**
+- 100g gemischte Beeren (Himbeeren, Blaubeeren, Erdbeeren - frisch oder TK)
+- 1 EL Hanfsamen
 - Prise Zimt
 
-**Zubereitung:**
-1. Alle Zutaten außer Beeren in einem Glas mischen
-2. Über Nacht im Kühlschrank ziehen lassen
-3. Am Morgen mit Beeren toppen
+**Gesamt-Nährwerte:** ~350 kcal | ~22g Protein
 
-**Meal Prep:** Bis zu 3 Portionen vorbereiten, max. 3 Tage haltbar
+---
+
+#### Variation 2: Apfel-Zimt
+**+90 kcal | +3g Protein**
+
+**Toppings:**
+- 1 mittelgroßer Apfel, gewürfelt
+- 1 EL gehackte Walnüsse
+- 1 TL Zimt
+- 1 EL Rosinen (optional)
+
+**Gesamt-Nährwerte:** ~370 kcal | ~23g Protein
+
+---
+
+#### Variation 3: Tropical
+**+85 kcal | +2g Protein**
+
+**Toppings:**
+- 80g Mango, gewürfelt (frisch oder TK)
+- 2 EL Kokosraspeln (ungesüßt)
+- 1 EL Kürbiskerne
+- Saft von 1/4 Limette
+
+**Gesamt-Nährwerte:** ~365 kcal | ~22g Protein
+
+---
+
+#### Variation 4: Schokoladen-Banane
+**+110 kcal | +4g Protein**
+
+**Basis-Anpassung:**
+- 1 EL rohes Kakaopulver zur Basis hinzufügen
+
+**Toppings:**
+- 1/2 Banane in Scheiben
+- 1 EL Mandeln, gehackt
+- 1 TL Nussmus extra als Topping
+
+**Gesamt-Nährwerte:** ~390 kcal | ~24g Protein
+
+---
+
+#### Variation 5: Protein-Boost
+**+75 kcal | +8g Protein**
+
+**Basis-Anpassung:**
+- 50ml zusätzliche Hafermilch
+
+**Toppings:**
+- 1 EL Hanfsamen
+- 1 EL Kürbiskerne
+- 1 EL Sonnenblumenkerne
+- 50g Beeren
+
+**Gesamt-Nährwerte:** ~355 kcal | ~28g Protein
+
+---
+
+**Meal Prep Tipps:**
+- Bis zu 5 Portionen vorbereiten
+- Haltbarkeit: 3 Tage im Kühlschrank (ohne frische Toppings)
+- Frische Früchte erst am Morgen hinzufügen
+- TK-Beeren können direkt dazu, tauen über Nacht auf
+- In Schraubgläsern schichten für einfachen Transport
+
+**Anpassungsmöglichkeiten:**
+- **Mehr Kalorien:** Nussmenge erhöhen, Avocado hinzufügen
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, zusätzliche Samen (Hanfsamen, Kürbiskerne)
+- **Weniger Kalorien:** Haferflocken auf 20g reduzieren, Nussmus reduzieren/weglassen, mehr Beeren statt Nüsse
+- **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~210 kcal und ~7g Protein
+- **Mehr Ballaststoffe:** Zusätzliche Leinsamen, mehr Chiasamen
+
+---
+
+### Chia Pudding (Basis-Rezept)
+**Portion: 1 Person | Kalorien: ~340 | Protein: ~22g (mit Proteinpulver) | Prep: 5 Min + 2-4 Std Quellzeit**
+
+**Basis-Zutaten:**
+- 3 EL Chiasamen (~30g)
+- 200ml Hafermilch (ungesüßt)
+- 1/2 TL Vanilleextrakt oder -pulver
+- 1 EL Nussmus (Mandel oder Cashew)
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)
+- Optional: 1 TL Ahornsirup oder 2 entsteinte Datteln, püriert
+- Prise Salz
+
+**Basis-Zubereitung:**
+1. Chiasamen und Proteinpulver in Glas oder Shaker geben
+2. Hafermilch, Vanille, Nussmus hinzufügen
+3. Sehr kräftig schütteln oder mit Schneebesen rühren (Proteinpulver + Chiasamen = Klumpengefahr!)
+4. Nach 5 Minuten nochmal kräftig durchrühren
+5. Mindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
+6. Vor Servieren umrühren und mit Toppings versehen
+
+**Standard-Nährwerte (Basis ohne Toppings):**
+- Kalorien: ~340 kcal
+- Protein: ~22g (mit 15g Erbsenprotein-Pulver)
+- Ballaststoffe: ~12g
+- Fett: ~13g
+- Kohlenhydrate: ~25g
+
+**Basis ohne Proteinpulver:** ~260 kcal | ~9g Protein
+
+**Konsistenz-Tipp:**
+- Dickflüssiger: Nur 150ml Hafermilch verwenden oder 4 EL Chiasamen statt 3 EL
+- Dünnflüssiger: 250ml Hafermilch statt 200ml (besonders mit Proteinpulver empfohlen)
+- Cremiger: Nach Quellen mit Löffel cremig rühren oder kurz blenden
+- Zu dick geworden: 1-2 EL zusätzliche Hafermilch unterrühren
+
+---
+
+#### Variation 1: Beeren-Chia
+**+60 kcal | +2g Protein**
+
+**Toppings:**
+- 100g gemischte Beeren
+- 1 EL Mandelsplitter
+- Frische Minze (optional)
+
+**Gesamt-Nährwerte:** ~400 kcal | ~24g Protein
+
+---
+
+#### Variation 2: Mango-Kokos
+**+95 kcal | +2g Protein**
+
+**Basis-Anpassung:**
+- Ersetzt 50ml Hafermilch durch 50ml Kokosmilch (aus Dose)
+
+**Toppings:**
+- 100g Mango, gewürfelt
+- 2 EL Kokosraspeln
+- 1 EL Cashews, gehackt
+
+**Gesamt-Nährwerte:** ~435 kcal | ~24g Protein
+
+---
+
+#### Variation 3: Schoko-Kirsch
+**+80 kcal | +3g Protein**
+
+**Basis-Anpassung:**
+- 1 EL rohes Kakaopulver zur Basis
+
+**Toppings:**
+- 80g Kirschen (frisch oder TK, entsteint)
+- 1 EL gehackte Walnüsse
+- Dunkle Schokoraspeln (optional, 85%+ Kakao)
+
+**Gesamt-Nährwerte:** ~420 kcal | ~25g Protein
+
+---
+
+#### Variation 4: Apfel-Zimt
+**+85 kcal | +2g Protein**
+
+**Basis-Anpassung:**
+- 1 TL Zimt zur Basis
+- 1/4 TL Kardamom (optional)
+
+**Toppings:**
+- 1 Apfel, klein gewürfelt
+- 1 EL Walnüsse
+- 1 TL Ahornsirup zum Beträufeln
+
+**Gesamt-Nährwerte:** ~425 kcal | ~24g Protein
+
+---
+
+#### Variation 5: Matcha-Pistazie
+**+75 kcal | +3g Protein**
+
+**Basis-Anpassung:**
+- 1 TL Matcha-Pulver zur Basis
+
+**Toppings:**
+- 1 EL gehackte Pistazien
+- 1 EL Kürbiskerne
+- 50g Blaubeeren
+
+**Gesamt-Nährwerte:** ~415 kcal | ~25g Protein
+
+---
+
+#### Variation 6: Protein-Power
+**+90 kcal | +10g Protein**
+
+**Basis-Anpassung:**
+- Zusätzlich 1 EL Hanfsamen zur Basis
+
+**Toppings:**
+- 1 EL Kürbiskerne
+- 1 EL Sonnenblumenkerne
+- 50g Beeren deiner Wahl
+
+**Gesamt-Nährwerte:** ~430 kcal | ~32g Protein
+
+---
+
+**Meal Prep Tipps:**
+- Bis zu 5 Portionen vorbereiten
+- Haltbarkeit: 4-5 Tage im Kühlschrank (ohne frische Toppings)
+- Perfekt für Transport in Schraubgläsern
+- Schichten: Chia Pudding unten, Toppings oben (erst beim Essen mischen)
+- TK-Früchte können direkt zugegeben werden
+- Bei Proteinpulver: Etwas mehr Flüssigkeit verwenden (Pudding wird dicker)
+
+**Anpassungsmöglichkeiten:**
+- **Dickerer Pudding:** 4 EL Chiasamen statt 3 EL
+- **Mehr Kalorien:** Nussanteil erhöhen, Avocado als Topping
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, Hanfsamen, zusätzliche Samen-Toppings
+- **Weniger Kalorien:** Nur 2 EL Chiasamen, Nussmus weglassen
+- **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~260 kcal und ~9g Protein
+- **Cremiger:** Nach Quellen kurz im Mixer pürieren
+
+**Vergleich Overnight Oats vs. Chia Pudding:**
+- **Chiasamen:** Mehr Omega-3, mehr Ballaststoffe, glutenfrei
+- **Hafer:** Mehr Energie, sättigender, günstiger
+- **Beide:** Challenge-konform (auch mit Erbsenprotein-Pulver), proteinreich, extrem Meal-Prep-freundlich
+- **Mit Erbsenprotein:** Beide erreichen 20-30g Protein pro Portion!
 
 ---
 

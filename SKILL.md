@@ -63,18 +63,19 @@ python3 scripts/mealie_export.py
 **Erlaubte Zutaten:**
 - Vollkornprodukte (Hafer, Quinoa, Buchweizen, Dinkel, etc.)
 - Hülsenfrüchte (Linsen, Kichererbsen, Cannellini-Bohnen, schwarze Bohnen)
+- Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Früchte (frisch oder getrocknet)
 - Gemüse (alle Sorten)
 - Nüsse und Samen
 - Nussmus (natürlich, ohne Zusätze)
 - Pflanzenmilch (ungesüßt)
-- Currypasten (vegan)
-- Nährhefe
+- Würzpasten (Curry-, Miso- etc., vegan)
+- Nährhefe-Flocken
 - Gewürze, Kräuter, Essig, Öl
 
 **Ausgeschlossen:**
 - Auberginen
-- Dicke Bohnen (Ackerbohnen/Puffbohnen)
+- Dicke Bohnen/Ackerbohnen/Puffbohnen (alle anderen Bohnen sind erlaubt!)
 - Grünkohl
 - Rosenkohl
 - Wirsing
