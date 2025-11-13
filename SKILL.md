@@ -35,28 +35,23 @@ When invoked from a project, the skill will:
 
 ## Quick Start
 
-**Typischer Workflow:**
-1. Anforderungen sammeln (siehe `references/meal-plan-workflow.md` Abschnitt 1)
-2. Rezepte aus Datenbank auswählen (externe `recipe-database.md` oder `references/recipe-database.md`)
-3. Meal Plan erstellen (Templates in `meal-plan-workflow.md`)
-4. Mit `scripts/verify_nutrition.py` validieren
-5. Optional: Mealie-Export mit `scripts/mealie_export.py`
-
-**Für neue Meal Plans:**
+**Workflow für neue Meal Plans:**
 ```bash
-# 1. Workflow-Guide lesen für vollständigen Prozess
+# 1. Workflow-Guide lesen
 view references/meal-plan-workflow.md
 
-# 2. Check for external recipes first, then bundled recipes
-ls recipe-database.md  # Check if external database exists
+# 2. Rezepte prüfen (externe recipe-database.md hat Vorrang)
 view recipe-database.md || view references/recipe-database.md
 
-# 3. Nach Plan-Erstellung: Nährwerte verifizieren
+# 3. Plan erstellen (Templates aus workflow.md)
+# 4. Nährwerte verifizieren (KRITISCH!)
 python3 scripts/verify_nutrition.py
 
-# 4. Optional: Mealie-Rezepte exportieren
+# 5. Optional: Mealie-Export
 python3 scripts/mealie_export.py
 ```
+
+**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → Verifizieren → Optional: Mealie-Export
 
 ## Challenge-Regeln
 
@@ -131,88 +126,24 @@ python3 scripts/mealie_export.py
 
 ## Meal Planning Workflow
 
-### 1. Anforderungen sammeln
-Nutze das Template aus `meal-plan-workflow.md` Abschnitt 1:
-- Zeitraum (3-7 Tage typisch)
-- Ernährungsziele (Kalorien, Protein)
-- Mahlzeitenstruktur
-- Präferenzen/Ausschlüsse
-- Zu verbrauchende Zutaten
+**Folge dem 8-Schritte-Prozess** (vollständige Details in `references/meal-plan-workflow.md`):
 
-### 2. Rezeptauswahl
-**First check for external recipe database in project root, otherwise use bundled recipes:**
-```bash
-# Check which recipe source is available
-ls recipe-database.md && echo "Using external recipes" || echo "Using bundled recipes"
-```
+1. **Anforderungen sammeln** → Zeitraum, Ernährungsziele, Präferenzen (Template in workflow.md)
+2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
+3. **Plan erstellen** → Template-Format verwenden (siehe workflow.md Abschnitt 3)
+4. **Verifikation** → `python3 scripts/verify_nutrition.py` ausführen (**KRITISCH!**)
+5. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
+6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren
+7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren)
+8. **Optional: Mealie-Export** → `python3 scripts/mealie_export.py`
 
-Aus der Recipe Database (external oder `references/recipe-database.md`):
-- **Frühstück:** 3-5 Rezepte rotieren (Overnight Oats, Porridge, Bowls)
-- **Mittag/Abend:** 5-7 Rezepte mit Synergie-Fokus
-- **Kriterien:**
-  - Verschiedene Proteinquellen
-  - Mix warm/kalt
-  - Meal-Prep-freundlich
-  - Nutzer-Präferenzen
-
-### 3. Plan erstellen
-Format nach Template in `meal-plan-workflow.md` Abschnitt 3:
-```markdown
-## TAG X - Datum
-
-### Frühstück: [Rezept]
-**Kalorien:** XXX | **Protein:** XXg | **Prep:** XX Min
-[Details...]
-
-### Mittagessen: [Rezept]
-[...]
-
-### Abendessen: [Rezept]
-[...]
-
-**Tageszusammenfassung:**
-- Gesamt Kalorien: XXX kcal
-- Gesamt Protein: XXg
-```
-
-### 4. Verifikation
-**KRITISCH:** Nach Plan-Erstellung IMMER verifizieren:
-```python
-# In verify_nutrition.py: Meal/DailyPlan Objekte mit tatsächlichen Werten erstellen
-python3 scripts/verify_nutrition.py
-```
-
-**Bei Abweichungen anpassen:**
-- Kalorien zu niedrig → Nüsse/Avocado ergänzen
-- Protein zu niedrig → Mehr Hülsenfrüchte/Tofu
-- Kalorien zu hoch → Portionen reduzieren
-
-### 5. Einkaufsliste
-Generiere nach Template (Workflow Abschnitt 5):
-- Nach Kategorien gruppiert
-- Mengen für gesamten Zeitraum
-- Saisonale Alternativen
-- Lagerungs-Tipps
-
-### 6. Meal Prep Strategie
-Erstelle Timeline nach Template (Workflow Abschnitt 6):
-- **Phase 1:** Grundlagen (Getreide, Hülsenfrüchte)
-- **Phase 2:** Gemüse rösten, Protein vorbereiten
-- **Phase 3:** Spezial-Komponenten
-- **Phase 4:** Portionieren & Lagern
-
-**Optimierung:**
-- Parallele Tasks maximieren
-- Passive Kochzeit nutzen
-- Ofen-Kapazität ausnutzen
-
-### 7. Optional: Mealie-Export
-Falls gewünscht:
-```python
-# In mealie_export.py: Rezept-Objekte erstellen
-python3 scripts/mealie_export.py
-# Output: mealie_exports/*.json
-```
+**Wichtigste Punkte:**
+- ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
+- ✅ Externe Rezepte prüfen: `ls recipe-database.md` (falls vorhanden, werden diese verwendet)
+- ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
+- ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
+- ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
+- ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
 
 ## Neue Rezepte generieren
 
@@ -403,47 +334,25 @@ python3 scripts/mealie_export.py
 
 ### Szenario 5: Neue Rezepte generieren
 ```
-1. Anforderungen sammeln:
-   - Nutzer: "Ich habe viel Blumenkohl und möchte ein asiatisches Abendessen"
-   - Target: 350 kcal, 20g Protein, meal-prep-freundlich
+1. Anforderungen: "Blumenkohl + asiatisch + 350 kcal, 20g Protein, meal-prep-freundlich"
 
-2. Rezept entwickeln:
-   - Basis: Quinoa (150g gekocht) als Getreide-Base
-   - Protein: Tofu (120g) mariniert
-   - Gemüse: Blumenkohl (200g) geröstet mit asiatischen Gewürzen
-   - Sauce: Misopaste + Ingwer + Knoblauch + Sesamöl
+2. Entwickeln:
+   Quinoa (150g, 180 kcal, 6g) + marinierter Tofu (120g, 95 kcal, 10g) +
+   Blumenkohl geröstet (200g, 50 kcal, 4g) + Miso-Sauce (25 kcal, 1g)
+   → Gesamt: 350 kcal, 21g Protein ✅
 
-3. Qualitätskontrolle durchführen:
-   ✅ Proteinpulver: Nicht verwendet (gut - wäre in Bowl ungeeignet)
-   ✅ Marinade: Tofu wird mariniert (Misopaste, Ingwer, Knoblauch)
-   ✅ Würzung: Blumenkohl mit asiatischen Gewürzen, Sauce vorhanden
-   ✅ Konsistenz: Sauce verhindert Trockenheit, Blumenkohl geröstet (nicht wässrig)
-   ✅ Zubereitung: Alle Komponenten abgedeckt
-   ✅ Fette: Sesamöl in Sauce enthalten
-   ✅ Texturen: Knuspriger Blumenkohl + weicher Tofu + fluffiger Quinoa
-   → Rezept ist stimmig, kann zu Nährwert-Validierung übergehen
+3. Qualitätskontrolle (siehe Checkliste unten):
+   ✅ Tofu mariniert, Sauce vorhanden, ausreichend gewürzt
+   ✅ Fette enthalten (Sesamöl), Texturen komplementär
+   ✅ Alle Zubereitungsschritte dokumentiert
+   → Stimmig, zu Nährwert-Validierung übergehen
 
-4. Nährwerte kalkulieren:
-   - Quinoa: 180 kcal, 6g Protein
-   - Tofu: 95 kcal, 10g Protein
-   - Blumenkohl: 50 kcal, 4g Protein
-   - Sauce: 25 kcal, 1g Protein
-   - Gesamt: 350 kcal, 21g Protein ✅
+4. Strukturieren: Tofu marinieren (30 Min) → Blumenkohl rösten (200°C, 25 Min) →
+   Quinoa kochen (15 Min) → Bowl zusammenstellen
 
-5. Zubereitung strukturieren:
-   - Tofu marinieren (Misopaste, Ingwer, Knoblauch, 30 Min)
-   - Blumenkohl in Röschen schneiden, mit Sesamöl + Gewürzen bestreichen
-   - Blumenkohl bei 200°C 25 Min rösten
-   - Quinoa kochen (15 Min)
-   - Bowl zusammenstellen, mit Sesam und Frühlingszwiebeln toppen
+5. Meal Prep: 4-5 Tage haltbar, getrennt lagern, täglich frisch kombinieren
 
-6. Meal-Prep-Hinweise:
-   - Alle Komponenten 4-5 Tage haltbar
-   - Getrennt lagern, täglich frisch kombinieren
-   - Tofu wird beim Aufwärmen noch besser
-   - Blumenkohl in Ofen oder Pfanne kurz aufknuspern
-
-7. Optional: Zu recipe-database.md hinzufügen für zukünftige Meal Plans
+6. Optional: Zu recipe-database.md hinzufügen
 ```
 
 ## Troubleshooting
