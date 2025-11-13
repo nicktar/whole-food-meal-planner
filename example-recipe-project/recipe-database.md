@@ -50,36 +50,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 ---
 
-### Buchweizen-Porridge mit Banane
-**Portion: 1 Person | Kalorien: ~340 | Protein: ~11g | Prep: 15 Min**
-
-**Zutaten:**
-- 50g Buchweizen (roh)
-- 200ml Mandelmilch (ungesüßt)
-- 1 mittelgroße Banane, in Scheiben
-- 15g Mandeln, gehackt
-- 1 TL Ahornsirup (optional)
-- 1/2 TL Vanilleextrakt
-- Prise Kardamom
-- Prise Salz
-
-**Zubereitung:**
-1. Buchweizen nach Packungsanweisung kochen (ca. 10-12 Min)
-2. Mandelmilch, Vanille und Salz unterrühren
-3. Weitere 2-3 Min köcheln bis cremig
-4. In Schüssel geben, mit Bananenscheiben belegen
-5. Mandeln und Kardamom darüberstreuen
-6. Optional mit Ahornsirup süßen
-
-**Meal Prep:** Buchweizen vorkochen (4 Tage haltbar), morgens nur mit Milch erwärmen und toppen (3-4 Min)
-
-**Variationen:**
-- Im Sommer: Mit frischen Beeren statt Banane
-- Im Winter: Mit getrockneten Datteln und Zimt
-- Protein-Boost: Mit 1 EL Mandelbutter (+4g Protein)
-
----
-
 ### Quinoa-Frühstücksbowl mit Apfel und Walnüssen
 **Portion: 1 Person | Kalorien: ~380 | Protein: ~14g | Prep: 15 Min**
 
@@ -412,6 +382,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1-2 Snacks optional: ~100-360 kcal, ~6-18g Protein
 
 **Hinweise:**
-- Für mehr Protein: Tofu, Tempeh, extra Hülsenfrüchte hinzufügen
+- Für mehr Protein: Tofu, extra Hülsenfrüchte hinzufügen
 - Für mehr Kalorien: Nüsse, Avocado, Nussmus ergänzen
 - Für weniger Kalorien: Öl reduzieren, mehr Gemüse
