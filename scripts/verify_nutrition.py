@@ -356,9 +356,9 @@ if __name__ == "__main__":
                     "20g Erbsenprotein", "Apfel", "Walnüsse", "Zimt"]
     )
     day1_lunch = Meal(
-        name="Kichererbsen-Buddha-Bowl mit Hokkaido-Kürbis",
-        nutrition=NutritionInfo(calories=420, protein=24, carbs=54, fat=16, fiber=14),
-        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Hokkaido-Kürbis", "Avocado",
+        name="Kichererbsen-Buddha-Bowl mit Karotten-Gurken-Rohkost",
+        nutrition=NutritionInfo(calories=400, protein=24, carbs=54, fat=16, fiber=14),
+        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Karotten-Julienne (roh)", "Gurke (roh)", "Avocado",
                     "Tahini", "Kürbiskerne", "Petersilie"]
     )
     day1_dinner = Meal(
@@ -434,10 +434,10 @@ if __name__ == "__main__":
                     "Rucola", "Vollkorn-Wrap"]
     )
     day4_dinner = Meal(
-        name="Buddha-Bowl mit Linsen, Tofu, Fenchel und Wurzelgemüse",
-        nutrition=NutritionInfo(calories=491, protein=36, carbs=58, fat=16, fiber=15),
-        ingredients=["Linsen", "120g Tofu mariniert", "Quinoa", "Karotten", "Rote Bete",
-                    "Fenchel", "Tahini", "Hanfsamen", "Kürbiskerne", "Petersilie"]
+        name="Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse",
+        nutrition=NutritionInfo(calories=455, protein=36, carbs=58, fat=16, fiber=16),
+        ingredients=["Linsen", "120g Tofu mariniert", "Quinoa", "Karotten-Julienne (roh)", "Rote Bete (gekocht)",
+                    "Rotkohl (roh)", "Tahini", "Hanfsamen", "Kürbiskerne", "Petersilie"]
     )
     day4 = DailyPlan(
         date="2024-11-20 (Donnerstag)",
@@ -458,9 +458,9 @@ if __name__ == "__main__":
                     "Kokosmilch", "Quinoa", "Kürbiskerne", "Gewürze"]
     )
     day5_dinner = Meal(
-        name="Linsen-Feldsalat mit geröstetem Kürbis (Protein-optimiert)",
-        nutrition=NutritionInfo(calories=447, protein=31, carbs=60, fat=12, fiber=17),
-        ingredients=["180g Linsen", "Hokkaido-Kürbis", "Apfel", "Feldsalat", "Walnüsse",
+        name="Linsen-Feldsalat mit buntem Rohkost-Gemüse (Protein-optimiert)",
+        nutrition=NutritionInfo(calories=420, protein=31, carbs=60, fat=12, fiber=18),
+        ingredients=["180g Linsen", "Karotten-Julienne (roh)", "Gurke (roh)", "Apfel", "80g Feldsalat", "Walnüsse",
                     "Quinoa", "Apfel-Balsamico-Vinaigrette"]
     )
     day5 = DailyPlan(

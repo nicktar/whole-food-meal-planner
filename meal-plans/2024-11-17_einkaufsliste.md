@@ -35,29 +35,25 @@
 ### Blattgemüse & Salate:
 - [ ] 200g Rucola (mehrere kleine Packungen für Frische)
 - [ ] 150g frischer Spinat
-- [ ] 100g Feldsalat
+- [ ] **80-100g Feldsalat** (80g benötigt für Tag 5)
 - [ ] 2 Bund Frühlingszwiebeln
 
 ### Kohl & Wurzelgemüse:
-- [ ] 1 kleiner-mittlerer Rotkohl (~600-800g) - **reduziert auf 4 Gerichte**
+- [ ] **1 mittelgroßer Rotkohl (~800-1000g)** - **5x verwendet!** (Curry, geröstet, mariniert, roh)
 - [ ] 250g Brokkoli
-- [ ] 300g Karotten
+- [ ] **500g Karotten** - **erhöht für Rohkost!** (Julienne für 3 Gerichte)
 - [ ] 300g Rote Bete (frisch oder vorgekocht)
-- [ ] 1-2 Fenchelknollen (~200g)
 
 ### Lauchgewächse:
 - [ ] 1 Stange Lauch/Porree (~200-250g)
 
 ### Tomaten & Gurken:
 - [ ] 200g Kirschtomaten
-- [ ] 1 große Salatgurke
+- [ ] **1 große Salatgurke (~400g)** - **für Rohkost in Bowls** (Tag 1 + Tag 5)
 
 ### Zwiebeln & Knoblauch:
 - [ ] 2 große Zwiebeln
 - [ ] 1 Knolle Knoblauch (mind. 6 Zehen benötigt)
-
-### Kürbis:
-- [ ] 1 kleiner Hokkaido-Kürbis (~600-800g) - **November-Saison!**
 
 ### Pilze:
 - [ ] 300g gemischte Pilze (Champignons, Shiitake)
@@ -69,6 +65,7 @@
 
 **Lagerungs-Tipps:**
 - Rotkohl: Ganze Woche haltbar
+- Karotten & Gurke: Vorgeschnittene Rohkost in Behälter mit feuchtem Tuch, hält 5 Tage!
 - Pilze: Innerhalb 3-4 Tagen verbrauchen
 - Kräuter: In feuchtem Küchentuch im Kühlschrank
 
@@ -237,19 +234,18 @@
 ## 🎯 SPEZIAL-TIPP: SAISONALE NOVEMBER-ZUTATEN
 
 **Regional und saisonal in Deutschland (November):**
-- ✅ **Hokkaido-Kürbis** - Hauptsaison Oktober-Januar, perfekt im November!
-- ✅ **Rotkohl** - Hauptsaison, super frisch
+- ✅ **Rotkohl** - Hauptsaison, super frisch, 5x verwendet!
 - ✅ **Lauch/Porree** - Typisches Herbst-/Wintergemüse, Hauptsaison
-- ✅ **Fenchel** - Saison September-März
 - ✅ **Feldsalat** - Der klassische Wintersalat
 - ✅ **Äpfel** - Lageräpfel aus deutscher Ernte
 - ✅ **Walnüsse** - Frische Ernte (September-November)
 - ✅ **Rote Bete** - Herbst-/Wintergemüse
-- ✅ **Karotten** - Ganzjährig, Lagerware
+- ✅ **Karotten** - Ganzjährig, Lagerware, viel verwendet für Rohkost!
+- ✅ **Gurke** - Gewächshausware, ganzjährig verfügbar
 - ✅ **Pilze** - Champignons ganzjährig verfügbar
 
 **Preis-Vorteil:** Diese Zutaten sind jetzt am günstigsten!
-**Vielfalt-Bonus:** Mehr verschiedene Gemüsesorten statt einseitig viel Rotkohl!
+**Meal-Prep-Bonus:** Viel Rohkost = lange haltbar, knackig, keine Ofenzeit!
 
 ---
 

@@ -33,25 +33,28 @@
 
 ---
 
-### Mittagessen: Kichererbsen-Buddha-Bowl mit geröstetem Hokkaido-Kürbis
-**Kalorien:** 420 | **Protein:** 24g | **Ballaststoffe:** 14g | **Prep:** 25 Min
+### Mittagessen: Kichererbsen-Buddha-Bowl mit Karotten-Gurken-Rohkost
+**Kalorien:** 400 | **Protein:** 24g | **Ballaststoffe:** 14g | **Prep:** 10 Min
 
 **Zutaten:**
 - 120g geröstete Kichererbsen (Gewürze: Kreuzkümmel, Paprika, Knoblauchpulver)
 - 80g Quinoa, gekocht
 - 80g Brokkoli, gedämpft
-- 100g Hokkaido-Kürbis, in Würfeln geröstet (200°C, 20 Min)
+- 80g Karotten, in Julienne-Streifen geschnitten (roh)
+- 50g Gurke, in Streifen geschnitten (roh)
 - 1/4 Avocado
 - 2 EL Tahini-Dressing
 - 1 EL Kürbiskerne
 - Frische Petersilie
 
 **Zubereitung:**
-1. Hokkaido in Würfel schneiden (Schale kann dranbleiben!), mit etwas Öl und Gewürzen rösten
-2. Quinoa als Basis in Bowl
-3. Alle vorbereiteten Komponenten arrangieren
+1. Quinoa als Basis in Bowl
+2. Alle vorbereiteten Komponenten arrangieren (Kichererbsen, Brokkoli, Karotten-Julienne, Gurke)
+3. Avocado in Scheiben schneiden
 4. Mit Tahini-Dressing beträufeln
 5. Kürbiskerne und Petersilie darüberstreuen
+
+**Meal-Prep-Hinweis:** Rohkost hält sich 4-5 Tage im Kühlschrank, knackige Textur bleibt erhalten!
 
 ---
 
@@ -81,7 +84,7 @@
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1334 kcal ✅
+- Gesamt Kalorien: 1314 kcal ✅
 - Gesamt Protein: 85g (verbessert durch Proteinpulver-Erhöhung + Tofu) ✅
 - Gesamt Ballaststoffe: 39g ✅
 
@@ -309,16 +312,16 @@
 
 ---
 
-### Abendessen: Buddha-Bowl mit Linsen, Tofu, Fenchel und geröstetem Wurzelgemüse
-**Kalorien:** 491 | **Protein:** 36g | **Ballaststoffe:** 15g | **Prep:** 40 Min
+### Abendessen: Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse
+**Kalorien:** 455 | **Protein:** 36g | **Ballaststoffe:** 16g | **Prep:** 15 Min
 
 **Zutaten:**
 - 120g gekochte braune Linsen
-- **120g Tofu, mariniert und geröstet**
+- **120g Tofu, mariniert und angebraten**
 - 80g Quinoa, gekocht
-- 100g Karotten, in Sticks geschnitten und geröstet
-- 80g Rote Bete, gewürfelt und geröstet
-- 80g Fenchel, in Scheiben geschnitten und geröstet
+- 100g Karotten, geraspelt oder in Julienne-Streifen (roh)
+- 80g Rote Bete, gekocht und gewürfelt
+- 80g Rotkohl, fein gehobelt (roh)
 - 2 EL Tahini-Dressing
 - 1 EL Hanfsamen
 - 1 EL Kürbiskerne
@@ -327,21 +330,22 @@
 - **1 EL Sojasauce (für Tofu-Marinade)**
 
 **Zubereitung:**
-1. Tofu würfeln, mit Sojasauce marinieren (10 Min)
-2. Karotten, Rote Bete und Fenchel bei 200°C 25-30 Min rösten
-3. Tofu in letzten 15 Min mit auf ein Blech geben und mitrösten
-4. Quinoa und Linsen als Basis in Bowl
-5. Geröstetes Gemüse und Tofu arrangieren
-6. Mit Tahini beträufeln
-7. Hanfsamen, Kürbiskerne und Petersilie darüberstreuen
-8. Mit Zitrone beträufeln
+1. Tofu würfeln, mit Sojasauce marinieren (5 Min), in Pfanne anbraten (5-7 Min)
+2. Quinoa und Linsen als Basis in Bowl
+3. Rohkost-Gemüse arrangieren (Karotten, Rote Bete, Rotkohl)
+4. Gebratenen Tofu hinzufügen
+5. Mit Tahini beträufeln
+6. Hanfsamen, Kürbiskerne und Petersilie darüberstreuen
+7. Mit Zitrone beträufeln
+
+**Meal-Prep-Hinweis:** Perfekt vorzubereiten! Rohkost bleibt knackig, Tofu kann vorab gebraten werden.
 
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1421 kcal ✅ (leicht über Target, aber im Range für Protein-Optimierung)
+- Gesamt Kalorien: 1385 kcal ✅
 - Gesamt Protein: 103g ✅ (Über 100g Target erreicht!)
-- Gesamt Ballaststoffe: 37g ✅
+- Gesamt Ballaststoffe: 38g ✅
 
 ---
 
@@ -398,15 +402,16 @@
 
 ---
 
-### Abendessen: Linsen-Feldsalat mit geröstetem Kürbis und Apfel-Balsamico-Vinaigrette (Protein-optimiert)
-**Kalorien:** 447 | **Protein:** 31g | **Ballaststoffe:** 17g | **Prep:** 30 Min
+### Abendessen: Linsen-Feldsalat mit buntem Rohkost-Gemüse und Apfel-Balsamico-Vinaigrette (Protein-optimiert)
+**Kalorien:** 420 | **Protein:** 31g | **Ballaststoffe:** 18g | **Prep:** 15 Min
 
 **Zutaten:**
 - **180g gekochte grüne Linsen** (erhöht für mehr Protein)
-- 120g Hokkaido-Kürbis, in Würfeln geröstet
+- 80g Karotten, in Julienne-Streifen geschnitten (roh)
+- 60g Gurke, in Streifen geschnitten (roh)
 - 1 Apfel, dünn geschnitten
-- 60g Feldsalat
-- 30g Walnüsse, geröstet
+- 80g Feldsalat (erhöht für mehr Volumen)
+- 30g Walnüsse
 - 80g gekochte Quinoa oder Buchweizen
 
 **Apfel-Balsamico-Vinaigrette:**
@@ -417,40 +422,42 @@
 - 1/2 TL Olivenöl
 
 **Zubereitung:**
-1. Kürbis-Würfel bei 200°C 20-25 Min rösten
-2. Walnüsse letzte 5 Min mitrösten
-3. Vinaigrette mischen
-4. Quinoa/Buchweizen als Basis
-5. Großzügige Portion Linsen, gerösteter Kürbis, Apfelscheiben, Feldsalat arrangieren
-6. Mit Vinaigrette beträufeln, Walnüsse darüberstreuen
+1. Vinaigrette mischen
+2. Quinoa/Buchweizen als Basis
+3. Großzügige Portion Linsen, Karotten-Julienne, Gurke, Apfelscheiben, Feldsalat arrangieren
+4. Mit Vinaigrette beträufeln, Walnüsse darüberstreuen
+
+**Meal-Prep-Hinweis:** Perfekt für Meal Prep! Rohkost bleibt 5 Tage frisch und knackig.
 
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1357 kcal ✅
+- Gesamt Kalorien: 1330 kcal ✅
 - Gesamt Protein: 99g ✅ (Sehr nah am 100g Target!)
-- Gesamt Ballaststoffe: 41g ✅
+- Gesamt Ballaststoffe: 42g ✅
 
 ---
 
 ## 📊 WOCHENZUSAMMENFASSUNG
 
-### Durchschnittliche Tageswerte (OPTIMIERTER Plan):
+### Durchschnittliche Tageswerte (OPTIMIERTER MEAL-PREP Plan):
 
-- **Kalorien:** 1349 kcal/Tag (Target: 1200, Range: 1100-1300) ✅ *Leicht über Target für Protein-Optimierung*
+- **Kalorien:** 1332 kcal/Tag (Target: 1200, Range: 1100-1300) ✅ *Leicht über Target für Protein-Optimierung*
 - **Protein:** 99g/Tag (Target: 110g, Minimum: 100g) ✅ **Minimum erreicht!**
-- **Ballaststoffe:** 39g/Tag (Target: 30g, Minimum: 25g) ✅
+- **Ballaststoffe:** 40g/Tag (Target: 30g, Minimum: 25g) ✅ **Exzellent!**
 
-### Protein-Optimierung implementiert:
+### Optimierungen implementiert:
 
 ✅ **Erbsenprotein-Pulver erhöht** in allen Overnight Oats (15g → 20-25g)
 ✅ **Tofu hinzugefügt** zu 5 Hauptmahlzeiten (120-180g pro Gericht)
 ✅ **Hülsenfrüchte erhöht** in 3 Gerichten (zusätzliche 60-200g)
+✅ **Meal-Prep-Optimierung:** Geröstetes Gemüse durch Rohkost ersetzt (hält länger, knackig, keine Ofenzeit)
 
 **Ergebnis:**
 - Durchschnittlich **+30g Protein/Tag** (von 69g → 99g)
-- Durchschnittlich **+189 kcal/Tag** (von 1160 → 1349 kcal)
+- Durchschnittlich **+172 kcal/Tag** (von 1160 → 1332 kcal)
 - Alle 5 Tage nahe oder über dem 100g Protein-Minimum ✅
+- **Meal-Prep-freundlich:** Keine langen Röstzeiten, Rohkost hält 5 Tage frisch ✅
 
 **Tägliche Protein-Verteilung:**
 - Tag 1: 85g (niedrigster Tag, immer noch solide)
@@ -461,56 +468,62 @@
 
 ### Saisonale November-Zutaten verwendet:
 
-✅ **Rotkohl** - 4x verwendet (reduziert, vielfältige Zubereitungen)
-✅ **Hokkaido-Kürbis** - 2x (geröstet in Buddha-Bowl & Salat)
+✅ **Rotkohl** - 5x verwendet (Buddha-Bowl Tag 4, Curry, Salat, Wrap, geröstet Tag 3)
 ✅ **Lauch/Porree** - 1x (Miso-Suppe)
-✅ **Fenchel** - 1x (geröstet in Buddha-Bowl)
-✅ **Feldsalat** - 1x (Salat mit Kürbis)
+✅ **Feldsalat** - 1x (Salat Tag 5, erhöht auf 80g)
 ✅ **Äpfel** - 6x verwendet (Overnight Oats, Salate, Quinoa-Bowl)
-✅ **Walnüsse** - 7x verwendet (verschiedene Mahlzeiten)
+✅ **Walnüsse** - 6x verwendet (verschiedene Mahlzeiten)
 ✅ **Pilze** - 4x verwendet (Shiitake, Champignons)
-✅ **Wurzelgemüse** - Rote Bete, Karotten (mehrfach)
+✅ **Wurzelgemüse** - Rote Bete, Karotten (mehrfach, meist roh für Meal Prep)
 ✅ **Quinoa** - Vielseitig einsetzbar
 
-### Gemüse-Vielfalt:
+### Gemüse-Vielfalt (Meal-Prep-optimiert):
 
-- **Kohl-Varianten:** Rotkohl (4x)
-- **Kürbis:** Hokkaido (2x)
-- **Wurzelgemüse:** Rote Bete, Karotten, Fenchel
+- **Kohl-Varianten:** Rotkohl (5x, roh + gekocht)
+- **Wurzelgemüse:** Karotten (roh, Julienne, geraspelt), Rote Bete (gekocht)
+- **Gurken:** Frische Gurkenstreifen (2x)
 - **Lauchgewächse:** Lauch/Porree, Frühlingszwiebeln
-- **Blattgemüse:** Rucola, Feldsalat, Spinat
+- **Blattgemüse:** Rucola, Feldsalat (erhöht), Spinat
 - **Pilze:** Shiitake, Champignons
 
 ### Meal Prep Synergien:
 
-1. **Kürbis** → Rösten für 2 verschiedene Gerichte
-2. **Rotkohl** → 4 verschiedene Zubereitungsarten (Curry, geröstet, mariniert, roh)
+1. **Karotten-Julienne** → Vorbereiten für 3 verschiedene Gerichte (hält 5 Tage!)
+2. **Rotkohl** → 5 verschiedene Zubereitungsarten (Curry, geröstet, mariniert, roh in 2 Bowls)
 3. **Quinoa** → 1x kochen für mehrere Tage
 4. **Linsen & Kichererbsen** → Batch-Cooking
 5. **Overnight Oats** → 3-5 Portionen auf einmal
 6. **Dressings** → 1x für die ganze Woche
 7. **Pilz-Nuss-Füllung** → Auch als Bowl-Topping verwendbar
+8. **Rohkost** → Keine Ofenzeit, perfekt vorzubereiten, bleibt knackig! ✅
 
 ---
 
 ## ✨ VERBESSERUNGEN GEGENÜBER URSPRUNGSPLAN
 
 **Mehr Vielfalt:**
-- Rotkohl von 8x auf 4x reduziert
-- 4 neue Gemüsesorten hinzugefügt (Hokkaido, Chinakohl, Fenchel, Feldsalat)
-- Bessere Abwechslung in Geschmack und Textur
+- Rotkohl von 8x auf 5x optimiert (verschiedene Zubereitungen)
+- Lauch/Porree statt Chinakohl (praktischer, weniger Verschwendung)
+- Rohkost statt geröstetem Gemüse (Meal-Prep-freundlich)
+- Mehr Gemüsevielfalt: Karotten-Julienne, Gurke, Feldsalat erhöht
+
+**Meal-Prep-Optimierung:**
+- Keine langen Röstzeiten für einzelne Gemüse (spart 40+ Min!)
+- Rohkost bleibt 5 Tage frisch und knackig
+- Kein Hokkaido (zu kleine Menge = Verschwendung)
+- Perfekt vorzubereiten am Sonntag
 
 **Weiterhin saisonal:**
-- Alle Ersatz-Gemüse sind November-saisonal in Deutschland
-- Hokkaido-Kürbis: Hauptsaison Oktober-Januar
+- Alle Gemüse sind November-saisonal in Deutschland
 - Lauch/Porree: Herbst-/Wintergemüse, Hauptsaison
-- Fenchel: Saison September-März
 - Feldsalat: Typischer Wintersalat
+- Rotkohl: November-Hauptsaison
+- Karotten, Rote Bete: Lagerfähige Wintergemüse
 
 **Nährwerte:**
-- Ähnliche Kalorienbilanz
-- Protein-Werte vergleichbar
-- Teilweise höherer Ballaststoffgehalt
+- Ähnliche Kalorienbilanz (1332 kcal/Tag statt 1349)
+- Protein-Werte gleich (99g/Tag)
+- Höherer Ballaststoffgehalt (40g/Tag)
 
 ---
 

@@ -109,46 +109,51 @@
 
 ### Ofen-Phase (parallel nutzen!):
 
-#### Task 2A: Gemüse vorbereiten (20 Min)
+#### Task 2A: Gemüse vorbereiten - ROHKOST-FOKUS! (25 Min)
 
-**Rotkohl** (reduziert):
+**Rotkohl** (5x verwendet!):
 - [ ] Rotkohl waschen, Strunk entfernen
 - [ ] Verschiedene Zubereitungen:
-  - **Fein hobeln für Salate:** 180g (Tag 1 Abend, mariniert für Wrap Tag 4)
+  - **Fein hobeln für rohe Bowls:** 260g (Tag 1 Abend, Tag 4 Abend Buddha-Bowl, mariniert für Wrap Tag 4)
   - **Fein schneiden für Curry:** 150g (Tag 2 Mittag)
   - **Wedges zum Rösten:** 150g (Tag 3 Abend)
 - [ ] In beschriftete Behälter/Beutel
 
-**Hokkaido-Kürbis:**
-- [ ] In Würfel schneiden (~400g, Schale kann dranbleiben!)
-- [ ] Für Tag 1 Mittag (100g) und Tag 5 Abend (120g)
+**Karotten-Julienne** (MEAL-PREP-STAR! ✨):
+- [ ] 500g Karotten schälen
+- [ ] **260g in Julienne-Streifen** schneiden (für Tag 1 Mittag, Tag 4 Abend, Tag 5 Abend)
+- [ ] In luftdichten Containern mit feuchtem Küchentuch (hält 5 Tage!)
+- [ ] Rest für andere Verwendung aufbewahren
+
+**Gurken-Streifen** (Rohkost):
+- [ ] 1 große Gurke (110g benötigt): in Streifen schneiden
+- [ ] Für Tag 1 Mittag (50g) und Tag 5 Abend (60g)
+- [ ] In luftdichtem Container
 
 **Lauch/Porree:**
 - [ ] 150g in feine Ringe schneiden, gründlich waschen (für Tag 3 Miso-Suppe)
 
-**Fenchel:**
-- [ ] 80g in Scheiben schneiden (für Tag 4 Abend Buddha-Bowl)
-
 **Feldsalat:**
-- [ ] 60g waschen, in Beutel für Tag 5 Abend
+- [ ] **80g** waschen, in Beutel für Tag 5 Abend (erhöht!)
 
-#### Task 2B: Gemüse rösten - Blech 1 (10 Min Prep + 25 Min Ofen)
+#### Task 2B: Rotkohl rösten (5 Min Prep + 25 Min Ofen) - NUR 1 BLECH!
 **Ofen auf 200°C vorheizen**
 
 - [ ] 150g Rotkohl-Wedges (für Tag 3 Abend)
-- [ ] 220g Hokkaido-Kürbis-Würfel (für Tag 1 & Tag 5)
-- [ ] Mit 1 EL Olivenöl, Salz, Pfeffer, Kreuzkümmel marinieren
+- [ ] Mit 1 TL Olivenöl, 1 TL Ahornsirup, Salz, Pfeffer marinieren
 - [ ] Auf Backblech verteilen
-- [ ] **Rösten:** 20-25 Min (Rotkohl bis Ränder karamellisieren, Kürbis weich)
+- [ ] **Rösten:** 20-25 Min (bis Ränder karamellisieren)
+- [ ] Walnüsse (für Tag 3) letzte 5 Min mitrösten
 
-#### Task 2C: Gemüse rösten - Blech 2 (10 Min Prep + 25 Min Ofen)
-- [ ] 300g Karotten in Sticks schneiden
-- [ ] 300g Rote Bete würfeln (Handschuhe!)
-- [ ] 80g Fenchel in Scheiben
-- [ ] Mit 1 EL Olivenöl, Salz, Gewürzen (Kreuzkümmel) mischen
-- [ ] **Rösten:** 25-30 Min
+**MEAL-PREP-VORTEIL:** Nur 1 Blech statt 2! Spart Zeit und Energie! ✅
 
-#### Task 2D: Kichererbsen rösten - Blech 3 (5 Min Prep + 25 Min Ofen)
+#### Task 2C: Rote Bete kochen (10 Min aktiv + 30 Min passiv)
+- [ ] 300g Rote Bete schälen, würfeln (Handschuhe!)
+- [ ] In Topf mit Wasser 30-40 Min kochen bis weich
+- [ ] Abgießen, auskühlen lassen
+- [ ] **Verwendung:** Tag 2 Abend (80g), Tag 4 Abend (80g)
+
+#### Task 2D: Kichererbsen rösten - Blech 2 (5 Min Prep + 25 Min Ofen)
 - [ ] **420g gekochte Kichererbsen** gut abtropfen und trockentupfen - *erhöht für Protein-Optimierung*
 - [ ] Mit Gewürzmischung vermengen:
   - 2 TL Kreuzkümmel
@@ -272,11 +277,12 @@
 
 ### Mittagessen portionieren:
 
-#### Container 1 - Tag 1 Mittag (Buddha-Bowl):
+#### Container 1 - Tag 1 Mittag (Buddha-Bowl mit Rohkost):
 - [ ] 80g gekochte Quinoa (Basis)
 - [ ] 120g geröstete Kichererbsen
 - [ ] 80g gedämpfter Brokkoli
-- [ ] 100g gerösteter Hokkaido-Kürbis
+- [ ] **80g Karotten-Julienne (roh)** ✨
+- [ ] **50g Gurkenstreifen (roh)** ✨
 - [ ] Label: "Mo Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
 
 #### Container 2 - Tag 2 Mittag (Rotkohl-Curry mit Tofu):
@@ -333,20 +339,22 @@
 - [ ] 80g Quinoa
 - [ ] Walnüsse, Rucola (frisch hinzufügen)
 
-#### Container 9 - Tag 4 Abend (Buddha-Bowl mit Tofu):
+#### Container 9 - Tag 4 Abend (Buddha-Bowl mit Tofu und Rohkost):
 - [ ] 120g Linsen
 - [ ] **120g marinierter Tofu** (separat rösten am Tag, oder vorbereiten) ✨
 - [ ] 80g Quinoa
-- [ ] Geröstete Karotten
-- [ ] Geröstete Rote Bete
-- [ ] Gerösteter Fenchel
+- [ ] **100g Karotten-Julienne (roh)** ✨
+- [ ] 80g Rote Bete (gekocht, gewürfelt)
+- [ ] **80g Rotkohl, fein gehobelt (roh)** ✨
 - [ ] Tahini, Hanfsamen, Kürbiskerne separat
 
-#### Container 10 - Tag 5 Abend (Linsen-Salat, Protein-optimiert):
+#### Container 10 - Tag 5 Abend (Linsen-Feldsalat mit Rohkost):
 - [ ] **180g Linsen** (erhöht!) ✨
 - [ ] 80g Quinoa/Buchweizen
-- [ ] 120g gerösteter Hokkaido-Kürbis
-- [ ] **Am Abend:** Apfel, Walnüsse, Feldsalat, Dressing
+- [ ] **80g Karotten-Julienne (roh)** ✨
+- [ ] **60g Gurkenstreifen (roh)** ✨
+- [ ] **80g Feldsalat** (in separatem Beutel) ✨
+- [ ] **Am Abend:** Apfel schneiden, Walnüsse, Dressing hinzufügen
 
 ### Beschriftung & Lagerung:
 - [ ] Alle Container mit Tag, Mahlzeit, Datum beschriften
@@ -461,7 +469,7 @@ Nach Meal Prep hast du:
 - [ ] 5 Abendessen (teils komplett, teils Komponenten)
 - [ ] 2 Dressings (Tahini, Apfel-Balsamico)
 - [ ] Alle Basis-Komponenten (Quinoa, Linsen, Kichererbsen)
-- [ ] Geröstetes Gemüse für ganze Woche
+- [ ] **Rohkost-Gemüse vorbereitet** (Karotten-Julienne, Gurkenstreifen, Rotkohl) - **hält 5 Tage frisch!** ✨
 
 **Ergebnis:** 15 gesunde, nahrhafte Mahlzeiten für die ganze Woche! 🎉
 
