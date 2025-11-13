@@ -7,11 +7,37 @@ description: Comprehensive meal planning system for the Whole Food Challenge wit
 
 Complete meal planning system für die Whole Food Challenge mit Rezept-Datenbank, Nährwert-Verifikation und Mealie-Integration.
 
+## External Recipe Database Support
+
+**This skill supports project-specific recipe databases!**
+
+When invoked from a project, the skill will:
+1. **First check** for `recipe-database.md` in the current project directory
+2. **Fall back** to bundled recipes (in `references/recipe-database.md`) if no external database exists
+3. Support **custom paths** if specified by the user (e.g., `my-recipes/database.md`)
+
+**Benefits:**
+- Update recipes without skill releases
+- Maintain multiple recipe collections (family recipes, seasonal, experimental)
+- Version control your personal recipes separately
+- Share recipe collections independently
+
+**To use external recipes:**
+1. Create a `recipe-database.md` file in your project directory
+2. Follow the same format as the bundled recipe database (see bundled resources below)
+3. Invoke this skill from your project - it will automatically use your recipes
+4. The bundled recipes remain available as reference templates
+
+**When working with external recipes:**
+- Always check which recipe source is being used (external vs. bundled)
+- Maintain the same structure: Challenge rules, nutritional info, meal prep notes
+- The skill will indicate which recipe source it's using
+
 ## Quick Start
 
 **Typischer Workflow:**
 1. Anforderungen sammeln (siehe `references/meal-plan-workflow.md` Abschnitt 1)
-2. Rezepte aus Datenbank auswählen (`references/recipe-database.md`)
+2. Rezepte aus Datenbank auswählen (externe `recipe-database.md` oder `references/recipe-database.md`)
 3. Meal Plan erstellen (Templates in `meal-plan-workflow.md`)
 4. Mit `scripts/verify_nutrition.py` validieren
 5. Optional: Mealie-Export mit `scripts/mealie_export.py`
@@ -21,8 +47,9 @@ Complete meal planning system für die Whole Food Challenge mit Rezept-Datenbank
 # 1. Workflow-Guide lesen für vollständigen Prozess
 view references/meal-plan-workflow.md
 
-# 2. Rezepte durchsehen
-view references/recipe-database.md
+# 2. Check for external recipes first, then bundled recipes
+ls recipe-database.md  # Check if external database exists
+view recipe-database.md || view references/recipe-database.md
 
 # 3. Nach Plan-Erstellung: Nährwerte verifizieren
 python3 scripts/verify_nutrition.py
@@ -83,11 +110,13 @@ python3 scripts/mealie_export.py
 
 ### References
 
-**`references/recipe-database.md`** - Verifizierte Rezepte
+**Recipe Database** - Verifizierte Rezepte
+- **Location:** `recipe-database.md` (external, if present) or `references/recipe-database.md` (bundled)
 - Komplette Rezept-Sammlung mit Nährwerten
 - Frühstück, Mittag/Abend, Dressings, Snacks
 - Meal-Prep-Hinweise und Haltbarkeit
 - **Wann lesen:** Bei jeder Meal Plan Erstellung für Rezept-Auswahl
+- **External support:** Create `recipe-database.md` in your project for custom recipes
 
 **`references/meal-plan-workflow.md`** - Workflow-Guide
 - Schritt-für-Schritt Anleitung
@@ -108,10 +137,16 @@ Nutze das Template aus `meal-plan-workflow.md` Abschnitt 1:
 - Zu verbrauchende Zutaten
 
 ### 2. Rezeptauswahl
-Aus `recipe-database.md`:
+**First check for external recipe database in project root, otherwise use bundled recipes:**
+```bash
+# Check which recipe source is available
+ls recipe-database.md && echo "Using external recipes" || echo "Using bundled recipes"
+```
+
+Aus der Recipe Database (external oder `references/recipe-database.md`):
 - **Frühstück:** 3-5 Rezepte rotieren (Overnight Oats, Porridge, Bowls)
 - **Mittag/Abend:** 5-7 Rezepte mit Synergie-Fokus
-- **Kriterien:** 
+- **Kriterien:**
   - Verschiedene Proteinquellen
   - Mix warm/kalt
   - Meal-Prep-freundlich
@@ -212,7 +247,7 @@ python3 scripts/mealie_export.py
 ### Szenario 2: Spezifische Zutaten verwerten
 ```
 1. Nutzer hat z.B. viel Rotkohl
-2. recipe-database.md nach Rotkohl-Rezepten durchsuchen:
+2. Recipe Database (external oder bundled) nach Rotkohl-Rezepten durchsuchen:
    - Rotkohl-Curry
    - Rotkohl-Salat mit Walnüssen
    - Rotkohl-Miso-Suppe
