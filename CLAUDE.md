@@ -30,6 +30,64 @@ The SKILL.md file serves as the skill's prompt that gets loaded when the skill i
 
 When working on this codebase, remember that changes to SKILL.md affect how other Claude instances will use this skill.
 
+## External Recipe Database Architecture
+
+**NEW**: The skill now supports project-specific recipe databases, allowing users to maintain recipes separately from the skill itself.
+
+### How It Works
+
+When the skill is invoked from a project:
+1. **Check external**: Look for `recipe-database.md` in the project root
+2. **Use external if found**: Load recipes from the project's database
+3. **Fall back to bundled**: Use `references/recipe-database.md` if no external database exists
+4. **Support custom paths**: Accept user-specified paths (e.g., `my-recipes/database.md`)
+
+### Benefits
+
+- ✅ **No skill releases needed**: Users update recipes without modifying the skill
+- ✅ **Multiple collections**: Different projects can have different recipe sets
+- ✅ **Version control**: Users can track recipe changes independently
+- ✅ **Privacy**: Personal recipes stay in user projects
+- ✅ **Sharing**: Recipe collections can be shared without the entire skill
+
+### File Structure
+
+```
+User's project/
+├── recipe-database.md        # External recipes (auto-detected)
+└── meal-plans/              # Generated meal plans
+
+This skill repo/
+├── references/
+│   ├── recipe-database.md         # Bundled recipes (fallback)
+│   ├── external-recipes-guide.md  # Guide for external recipes
+│   └── meal-plan-workflow.md      # Workflow guide
+└── example-recipe-project/        # Template for users
+    ├── README.md
+    ├── recipe-database.md
+    └── .gitignore
+```
+
+### For Developers
+
+When working on the skill:
+- **Bundled recipes** in `references/recipe-database.md` serve as:
+  - Default recipes when no external database exists
+  - Reference templates for format
+  - Examples for new users
+- **External recipe guide** at `references/external-recipes-guide.md` explains how users can create their own recipe databases
+- **Example project** in `example-recipe-project/` provides a ready-to-use template
+
+### Maintaining Recipe Format
+
+Both bundled and external recipes must follow the same format:
+- Challenge rules section (ingredient compliance)
+- Recipe sections: FRÜHSTÜCK, MITTAGESSEN & ABENDESSEN, DRESSINGS & SAUCEN, SNACKS & EXTRAS
+- Each recipe: name, metadata (portion/calories/protein/prep), ingredients, instructions, meal prep notes
+- Separator `---` between recipes
+
+See `references/external-recipes-guide.md` for detailed format requirements.
+
 ## Key Commands
 
 ### Nutritional Verification
@@ -81,14 +139,20 @@ The codebase uses **data-oriented architecture** with clear patterns:
 ### File Organization
 
 ```
-scripts/              # Python automation tools
-  verify_nutrition.py # Validates meal plans (381 lines)
-  mealie_export.py    # Exports to Mealie format (340 lines)
-references/           # Documentation and recipes
-  meal-plan-workflow.md   # 8-step planning guide
-  recipe-database.md      # Verified recipes with nutrition
-mealie_exports/       # Generated JSON files for Mealie
-SKILL.md             # Project documentation and quick reference
+scripts/                        # Python automation tools
+  verify_nutrition.py           # Validates meal plans (381 lines)
+  mealie_export.py              # Exports to Mealie format (340 lines)
+references/                     # Documentation and recipes
+  meal-plan-workflow.md         # 8-step planning guide
+  recipe-database.md            # Bundled recipes (fallback)
+  external-recipes-guide.md     # Guide for external recipe databases
+example-recipe-project/         # Template for external recipes
+  README.md                     # Setup instructions
+  recipe-database.md            # Sample external recipe collection
+  .gitignore                    # Git configuration
+mealie_exports/                 # Generated JSON files for Mealie
+SKILL.md                        # Skill definition and documentation
+CLAUDE.md                       # This file - developer guidance
 ```
 
 ## Challenge Rules & Targets
@@ -177,6 +241,8 @@ recipe = MealieRecipe(
 
 ## Recipe Database
 
+### Bundled Recipes
+
 The `references/recipe-database.md` contains:
 - **Breakfast**: Overnight Oats, Quinoa Bowls, Porridge variations
 - **Lunch/Dinner**: Buddha Bowls, Curries, Salads, Soups, Wraps
@@ -190,6 +256,17 @@ Each recipe includes:
 - Variations
 
 **Key principle**: Maximize ingredient synergies (e.g., Rotkohl for curry, salad, soup, wraps)
+
+### External Recipe Support
+
+Users can now maintain their own recipe databases:
+- **Location**: `recipe-database.md` in their project directory
+- **Usage**: Automatically detected when skill is invoked
+- **Benefits**: Update recipes without skill releases, version control separately
+- **Template**: See `example-recipe-project/` for ready-to-use template
+- **Guide**: Full instructions in `references/external-recipes-guide.md`
+
+When the skill is invoked, it checks for external recipes first, then falls back to bundled recipes.
 
 ## Development Notes
 
@@ -267,6 +344,8 @@ Before finalizing any meal plan, verify:
 
 - Full documentation: `SKILL.md`
 - Step-by-step workflow: `references/meal-plan-workflow.md`
-- Recipe collection: `references/recipe-database.md`
+- Bundled recipe collection: `references/recipe-database.md`
+- External recipe guide: `references/external-recipes-guide.md`
+- Example recipe project: `example-recipe-project/`
 - Verification script: `scripts/verify_nutrition.py`
 - Mealie export: `scripts/mealie_export.py`

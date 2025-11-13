@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+.temp/
+
+# Personal notes (uncomment if you keep personal notes)
+# notes/
+# personal/
