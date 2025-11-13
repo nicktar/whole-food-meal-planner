@@ -1,0 +1,133 @@
+{
+  "name": "Kichererbsen-Buddha-Bowl mit Karotten-Gurken-Rohkost",
+  "description": "Meal-Prep-optimierte Buddha-Bowl mit rohem Gemüse statt geröstetem. Rohkost bleibt 4-5 Tage knackig! Perfekt für die Wochenvorbereitung.",
+  "recipeYield": "1 Portion",
+  "recipeIngredient": [
+    {
+      "title": "Kichererbsen",
+      "note": "gekocht, geröstet",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 120
+    },
+    {
+      "title": "Quinoa",
+      "note": "gekocht",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Brokkoli",
+      "note": "gedämpft",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Karotten",
+      "note": "in Julienne-Streifen, roh",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 80
+    },
+    {
+      "title": "Gurke",
+      "note": "in Streifen, roh",
+      "unit": {
+        "name": "g"
+      },
+      "quantity": 50
+    },
+    {
+      "title": "Avocado",
+      "unit": {
+        "name": "Stück"
+      },
+      "quantity": 0.25
+    },
+    {
+      "title": "Tahini-Dressing",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 2
+    },
+    {
+      "title": "Kürbiskerne",
+      "unit": {
+        "name": "EL"
+      },
+      "quantity": 1
+    },
+    {
+      "title": "Petersilie",
+      "note": "frisch, zum Garnieren"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Quinoa kochen: 80g Quinoa mit 160ml Wasser 15 Min köcheln, 5 Min ruhen lassen.",
+      "title": "Schritt 1"
+    },
+    {
+      "text": "Kichererbsen rösten: Mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, 1 TL Knoblauchpulver würzen. Bei 200°C für 25 Min rösten bis knusprig.",
+      "title": "Schritt 2"
+    },
+    {
+      "text": "Brokkoli dämpfen: In Röschen schneiden, 8 Min dämpfen, kalt abschrecken.",
+      "title": "Schritt 3"
+    },
+    {
+      "text": "Rohkost vorbereiten: Karotten mit Gemüseschäler in dünne Julienne-Streifen schneiden. Gurke in Streifen schneiden.",
+      "title": "Schritt 4"
+    },
+    {
+      "text": "Bowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren (Kichererbsen, Brokkoli, Karotten-Julienne, Gurkenstreifen, Avocado).",
+      "title": "Schritt 5"
+    },
+    {
+      "text": "Mit Tahini-Dressing beträufeln, Kürbiskerne darüberstreuen, mit Petersilie garnieren.",
+      "title": "Schritt 6"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Whole Food Challenge"
+    },
+    {
+      "name": "Lunch"
+    },
+    {
+      "name": "Vegan"
+    },
+    {
+      "name": "Meal Prep"
+    },
+    {
+      "name": "Bowl"
+    },
+    {
+      "name": "Rohkost"
+    }
+  ],
+  "recipeCategory": [
+    {
+      "name": "Mittagessen"
+    }
+  ],
+  "totalTime": "PT35M",
+  "prepTime": "PT10M",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "400 kcal",
+    "protein": "24g",
+    "carbohydrateContent": "54g",
+    "fatContent": "16g",
+    "fiberContent": "14g"
+  }
+}
