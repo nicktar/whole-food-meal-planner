@@ -30,29 +30,35 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 ## FRÜHSTÜCK
 
 ### Overnight Oats (Basis-Rezept)
-**Portion: 1 Person | Kalorien: ~350 | Protein: ~13g | Prep: 5 Min + Overnight**
+**Portion: 1 Person | Kalorien: ~280 | Protein: ~20g (mit Proteinpulver) | Prep: 5 Min + Overnight**
 
 **Basis-Zutaten:**
-- 50g Haferflocken (Vollkorn)
+- 30g Haferflocken (Vollkorn)
 - 150ml Pflanzenmilch (Hafer, Mandel, Soja - ungesüßt)
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Nussmus (Mandel, Cashew oder Erdnuss)
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)*
 - Prise Salz
 - Optional: 1/2 TL Ahornsirup oder 2-3 entsteinte Datteln, fein gehackt
 
 **Basis-Zubereitung:**
-1. Alle Zutaten in einem Schraubglas oder luftdichten Container mischen
-2. Gut umrühren, sodass keine Klumpen entstehen
-3. Mindestens 4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
-4. Am Morgen kurz umrühren und mit Toppings servieren
+1. Alle trockenen Zutaten (Haferflocken, Chiasamen, Leinsamen, Proteinpulver) in Glas mischen
+2. Pflanzenmilch und Nussmus hinzufügen, sehr gut durchrühren (Proteinpulver neigt zu Klumpen!)
+3. Nach 5 Min nochmal umrühren
+4. Mindestens 4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
+5. Am Morgen kurz umrühren und mit Toppings servieren
 
 **Standard-Nährwerte (Basis ohne Toppings):**
 - Kalorien: ~280 kcal
-- Protein: ~10g
-- Ballaststoffe: ~10g
+- Protein: ~20g (mit 15g Erbsenprotein-Pulver)
+- Ballaststoffe: ~9g
 - Fett: ~10g
-- Kohlenhydrate: ~35g
+- Kohlenhydrate: ~25g
+
+**Basis ohne Proteinpulver:** ~210 kcal | ~7g Protein
+
+*Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 ---
 
@@ -64,7 +70,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Hanfsamen
 - Prise Zimt
 
-**Gesamt-Nährwerte:** ~350 kcal | ~12g Protein
+**Gesamt-Nährwerte:** ~350 kcal | ~22g Protein
 
 ---
 
@@ -77,7 +83,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 TL Zimt
 - 1 EL Rosinen (optional)
 
-**Gesamt-Nährwerte:** ~370 kcal | ~13g Protein
+**Gesamt-Nährwerte:** ~370 kcal | ~23g Protein
 
 ---
 
@@ -90,7 +96,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Kürbiskerne
 - Saft von 1/4 Limette
 
-**Gesamt-Nährwerte:** ~365 kcal | ~12g Protein
+**Gesamt-Nährwerte:** ~365 kcal | ~22g Protein
 
 ---
 
@@ -105,7 +111,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Mandeln, gehackt
 - 1 TL Nussmus extra als Topping
 
-**Gesamt-Nährwerte:** ~390 kcal | ~14g Protein
+**Gesamt-Nährwerte:** ~390 kcal | ~24g Protein
 
 ---
 
@@ -121,7 +127,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Sonnenblumenkerne
 - 50g Beeren
 
-**Gesamt-Nährwerte:** ~355 kcal | ~18g Protein
+**Gesamt-Nährwerte:** ~355 kcal | ~28g Protein
 
 ---
 
@@ -134,39 +140,48 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 **Anpassungsmöglichkeiten:**
 - **Mehr Kalorien:** Nussmenge erhöhen, Avocado hinzufügen
-- **Mehr Protein:** Zusätzliche Samen, proteinreichere Pflanzenmilch (Soja)
-- **Weniger Kalorien:** Nussmus reduzieren/weglassen, mehr Beeren statt Nüsse
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, zusätzliche Samen, proteinreichere Pflanzenmilch (Soja)
+- **Weniger Kalorien:** Haferflocken auf 20g reduzieren, Nussmus reduzieren/weglassen, mehr Beeren statt Nüsse
+- **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~210 kcal und ~7g Protein
 - **Mehr Ballaststoffe:** Zusätzliche Leinsamen, mehr Chiasamen
 
 ---
 
 ### Chia Pudding (Basis-Rezept)
-**Portion: 1 Person | Kalorien: ~320 | Protein: ~11g | Prep: 5 Min + 2-4 Std Quellzeit**
+**Portion: 1 Person | Kalorien: ~340 | Protein: ~22g (mit Proteinpulver) | Prep: 5 Min + 2-4 Std Quellzeit**
 
 **Basis-Zutaten:**
 - 3 EL Chiasamen (~30g)
 - 200ml Pflanzenmilch (Hafer, Mandel, Soja - ungesüßt)
 - 1/2 TL Vanilleextrakt oder -pulver
 - 1 EL Nussmus (Mandel oder Cashew)
+- 15-20g Erbsenprotein-Pulver (pur, ohne Zusätze)*
 - Optional: 1 TL Ahornsirup oder 2 entsteinte Datteln, püriert
 - Prise Salz
 
 **Basis-Zubereitung:**
-1. Alle Zutaten in einem Glas oder Shaker gut vermischen
-2. Nach 5 Minuten nochmal kräftig durchrühren (verhindert Klumpen)
-3. Mindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
-4. Vor Servieren umrühren und mit Toppings versehen
+1. Chiasamen und Proteinpulver in Glas oder Shaker geben
+2. Pflanzenmilch, Vanille, Nussmus hinzufügen
+3. Sehr kräftig schütteln oder mit Schneebesen rühren (Proteinpulver + Chiasamen = Klumpengefahr!)
+4. Nach 5 Minuten nochmal kräftig durchrühren
+5. Mindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen
+6. Vor Servieren umrühren und mit Toppings versehen
 
 **Standard-Nährwerte (Basis ohne Toppings):**
-- Kalorien: ~260 kcal
-- Protein: ~9g
+- Kalorien: ~340 kcal
+- Protein: ~22g (mit 15g Erbsenprotein-Pulver)
 - Ballaststoffe: ~12g
 - Fett: ~13g
-- Kohlenhydrate: ~22g
+- Kohlenhydrate: ~25g
+
+**Basis ohne Proteinpulver:** ~260 kcal | ~9g Protein
+
+*Hinweis: Reines Erbsenprotein-Isolat ohne Zusätze ist eine Grauzone bei Challenge-Konformität. Verwende nur bei persönlicher Freigabe.
 
 **Konsistenz-Tipp:**
-- Dickflüssiger: 250ml Milch statt 200ml
+- Dickflüssiger: 250ml Milch statt 200ml (besonders mit Proteinpulver empfohlen)
 - Cremiger: Nach Quellen mit Löffel cremig rühren oder kurz blenden
+- Zu dick geworden: 1-2 EL zusätzliche Pflanzenmilch unterrühren
 
 ---
 
@@ -178,7 +193,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Mandelsplitter
 - Frische Minze (optional)
 
-**Gesamt-Nährwerte:** ~320 kcal | ~11g Protein
+**Gesamt-Nährwerte:** ~400 kcal | ~24g Protein
 
 ---
 
@@ -193,7 +208,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 2 EL Kokosraspeln
 - 1 EL Cashews, gehackt
 
-**Gesamt-Nährwerte:** ~355 kcal | ~11g Protein
+**Gesamt-Nährwerte:** ~435 kcal | ~24g Protein
 
 ---
 
@@ -208,7 +223,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL gehackte Walnüsse
 - Dunkle Schokoraspeln (optional, 85%+ Kakao)
 
-**Gesamt-Nährwerte:** ~340 kcal | ~12g Protein
+**Gesamt-Nährwerte:** ~420 kcal | ~25g Protein
 
 ---
 
@@ -224,7 +239,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Walnüsse
 - 1 TL Ahornsirup zum Beträufeln
 
-**Gesamt-Nährwerte:** ~345 kcal | ~11g Protein
+**Gesamt-Nährwerte:** ~425 kcal | ~24g Protein
 
 ---
 
@@ -239,7 +254,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Kürbiskerne
 - 50g Blaubeeren
 
-**Gesamt-Nährwerte:** ~335 kcal | ~12g Protein
+**Gesamt-Nährwerte:** ~415 kcal | ~25g Protein
 
 ---
 
@@ -255,7 +270,7 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - 1 EL Sonnenblumenkerne
 - 50g Beeren deiner Wahl
 
-**Gesamt-Nährwerte:** ~350 kcal | ~19g Protein
+**Gesamt-Nährwerte:** ~430 kcal | ~32g Protein
 
 ---
 
@@ -265,18 +280,21 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - Perfekt für Transport in Schraubgläsern
 - Schichten: Chia Pudding unten, Toppings oben (erst beim Essen mischen)
 - TK-Früchte können direkt zugegeben werden
+- Bei Proteinpulver: Etwas mehr Flüssigkeit verwenden (Pudding wird dicker)
 
 **Anpassungsmöglichkeiten:**
 - **Dickerer Pudding:** 4 EL Chiasamen statt 3 EL
 - **Mehr Kalorien:** Nussanteil erhöhen, Avocado als Topping
-- **Mehr Protein:** Hanfsamen, mehr Sojamilch, zusätzliche Samen-Toppings
+- **Mehr Protein:** Proteinpulver-Menge auf 20g erhöhen, Hanfsamen, Sojamilch, zusätzliche Samen-Toppings
 - **Weniger Kalorien:** Nur 2 EL Chiasamen, Nussmus weglassen
+- **Ohne Proteinpulver:** Einfach weglassen, Basis hat dann ~260 kcal und ~9g Protein
 - **Cremiger:** Nach Quellen kurz im Mixer pürieren
 
 **Vergleich Overnight Oats vs. Chia Pudding:**
 - **Chiasamen:** Mehr Omega-3, mehr Ballaststoffe, glutenfrei
 - **Hafer:** Mehr Energie, sättigender, günstiger
-- **Beide:** Challenge-konform, proteinreich, extrem Meal-Prep-freundlich
+- **Beide:** Challenge-konform (ohne Proteinpulver), proteinreich, extrem Meal-Prep-freundlich
+- **Mit Erbsenprotein:** Beide erreichen 20-30g Protein pro Portion!
 
 ---
 
