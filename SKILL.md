@@ -102,8 +102,14 @@ python3 scripts/mealie_export.py
 - **Wann verwenden:** Nach jedem Meal Plan, vor Finalisierung
 
 **`scripts/mealie_export.py`** - Mealie-Integration
-- Generiert Mealie-kompatible JSON-Rezepte
-- Inkl. Nährwerte, Zutaten, Instruktionen
+- Generiert Mealie-kompatible JSON-Rezepte im schema.org Format
+- **Format-Anforderungen:**
+  - **Vorgekochte Zutaten:** "50g Rote Linsen (ca. 100g gekocht)" - immer rohe Menge + gekochte Menge in Klammern
+  - **Farben groß:** Rote Linsen, Schwarze Bohnen, Rote Bete (für Parser-Erkennung)
+  - **Anmerkungen:** "80g Heidelbeeren (TK)" - Format "Menge Zutat (Anmerkung)"
+  - **Keywords:** Comma-separated String mit "whole food,KI Rezepte,food prep,vegetarisch,vegan,{mahlzeit}"
+  - **Anweisungen:** Ein String mit \n Zeilenumbrüchen (nicht Array)
+  - **Zutaten:** Array von Strings (nicht Objekte)
 - **Wann verwenden:** Wenn Nutzer Mealie verwendet oder Rezepte digital verwalten möchte
 
 ### References

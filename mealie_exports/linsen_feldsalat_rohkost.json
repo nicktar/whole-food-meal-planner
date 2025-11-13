@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Feldsalat mit buntem Rohkost-Gemüse (Protein-optimiert)",
+  "description": "Leichter, protein-reicher Salat mit 31g Protein und 18g Ballaststoffen. Rohkost-Gemüse für optimale Meal-Prep-Haltbarkeit (4-5 Tage). Apfel und Walnüsse am besten frisch hinzufügen.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "60g Grüne Linsen (ca. 180g gekocht)",
+    "80g Karotten (in Julienne-Streifen, roh)",
+    "60g Gurke (in Streifen, roh)",
+    "80g Feldsalat (gewaschen)",
+    "1 Apfel (dünn geschnitten)",
+    "20g Walnüsse (gehackt)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "1,5 EL Apfelessig (für Dressing)",
+    "1 EL Balsamico (für Dressing)",
+    "1/2 EL Ahornsirup (für Dressing)",
+    "1/2 TL Dijon-Senf (für Dressing)",
+    "1/2 EL Olivenöl (für Dressing)"
+  ],
+  "recipeInstructions": "Grüne Linsen kochen: 60g Linsen mit 150ml Wasser 25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nApfel-Balsamico-Vinaigrette: 1,5 EL Apfelessig, 1 EL Balsamico, 1/2 EL Ahornsirup, 1/2 TL Senf und 1/2 EL Olivenöl in Schraubglas schütteln.\nRohkost vorbereiten: Karotten in Julienne-Streifen schneiden. Gurke in Streifen schneiden. Feldsalat waschen.\nAm Servieren: Apfel dünn schneiden, Walnüsse hacken.\nSalat zusammenstellen: Quinoa und Linsen als Basis, Rohkost-Gemüse, Feldsalat, Apfel und Walnüsse hinzufügen. Mit Vinaigrette beträufeln.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "31g",
+    "carbohydrateContent": "60g",
+    "fatContent": "12g",
+    "fiberContent": "18g"
+  }
+}

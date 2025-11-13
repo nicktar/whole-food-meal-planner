@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen (Protein-optimiert)",
+  "description": "Herzhafter Salat mit 44g Protein und 18g Ballaststoffen! Karamellisierter Rotkohl und knusprige Kichererbsen. Komplett warm servieren für beste Textur.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Rotkohl (in Wedges geschnitten)",
+    "100g Kichererbsen (ca. 300g gekocht, geröstet)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "30g Walnüsse (gehackt, geröstet)",
+    "30g Rucola (frisch)",
+    "1 EL Olivenöl (zum Rösten)",
+    "1 TL Ahornsirup (zum Rösten)",
+    "2 EL Balsamico (für Dressing)",
+    "1 TL Kreuzkümmel (für Kichererbsen)",
+    "1 TL Paprikapulver (für Kichererbsen)"
+  ],
+  "recipeInstructions": "Ofen auf 200°C vorheizen.\nRotkohl in Wedges schneiden, mit 1 EL Olivenöl und 1 TL Ahornsirup marinieren. Auf Backblech geben.\nKichererbsen mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, Salz und Pfeffer würzen. Auf separatem Backblech verteilen.\nBeide Bleche im Ofen: Rotkohl 20-25 Min (bis Ränder karamellisieren), Kichererbsen 25-30 Min (bis knusprig).\nWalnüsse in den letzten 5 Min mitrösten.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nSalat zusammenstellen: Quinoa als Basis, gerösteten Rotkohl, knusprige Kichererbsen und frischen Rucola arrangieren. Mit Balsamico beträufeln, Walnüsse darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "570",
+    "proteinContent": "44g",
+    "carbohydrateContent": "72g",
+    "fatContent": "16g",
+    "fiberContent": "18g"
+  }
+}

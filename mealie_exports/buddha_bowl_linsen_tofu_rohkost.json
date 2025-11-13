@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse",
+  "description": "Meal-Prep-freundliche Bowl mit Rohkost statt geröstetem Gemüse. Rohkost bleibt 4-5 Tage knackig! 36g Protein pro Portion.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "40g Braune Linsen (ca. 120g gekocht)",
+    "120g Tofu (mariniert und angebraten)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "100g Karotten (in Julienne-Streifen, roh)",
+    "80g Rote Bete (gekocht, gewürfelt)",
+    "80g Rotkohl (fein gehobelt, roh)",
+    "2 EL Tahini-Dressing",
+    "1 EL Hanfsamen",
+    "1 EL Kürbiskerne",
+    "Petersilie (frisch, zum Garnieren)",
+    "1 EL Sojasauce (für Tofu-Marinade)",
+    "1/2 TL Ingwer (gerieben, für Marinade)"
+  ],
+  "recipeInstructions": "Tofu-Marinade: Tofu in 2x2cm Würfel schneiden. Mit 1 EL Sojasauce und 1/2 TL Ingwer marinieren (mind. 30 Min).\nLinsen kochen: 40g braune Linsen mit 100ml Wasser 20-25 Min köcheln bis bissfest.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nRote Bete kochen: Würfeln, in Wasser 30 Min kochen bis weich (Handschuhe tragen!).\nRohkost vorbereiten: Karotten in Julienne-Streifen schneiden. Rotkohl fein hobeln. In luftdichten Containern lagern (hält 5 Tage!).\nTofu anbraten: Marinierten Tofu in heißer Pfanne 5-7 Min von allen Seiten goldbraun braten.\nBowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren. Mit Tahini-Dressing beträufeln, Hanfsamen und Kürbiskerne darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "455",
+    "proteinContent": "36g",
+    "carbohydrateContent": "58g",
+    "fatContent": "16g",
+    "fiberContent": "16g"
+  }
+}
