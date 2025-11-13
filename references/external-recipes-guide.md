@@ -102,9 +102,6 @@ Your external recipe database must follow these conventions:
 ## DRESSINGS & SAUCEN
 [Dressings and sauces]
 
-## SNACKS & EXTRAS
-[Snacks]
-
 ## MEAL PREP BASISKOMPONENTEN
 [Base components for meal prep]
 

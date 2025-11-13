@@ -111,7 +111,7 @@ python3 scripts/mealie_export.py
 **Recipe Database** - Verifizierte Rezepte
 - **Location:** `recipe-database.md` (external, if present) or `references/recipe-database.md` (bundled)
 - Komplette Rezept-Sammlung mit Nährwerten
-- Frühstück, Mittag/Abend, Dressings, Snacks
+- Frühstück, Mittag/Abend, Dressings
 - Meal-Prep-Hinweise und Haltbarkeit
 - **Wann lesen:** Bei jeder Meal Plan Erstellung für Rezept-Auswahl
 - **External support:** Create `recipe-database.md` in your project for custom recipes
@@ -163,7 +163,7 @@ python3 scripts/mealie_export.py
 1. **Anforderungen sammeln:**
    - Verfügbare/gewünschte Hauptzutaten
    - Nährwert-Targets (Kalorien, Protein pro Portion)
-   - Mahlzeitentyp (Frühstück, Mittag, Abend, Snack)
+   - Mahlzeitentyp (Frühstück, Mittag, Abend)
    - Geschmacksrichtung (asiatisch, mediterran, mexikanisch, etc.)
    - Prep-Zeit und Komplexität
    - Meal-Prep-Eignung

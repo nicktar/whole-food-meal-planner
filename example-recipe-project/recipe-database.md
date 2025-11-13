@@ -253,74 +253,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 
 ---
 
-## SNACKS & EXTRAS
-
-### Geröstete Kichererbsen
-**Portion: 50g | Kalorien: ~150 | Protein: ~9g | Prep: 30 Min**
-
-**Zutaten:**
-- 150g gekochte Kichererbsen (1 Dose, abgetropft)
-- 1 TL Olivenöl
-- 1 TL Kreuzkümmel
-- 1/2 TL Paprika
-- 1/2 TL Knoblauchpulver
-- Salz
-
-**Zubereitung:**
-1. Kichererbsen gut abtropfen und trockentupfen
-2. Mit Öl und Gewürzen vermischen
-3. Bei 200°C 25-30 Min rösten, alle 10 Min wenden
-4. Komplett auskühlen lassen (werden knuspriger)
-
-**Lagerung:** Luftdicht 3-4 Tage
-
-**Variationen:**
-- BBQ-Style: Mit geräuchertem Paprika und Ahornsirup
-- Curry-Style: Mit Curry und Kurkuma
-- Süß: Mit Zimt und Kokosblütenzucker
-
----
-
-### Nuss-Samen-Mix
-**Portion: 30g | Kalorien: ~180 | Protein: ~7g**
-
-**Zusammensetzung:**
-- 10g Walnüsse
-- 10g Mandeln
-- 5g Kürbiskerne
-- 5g Sonnenblumenkerne
-
-**Optional:** Leicht rösten für mehr Aroma
-
----
-
-### Energy Balls mit Datteln
-**Ergibt: ~10 Stück | Pro Stück: ~100 kcal | Protein: ~3g | Prep: 10 Min**
-
-**Zutaten:**
-- 100g Datteln (entsteint)
-- 50g Mandeln
-- 30g Haferflocken
-- 2 EL Kakao (ungesüßt)
-- 1 EL Chiasamen
-- 1 EL Wasser (bei Bedarf)
-- Prise Salz
-
-**Zubereitung:**
-1. Alle Zutaten in Food Processor fein mixen
-2. Bis klebrige Masse entsteht (ggf. Wasser hinzufügen)
-3. Zu kleinen Bällen formen (~10 Stück)
-4. Optional in Kakao oder Kokosflocken wälzen
-
-**Lagerung:** 7 Tage im Kühlschrank, 2 Monate im Gefrierfach
-
-**Variationen:**
-- Mit Erdnussbutter statt Mandeln
-- Mit getrockneten Cranberries
-- Mit Vanille und Zimt
-
----
-
 ## MEAL PREP BASISKOMPONENTEN
 
 ### Gekochtes Vollkorn (Batch)
@@ -375,11 +307,9 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Frühstück:** 320-380 kcal | 11-14g Protein
 **Mittagessen:** 310-420 kcal | 14-22g Protein
 **Abendessen:** 310-380 kcal | 14-20g Protein
-**Snacks (optional):** 100-180 kcal | 3-9g Protein
 
 **Tagesziel erreichen (1200 kcal / 100g+ Protein):**
 - 3 Hauptmahlzeiten: ~940-1180 kcal, ~60-80g Protein
-- 1-2 Snacks optional: ~100-360 kcal, ~6-18g Protein
 
 **Hinweise:**
 - Für mehr Protein: Tofu, extra Hülsenfrüchte hinzufügen
