@@ -40,11 +40,13 @@
 
 ### Kohl & Wurzelgemüse:
 - [ ] 1 kleiner-mittlerer Rotkohl (~600-800g) - **reduziert auf 4 Gerichte**
-- [ ] 1 kleiner Chinakohl (~400g)
 - [ ] 250g Brokkoli
 - [ ] 300g Karotten
 - [ ] 300g Rote Bete (frisch oder vorgekocht)
 - [ ] 1-2 Fenchelknollen (~200g)
+
+### Lauchgewächse:
+- [ ] 1 Stange Lauch/Porree (~200-250g)
 
 ### Tomaten & Gurken:
 - [ ] 200g Kirschtomaten
@@ -231,7 +233,7 @@
 **Regional und saisonal in Deutschland (November):**
 - ✅ **Hokkaido-Kürbis** - Hauptsaison Oktober-Januar, perfekt im November!
 - ✅ **Rotkohl** - Hauptsaison, super frisch
-- ✅ **Chinakohl** - Typisches Herbst-/Wintergemüse
+- ✅ **Lauch/Porree** - Typisches Herbst-/Wintergemüse, Hauptsaison
 - ✅ **Fenchel** - Saison September-März
 - ✅ **Feldsalat** - Der klassische Wintersalat
 - ✅ **Äpfel** - Lageräpfel aus deutscher Ernte

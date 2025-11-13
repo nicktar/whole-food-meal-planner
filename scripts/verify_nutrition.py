@@ -404,9 +404,9 @@ if __name__ == "__main__":
                     "Erbsenprotein", "Kakaopulver", "Banane", "Mandeln"]
     )
     day3_lunch = Meal(
-        name="Chinakohl-Miso-Suppe mit Tofu und Pilzen",
+        name="Lauch-Miso-Suppe mit Tofu und Pilzen",
         nutrition=NutritionInfo(calories=335, protein=28, carbs=28, fat=12, fiber=9),
-        ingredients=["Chinakohl", "Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
+        ingredients=["Lauch", "Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
                     "Ingwer", "Frühlingszwiebeln", "Hanfsamen"]
     )
     day3_dinner = Meal(

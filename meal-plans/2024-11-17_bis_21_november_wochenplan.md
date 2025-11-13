@@ -194,11 +194,11 @@
 
 ---
 
-### Mittagessen: Chinakohl-Miso-Suppe mit Tofu und Pilzen
+### Mittagessen: Lauch-Miso-Suppe mit Tofu und Pilzen
 **Kalorien:** 335 | **Protein:** 28g | **Ballaststoffe:** 9g | **Prep:** 20 Min
 
 **Zutaten:**
-- 120g Chinakohl, in Streifen geschnitten
+- 150g Lauch/Porree, in feine Ringe geschnitten (gut waschen!)
 - 150g Tofu, gewürfelt
 - 100g Shiitake-Pilze, in Scheiben
 - 1 EL Miso-Paste (dunkel)
@@ -211,7 +211,7 @@
 
 **Zubereitung:**
 1. Brühe mit Knoblauch und Ingwer aufkochen
-2. Chinakohl und Pilze hinzufügen, 5 Min köcheln
+2. Lauch und Pilze hinzufügen, 5 Min köcheln
 3. Tofu hinzufügen, weitere 3 Min
 4. Hitze reduzieren, Miso-Paste einrühren (nicht mehr kochen!)
 5. Mit Frühlingszwiebeln, Sesamöl und Hanfsamen servieren
@@ -481,7 +481,7 @@ Um das Protein-Target von 100-110g zu erreichen, empfehle ich:
 
 ✅ **Rotkohl** - 4x verwendet (reduziert, vielfältige Zubereitungen)
 ✅ **Hokkaido-Kürbis** - 2x (geröstet in Buddha-Bowl & Salat)
-✅ **Chinakohl** - 1x (Miso-Suppe)
+✅ **Lauch/Porree** - 1x (Miso-Suppe)
 ✅ **Fenchel** - 1x (geröstet in Buddha-Bowl)
 ✅ **Feldsalat** - 1x (Salat mit Kürbis)
 ✅ **Äpfel** - 6x verwendet (Overnight Oats, Salate, Quinoa-Bowl)
@@ -492,9 +492,10 @@ Um das Protein-Target von 100-110g zu erreichen, empfehle ich:
 
 ### Gemüse-Vielfalt:
 
-- **Kohl-Varianten:** Rotkohl (4x), Chinakohl (1x)
+- **Kohl-Varianten:** Rotkohl (4x)
 - **Kürbis:** Hokkaido (2x)
 - **Wurzelgemüse:** Rote Bete, Karotten, Fenchel
+- **Lauchgewächse:** Lauch/Porree, Frühlingszwiebeln
 - **Blattgemüse:** Rucola, Feldsalat, Spinat
 - **Pilze:** Shiitake, Champignons
 
@@ -520,7 +521,7 @@ Um das Protein-Target von 100-110g zu erreichen, empfehle ich:
 **Weiterhin saisonal:**
 - Alle Ersatz-Gemüse sind November-saisonal in Deutschland
 - Hokkaido-Kürbis: Hauptsaison Oktober-Januar
-- Chinakohl: Herbst-/Wintergemüse
+- Lauch/Porree: Herbst-/Wintergemüse, Hauptsaison
 - Fenchel: Saison September-März
 - Feldsalat: Typischer Wintersalat
 

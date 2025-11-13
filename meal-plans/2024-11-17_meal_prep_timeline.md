@@ -124,8 +124,8 @@
 - [ ] In Würfel schneiden (~400g, Schale kann dranbleiben!)
 - [ ] Für Tag 1 Mittag (100g) und Tag 5 Abend (120g)
 
-**Chinakohl:**
-- [ ] 120g in Streifen schneiden (für Tag 3 Miso-Suppe)
+**Lauch/Porree:**
+- [ ] 150g in feine Ringe schneiden, gründlich waschen (für Tag 3 Miso-Suppe)
 
 **Fenchel:**
 - [ ] 80g in Scheiben schneiden (für Tag 4 Abend Buddha-Bowl)
@@ -283,7 +283,7 @@
 #### Container 3 - Tag 3 Mittag (Miso-Suppe):
 - [ ] **Nicht komplett vorkochen!**
 - [ ] Komponenten:
-  - 120g geschnittener Chinakohl
+  - 150g geschnittener Lauch (in Ringe, gut gewaschen)
   - 100g Shiitake-Pilze (in Scheiben, in Beutel)
   - 150g Tofu-Würfel
   - Miso-Paste (separat!)
