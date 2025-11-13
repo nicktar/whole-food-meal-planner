@@ -255,7 +255,7 @@ Each recipe includes:
 - Storage duration
 - Variations
 
-**Key principle**: Maximize ingredient synergies (e.g., Rotkohl for curry, salad, soup, wraps)
+**Key principle**: Maximize ingredient synergies across recipes while maintaining vegetable diversity. Use a variety of base vegetables for different meal plans (e.g., Blumenkohl for curry/roasted/soup one week, Karotten for roasted/hummus/salad another week, Paprika for stuffed/bowl/salad the next).
 
 ### External Recipe Support
 

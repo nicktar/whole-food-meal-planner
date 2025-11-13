@@ -287,9 +287,26 @@ python3 scripts/mealie_export.py
 - Textur-Kontraste (knusprig + cremig)
 
 ### Meal-Prep-Synergien
-- **Rotkohl:** Curry, Salat, mariniert, Suppe
-- **Kichererbsen:** Geröstet, Buddha Bowl, Hummus
-- **Quinoa:** Frühstück, Bowl-Basis, Salat
+
+**Nutze Gemüsevielfalt!** Variiere die Basis-Gemüse für jeden Meal Plan. Beispiele:
+
+- **Blumenkohl:** Geröstet, Curry, Reis-Ersatz, Suppe
+- **Karotten:** Geröstet, Salat, Hummus, Suppe
+- **Paprika:** Gefüllt, Buddha Bowl, Ofengemüse, Salat
+- **Brokkoli:** Geröstet, Buddha Bowl, Suppe, Pasta-Alternative
+- **Süßkartoffeln:** Geröstet, Bowl-Basis, Püree, Pommes
+- **Kürbis:** Geröstet, Curry, Suppe, Bowl
+- **Zucchini:** Spiralen, Ofengemüse, gefüllt, Suppe
+
+**Proteinquellen:**
+- **Kichererbsen:** Geröstet, Buddha Bowl, Hummus, Curry
+- **Linsen:** Bolognese, Dal, Salat, Suppe
+- **Tofu:** Mariniert & geröstet, Scramble, Curry, Bowl
+
+**Getreide-Basis:**
+- **Quinoa:** Frühstück, Bowl-Basis, Salat, Porridge
+- **Buchweizen:** Bowl-Basis, Porridge, Salat
+- **Haferflocken:** Overnight Oats, Porridge, Cookies
 
 ## Häufige Szenarien
 
@@ -304,14 +321,14 @@ python3 scripts/mealie_export.py
 
 ### Szenario 2: Spezifische Zutaten verwerten
 ```
-1. Nutzer hat z.B. viel Rotkohl
-2. Recipe Database (external oder bundled) nach Rotkohl-Rezepten durchsuchen:
-   - Rotkohl-Curry
-   - Rotkohl-Salat mit Walnüssen
-   - Rotkohl-Miso-Suppe
-   - Rotkohl-Wrap-Marinade
-3. Plan mit Rotkohl-Fokus erstellen
-4. Verifikation + Anpassung
+1. Nutzer hat z.B. viel [Zutat X] (Blumenkohl, Karotten, Kichererbsen, etc.)
+2. Recipe Database (external oder bundled) nach passenden Rezepten durchsuchen
+3. ODER: Neue Rezepte mit dieser Zutat generieren:
+   - Verschiedene Zubereitungsarten (roh, geröstet, gedämpft, Suppe)
+   - Verschiedene Geschmacksrichtungen (asiatisch, mediterran, mexikanisch)
+   - Mix aus warmen und kalten Gerichten
+4. Plan erstellen mit Fokus auf diese Zutat (max. 3-4 Tage, dann variieren!)
+5. Verifikation + Anpassung
 ```
 
 ### Szenario 3: Protein-Boost erforderlich
