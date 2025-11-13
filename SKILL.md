@@ -1,6 +1,6 @@
 ---
 name: whole-food-meal-planner
-description: Comprehensive meal planning system for the Whole Food Challenge with verified recipes, nutritional validation, Mealie integration, and automated meal prep strategies. Use when creating meal plans that require only whole foods (no processed foods, no animal products), have specific caloric/protein targets (typically 1200 kcal, 100+g protein), need nutritional verification, require Mealie-compatible recipe exports, or need detailed meal prep workflows with shopping lists. Especially useful for multi-day plans (3-7 days) with ingredient synergies.
+description: Comprehensive meal planning system for the Whole Food Challenge with recipe generation, verified recipes, nutritional validation, Mealie integration, and automated meal prep strategies. Can create new custom recipes based on available ingredients, dietary targets, and preferences - all automatically validated against challenge rules. Use when creating meal plans that require only whole foods (no processed foods, no animal products), generating new recipe ideas within strict dietary constraints, having specific caloric/protein targets (typically 1200 kcal, 100+g protein), needing nutritional verification, requiring Mealie-compatible recipe exports, or needing detailed meal prep workflows with shopping lists. Especially useful for multi-day plans (3-7 days) with ingredient synergies and custom recipe development.
 ---
 
 # Whole Food Challenge Meal Planner
@@ -212,6 +212,130 @@ python3 scripts/mealie_export.py
 # Output: mealie_exports/*.json
 ```
 
+## Neue Rezepte generieren
+
+**Ein Key-Feature dieses Skills:** Erstelle neue, maßgeschneiderte Rezepte basierend auf Nutzer-Anforderungen!
+
+### Wann neue Rezepte generieren?
+
+- Nutzer hat spezifische Zutaten, die verbraucht werden sollen
+- Bestimmte Geschmacksrichtungen oder Cuisines gewünscht
+- Nährwert-Ziele, die mit vorhandenen Rezepten nicht erreicht werden
+- Nutzer möchte Abwechslung oder neue Ideen
+- Saisonale oder regional verfügbare Zutaten optimal nutzen
+- Spezielle Präferenzen (z.B. "schnell", "batch-freundlich", "kalt")
+
+### Prozess für Rezept-Generierung
+
+1. **Anforderungen sammeln:**
+   - Verfügbare/gewünschte Hauptzutaten
+   - Nährwert-Targets (Kalorien, Protein pro Portion)
+   - Mahlzeitentyp (Frühstück, Mittag, Abend, Snack)
+   - Geschmacksrichtung (asiatisch, mediterran, mexikanisch, etc.)
+   - Prep-Zeit und Komplexität
+   - Meal-Prep-Eignung
+
+2. **Challenge-Compliance prüfen:**
+   - ✅ Nur erlaubte Zutaten verwenden (siehe Challenge-Regeln oben)
+   - ❌ Keine ausgeschlossenen Zutaten (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing)
+   - ❌ Keine tierischen Produkte
+   - ❌ Keine verarbeiteten Lebensmittel
+
+3. **Rezept entwickeln:**
+   - Basis-Komponenten wählen (Getreide + Protein + Gemüse)
+   - Geschmacks-Profile aufbauen (Gewürze, Dressings)
+   - Nährwerte kalkulieren (pro Zutat summieren)
+   - Zubereitung strukturieren (Schritt-für-Schritt)
+
+4. **Rezept auf Vollständigkeit und Stimmigkeit prüfen:**
+   - ✅ **Proteinpulver richtig eingesetzt:** Erbsenprotein-Pulver NUR in Flüssigkeiten (Smoothies, Porridge, Overnight Oats) - NICHT in trockenen Gerichten
+   - ✅ **Marinaden vorhanden:** Tofu, Tempeh brauchen Marinaden (Misopaste, Sojasauce, Gewürze + Öl)
+   - ✅ **Ausreichend gewürzt:** Alle Komponenten haben Würzung/Geschmack (nicht nur Salz & Pfeffer)
+   - ✅ **Konsistenz stimmig:**
+     - Nicht zu trocken (genug Sauce/Dressing/Flüssigkeit)
+     - Nicht zu wässrig (Gemüse richtig zubereitet, nicht überkocht)
+     - Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
+   - ✅ **Zubereitungsschritte vollständig:** Alle Komponenten werden in der Anleitung behandelt
+   - ✅ **Garzeiten realistisch:** Quinoa 15 Min, Linsen 20-25 Min, Kichererbsen (Dose) 10 Min aufwärmen
+   - ✅ **Fette/Öle enthalten:** Für Geschmack und Nährstoffaufnahme (1-2 EL Öl oder Nussmus)
+   - ⚠️ **Häufige Fehler vermeiden:**
+     - Trockenes Tofu ohne Marinade
+     - Rohes Gemüse ohne Dressing in warmen Gerichten
+     - Nur Basis-Zutaten ohne Geschmacksträger
+     - Erbsenprotein in Salaten/Bowls (funktioniert nicht!)
+
+   **Wenn Probleme gefunden werden:** Rezept JETZT anpassen, bevor Nährwerte validiert werden!
+
+5. **Nährwerte validieren:**
+   - Gegen Meal-Ranges prüfen (siehe Standard-Targets oben)
+   - Bei Bedarf anpassen (mehr Protein, weniger Kalorien, etc.)
+   - `verify_nutrition.py` kann für finale Validierung verwendet werden
+
+6. **Meal-Prep-Hinweise hinzufügen:**
+   - Vorbereitung im Voraus
+   - Haltbarkeit im Kühlschrank
+   - Aufwärm-Tipps
+   - Batch-Größen-Empfehlungen
+
+### Template für neue Rezepte
+
+```markdown
+## [Rezeptname]
+
+**Portionen:** X | **Kalorien:** XXX kcal | **Protein:** XXg | **Prep:** XX Min
+
+### Zutaten (pro Portion):
+- [Menge] [Zutat] (X kcal, Xg Protein)
+- ...
+
+### Zubereitung:
+1. [Schritt 1]
+2. [Schritt 2]
+...
+
+### Nährwerte pro Portion:
+- Kalorien: XXX kcal
+- Protein: XXg
+- Kohlenhydrate: XXg
+- Fett: XXg
+- Ballaststoffe: XXg
+
+### Meal Prep Hinweise:
+- Vorbereitung: [was kann vorab gemacht werden]
+- Haltbarkeit: X Tage im Kühlschrank
+- Aufwärmen: [Tipps]
+- Variationen: [mögliche Anpassungen]
+```
+
+### Tipps für erfolgreiche Rezept-Generierung
+
+**Protein-Balance:**
+- Linsen: ~9g Protein/100g (gekocht)
+- Kichererbsen: ~9g Protein/100g (gekocht)
+- Tofu: ~8g Protein/100g
+- Tempeh: ~19g Protein/100g
+- Quinoa: ~4g Protein/100g (gekocht)
+- Edamame: ~11g Protein/100g
+
+**Kalorien-Management:**
+- Nüsse/Nussmus: sehr kaloriendicht (~600 kcal/100g)
+- Öl: 120 kcal pro EL
+- Avocado: ~160 kcal/100g
+- Getreide: ~350-370 kcal/100g (trocken)
+- Gemüse: meist <50 kcal/100g
+
+**Geschmacks-Profile:**
+- **Asiatisch:** Ingwer, Knoblauch, Misopaste, Sesamöl, Reisessig
+- **Mediterran:** Zitrone, Kräuter (Basilikum, Oregano), Knoblauch, Olivenöl
+- **Mexikanisch:** Kreuzkümmel, Koriander, Limette, Chilipulver
+- **Indisch:** Currypaste, Kurkuma, Kreuzkümmel, Koriander, Ingwer
+
+**Meal-Prep-Eignung:**
+- Suppen und Currys: sehr gut (5-7 Tage)
+- Buddha Bowls mit getrennten Komponenten: sehr gut (4-5 Tage)
+- Salate: nur Basis vorkochen, Dressing separat (3-4 Tage)
+- Overnight Oats/Chia Pudding: perfekt (5 Tage)
+
 ## Best Practices
 
 ### Zeit-Effizienz
@@ -276,7 +400,61 @@ python3 scripts/mealie_export.py
 4. In Mealie importieren für Tracking
 ```
 
+### Szenario 5: Neue Rezepte generieren
+```
+1. Anforderungen sammeln:
+   - Nutzer: "Ich habe viel Blumenkohl und möchte ein asiatisches Abendessen"
+   - Target: 350 kcal, 20g Protein, meal-prep-freundlich
+
+2. Rezept entwickeln:
+   - Basis: Quinoa (150g gekocht) als Getreide-Base
+   - Protein: Tofu (120g) mariniert
+   - Gemüse: Blumenkohl (200g) geröstet mit asiatischen Gewürzen
+   - Sauce: Misopaste + Ingwer + Knoblauch + Sesamöl
+
+3. Qualitätskontrolle durchführen:
+   ✅ Proteinpulver: Nicht verwendet (gut - wäre in Bowl ungeeignet)
+   ✅ Marinade: Tofu wird mariniert (Misopaste, Ingwer, Knoblauch)
+   ✅ Würzung: Blumenkohl mit asiatischen Gewürzen, Sauce vorhanden
+   ✅ Konsistenz: Sauce verhindert Trockenheit, Blumenkohl geröstet (nicht wässrig)
+   ✅ Zubereitung: Alle Komponenten abgedeckt
+   ✅ Fette: Sesamöl in Sauce enthalten
+   ✅ Texturen: Knuspriger Blumenkohl + weicher Tofu + fluffiger Quinoa
+   → Rezept ist stimmig, kann zu Nährwert-Validierung übergehen
+
+4. Nährwerte kalkulieren:
+   - Quinoa: 180 kcal, 6g Protein
+   - Tofu: 95 kcal, 10g Protein
+   - Blumenkohl: 50 kcal, 4g Protein
+   - Sauce: 25 kcal, 1g Protein
+   - Gesamt: 350 kcal, 21g Protein ✅
+
+5. Zubereitung strukturieren:
+   - Tofu marinieren (Misopaste, Ingwer, Knoblauch, 30 Min)
+   - Blumenkohl in Röschen schneiden, mit Sesamöl + Gewürzen bestreichen
+   - Blumenkohl bei 200°C 25 Min rösten
+   - Quinoa kochen (15 Min)
+   - Bowl zusammenstellen, mit Sesam und Frühlingszwiebeln toppen
+
+6. Meal-Prep-Hinweise:
+   - Alle Komponenten 4-5 Tage haltbar
+   - Getrennt lagern, täglich frisch kombinieren
+   - Tofu wird beim Aufwärmen noch besser
+   - Blumenkohl in Ofen oder Pfanne kurz aufknuspern
+
+7. Optional: Zu recipe-database.md hinzufügen für zukünftige Meal Plans
+```
+
 ## Troubleshooting
+
+**Problem:** Neue Rezepte schmecken fade oder Konsistenz stimmt nicht
+→ Qualitätskontrolle-Checkliste durchgehen (siehe "Rezept auf Vollständigkeit und Stimmigkeit prüfen")
+→ Häufigste Fehler:
+  - Tofu/Tempeh ohne Marinade → Mindestens 30 Min marinieren
+  - Zu wenig Gewürze → Pro Portion mind. 1 TL Gewürzmischung
+  - Fehlendes Fett → 1-2 EL Öl oder Nussmus hinzufügen
+  - Erbsenprotein falsch verwendet → Nur in Flüssigkeiten/Brei
+→ Nach Korrekturen Nährwerte neu berechnen!
 
 **Problem:** Nährwerte stimmen nicht
 → verify_nutrition.py zeigt genaue Abweichungen
@@ -299,7 +477,7 @@ python3 scripts/mealie_export.py
 
 ## Qualitätskontrolle
 
-Vor Finalisierung prüfen:
+### Für Meal Plans (vor Finalisierung):
 - [ ] Challenge-Regeln eingehalten (keine ausgeschlossenen Zutaten)
 - [ ] Nährwerte verifiziert und im Target-Bereich
 - [ ] Meal Prep Synergien maximiert
@@ -308,3 +486,14 @@ Vor Finalisierung prüfen:
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
+
+### Für neue Rezepte (vor Nährwert-Validierung):
+- [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
+- [ ] Tofu/Tempeh haben Marinaden (mind. 30 Min Marinierzeit)
+- [ ] Alle Komponenten ausreichend gewürzt (nicht fade)
+- [ ] Konsistenz stimmig (nicht zu trocken, nicht zu wässrig)
+- [ ] Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
+- [ ] Fette/Öle enthalten (1-2 EL pro Portion für Geschmack)
+- [ ] Alle Zubereitungsschritte vollständig dokumentiert
+- [ ] Garzeiten realistisch und spezifisch angegeben
+- [ ] Bei Korrekturen: Nährwerte entsprechend angepasst
