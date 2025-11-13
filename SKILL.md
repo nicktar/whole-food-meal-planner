@@ -69,8 +69,8 @@ python3 scripts/mealie_export.py
 - Nüsse und Samen
 - Nussmus (natürlich, ohne Zusätze)
 - Pflanzenmilch (ungesüßt)
-- Currypasten (vegan)
-- Nährhefe
+- Würzpasten (Curry-, Miso- etc., vegan)
+- Nährhefe-Flocken
 - Gewürze, Kräuter, Essig, Öl
 
 **Ausgeschlossen:**

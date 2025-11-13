@@ -13,8 +13,8 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 - Nüsse und Samen (roh oder geröstet)
 - Nussmus (natürlich, ohne Zusätze)
 - Pflanzenmilch (ungesüßt)
-- Currypasten (ohne tierische Produkte)
-- Nährhefe
+- Würzpasten (Curry-, Miso- etc., ohne tierische Produkte)
+- Nährhefe-Flocken
 - Gewürze, Kräuter, Essig
 
 **Ausgeschlossen:**
