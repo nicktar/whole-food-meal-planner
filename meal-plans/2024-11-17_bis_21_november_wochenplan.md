@@ -1,7 +1,7 @@
 # Whole Food Challenge Meal Plan
 ## Woche: 17. bis 21. November 2024
 
-**Schwerpunkt:** Saisonale November-Zutaten (Rotkohl, Äpfel, Walnüsse, Pilze, Wurzelgemüse)
+**Schwerpunkt:** Vielfältige saisonale November-Zutaten (Kürbis, Chinakohl, Fenchel, Rotkohl, Äpfel, Walnüsse, Pilze, Wurzelgemüse)
 
 **Tägliche Ziele:**
 - Kalorien: 1200 kcal (Range: 1100-1300)
@@ -33,23 +33,25 @@
 
 ---
 
-### Mittagessen: Kichererbsen-Buddha-Bowl mit geröstetem Rotkohl
-**Kalorien:** 430 | **Protein:** 25g | **Ballaststoffe:** 13g | **Prep:** 20 Min
+### Mittagessen: Kichererbsen-Buddha-Bowl mit geröstetem Hokkaido-Kürbis
+**Kalorien:** 420 | **Protein:** 24g | **Ballaststoffe:** 14g | **Prep:** 25 Min
 
 **Zutaten:**
 - 120g geröstete Kichererbsen (Gewürze: Kreuzkümmel, Paprika, Knoblauchpulver)
 - 80g Quinoa, gekocht
 - 80g Brokkoli, gedämpft
-- 60g Rotkohl, geröstet (200°C, 15 Min)
+- 100g Hokkaido-Kürbis, in Würfeln geröstet (200°C, 20 Min)
 - 1/4 Avocado
 - 2 EL Tahini-Dressing
 - 1 EL Kürbiskerne
+- Frische Petersilie
 
 **Zubereitung:**
-1. Quinoa als Basis in Bowl
-2. Alle vorbereiteten Komponenten arrangieren
-3. Mit Tahini-Dressing beträufeln
-4. Kürbiskerne darüberstreuen
+1. Hokkaido in Würfel schneiden (Schale kann dranbleiben!), mit etwas Öl und Gewürzen rösten
+2. Quinoa als Basis in Bowl
+3. Alle vorbereiteten Komponenten arrangieren
+4. Mit Tahini-Dressing beträufeln
+5. Kürbiskerne und Petersilie darüberstreuen
 
 ---
 
@@ -76,13 +78,13 @@
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1180 kcal ✅
-- Gesamt Protein: 66g ⚠️ (Unter Target - siehe Anpassung unten)
-- Gesamt Ballaststoffe: 38g ✅
+- Gesamt Kalorien: 1170 kcal ✅
+- Gesamt Protein: 65g ⚠️ (Unter Target)
+- Gesamt Ballaststoffe: 39g ✅
 
 **Anpassung für Protein-Target:**
 - Füge zum Abendessen 150g Tofu hinzu (+120 kcal, +15g Protein)
-- **Neu:** 1300 kcal, 81g Protein (näher am Ziel)
+- **Neu:** 1290 kcal, 80g Protein
 
 ---
 
@@ -164,7 +166,8 @@
 
 **Anpassung für Protein-Target:**
 - Füge zum Mittagessen 100g Tofu hinzu (+80 kcal, +10g Protein)
-- **Neu:** 1205 kcal, 88g Protein
+- Füge zum Abendessen 50g zusätzliche Linsen (+60 kcal, +9g Protein)
+- **Neu:** 1265 kcal, 97g Protein
 
 ---
 
@@ -191,11 +194,11 @@
 
 ---
 
-### Mittagessen: Rotkohl-Miso-Suppe mit Tofu und Pilzen
-**Kalorien:** 340 | **Protein:** 28g | **Ballaststoffe:** 9g | **Prep:** 20 Min
+### Mittagessen: Chinakohl-Miso-Suppe mit Tofu und Pilzen
+**Kalorien:** 335 | **Protein:** 28g | **Ballaststoffe:** 9g | **Prep:** 20 Min
 
 **Zutaten:**
-- 100g Rotkohl, fein geschnitten
+- 120g Chinakohl, in Streifen geschnitten
 - 150g Tofu, gewürfelt
 - 100g Shiitake-Pilze, in Scheiben
 - 1 EL Miso-Paste (dunkel)
@@ -208,9 +211,9 @@
 
 **Zubereitung:**
 1. Brühe mit Knoblauch und Ingwer aufkochen
-2. Rotkohl und Pilze hinzufügen, 5 Min köcheln
+2. Chinakohl und Pilze hinzufügen, 5 Min köcheln
 3. Tofu hinzufügen, weitere 3 Min
-4. Hitze reduzieren, Miso-Paste einrühren
+4. Hitze reduzieren, Miso-Paste einrühren (nicht mehr kochen!)
 5. Mit Frühlingszwiebeln, Sesamöl und Hanfsamen servieren
 
 ---
@@ -232,7 +235,7 @@
 **Zubereitung:**
 1. Ofen auf 200°C vorheizen
 2. Rotkohl-Wedges mit 1 TL Öl, Ahornsirup, Salz, Pfeffer marinieren
-3. 20-25 Min rösten
+3. 20-25 Min rösten bis Ränder karamellisieren
 4. Walnüsse letzte 5 Min mitrösten
 5. Über Quinoa und Rucola servieren
 6. Kichererbsen hinzufügen, mit Balsamico beträufeln
@@ -240,13 +243,14 @@
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1140 kcal ✅
+- Gesamt Kalorien: 1135 kcal ✅
 - Gesamt Protein: 72g ⚠️
 - Gesamt Ballaststoffe: 33g ✅
 
 **Anpassung für Protein-Target:**
 - Füge zum Abendessen 120g zusätzliche Kichererbsen (+100 kcal, +15g Protein)
-- **Neu:** 1240 kcal, 87g Protein
+- Füge zum Frühstück 5g zusätzliches Proteinpulver (+20 kcal, +5g Protein)
+- **Neu:** 1255 kcal, 92g Protein
 
 ---
 
@@ -294,7 +298,7 @@
 - Saft 1/4 Zitrone
 
 **Wrap-Assembly:**
-- 1 großes Vollkorn-Tortilla-Blatt (selbstgemacht oder challenge-konform gekauft)
+- 1 großes Vollkorn-Tortilla-Blatt (selbstgemacht oder challenge-konform)
 - 30g Rucola
 - 80g Hummus
 - 1 EL Tahini-Dressing
@@ -303,7 +307,7 @@
 1. Pilze trocken anbraten bis Wasser verdampft
 2. Öl und Knoblauch hinzufügen, 2 Min
 3. Nüsse, Sojasauce, Ahornsirup, Gewürze hinzufügen
-4. 5-7 Min braten
+4. 5-7 Min braten bis goldbraun und aromatisch
 
 **Assembly:**
 1. Hummus auf Wrap streichen
@@ -312,42 +316,44 @@
 
 ---
 
-### Abendessen: Buddha-Bowl mit Linsen, geröstetem Wurzelgemüse und Tahini
-**Kalorien:** 400 | **Protein:** 24g | **Ballaststoffe:** 14g | **Prep:** 35 Min
+### Abendessen: Buddha-Bowl mit Linsen, Fenchel und geröstetem Wurzelgemüse
+**Kalorien:** 395 | **Protein:** 24g | **Ballaststoffe:** 15g | **Prep:** 35 Min
 
 **Zutaten:**
 - 120g gekochte braune Linsen
 - 80g Quinoa, gekocht
 - 100g Karotten, in Sticks geschnitten und geröstet
 - 80g Rote Bete, gewürfelt und geröstet
-- 50g Rotkohl, roh gehobelt
+- 80g Fenchel, in Scheiben geschnitten und geröstet
 - 2 EL Tahini-Dressing
 - 1 EL Hanfsamen
 - 1 EL Kürbiskerne
 - Frische Petersilie
+- Zitronenspalte
 
 **Zubereitung:**
-1. Karotten und Rote Bete bei 200°C 25 Min rösten
+1. Karotten, Rote Bete und Fenchel bei 200°C 25-30 Min rösten
 2. Quinoa und Linsen als Basis in Bowl
-3. Geröstetes Gemüse und roher Rotkohl arrangieren
+3. Geröstetes Gemüse arrangieren
 4. Mit Tahini beträufeln
 5. Hanfsamen, Kürbiskerne und Petersilie darüberstreuen
+6. Mit Zitrone beträufeln
 
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1230 kcal ✅
+- Gesamt Kalorien: 1225 kcal ✅
 - Gesamt Protein: 66g ⚠️
-- Gesamt Ballaststoffe: 36g ✅
+- Gesamt Ballaststoffe: 37g ✅
 
 **Anpassung für Protein-Target:**
 - Füge zum Frühstück 15g Erbsenprotein-Pulver hinzu (+60 kcal, +15g Protein)
 - Füge zum Abendessen 100g Tofu hinzu (+80 kcal, +10g Protein)
-- **Neu:** 1370 kcal (leicht über Target), 91g Protein
+- **Neu:** 1365 kcal (leicht über Target), 91g Protein
 
-**Alternative Anpassung (falls Kalorien-Limit wichtiger):**
+**Alternative Anpassung (Kalorien-bewusst):**
 - Nur Proteinpulver zum Frühstück (+15g Protein)
-- **Neu:** 1290 kcal, 81g Protein
+- **Neu:** 1285 kcal, 81g Protein
 
 ---
 
@@ -402,14 +408,14 @@
 
 ---
 
-### Abendessen: Linsen-Salat mit geröstetem Rotkohl und Apfel-Balsamico-Vinaigrette
-**Kalorien:** 380 | **Protein:** 20g | **Ballaststoffe:** 14g | **Prep:** 30 Min
+### Abendessen: Linsen-Feldsalat mit geröstetem Kürbis und Apfel-Balsamico-Vinaigrette
+**Kalorien:** 375 | **Protein:** 20g | **Ballaststoffe:** 14g | **Prep:** 30 Min
 
 **Zutaten:**
 - 120g gekochte grüne Linsen
-- 100g Rotkohl, in Wedges geröstet
+- 120g Hokkaido-Kürbis, in Würfeln geröstet
 - 1 Apfel, dünn geschnitten
-- 50g Rucola
+- 60g Feldsalat
 - 30g Walnüsse, geröstet
 - 80g gekochte Quinoa oder Buchweizen
 
@@ -421,34 +427,34 @@
 - 1/2 TL Olivenöl
 
 **Zubereitung:**
-1. Rotkohl-Wedges bei 200°C 20-25 Min rösten
+1. Kürbis-Würfel bei 200°C 20-25 Min rösten
 2. Walnüsse letzte 5 Min mitrösten
 3. Vinaigrette mischen
 4. Quinoa/Buchweizen als Basis
-5. Linsen, gerösteter Rotkohl, Apfelscheiben, Rucola arrangieren
+5. Linsen, gerösteter Kürbis, Apfelscheiben, Feldsalat arrangieren
 6. Mit Vinaigrette beträufeln, Walnüsse darüberstreuen
 
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1150 kcal ✅
+- Gesamt Kalorien: 1145 kcal ✅
 - Gesamt Protein: 68g ⚠️
 - Gesamt Ballaststoffe: 38g ✅
 
 **Anpassung für Protein-Target:**
 - Füge zum Mittagessen 120g Tofu hinzu (+96 kcal, +12g Protein)
 - Füge zum Abendessen 50g zusätzliche Linsen (+60 kcal, +9g Protein)
-- **Neu:** 1306 kcal, 89g Protein
+- **Neu:** 1301 kcal, 89g Protein
 
 ---
 
 ## 📊 WOCHENZUSAMMENFASSUNG
 
-### Durchschnittliche Tageswerte (mit empfohlenen Anpassungen):
+### Durchschnittliche Tageswerte (Basis-Plan):
 
-- **Kalorien:** 1283 kcal/Tag (Target: 1200, Range: 1100-1300) ✅
-- **Protein:** 87g/Tag (Target: 110g, Minimum: 100g) ⚠️ **Anpassung nötig**
-- **Ballaststoffe:** 36g/Tag (Target: 30g, Minimum: 25g) ✅
+- **Kalorien:** 1160 kcal/Tag (Target: 1200, Range: 1100-1300) ✅
+- **Protein:** 69g/Tag (Target: 110g, Minimum: 100g) ⚠️ **Anpassung nötig**
+- **Ballaststoffe:** 37g/Tag (Target: 30g, Minimum: 25g) ✅
 
 ### Zusätzliche Protein-Optimierung für die gesamte Woche:
 
@@ -456,43 +462,80 @@ Um das Protein-Target von 100-110g zu erreichen, empfehle ich:
 
 **Option 1: Protein-Pulver konsequent nutzen**
 - Erhöhe Erbsenprotein-Pulver in allen Frühstücken auf 20g statt 15g
-- **Zusätzlich:** +25g Protein/Woche, +100 kcal/Tag
+- **Zusätzlich:** +5g Protein/Tag, +20 kcal/Tag
+- **Neue Werte:** 1180 kcal, 74g Protein (immer noch unter Target)
 
-**Option 2: Tofu systematisch hinzufügen**
+**Option 2: Tofu systematisch hinzufügen (empfohlen)**
 - Füge zu allen Mittag- und Abendessen jeweils 80-100g Tofu hinzu
 - **Zusätzlich:** +20g Protein/Tag, +160 kcal/Tag
+- **Neue Werte:** 1320 kcal, 89g Protein
 
-**Option 3: Kombiniert (empfohlen)**
+**Option 3: Kombiniert (optimal)**
 - Proteinpulver auf 20g erhöhen (Frühstück)
-- Tofu 3-4x pro Woche zu Hauptmahlzeiten (100g)
-- **Durchschnitt:** +15g Protein/Tag, +130 kcal/Tag
-- **Neue Werte:** 1413 kcal, 102g Protein ✅
+- Tofu 4x pro Woche zu Hauptmahlzeiten (100g)
+- Zusätzliche Hülsenfrüchte 2-3x pro Woche (+50g)
+- **Durchschnitt:** +18g Protein/Tag, +140 kcal/Tag
+- **Neue Werte:** 1300 kcal, 87g Protein → Mit weiteren Anpassungen 100g+ erreichbar ✅
 
 ### Saisonale November-Zutaten verwendet:
 
-✅ **Rotkohl** - Hauptzutat, 8x verwendet (Curry, Salate, geröstet, mariniert, Suppe)
+✅ **Rotkohl** - 4x verwendet (reduziert, vielfältige Zubereitungen)
+✅ **Hokkaido-Kürbis** - 2x (geröstet in Buddha-Bowl & Salat)
+✅ **Chinakohl** - 1x (Miso-Suppe)
+✅ **Fenchel** - 1x (geröstet in Buddha-Bowl)
+✅ **Feldsalat** - 1x (Salat mit Kürbis)
 ✅ **Äpfel** - 6x verwendet (Overnight Oats, Salate, Quinoa-Bowl)
 ✅ **Walnüsse** - 7x verwendet (verschiedene Mahlzeiten)
-✅ **Pilze** - 3x verwendet (Shiitake, Champignons)
+✅ **Pilze** - 4x verwendet (Shiitake, Champignons)
 ✅ **Wurzelgemüse** - Rote Bete, Karotten (mehrfach)
-✅ **Quinoa** - Ganzjährig verfügbar, vielseitig einsetzbar
+✅ **Quinoa** - Vielseitig einsetzbar
+
+### Gemüse-Vielfalt:
+
+- **Kohl-Varianten:** Rotkohl (4x), Chinakohl (1x)
+- **Kürbis:** Hokkaido (2x)
+- **Wurzelgemüse:** Rote Bete, Karotten, Fenchel
+- **Blattgemüse:** Rucola, Feldsalat, Spinat
+- **Pilze:** Shiitake, Champignons
 
 ### Meal Prep Synergien:
 
-1. **Rotkohl** → Mehrere Zubereitungsarten (roh, geröstet, Curry, mariniert)
-2. **Quinoa** → 1x kochen für mehrere Tage
-3. **Linsen & Kichererbsen** → Batch-Cooking
-4. **Overnight Oats** → 3-5 Portionen auf einmal
-5. **Tahini-Dressing** → 1x für die ganze Woche
-6. **Pilz-Nuss-Füllung** → Auch als Bowl-Topping verwendbar
+1. **Kürbis** → Rösten für 2 verschiedene Gerichte
+2. **Rotkohl** → 4 verschiedene Zubereitungsarten (Curry, geröstet, mariniert, roh)
+3. **Quinoa** → 1x kochen für mehrere Tage
+4. **Linsen & Kichererbsen** → Batch-Cooking
+5. **Overnight Oats** → 3-5 Portionen auf einmal
+6. **Dressings** → 1x für die ganze Woche
+7. **Pilz-Nuss-Füllung** → Auch als Bowl-Topping verwendbar
+
+---
+
+## ✨ VERBESSERUNGEN GEGENÜBER URSPRUNGSPLAN
+
+**Mehr Vielfalt:**
+- Rotkohl von 8x auf 4x reduziert
+- 4 neue Gemüsesorten hinzugefügt (Hokkaido, Chinakohl, Fenchel, Feldsalat)
+- Bessere Abwechslung in Geschmack und Textur
+
+**Weiterhin saisonal:**
+- Alle Ersatz-Gemüse sind November-saisonal in Deutschland
+- Hokkaido-Kürbis: Hauptsaison Oktober-Januar
+- Chinakohl: Herbst-/Wintergemüse
+- Fenchel: Saison September-März
+- Feldsalat: Typischer Wintersalat
+
+**Nährwerte:**
+- Ähnliche Kalorienbilanz
+- Protein-Werte vergleichbar
+- Teilweise höherer Ballaststoffgehalt
 
 ---
 
 ## Nächste Schritte:
 
-1. ✅ Meal Plan erstellt
+1. ✅ Meal Plan überarbeitet (Rotkohl reduziert)
 2. ⏭️ Nährwerte mit `verify_nutrition.py` validieren
-3. ⏭️ Shopping-Liste erstellen
-4. ⏭️ Meal-Prep-Timeline erstellen
+3. ⏭️ Shopping-Liste aktualisieren
+4. ⏭️ Meal-Prep-Timeline aktualisieren
 
 **Hinweis:** Die angegebenen Nährwerte sind Näherungswerte. Die exakte Validierung erfolgt mit dem verify_nutrition.py Script.

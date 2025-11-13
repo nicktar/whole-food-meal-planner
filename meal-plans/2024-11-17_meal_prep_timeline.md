@@ -110,25 +110,42 @@
 
 ### Ofen-Phase (parallel nutzen!):
 
-#### Task 2A: Rotkohl vorbereiten (15 Min)
+#### Task 2A: Gemüse vorbereiten (20 Min)
+
+**Rotkohl** (reduziert):
 - [ ] Rotkohl waschen, Strunk entfernen
 - [ ] Verschiedene Zubereitungen:
-  - **Fein hobeln für Salate:** 300g (Tag 1 Abend, Tag 4 Abend, Tag 5 Abend)
-  - **Fein schneiden für Curry/Suppe:** 250g (Tag 2 Mittag, Tag 3 Mittag)
-  - **Wedges zum Rösten:** 250g (Tag 3 Abend, Tag 5 Abend)
+  - **Fein hobeln für Salate:** 180g (Tag 1 Abend, mariniert für Wrap Tag 4)
+  - **Fein schneiden für Curry:** 150g (Tag 2 Mittag)
+  - **Wedges zum Rösten:** 150g (Tag 3 Abend)
 - [ ] In beschriftete Behälter/Beutel
+
+**Hokkaido-Kürbis:**
+- [ ] In Würfel schneiden (~400g, Schale kann dranbleiben!)
+- [ ] Für Tag 1 Mittag (100g) und Tag 5 Abend (120g)
+
+**Chinakohl:**
+- [ ] 120g in Streifen schneiden (für Tag 3 Miso-Suppe)
+
+**Fenchel:**
+- [ ] 80g in Scheiben schneiden (für Tag 4 Abend Buddha-Bowl)
+
+**Feldsalat:**
+- [ ] 60g waschen, in Beutel für Tag 5 Abend
 
 #### Task 2B: Gemüse rösten - Blech 1 (10 Min Prep + 25 Min Ofen)
 **Ofen auf 200°C vorheizen**
 
-- [ ] 250g Rotkohl-Wedges (für Tag 3 & 5 Abend)
-- [ ] Mit 1 EL Olivenöl, Salz, Pfeffer marinieren
+- [ ] 150g Rotkohl-Wedges (für Tag 3 Abend)
+- [ ] 220g Hokkaido-Kürbis-Würfel (für Tag 1 & Tag 5)
+- [ ] Mit 1 EL Olivenöl, Salz, Pfeffer, Kreuzkümmel marinieren
 - [ ] Auf Backblech verteilen
-- [ ] **Rösten:** 20-25 Min bis Ränder karamellisieren
+- [ ] **Rösten:** 20-25 Min (Rotkohl bis Ränder karamellisieren, Kürbis weich)
 
 #### Task 2C: Gemüse rösten - Blech 2 (10 Min Prep + 25 Min Ofen)
 - [ ] 300g Karotten in Sticks schneiden
 - [ ] 300g Rote Bete würfeln (Handschuhe!)
+- [ ] 80g Fenchel in Scheiben
 - [ ] Mit 1 EL Olivenöl, Salz, Gewürzen (Kreuzkümmel) mischen
 - [ ] **Rösten:** 25-30 Min
 
@@ -251,8 +268,8 @@
 - [ ] 80g gekochte Quinoa (Basis)
 - [ ] 120g geröstete Kichererbsen
 - [ ] 80g gedämpfter Brokkoli
-- [ ] 60g gerösteter Rotkohl
-- [ ] Label: "Mo Mittag - Buddha-Bowl" + Tahini separat
+- [ ] 100g gerösteter Hokkaido-Kürbis
+- [ ] Label: "Mo Mittag - Buddha-Bowl" + Tahini separat + 1/4 Avocado frisch
 
 #### Container 2 - Tag 2 Mittag (Rotkohl-Curry):
 - [ ] **Am Sonntag nicht komplett vorbereiten!**
@@ -266,7 +283,7 @@
 #### Container 3 - Tag 3 Mittag (Miso-Suppe):
 - [ ] **Nicht komplett vorkochen!**
 - [ ] Komponenten:
-  - 100g geschnittener Rotkohl
+  - 120g geschnittener Chinakohl
   - 100g Shiitake-Pilze (in Scheiben, in Beutel)
   - 150g Tofu-Würfel
   - Miso-Paste (separat!)
@@ -309,14 +326,14 @@
 - [ ] 80g Quinoa
 - [ ] Geröstete Karotten
 - [ ] Geröstete Rote Bete
-- [ ] 50g roher Rotkohl
+- [ ] Gerösteter Fenchel
 - [ ] Tahini, Hanfsamen, Kürbiskerne separat
 
 #### Container 10 - Tag 5 Abend (Linsen-Salat):
 - [ ] 120g Linsen
 - [ ] 80g Quinoa/Buchweizen
-- [ ] Gerösteter Rotkohl
-- [ ] **Am Abend:** Apfel, Walnüsse, Rucola, Dressing
+- [ ] 120g gerösteter Hokkaido-Kürbis
+- [ ] **Am Abend:** Apfel, Walnüsse, Feldsalat, Dressing
 
 ### Beschriftung & Lagerung:
 - [ ] Alle Container mit Tag, Mahlzeit, Datum beschriften

@@ -356,10 +356,10 @@ if __name__ == "__main__":
                     "Erbsenprotein", "Apfel", "Walnüsse", "Zimt"]
     )
     day1_lunch = Meal(
-        name="Kichererbsen-Buddha-Bowl mit geröstetem Rotkohl",
-        nutrition=NutritionInfo(calories=430, protein=25, carbs=52, fat=16, fiber=13),
-        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Rotkohl", "Avocado",
-                    "Tahini", "Kürbiskerne"]
+        name="Kichererbsen-Buddha-Bowl mit Hokkaido-Kürbis",
+        nutrition=NutritionInfo(calories=420, protein=24, carbs=54, fat=16, fiber=14),
+        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Hokkaido-Kürbis", "Avocado",
+                    "Tahini", "Kürbiskerne", "Petersilie"]
     )
     day1_dinner = Meal(
         name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen",
@@ -404,9 +404,9 @@ if __name__ == "__main__":
                     "Erbsenprotein", "Kakaopulver", "Banane", "Mandeln"]
     )
     day3_lunch = Meal(
-        name="Rotkohl-Miso-Suppe mit Tofu und Pilzen",
-        nutrition=NutritionInfo(calories=340, protein=28, carbs=28, fat=12, fiber=9),
-        ingredients=["Rotkohl", "Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
+        name="Chinakohl-Miso-Suppe mit Tofu und Pilzen",
+        nutrition=NutritionInfo(calories=335, protein=28, carbs=28, fat=12, fiber=9),
+        ingredients=["Chinakohl", "Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
                     "Ingwer", "Frühlingszwiebeln", "Hanfsamen"]
     )
     day3_dinner = Meal(
@@ -434,10 +434,10 @@ if __name__ == "__main__":
                     "Rucola", "Vollkorn-Wrap"]
     )
     day4_dinner = Meal(
-        name="Buddha-Bowl mit Linsen und Wurzelgemüse",
-        nutrition=NutritionInfo(calories=400, protein=24, carbs=52, fat=12, fiber=14),
-        ingredients=["Linsen", "Quinoa", "Karotten", "Rote Bete", "Rotkohl", "Tahini",
-                    "Hanfsamen", "Kürbiskerne"]
+        name="Buddha-Bowl mit Linsen, Fenchel und Wurzelgemüse",
+        nutrition=NutritionInfo(calories=395, protein=24, carbs=52, fat=12, fiber=15),
+        ingredients=["Linsen", "Quinoa", "Karotten", "Rote Bete", "Fenchel", "Tahini",
+                    "Hanfsamen", "Kürbiskerne", "Petersilie"]
     )
     day4 = DailyPlan(
         date="2024-11-20 (Mittwoch)",
@@ -458,9 +458,9 @@ if __name__ == "__main__":
                     "Quinoa", "Kürbiskerne", "Gewürze"]
     )
     day5_dinner = Meal(
-        name="Linsen-Salat mit geröstetem Rotkohl",
-        nutrition=NutritionInfo(calories=380, protein=20, carbs=48, fat=12, fiber=14),
-        ingredients=["Linsen", "Rotkohl", "Apfel", "Rucola", "Walnüsse", "Quinoa",
+        name="Linsen-Feldsalat mit geröstetem Kürbis",
+        nutrition=NutritionInfo(calories=375, protein=20, carbs=48, fat=12, fiber=14),
+        ingredients=["Linsen", "Hokkaido-Kürbis", "Apfel", "Feldsalat", "Walnüsse", "Quinoa",
                     "Apfel-Balsamico-Vinaigrette"]
     )
     day5 = DailyPlan(

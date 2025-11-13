@@ -35,13 +35,16 @@
 ### Blattgemüse & Salate:
 - [ ] 200g Rucola (mehrere kleine Packungen für Frische)
 - [ ] 150g frischer Spinat
+- [ ] 100g Feldsalat
 - [ ] 2 Bund Frühlingszwiebeln
 
 ### Kohl & Wurzelgemüse:
-- [ ] 1 großer Rotkohl (~1,2-1,5 kg) - **HAUPTZUTAT**
+- [ ] 1 kleiner-mittlerer Rotkohl (~600-800g) - **reduziert auf 4 Gerichte**
+- [ ] 1 kleiner Chinakohl (~400g)
 - [ ] 250g Brokkoli
 - [ ] 300g Karotten
 - [ ] 300g Rote Bete (frisch oder vorgekocht)
+- [ ] 1-2 Fenchelknollen (~200g)
 
 ### Tomaten & Gurken:
 - [ ] 200g Kirschtomaten
@@ -50,6 +53,9 @@
 ### Zwiebeln & Knoblauch:
 - [ ] 2 große Zwiebeln
 - [ ] 1 Knolle Knoblauch (mind. 6 Zehen benötigt)
+
+### Kürbis:
+- [ ] 1 kleiner Hokkaido-Kürbis (~600-800g) - **November-Saison!**
 
 ### Pilze:
 - [ ] 300g gemischte Pilze (Champignons, Shiitake)
@@ -223,7 +229,11 @@
 ## 🎯 SPEZIAL-TIPP: SAISONALE NOVEMBER-ZUTATEN
 
 **Regional und saisonal in Deutschland (November):**
+- ✅ **Hokkaido-Kürbis** - Hauptsaison Oktober-Januar, perfekt im November!
 - ✅ **Rotkohl** - Hauptsaison, super frisch
+- ✅ **Chinakohl** - Typisches Herbst-/Wintergemüse
+- ✅ **Fenchel** - Saison September-März
+- ✅ **Feldsalat** - Der klassische Wintersalat
 - ✅ **Äpfel** - Lageräpfel aus deutscher Ernte
 - ✅ **Walnüsse** - Frische Ernte (September-November)
 - ✅ **Rote Bete** - Herbst-/Wintergemüse
@@ -231,6 +241,7 @@
 - ✅ **Pilze** - Champignons ganzjährig verfügbar
 
 **Preis-Vorteil:** Diese Zutaten sind jetzt am günstigsten!
+**Vielfalt-Bonus:** Mehr verschiedene Gemüsesorten statt einseitig viel Rotkohl!
 
 ---
 
