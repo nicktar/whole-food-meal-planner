@@ -644,6 +644,6 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Hinweis zu den Rezepten:**
 Die in dieser Datenbank aufgeführten Rezepte haben teilweise niedrigere Protein-Werte als die empfohlenen Ranges. Um die Protein-Ziele zu erreichen:
 - **Erbsenprotein-Pulver** zu Frühstücks-Rezepten hinzufügen (15-20g für +15-20g Protein)
-- **Tofu/Tempeh** zu Mittag-/Abendessen hinzufügen (100-150g für +10-20g Protein)
+- **Tofu** zu Mittag-/Abendessen hinzufügen (100-150g für +10-15g Protein)
 - **Zusätzliche Hülsenfrüchte** einplanen
 - **Nussmus und Samen** als Protein-Booster verwenden
