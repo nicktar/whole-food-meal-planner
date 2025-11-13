@@ -247,12 +247,31 @@ python3 scripts/mealie_export.py
    - Nährwerte kalkulieren (pro Zutat summieren)
    - Zubereitung strukturieren (Schritt-für-Schritt)
 
-4. **Nährwerte validieren:**
+4. **Rezept auf Vollständigkeit und Stimmigkeit prüfen:**
+   - ✅ **Proteinpulver richtig eingesetzt:** Erbsenprotein-Pulver NUR in Flüssigkeiten (Smoothies, Porridge, Overnight Oats) - NICHT in trockenen Gerichten
+   - ✅ **Marinaden vorhanden:** Tofu, Tempeh brauchen Marinaden (Misopaste, Sojasauce, Gewürze + Öl)
+   - ✅ **Ausreichend gewürzt:** Alle Komponenten haben Würzung/Geschmack (nicht nur Salz & Pfeffer)
+   - ✅ **Konsistenz stimmig:**
+     - Nicht zu trocken (genug Sauce/Dressing/Flüssigkeit)
+     - Nicht zu wässrig (Gemüse richtig zubereitet, nicht überkocht)
+     - Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
+   - ✅ **Zubereitungsschritte vollständig:** Alle Komponenten werden in der Anleitung behandelt
+   - ✅ **Garzeiten realistisch:** Quinoa 15 Min, Linsen 20-25 Min, Kichererbsen (Dose) 10 Min aufwärmen
+   - ✅ **Fette/Öle enthalten:** Für Geschmack und Nährstoffaufnahme (1-2 EL Öl oder Nussmus)
+   - ⚠️ **Häufige Fehler vermeiden:**
+     - Trockenes Tofu ohne Marinade
+     - Rohes Gemüse ohne Dressing in warmen Gerichten
+     - Nur Basis-Zutaten ohne Geschmacksträger
+     - Erbsenprotein in Salaten/Bowls (funktioniert nicht!)
+
+   **Wenn Probleme gefunden werden:** Rezept JETZT anpassen, bevor Nährwerte validiert werden!
+
+5. **Nährwerte validieren:**
    - Gegen Meal-Ranges prüfen (siehe Standard-Targets oben)
    - Bei Bedarf anpassen (mehr Protein, weniger Kalorien, etc.)
    - `verify_nutrition.py` kann für finale Validierung verwendet werden
 
-5. **Meal-Prep-Hinweise hinzufügen:**
+6. **Meal-Prep-Hinweise hinzufügen:**
    - Vorbereitung im Voraus
    - Haltbarkeit im Kühlschrank
    - Aufwärm-Tipps
@@ -393,28 +412,49 @@ python3 scripts/mealie_export.py
    - Gemüse: Blumenkohl (200g) geröstet mit asiatischen Gewürzen
    - Sauce: Misopaste + Ingwer + Knoblauch + Sesamöl
 
-3. Nährwerte kalkulieren:
+3. Qualitätskontrolle durchführen:
+   ✅ Proteinpulver: Nicht verwendet (gut - wäre in Bowl ungeeignet)
+   ✅ Marinade: Tofu wird mariniert (Misopaste, Ingwer, Knoblauch)
+   ✅ Würzung: Blumenkohl mit asiatischen Gewürzen, Sauce vorhanden
+   ✅ Konsistenz: Sauce verhindert Trockenheit, Blumenkohl geröstet (nicht wässrig)
+   ✅ Zubereitung: Alle Komponenten abgedeckt
+   ✅ Fette: Sesamöl in Sauce enthalten
+   ✅ Texturen: Knuspriger Blumenkohl + weicher Tofu + fluffiger Quinoa
+   → Rezept ist stimmig, kann zu Nährwert-Validierung übergehen
+
+4. Nährwerte kalkulieren:
    - Quinoa: 180 kcal, 6g Protein
    - Tofu: 95 kcal, 10g Protein
    - Blumenkohl: 50 kcal, 4g Protein
    - Sauce: 25 kcal, 1g Protein
    - Gesamt: 350 kcal, 21g Protein ✅
 
-4. Zubereitung strukturieren:
-   - Tofu marinieren (Misopaste, Ingwer, Knoblauch)
-   - Blumenkohl in Röschen schneiden, würzen, rösten
-   - Quinoa kochen
-   - Servieren mit Sesam und Frühlingszwiebeln
+5. Zubereitung strukturieren:
+   - Tofu marinieren (Misopaste, Ingwer, Knoblauch, 30 Min)
+   - Blumenkohl in Röschen schneiden, mit Sesamöl + Gewürzen bestreichen
+   - Blumenkohl bei 200°C 25 Min rösten
+   - Quinoa kochen (15 Min)
+   - Bowl zusammenstellen, mit Sesam und Frühlingszwiebeln toppen
 
-5. Meal-Prep-Hinweise:
+6. Meal-Prep-Hinweise:
    - Alle Komponenten 4-5 Tage haltbar
    - Getrennt lagern, täglich frisch kombinieren
    - Tofu wird beim Aufwärmen noch besser
+   - Blumenkohl in Ofen oder Pfanne kurz aufknuspern
 
-6. Optional: Zu recipe-database.md hinzufügen für zukünftige Meal Plans
+7. Optional: Zu recipe-database.md hinzufügen für zukünftige Meal Plans
 ```
 
 ## Troubleshooting
+
+**Problem:** Neue Rezepte schmecken fade oder Konsistenz stimmt nicht
+→ Qualitätskontrolle-Checkliste durchgehen (siehe "Rezept auf Vollständigkeit und Stimmigkeit prüfen")
+→ Häufigste Fehler:
+  - Tofu/Tempeh ohne Marinade → Mindestens 30 Min marinieren
+  - Zu wenig Gewürze → Pro Portion mind. 1 TL Gewürzmischung
+  - Fehlendes Fett → 1-2 EL Öl oder Nussmus hinzufügen
+  - Erbsenprotein falsch verwendet → Nur in Flüssigkeiten/Brei
+→ Nach Korrekturen Nährwerte neu berechnen!
 
 **Problem:** Nährwerte stimmen nicht
 → verify_nutrition.py zeigt genaue Abweichungen
@@ -437,7 +477,7 @@ python3 scripts/mealie_export.py
 
 ## Qualitätskontrolle
 
-Vor Finalisierung prüfen:
+### Für Meal Plans (vor Finalisierung):
 - [ ] Challenge-Regeln eingehalten (keine ausgeschlossenen Zutaten)
 - [ ] Nährwerte verifiziert und im Target-Bereich
 - [ ] Meal Prep Synergien maximiert
@@ -446,3 +486,14 @@ Vor Finalisierung prüfen:
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
+
+### Für neue Rezepte (vor Nährwert-Validierung):
+- [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
+- [ ] Tofu/Tempeh haben Marinaden (mind. 30 Min Marinierzeit)
+- [ ] Alle Komponenten ausreichend gewürzt (nicht fade)
+- [ ] Konsistenz stimmig (nicht zu trocken, nicht zu wässrig)
+- [ ] Texturen ergänzen sich (knusprig + cremig, weich + bissfest)
+- [ ] Fette/Öle enthalten (1-2 EL pro Portion für Geschmack)
+- [ ] Alle Zubereitungsschritte vollständig dokumentiert
+- [ ] Garzeiten realistisch und spezifisch angegeben
+- [ ] Bei Korrekturen: Nährwerte entsprechend angepasst
