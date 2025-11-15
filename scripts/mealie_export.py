@@ -90,10 +90,10 @@ def save_recipe(recipe: Dict, filename: str, output_dir: str = "mealie_exports")
 # ============================================================================
 
 def create_apfel_zimt_overnight_oats_protein():
-    """Apfel-Zimt Overnight Oats (Protein-optimiert)"""
+    """Apfel-Zimt Overnight Oats"""
     return create_recipe(
-        name="Apfel-Zimt Overnight Oats (Protein-optimiert)",
-        description="Protein-reiches Frühstück mit 28g Protein pro Portion. Über Nacht vorbereitet, morgens nur noch Toppings hinzufügen. Perfekt für Meal Prep (bis zu 3 Tage haltbar).",
+        name="Apfel-Zimt Overnight Oats",
+        description="Über Nacht vorbereitet, morgens nur noch Toppings hinzufügen. Perfekt für Meal Prep (bis zu 3 Tage haltbar).",
         prep_time="PT5M",
         meal_type="Frühstück",
         ingredients=[
@@ -517,7 +517,7 @@ def create_overnight_oats_protein_boost():
     """Overnight Oats Protein-Boost"""
     return create_recipe(
         name="Overnight Oats Protein-Boost",
-        description="Maximale Protein-Power mit 33g Protein! Triple-Samen-Topping (Hanf, Kürbis, Sonnenblume) für zusätzliche Nährstoffe.",
+        description="Triple-Samen-Topping (Hanf, Kürbis, Sonnenblume) für zusätzliche Nährstoffe.",
         prep_time="PT5M",
         meal_type="Frühstück",
         ingredients=[
@@ -549,7 +549,7 @@ def create_quinoa_fruehstuecksbowl_walnuesse():
     """Quinoa-Frühstücksbowl mit Walnüssen"""
     return create_recipe(
         name="Quinoa-Frühstücksbowl mit Walnüssen",
-        description="Warmes Frühstück mit 38g Protein! Quinoa wird mit Hafermilch und Proteinpulver cremig aufgewärmt. Apfel und Cranberries geben süße Akzente.",
+        description="Quinoa wird mit Hafermilch und Proteinpulver cremig aufgewärmt. Apfel und Cranberries geben süße Akzente.",
         prep_time="PT3M",
         cook_time="PT3M",
         meal_type="Frühstück",
@@ -581,7 +581,7 @@ def create_beeren_power_overnight_oats():
     """Beeren-Power Overnight Oats"""
     return create_recipe(
         name="Beeren-Power Overnight Oats",
-        description="Protein-optimierte Overnight Oats mit 32g Protein. Extra Kürbiskerne und Hanfsamen für zusätzliche Proteine und Omega-3-Fettsäuren.",
+        description="Extra Kürbiskerne und Hanfsamen für zusätzliche Proteine und Omega-3-Fettsäuren.",
         prep_time="PT5M",
         meal_type="Frühstück",
         ingredients=[
@@ -648,7 +648,7 @@ def create_linsen_salat_rote_bete_walnuesse():
     """Linsen-Salat mit Rote Bete und Walnüssen"""
     return create_recipe(
         name="Linsen-Salat mit Rote Bete und Walnüssen",
-        description="Protein-reicher Salat mit 36g Protein. Tofu wird separat angebraten für beste Textur. Rote Bete separat lagern (färbt stark!).",
+        description="Tofu wird separat angebraten für beste Textur. Rote Bete separat lagern (färbt stark!).",
         prep_time="PT15M",
         cook_time="PT25M",
         meal_type="Mittagessen",
@@ -717,7 +717,7 @@ def create_rotkohl_curry_kichererbsen_tofu_v2():
     """Rotkohl-Curry mit Kichererbsen und Tofu (Version 2)"""
     return create_recipe(
         name="Rotkohl-Curry mit Kichererbsen und Tofu",
-        description="Farbenfrohes Curry mit 34g Protein. Rotkohl färbt das Curry wunderschön violett! Tofu separat anbraten für knusprige Textur.",
+        description="Rotkohl färbt das Curry wunderschön violett! Tofu separat anbraten für knusprige Textur.",
         prep_time="PT10M",
         cook_time="PT20M",
         meal_type="Mittagessen",
@@ -752,7 +752,7 @@ def create_pilz_lauch_pfanne_tofu():
     """Pilz-Lauch-Pfanne mit Tofu und Quinoa"""
     return create_recipe(
         name="Pilz-Lauch-Pfanne mit Tofu und Quinoa",
-        description="Herzhaftes Pilz-Gericht mit 36g Protein. Shiitake und Champignons kombiniert für komplexen umami-Geschmack. Thymian gibt mediterrane Note.",
+        description="Shiitake und Champignons kombiniert für komplexen umami-Geschmack. Thymian gibt mediterrane Note.",
         prep_time="PT10M",
         cook_time="PT15M",
         meal_type="Mittagessen",
@@ -787,7 +787,7 @@ def create_geroesteter_rotkohl_salat_cannellini():
     """Gerösteter Rotkohl-Salat mit Cannellini-Bohnen"""
     return create_recipe(
         name="Gerösteter Rotkohl-Salat mit Cannellini-Bohnen",
-        description="Warmer Salat mit 28g Protein. Rotkohl wird mit Ahornsirup karamellisiert für süß-herzhaften Geschmack. Meal-Prep: Rotkohl hält 3-4 Tage.",
+        description="Rotkohl wird mit Ahornsirup karamellisiert für süß-herzhaften Geschmack. Meal-Prep: Rotkohl hält 3-4 Tage.",
         prep_time="PT10M",
         cook_time="PT25M",
         meal_type="Abendessen",
@@ -862,7 +862,7 @@ def create_linsen_buddha_bowl_karotten_tofu():
     """Linsen-Buddha-Bowl mit Karotten und Tofu"""
     return create_recipe(
         name="Linsen-Buddha-Bowl mit Karotten und Tofu",
-        description="Meal-Prep-optimierte Bowl mit 32g Protein. Karotten als rohe Julienne für maximale Haltbarkeit (4-5 Tage knackig!). Tahini-Dressing separat lagern.",
+        description="Karotten als rohe Julienne für maximale Haltbarkeit (4-5 Tage knackig!). Tahini-Dressing separat lagern.",
         prep_time="PT15M",
         cook_time="PT25M",
         meal_type="Abendessen",
@@ -897,7 +897,7 @@ def create_rotkohl_apfel_salat_cannellini_v2():
     """Rotkohl-Apfel-Salat mit Cannellini-Bohnen (Version 2)"""
     return create_recipe(
         name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen",
-        description="Frischer Salat mit 28g Protein. Rotkohl wird mariniert für weichere Textur. Apfel gibt süßen Kontrast. Perfekt als kaltes Abendessen.",
+        description="Rotkohl wird mariniert für weichere Textur. Apfel gibt süßen Kontrast. Perfekt als kaltes Abendessen.",
         prep_time="PT15M",
         meal_type="Abendessen",
         ingredients=[
