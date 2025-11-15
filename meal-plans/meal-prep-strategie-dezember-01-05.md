@@ -96,15 +96,15 @@ Sonntag Meal Prep (3,5 Std):
 
 #### 1A. QUINOA KOCHEN (Total: 20 Min, davon 5 Min aktiv)
 
-- [ ] **200g Quinoa** in Sieb unter kaltem Wasser abspülen
-- [ ] In Topf geben mit **400ml Wasser** + Prise Salz
+- [ ] **210g Quinoa** in Sieb unter kaltem Wasser abspülen
+- [ ] In Topf geben mit **420ml Wasser** + Prise Salz
 - [ ] Aufkochen, dann auf niedrige Stufe reduzieren
 - [ ] **15 Min köcheln lassen** mit Deckel
 - [ ] Vom Herd nehmen, **5 Min ruhen lassen**
 - [ ] Mit Gabel auflockern
 
-**Ergebnis:** ~600g gekochte Quinoa
-**Verwendung:** Montag (100g), Dienstag (80g), Mittwoch (100g), Donnerstag (80g), Freitag (180g + 60g Reserve)
+**Ergebnis:** ~630g gekochte Quinoa
+**Verwendung:** Montag (100g), Dienstag (80g), Mittwoch (100g), Donnerstag (80g), Freitag (180g + 90g Reserve)
 
 ---
 
@@ -124,9 +124,9 @@ Sonntag Meal Prep (3,5 Std):
   - **Ergebnis:** ~200g gekocht
 
 - [ ] **Grüne Linsen** (nicht einweichen!)
-  - 100g Linsen + 250ml Wasser
+  - 200g Linsen + 500ml Wasser
   - Aufkochen, dann **20-25 Min köcheln**
-  - **Ergebnis:** ~240g gekocht
+  - **Ergebnis:** ~460g gekocht
 
 **Timing-Tipp:** Linsen zuletzt starten (10:20 Uhr), da sie nur 20 Min brauchen
 
@@ -377,9 +377,9 @@ Sonntag Meal Prep (3,5 Std):
   - 100g → würfeln für Fr Curry (roh lagern)
 
 **Für Linsensalate:**
-- [ ] **300g Kirschtomaten** halbieren → in Container
-- [ ] **150g Gurke** würfeln → in Container
-- [ ] **60g Rucola** waschen, trocken schleudern → in Container mit feuchtem Küchentuch
+- [ ] **200g Kirschtomaten** halbieren → in Container
+- [ ] **100g Gurke** würfeln → in Container
+- [ ] **120g Rucola** waschen, trocken schleudern → in Container mit feuchtem Küchentuch
 
 **Pastinaken (für Fr Mittag):**
 - [ ] **150g Pastinaken** würfeln → in Container (roh)
@@ -442,8 +442,8 @@ Sonntag Meal Prep (3,5 Std):
 **Noch zu tun:**
 
 - [ ] **Walnüsse hacken** für Frühstück
-  - 80g Walnüsse grob hacken
-  - In 4 Portionen à 1 EL aufteilen
+  - 50g Walnüsse grob hacken
+  - In 5 Portionen à 1 EL aufteilen
   - In kleine Container oder Zip-Beutel
 
 - [ ] **Freitag: Quinoa-Frühstücksbowl**

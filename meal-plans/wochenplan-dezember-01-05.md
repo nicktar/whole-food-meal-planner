@@ -413,10 +413,10 @@ Alle Komponenten in Bowl geben, Dressing drüber, mit Haselnüssen toppen
 ### Meal-Prep-Synergien: ⭐⭐⭐⭐⭐
 
 **Basis-Komponenten (parallel kochen):**
-- Quinoa: 400g (für ganze Woche)
-- Grüne Linsen: 240g gekocht
-- Kichererbsen: 240g (geröstet für Bowls)
-- Cannellini-Bohnen: 200g gekocht
+- Quinoa: 210g trocken → 630g gekocht (für ganze Woche)
+- Grüne Linsen: 200g trocken → 460g gekocht
+- Kichererbsen: 100g trocken → 240g gekocht
+- Cannellini-Bohnen: 80g trocken → 200g gekocht
 
 **Rotkohl-Komponenten (4 Zubereitungen):**
 1. Rotkohl-Curry (150g)

@@ -8,21 +8,21 @@
 
 ## 🌾 VOLLKORNPRODUKTE & GETREIDE
 
-- [ ] **400g Quinoa** (trocken) → ergibt ca. 1200g gekocht
-- [ ] **120g Haferflocken** (Vollkorn) → für 4x Overnight Oats
-- [ ] **90g Chiasamen** → für 2x Chia Pudding + Overnight Oats
+- [ ] **210g Quinoa** (trocken) → ergibt ca. 630g gekocht
+- [ ] **60g Haferflocken** (Vollkorn) → für 2x Overnight Oats (Mo + Mi)
+- [ ] **90g Chiasamen** → für 2x Chia Pudding (6 EL) + 2x Overnight Oats (2 EL)
 
 ---
 
 ## 🫘 HÜLSENFRÜCHTE
 
 **Trocken zum selbst kochen (günstiger):**
-- [ ] **100g grüne Linsen** (trocken) → ergibt ca. 240g gekocht
+- [ ] **200g grüne Linsen** (trocken) → ergibt ca. 460g gekocht
 - [ ] **100g Kichererbsen** (trocken, über Nacht einweichen) → ergibt ca. 240g gekocht
 - [ ] **80g Cannellini-Bohnen** (trocken, über Nacht einweichen) → ergibt ca. 200g gekocht
 
 **ODER vorgekocht (zeitsparend):**
-- [ ] **1 Dose grüne Linsen** (240g Abtropfgewicht)
+- [ ] **2 Dosen grüne Linsen** (460g Abtropfgewicht total)
 - [ ] **1 Dose Kichererbsen** (240g Abtropfgewicht)
 - [ ] **1 Dose Cannellini-Bohnen** (200g Abtropfgewicht)
 
@@ -40,11 +40,11 @@
 
 ### Weitere Gemüse:
 - [ ] **80g Brokkoli** → für 1x Buddha-Bowl (Dienstag)
-- [ ] **300g Kirschtomaten** → für Linsensalate (Mo + Do)
-- [ ] **150g Gurke** → für Linsensalate (Mo + Do)
+- [ ] **200g Kirschtomaten** → für Linsensalate (Mo + Do: je 100g)
+- [ ] **100g Gurke** → für Linsensalate (Mo + Do: je 50g)
 - [ ] **250g Karotten** → für Mi Salat (50g Julienne) + Do Bowl (100g geröstet) + Fr Curry (100g)
-- [ ] **100g Feldsalat** → saisonal im Dezember! Für Do Bowl + Fr Abend
-- [ ] **30g Rucola** → für Mi Salat + Mo/Do Linsensalate
+- [ ] **60g Feldsalat** → saisonal im Dezember! Für Do Bowl (30g) + Fr Abend (30g)
+- [ ] **120g Rucola** → für Mo Abend (30g) + Mi Mittag (30g) + Mi Abend (30g) + Do Abend (30g)
 - [ ] **2 Frühlingszwiebeln** → für Mo Curry
 
 ### Protein-Komponenten:
@@ -71,10 +71,10 @@
 ## 🥜 NÜSSE & SAMEN
 
 ### Dezember-typisch:
-- [ ] **130g Walnüsse** - frisch aus der Ernte 🌰
-  - Verwendung: 4x Frühstück + Mo/Mi/Do Salate
-- [ ] **30g Haselnüsse** - Winter-Nuss! 🌰
-  - Verwendung: Fr Abend (Rote-Bete-Apfel-Salat)
+- [ ] **140g Walnüsse** - frisch aus der Ernte 🌰
+  - Verwendung: 5x Frühstück (50g) + Mo/Mi/Do Salate (90g)
+- [ ] **20g Haselnüsse** - Winter-Nuss! 🌰
+  - Verwendung: Fr Abend (2 EL, Rote-Bete-Apfel-Salat)
 
 ### Weitere Samen:
 - [ ] **30g gemahlene Leinsamen** → für Overnight Oats
@@ -85,15 +85,14 @@
 ## 🥛 PFLANZENMILCH & NUSSMUS
 
 - [ ] **2,5 Liter Hafermilch** (ungesüßt)
-  - Frühstück: ca. 2,0 Liter (erhöht wegen mehr Proteinpulver)
-  - Quinoa-Bowl (Freitag): 250ml
-  - Reserve: 250ml
+  - Frühstück: 1150ml (Mo 200ml + Di 250ml + Mi 200ml + Do 250ml + Fr 250ml)
+  - Reserve/Kochen: 350ml
 
-- [ ] **100g Mandelmus** (natürlich, ohne Zusätze)
-  - Verwendung: 2x Overnight Oats
+- [ ] **30g Mandelmus** (natürlich, ohne Zusätze)
+  - Verwendung: 2x Overnight Oats (Mo + Mi: je 1 EL)
 
-- [ ] **100g Cashewmus** (natürlich, ohne Zusätze)
-  - Verwendung: 2x Chia Pudding
+- [ ] **30g Cashewmus** (natürlich, ohne Zusätze)
+  - Verwendung: 2x Chia Pudding (Di + Do: je 1 EL)
 
 ---
 
@@ -197,8 +196,8 @@
 ## ✅ EINKAUFS-CHECKLISTE ZUSAMMENFASSUNG
 
 **Anzahl Positionen:** ~35 (ohne Standard-Gewürze)
-**Geschätzter Preis:** 40-55€ (abhängig von Bio/Konventionell, Bulk-Kauf)
-**Gewicht gesamt:** ca. 5-6 kg
+**Geschätzter Preis:** 30-40€ (abhängig von Bio/Konventionell, Bulk-Kauf)
+**Gewicht gesamt:** ca. 3-4 kg (optimiert, keine Verschwendung!)
 
 **Kategorien-Schnellcheck:**
 - [ ] Vollkorn & Getreide (3 Positionen) ✓
