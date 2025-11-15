@@ -90,11 +90,11 @@ See `references/external-recipes-guide.md` for detailed format requirements.
 
 ## Key Commands
 
-### Nutritional Verification
+### Nutritional Verification & Ingredient Variety
 ```bash
 python3 scripts/verify_nutrition.py
 ```
-Validates meal plans against nutritional targets and challenge rules. After creating any meal plan, always run this script to verify compliance.
+Validates meal plans against nutritional targets and challenge rules. **NEW:** Also checks ingredient repetition - ensures no **flavor component** (vegetables with strong taste like Rotkohl, Hokkaido, Blumenkohl) appears in more than 4 meals. **Grains and legumes are NOT limited** - they are satiety components, not flavor components! After creating any meal plan, always run this script to verify compliance.
 
 ### Mealie Recipe Export
 ```bash
@@ -210,8 +210,9 @@ day1 = DailyPlan(
     meals=[breakfast, lunch, dinner]
 )
 
-# Run verification
+# Run verification (nutrition + ingredient repetition)
 verify_daily_plan(day1)
+verify_ingredient_repetition([day1, day2, day3, ...])  # For weekly plans
 ```
 
 The script outputs:
@@ -219,6 +220,12 @@ The script outputs:
 - JSON format for programmatic processing
 - Detailed warnings for out-of-range values
 - Ingredient compliance checks
+- **NEW:** Ingredient repetition analysis showing:
+  - Violations (flavor components used >4 times)
+  - Warnings (flavor components used exactly 4 times)
+  - Top used components ranked by frequency
+  - Specific suggestions for alternatives
+  - **IMPORTANT:** Only flavor components (Rotkohl, Hokkaido, Blumenkohl, etc.) are limited - grains and legumes are NOT limited!
 
 ### mealie_export.py
 
@@ -305,10 +312,16 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 - Smaller nut portions
 - Replace avocado with vegetables
 
-**Too monotonous**:
+**Too monotonous / Flavor component violations (>4 repetitions)**:
+- Replace frequently used flavor components with alternatives:
+  - Rotkohl → Blumenkohl, Brokkoli, Fenchel, Sellerie
+  - Hokkaido/Kürbis → Blumenkohl, Brokkoli, Rote Bete
+  - Pilze → Other mushroom varieties, different vegetables
+- **IMPORTANT:** Grains (Quinoa, Buchweizen) and legumes (Kichererbsen, Linsen) can be repeated unlimited - they are satiety components!
 - Same base ingredients, different spices (Mediterranean → Asian → Mexican)
 - Vary cooking methods (raw, roasted, steamed)
 - Different textures (crispy chickpeas, creamy hummus, whole chickpeas)
+- The script will automatically flag violations and suggest improvements
 
 ## Integration Points
 
@@ -332,6 +345,9 @@ Before finalizing any meal plan, verify:
 - [ ] No excluded ingredients (Auberginen, Dicke Bohnen, Grünkohl, Rosenkohl, Wirsing, Rosinen)
 - [ ] All animal products and processed foods excluded
 - [ ] Nutritional targets met (run `verify_nutrition.py`)
+- [ ] **NEW:** No flavor component in more than 4 meals (checked by `verify_nutrition.py`)
+- [ ] **Flavor components limited:** Rotkohl, Hokkaido, Blumenkohl, Brokkoli, Rote Bete, Lauch, Pilze, Spinat
+- [ ] **NOT limited:** Grains (Quinoa, Buchweizen) and legumes (Kichererbsen, Linsen, Bohnen) - satiety components!
 - [ ] Meal prep synergies maximized
 - [ ] Shopping list complete and categorized
 - [ ] Realistic prep times included

@@ -51,7 +51,7 @@ python3 scripts/verify_nutrition.py
 python3 scripts/mealie_export.py
 ```
 
-**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → Verifizieren → Optional: Mealie-Export
+**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → Verifizieren (Nährwerte + Zutatenvielfalt) → Optional: Mealie-Export
 
 ## Challenge-Regeln
 
@@ -95,10 +95,13 @@ python3 scripts/mealie_export.py
 
 ### Scripts
 
-**`scripts/verify_nutrition.py`** - Nährwert-Verifikation
+**`scripts/verify_nutrition.py`** - Nährwert-Verifikation & Zutatenvielfalt
 - Validiert Tagespläne gegen Targets
+- **NEU:** Prüft Zutatenhäufigkeit - keine **Geschmackskomponente** in mehr als 4 Gerichten
+- **Geschmackskomponenten:** Gemüse mit starkem Eigengeschmack (Rotkohl, Hokkaido, Blumenkohl, Brokkoli, Rote Bete, Lauch, Pilze, Spinat, etc.)
+- **NICHT limitiert:** Getreide (Quinoa, Buchweizen etc.) und Hülsenfrüchte (Kichererbsen, Linsen etc.) - sind Sättigungskomponenten, keine Geschmackskomponenten
 - Zeigt Abweichungen und Warnungen
-- Output: Text-Report + JSON
+- Output: Text-Report + JSON mit Wiederholungsanalyse
 - **Wann verwenden:** Nach jedem Meal Plan, vor Finalisierung
 
 **`scripts/mealie_export.py`** - Mealie-Integration
@@ -145,11 +148,13 @@ python3 scripts/mealie_export.py
 
 **Wichtigste Punkte:**
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
+- ✅ **NEU:** Keine **Geschmackskomponente** in mehr als 4 Gerichten (Rotkohl, Hokkaido, Blumenkohl etc.)
+- ✅ Getreide & Hülsenfrüchte dürfen wiederholt werden - sind Sättigungskomponenten!
 - ✅ Externe Rezepte prüfen: `ls recipe-database.md` (falls vorhanden, werden diese verwendet)
 - ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
-- ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
+- ✅ Meal Prep Synergien maximieren (Getreide & Hülsenfrüchte beliebig oft, Geschmacksgemüse max. 4x)
 
 ## Neue Rezepte generieren
 
@@ -293,11 +298,13 @@ python3 scripts/mealie_export.py
 - Gleiche Basis, verschiedene Gewürze
 - Internationale Variationen (Mediterran, Asiatisch, Mexikanisch)
 - Textur-Kontraste (knusprig + cremig)
+- **NEU: Zutatenvielfalt bei Geschmackskomponenten:** Rotkohl, Hokkaido, Blumenkohl etc. max. 4x
 
 ### Meal-Prep-Synergien
-- **Rotkohl:** Curry, Salat, mariniert, Suppe
-- **Kichererbsen:** Geröstet, Buddha Bowl, Hummus
-- **Quinoa:** Frühstück, Bowl-Basis, Salat
+- **Rotkohl:** Curry, Salat, mariniert, Suppe (max. 4 Gerichte - Geschmackskomponente!)
+- **Kichererbsen:** Geröstet, Buddha Bowl, Hummus (UNBEGRENZT - Sättigungskomponente!)
+- **Quinoa:** Frühstück, Bowl-Basis, Salat (UNBEGRENZT - Sättigungskomponente!)
+- **Wichtig:** Getreide & Hülsenfrüchte beliebig oft, Geschmacksgemüse max. 4x
 
 ## Häufige Szenarien
 
@@ -398,6 +405,8 @@ python3 scripts/mealie_export.py
 ### Für Meal Plans (vor Finalisierung):
 - [ ] Challenge-Regeln eingehalten (keine ausgeschlossenen Zutaten)
 - [ ] Nährwerte verifiziert und im Target-Bereich
+- [ ] **NEU: Geschmackskomponenten-Vielfalt geprüft** - Rotkohl, Hokkaido, Blumenkohl etc. max. 4x (verify_nutrition.py zeigt Violations)
+- [ ] Getreide & Hülsenfrüchte dürfen unbegrenzt wiederholt werden (Sättigungskomponenten!)
 - [ ] Meal Prep Synergien maximiert
 - [ ] Einkaufsliste vollständig und kategorisiert
 - [ ] Realistische Zubereitungszeiten

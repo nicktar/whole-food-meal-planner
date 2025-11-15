@@ -114,19 +114,42 @@ NUTRITIONAL_TARGETS = {
     }
 }
 
+# Ingredient Repetition Limits
+# Geschmacksgebende Hauptkomponenten, die nicht zu oft wiederholt werden sollten
+# WICHTIG: Getreide und Hülsenfrüchte sind Sättigungskomponenten, keine Geschmackskomponenten!
+# Paprika, Süßkartoffeln und Zucchini sind ausreichend vielfältig und werden nicht limitiert.
+FLAVOR_COMPONENTS = [
+    # Gemüse mit starkem Eigengeschmack
+    "rotkohl", "red cabbage",
+    "hokkaido", "kürbis", "pumpkin",
+    "blumenkohl", "cauliflower",
+    "brokkoli", "broccoli",
+    "rote bete", "rote beete", "beetroot",
+    "lauch", "leek",
+    "pilze", "champignons", "shiitake", "mushroom",
+    "spinat", "spinach",
+    "fenchel", "fennel",
+    "sellerie", "celery",
+    "artischocke", "artichoke",
+    "spargel", "asparagus",
+]
+
+# Maximum number of meals a flavor component should appear in
+MAX_COMPONENT_REPETITIONS = 4
+
 
 def verify_ingredient(ingredient: str) -> Dict[str, any]:
     """
     Verify if an ingredient is allowed in the challenge.
-    
+
     Args:
         ingredient: Name of the ingredient to check
-        
+
     Returns:
         Dictionary with verification result and details
     """
     ingredient_lower = ingredient.lower()
-    
+
     # Check excluded ingredients
     for excluded in CHALLENGE_RULES["excluded_ingredients"]:
         if excluded in ingredient_lower:
@@ -135,10 +158,88 @@ def verify_ingredient(ingredient: str) -> Dict[str, any]:
                 "reason": f"Ingredient '{ingredient}' is excluded from challenge",
                 "category": "excluded_ingredient"
             }
-    
+
     return {
         "allowed": True,
         "ingredient": ingredient
+    }
+
+
+def extract_flavor_components(ingredients: List[str]) -> List[str]:
+    """
+    Extract flavor components from an ingredient list.
+
+    Args:
+        ingredients: List of ingredient names
+
+    Returns:
+        List of detected flavor components
+    """
+    found_components = []
+
+    for ingredient in ingredients:
+        ingredient_lower = ingredient.lower()
+        for component in FLAVOR_COMPONENTS:
+            if component in ingredient_lower and component not in found_components:
+                # Normalize to the German term (first occurrence in list)
+                found_components.append(component)
+
+    return found_components
+
+
+def verify_ingredient_repetition(plans: List[DailyPlan]) -> Dict[str, any]:
+    """
+    Verify that no flavor component appears in more than MAX_COMPONENT_REPETITIONS meals.
+
+    Args:
+        plans: List of DailyPlan objects to check across
+
+    Returns:
+        Dictionary with repetition analysis and warnings
+    """
+    component_counts = {}
+    component_meals = {}  # Track which meals contain which components
+
+    # Count component occurrences across all meals
+    for plan in plans:
+        for meal in plan.meals:
+            meal_identifier = f"{plan.date} - {meal.name}"
+            components = extract_flavor_components(meal.ingredients)
+
+            for component in components:
+                if component not in component_counts:
+                    component_counts[component] = 0
+                    component_meals[component] = []
+
+                component_counts[component] += 1
+                component_meals[component].append(meal_identifier)
+
+    # Identify violations
+    violations = []
+    warnings = []
+
+    for component, count in component_counts.items():
+        if count > MAX_COMPONENT_REPETITIONS:
+            violations.append({
+                "component": component,
+                "count": count,
+                "max_allowed": MAX_COMPONENT_REPETITIONS,
+                "meals": component_meals[component]
+            })
+        elif count == MAX_COMPONENT_REPETITIONS:
+            warnings.append({
+                "component": component,
+                "count": count,
+                "max_allowed": MAX_COMPONENT_REPETITIONS,
+                "meals": component_meals[component]
+            })
+
+    return {
+        "passed": len(violations) == 0,
+        "violations": violations,
+        "warnings": warnings,
+        "component_counts": component_counts,
+        "total_components_tracked": len(component_counts)
     }
 
 
@@ -282,13 +383,75 @@ def verify_daily_plan(plan: DailyPlan) -> Dict[str, any]:
     return results
 
 
+def generate_ingredient_repetition_report(repetition_results: Dict[str, any]) -> str:
+    """
+    Generate a human-readable ingredient repetition report.
+
+    Args:
+        repetition_results: Results from verify_ingredient_repetition
+
+    Returns:
+        Formatted report string
+    """
+    report = []
+    report.append(f"═══════════════════════════════════════════════════")
+    report.append(f"INGREDIENT REPETITION ANALYSIS")
+    report.append(f"═══════════════════════════════════════════════════\n")
+
+    # Overall status
+    status = "✅ PASSED" if repetition_results["passed"] else "❌ FAILED"
+    report.append(f"Overall Status: {status}")
+    report.append(f"Components tracked: {repetition_results['total_components_tracked']}")
+    report.append(f"Max repetitions allowed: {MAX_COMPONENT_REPETITIONS} Gerichte\n")
+
+    # Violations
+    if repetition_results["violations"]:
+        report.append("❌ VIOLATIONS (Zu oft verwendet):")
+        for violation in repetition_results["violations"]:
+            report.append(f"\n  Component: {violation['component'].upper()}")
+            report.append(f"  Anzahl Gerichte: {violation['count']} (Max: {violation['max_allowed']})")
+            report.append(f"  Vorschlag: Ersetze in {violation['count'] - violation['max_allowed']} Gericht(en)")
+            report.append(f"  Gefunden in:")
+            for meal in violation['meals']:
+                report.append(f"    - {meal}")
+        report.append("")
+
+    # Warnings (at limit)
+    if repetition_results["warnings"]:
+        report.append("⚠️  WARNINGS (Am Limit):")
+        for warning in repetition_results["warnings"]:
+            report.append(f"\n  Component: {warning['component'].upper()}")
+            report.append(f"  Anzahl Gerichte: {warning['count']} (Max: {warning['max_allowed']})")
+            report.append(f"  Hinweis: Maximale Wiederholung erreicht")
+            report.append(f"  Gefunden in:")
+            for meal in warning['meals']:
+                report.append(f"    - {meal}")
+        report.append("")
+
+    # Top components
+    if repetition_results["component_counts"]:
+        report.append("📊 TOP VERWENDETE KOMPONENTEN:")
+        sorted_components = sorted(
+            repetition_results["component_counts"].items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
+        for component, count in sorted_components[:10]:  # Top 10
+            emoji = "✅" if count <= MAX_COMPONENT_REPETITIONS else "❌"
+            report.append(f"  {emoji} {component}: {count} Gerichte")
+
+    report.append(f"\n═══════════════════════════════════════════════════")
+
+    return "\n".join(report)
+
+
 def generate_verification_report(verification_results: Dict[str, any]) -> str:
     """
     Generate a human-readable verification report.
-    
+
     Args:
         verification_results: Results from verify_daily_plan
-        
+
     Returns:
         Formatted report string
     """
@@ -536,3 +699,17 @@ if __name__ == "__main__":
         print(f"  ✅ Kalorien im Zielbereich!")
 
     print("\n═══════════════════════════════════════════════════════════════")
+
+    # Ingredient Repetition Analysis
+    print("\n")
+    repetition_results = verify_ingredient_repetition(all_plans)
+    repetition_report = generate_ingredient_repetition_report(repetition_results)
+    print(repetition_report)
+
+    if not repetition_results["passed"]:
+        print("\n💡 TIPPS ZUR REDUKTION VON WIEDERHOLUNGEN:")
+        print("  - Ersetze häufige Komponenten durch ähnliche Alternativen")
+        print("  - Nutze verschiedene Zubereitungsarten für Abwechslung")
+        print("  - Kombiniere Komponenten unterschiedlich für neue Geschmacksprofile")
+
+    print("\n")

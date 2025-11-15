@@ -79,12 +79,14 @@ Meal Prep:
 - Meal Prep freundlich
 - Verschiedene Proteinquellen (Linsen, Kichererbsen, Bohnen)
 - Mix aus warmen und kalten Gerichten
+- **NEU:** Geschmacksgemüse-Vielfalt - keine Geschmackskomponente in mehr als 4 Gerichten
 
 **Auswahlprozess:**
 1. Nutzer-Präferenzen berücksichtigen
 2. Zu verbrauchende Zutaten priorisieren
-3. Synergien identifizieren (gleiche Basis-Komponenten)
+3. Synergien identifizieren (Getreide & Hülsenfrüchte beliebig oft, Geschmacksgemüse max. 4x!)
 4. Ausgewogene Makro-Verteilung sicherstellen
+5. **NEU:** Geschmackskomponenten rotieren (Rotkohl, Hokkaido, Blumenkohl, Pilze etc.)
 
 ---
 
@@ -127,13 +129,17 @@ Meal Prep:
 
 ---
 
-## 4. Nährwert-Verifikation
+## 4. Nährwert-Verifikation & Zutatenvielfalt
 
 Nach der Plan-Erstellung IMMER das Verifikations-Script ausführen:
 
 ```bash
 python3 scripts/verify_nutrition.py
 ```
+
+Das Script prüft jetzt **zwei Aspekte**:
+1. **Nährwerte** (Kalorien, Protein, Ballaststoffe)
+2. **Geschmackskomponenten-Vielfalt** (keine Geschmackskomponente in mehr als 4 Gerichten)
 
 ### Verifikations-Checkliste
 
@@ -147,11 +153,26 @@ python3 scripts/verify_nutrition.py
 - ✅ Mittagessen: 350-450 kcal, 25-45g Protein
 - ✅ Abendessen: 350-400 kcal, 25-45g Protein
 
+**NEU: Geschmackskomponenten-Vielfalt:**
+- ✅ Keine **Geschmackskomponente** in mehr als 4 Gerichten
+- ✅ **Geschmackskomponenten:** Gemüse mit starkem Eigengeschmack (Rotkohl, Hokkaido, Blumenkohl, Brokkoli, Rote Bete, Lauch, Pilze, Spinat)
+- ✅ **NICHT limitiert:** Getreide (Quinoa, Buchweizen) und Hülsenfrüchte (Kichererbsen, Linsen) - sind Sättigungskomponenten!
+- ✅ Script zeigt automatisch Violations und Warnings
+
 **Anpassungen bei Abweichungen:**
+
+*Nährwerte:*
 - Kalorien zu niedrig → Nüsse/Samen/Avocado hinzufügen
 - Kalorien zu hoch → Portionen reduzieren
 - Protein zu niedrig → Mehr Hülsenfrüchte, Tofu ergänzen
 - Ballaststoffe zu niedrig → Gemüse-Portionen erhöhen
+
+*Geschmackskomponenten-Vielfalt:*
+- Geschmackskomponente in >4 Gerichten → Durch ähnliche Alternative ersetzen
+  - Rotkohl → Blumenkohl, Brokkoli, Fenchel, Sellerie
+  - Hokkaido → Blumenkohl, Brokkoli, Rote Bete
+  - Pilze → Andere Pilzsorten, anderes Gemüse
+- **WICHTIG:** Getreide & Hülsenfrüchte dürfen unbegrenzt wiederholt werden!
 
 ---
 
@@ -336,12 +357,14 @@ Vor Finalisierung des Plans:
 
 - [ ] Alle Challenge-Regeln eingehalten
 - [ ] Nährwerte verifiziert (verify_nutrition.py)
+- [ ] **NEU: Geschmackskomponenten-Vielfalt geprüft** - Rotkohl, Hokkaido etc. max. 4x
+- [ ] Getreide & Hülsenfrüchte dürfen unbegrenzt wiederholt werden!
 - [ ] Ausgeschlossene Zutaten vermieden
 - [ ] Meal Prep Synergie maximiert
 - [ ] Einkaufsliste vollständig
 - [ ] Zubereitungszeiten realistisch
 - [ ] Lagerungshinweise enthalten
-- [ ] Abwechslung über die Woche
+- [ ] Abwechslung über die Woche (verschiedene Gewürze, Zubereitungsarten, Geschmacksgemüse)
 
 ---
 
