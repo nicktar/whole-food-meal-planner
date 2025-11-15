@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pilz-Nuss-Bowl mit Rote Bete und Quinoa",
+  "description": "Herzhafte Bowl mit Pilz-Nuss-Füllung. Walnüsse und Cashews geben fleischige Textur. Pilze werden erst trocken angebraten für intensive Aromen.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "180g gemischte Pilze (Champignons, Shiitake, klein gehackt)",
+    "20g Walnüsse (fein gehackt)",
+    "15g Cashews (fein gehackt)",
+    "30g Quinoa (ca. 100g gekocht)",
+    "80g Rote Bete (geröstet)",
+    "50g Tofu (gewürfelt)",
+    "1 EL Kürbiskerne",
+    "Frische Petersilie",
+    "1,5 EL Sojasauce",
+    "1/2 TL Ahornsirup",
+    "1 TL Paprika (geräuchert)",
+    "1 TL Thymian (getrocknet)",
+    "1 TL Olivenöl"
+  ],
+  "recipeInstructions": "Pilze klein hacken, trocken in Pfanne anbraten bis Wasser verdampft (5 Min).\n1 TL Olivenöl und 1 Knoblauchzehe hinzufügen, 2 Min braten.\nWalnüsse und Cashews (fein gehackt) hinzufügen.\nSojasauce, Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.\nRote Bete im Ofen bei 200°C für 25 Min rösten (oder vorgekochte verwenden).\nTofu würfeln und in Pfanne goldbraun braten.\nBowl zusammenstellen: Quinoa als Basis, Pilz-Nuss-Füllung, Rote Bete und Tofu arrangieren.\nMit Kürbiskernen und Petersilie garnieren.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "400",
+    "proteinContent": "24g",
+    "carbohydrateContent": "54g",
+    "fatContent": "18g",
+    "fiberContent": "14g"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Quinoa-Frühstücksbowl mit Walnüssen",
+  "description": "Quinoa wird mit Hafermilch und Proteinpulver cremig aufgewärmt. Apfel und Cranberries geben süße Akzente.",
+  "prepTime": "PT3M",
+  "recipeIngredient": [
+    "60g Quinoa (roh) → 180g gekocht",
+    "200ml Hafermilch",
+    "25g Erbsenprotein-Pulver (pur)",
+    "1 EL Walnüsse (gehackt)",
+    "1 kleiner Apfel (gewürfelt)",
+    "1 TL Zimt",
+    "1 EL getrocknete Cranberries",
+    "1 EL Mandelmus",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Quinoa vorbereiten (am Sonntag): 60g Quinoa mit 120ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nAm Morgen: 180g gekochte Quinoa mit 200ml Hafermilch und 25g Erbsenprotein-Pulver in Topf geben.\nUnter ständigem Rühren 3 Min aufwärmen bis cremig.\nMandelmus unterrühren, in Schüssel geben.\nMit gewürfeltem Apfel, gehackten Walnüssen, Cranberries und Zimt toppen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "performTime": "PT3M",
+  "nutrition": {
+    "calories": "480",
+    "proteinContent": "38g",
+    "carbohydrateContent": "62g",
+    "fatContent": "12g",
+    "fiberContent": "10g"
+  }
+}

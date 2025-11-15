@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Beeren-Power",
+  "description": "Chia-Samen quellen über Nacht auf. TK-Beeren tauen über Nacht auf und geben köstlichen Saft ab.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "3 EL Chiasamen (30g)",
+    "200ml Hafermilch (ungesüßt)",
+    "1/2 TL Vanillepulver",
+    "1 EL Cashewmus",
+    "20g Erbsenprotein-Pulver (pur)",
+    "100g gemischte Beeren (TK)",
+    "1 EL Mandelsplitter",
+    "1 EL Hanfsamen",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Chiasamen und Erbsenprotein-Pulver in Schraubglas (400ml) geben.\nHafermilch, Vanillepulver, Cashewmus und Salz hinzufügen.\nSehr kräftig schütteln oder mit Schneebesen rühren (Proteinpulver + Chiasamen = Klumpengefahr!).\nNach 5 Minuten nochmal kräftig durchrühren.\nMindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen.\nAm Morgen: Mit TK-Beeren (tauen über Nacht auf), Mandelsplittern und Hanfsamen toppen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "29g",
+    "carbohydrateContent": "44g",
+    "fatContent": "14g",
+    "fiberContent": "14g"
+  }
+}
