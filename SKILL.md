@@ -113,6 +113,14 @@ python3 scripts/mealie_export.py
 - Mittagessen: 350-450 kcal, 25-45g Protein
 - Abendessen: 350-400 kcal, 25-45g Protein
 
+**WICHTIG - Ziel-Priorisierung:**
+- ⚠️ **1300 kcal ist eine HARTE Grenze** - NIEMALS überschreiten!
+- **Kalorien-Limit hat IMMER Priorität** über Protein-Ziel
+- Bei Konflikten zwischen Zielen: Kalorien-Grenze einhalten, auch wenn Protein darunter leidet
+- Beispiel: Lieber 90g Protein bei 1299 kcal als 105g Protein bei 1320 kcal
+- Mit 30g Proteinpulver-Limit pro Mahlzeit + 1300 kcal-Grenze ist 100g Protein oft nicht erreichbar
+- **Akzeptabel:** 85-95g Protein, wenn dadurch unter 1300 kcal geblieben wird
+
 ## Bundled Resources
 
 ### Scripts
