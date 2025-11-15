@@ -81,11 +81,11 @@ python3 scripts/mealie_export.py
 
 **Zutatenwiderholungs-Regel:**
 - **Geschmacksgebende Komponenten** (Gemüse mit starkem Eigengeschmack): Maximal **4 Gerichte** pro Wochenplan
-  - Beispiele: Rotkohl, Hokkaido-Kürbis, Rote Bete, Fenchel, Sellerie, Brokkoli, Blumenkohl, Möhren, Spinat, Mangold, etc.
+  - Beispiele: Rotkohl, Hokkaido-Kürbis, Fenchel, Sellerie, Brokkoli, Blumenkohl, Mangold, etc.
 - **Unbegrenzt verwendbar** (Ausnahmen von der 4-Gerichte-Regel):
   - Alle Hülsenfrüchte (Sättigungskomponenten): Linsen, Kichererbsen, Bohnen, etc.
   - Alle Getreide (Sättigungskomponenten): Quinoa, Hafer, Buchweizen, Dinkel, etc.
-  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini
+  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini, Rote Beete
 
 ## Standard-Targets
 
