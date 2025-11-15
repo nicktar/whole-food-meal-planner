@@ -48,10 +48,12 @@
 - [ ] **2 Frühlingszwiebeln** → für Mo Curry
 
 ### Protein-Komponenten:
-- [ ] **270g Tofu** (natur, fest)
-  - Montag: 120g (Curry)
-  - Mittwoch: 100g (Rotkohl-Salat) + 50g (Rote-Bete-Salat)
-  - Donnerstag: (kein Tofu - Optional: +100g wenn gewünscht für extra Protein in Bowl)
+- [ ] **555g Tofu** (natur, fest)
+  - Montag: 220g (Curry)
+  - Dienstag: 70g (Rotkohl-Apfel-Salat)
+  - Mittwoch: 100g (Rotkohl-Salat) + 20g (Rote-Bete-Salat)
+  - Donnerstag: 100g (Rote-Bete-Bowl) + 20g (Linsensalat)
+  - Freitag: 25g (Pastinaken-Curry)
 
 ---
 
@@ -82,10 +84,10 @@
 
 ## 🥛 PFLANZENMILCH & NUSSMUS
 
-- [ ] **2 Liter Hafermilch** (ungesüßt)
-  - Frühstück: ca. 1,5 Liter
-  - Quinoa-Bowl (Freitag): 200ml
-  - Reserve: 300ml
+- [ ] **2,5 Liter Hafermilch** (ungesüßt)
+  - Frühstück: ca. 2,0 Liter (erhöht wegen mehr Proteinpulver)
+  - Quinoa-Bowl (Freitag): 250ml
+  - Reserve: 250ml
 
 - [ ] **100g Mandelmus** (natürlich, ohne Zusätze)
   - Verwendung: 2x Overnight Oats
@@ -136,10 +138,11 @@
 
 ## 💪 PROTEIN-BOOST (WICHTIG!)
 
-- [ ] **Erbsenprotein-Pulver** (100-150g benötigt)
+- [ ] **Erbsenprotein-Pulver** (150g benötigt)
   - PUR, ohne Zusätze!
-  - Verwendung: täglich 15-35g im Frühstück
-  - **KRITISCH:** Ohne dieses Supplement erreichen Sie nur ~69g Protein/Tag statt 100+g!
+  - Verwendung: täglich 30g im Frühstück (MAXIMAL erlaubt!)
+  - **WICHTIG:** Mit 30g Proteinpulver + Tofu erreichen Sie ~90g Protein/Tag
+  - **HINWEIS:** 100g Protein nicht erreichbar innerhalb 1300 kcal-Grenze!
 
 ---
 
@@ -209,25 +212,23 @@
 
 ---
 
-## 🎯 SPECIAL NOTE: PROTEIN-ANPASSUNG
+## 🎯 SPECIAL NOTE: PROTEIN-OPTIMIERUNG UMGESETZT!
 
-**Wie im Meal Plan erwähnt:** Der Basis-Plan erreicht nur ~69g Protein/Tag.
+**WICHTIGE KLARSTELLUNG:** 1300 kcal Grenze hat Priorität!
 
-**Um auf 95-101g Protein zu kommen:**
+**Umgesetzt im Plan:**
+- ✅ Erbsenprotein-Pulver: 30g pro Frühstück (MAXIMAL erlaubt!)
+- ✅ Tofu: 555g total über die Woche verteilt
+- ✅ Hafermilch: 2,5 Liter (erhöht für bessere Konsistenz)
 
-**Option 1 (empfohlen):** Erbsenprotein-Pulver erhöhen
-- Statt 15g → **35-45g pro Frühstück**
-- Ergibt +20-30g Protein/Tag
-- **Kaufmenge:** 150-200g Erbsenprotein-Pulver statt 100g
+**Erreichtes Protein-Level:**
+- ~90g Protein/Tag (Durchschnitt)
+- Tag 1: 99g, Tag 2-5: 86-89g
 
-**Option 2:** Mehr Tofu
-- +100g Tofu zu Do Mittag-Bowl = +15g Protein
-- **Kaufmenge:** 370g Tofu statt 270g
-
-**Option 3 (Kombi):**
-- +20g Erbsenprotein ins Frühstück (+20g Protein)
-- +100g Tofu zu Do Mittag (+15g Protein)
-- **Kaufmenge:** 120-150g Erbsenprotein + 370g Tofu
+**Warum nicht 100g Protein?**
+- Mit 30g Proteinpulver-Limit UND 1300 kcal harter Grenze ist 100g nicht erreichbar
+- Jede weitere Protein-Quelle würde die Kalorien über 1300 bringen
+- **Kalorien-Grenze hat Priorität!**
 
 ---
 
