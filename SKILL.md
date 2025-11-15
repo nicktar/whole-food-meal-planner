@@ -80,12 +80,26 @@ python3 scripts/mealie_export.py
 - Verarbeitete Lebensmittel
 
 **Zutatenwiderholungs-Regel:**
-- **Geschmacksgebende Komponenten** (Gemüse mit starkem Eigengeschmack): Maximal **4 Gerichte** pro Wochenplan
+- **Geschmacksgebende Komponenten** (Gemüse mit starkem Eigengeschmack): Maximal **4 MAHLZEITEN** pro Wochenplan
+  - **WICHTIG:** Jede Mahlzeit zählt einzeln, auch wenn das gleiche Rezept wiederholt wird!
   - Beispiele: Rotkohl, Hokkaido-Kürbis, Fenchel, Sellerie, Brokkoli, Blumenkohl, Mangold, etc.
-- **Unbegrenzt verwendbar** (Ausnahmen von der 4-Gerichte-Regel):
+  - **Erlaubtes Beispiel:**
+    - Mo Mittag: Rotkohl-Curry (1)
+    - Di Mittag: Buddha-Bowl mit Rotkohl (2)
+    - Di Abend: Rotkohl-Apfel-Salat (3)
+    - Mi Mittag: Gerösteter Rotkohl-Salat (4)
+    - → **4 Mahlzeiten total, perfekt!** ✅
+  - **NICHT erlaubt:**
+    - Mo Mittag: Rotkohl-Curry (1)
+    - Di Mittag: Buddha-Bowl mit Rotkohl (2)
+    - Di Abend: Rotkohl-Apfel-Salat (3)
+    - Mi Mittag: Gerösteter Rotkohl-Salat (4)
+    - Do Mittag: Rotkohl-Curry (5) ← **ZU VIEL!** ❌
+    - → Auch wenn "Rotkohl-Curry" schon existiert, zählt die Wiederholung als 5. Mahlzeit!
+- **Unbegrenzt verwendbar** (Ausnahmen von der 4-Mahlzeiten-Regel):
   - Alle Hülsenfrüchte (Sättigungskomponenten): Linsen, Kichererbsen, Bohnen, etc.
   - Alle Getreide (Sättigungskomponenten): Quinoa, Hafer, Buchweizen, Dinkel, etc.
-  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini, Rote Beete
+  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini, Rote Beete, Karotten
 
 ## Standard-Targets
 
@@ -413,7 +427,9 @@ python3 scripts/mealie_export.py
 - [ ] Realistische Zubereitungszeiten
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
-- [ ] **Zutatenwiderholungs-Regel beachtet:** Geschmacksgebende Komponenten maximal 4x verwendet (Hülsenfrüchte, Getreide, Paprika, Süßkartoffeln, Zucchini unbegrenzt OK)
+- [ ] **Zutatenwiderholungs-Regel beachtet:** Geschmacksgebende Komponenten maximal 4 MAHLZEITEN pro Woche (jede Mahlzeit zählt einzeln, auch Wiederholungen!)
+  - Beispiel: Rotkohl-Curry Mo + Do = 2 Mahlzeiten (nicht 1!)
+  - Unbegrenzt: Hülsenfrüchte, Getreide, Paprika, Süßkartoffeln, Zucchini, Rote Beete, Karotten
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
 - [ ] **Meal-Prep-Kompatibilität:** Geröstetes Gemüse nur wenn komplett warm serviert wird; für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl)
 
