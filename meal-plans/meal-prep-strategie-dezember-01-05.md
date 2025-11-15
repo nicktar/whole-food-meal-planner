@@ -1,10 +1,12 @@
 # 🍳 MEAL PREP STRATEGIE - Wochenplan 1.-5. Dezember 2025
 
+**⚠️ HINWEIS:** Diese Strategie basiert auf einer älteren Version des Meal Plans und muss noch an die aktualisierten Gerichte angepasst werden (Donnerstag & Freitag wurden geändert, um die Zutatenwiderholungs-Regel einzuhalten).
+
 **Gesamtzeit:** ~3,5 Stunden
 **Schwierigkeitsgrad:** Mittel
 **Erfahrungslevel:** Fortgeschrittene Anfänger+
 
-**Fokus:** Maximale Rotkohl-Synergien (4 verschiedene Zubereitungen aus 1 Kopf!)
+**Fokus:** Saisonale Dezember-Zutaten (Rotkohl, Rote Bete, Pastinaken, Karotten)
 
 ---
 
