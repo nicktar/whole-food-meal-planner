@@ -1,0 +1,286 @@
+# 🛒 EINKAUFSLISTE
+## Wochenplan: 17. bis 21. November 2024
+
+---
+
+## 📦 VOLLKORNPRODUKTE & GETREIDE
+
+- [ ] 300g Haferflocken (für 5 Frühstücke)
+- [ ] 350g Quinoa (trocken) → ergibt ~1050g gekocht
+- [ ] 60g Quinoa extra für Frühstück (Tag 4)
+- [ ] 1 Vollkorn-Wrap/Tortilla (challenge-konform, selbstgemacht empfohlen)
+
+**Lagerung:** Trocken und kühl, mehrere Monate haltbar
+
+---
+
+## 🫘 HÜLSENFRÜCHTE
+
+### Getrocknet (empfohlen - günstiger):
+- [ ] **360g grüne/braune Linsen** (trocken) → ergibt ~860g gekocht - *erhöht für Protein-Optimierung*
+- [ ] **500g Kichererbsen** (trocken) → ergibt ~1250g gekocht - *erhöht für Protein-Optimierung*
+- [ ] 150g Cannellini-Bohnen (trocken) → ergibt ~375g gekocht
+
+**Oder als Alternative (gekocht):**
+- [ ] **3 Dosen grüne Linsen** (à 400g Abtropfgewicht) - *erhöht*
+- [ ] **4 Dosen Kichererbsen** (à 400g Abtropfgewicht) - *erhöht*
+- [ ] 1 Dose Cannellini-Bohnen (400g Abtropfgewicht)
+
+**Einweich-Plan:** Samstag Abend einweichen für Sonntag Meal Prep
+
+---
+
+## 🥬 FRISCHES GEMÜSE
+
+### Blattgemüse & Salate:
+- [ ] 200g Rucola (mehrere kleine Packungen für Frische)
+- [ ] 150g frischer Spinat
+- [ ] **80-100g Feldsalat** (80g benötigt für Tag 5)
+- [ ] 2 Bund Frühlingszwiebeln
+
+### Kohl & Wurzelgemüse:
+- [ ] **1 mittelgroßer Rotkohl (~800-1000g)** - **5x verwendet!** (Curry, geröstet, mariniert, roh)
+- [ ] 250g Brokkoli
+- [ ] **500g Karotten** - **erhöht für Rohkost!** (Julienne für 3 Gerichte)
+- [ ] 300g Rote Bete (frisch oder vorgekocht)
+
+### Lauchgewächse:
+- [ ] 1 Stange Lauch/Porree (~200-250g)
+
+### Tomaten & Gurken:
+- [ ] 200g Kirschtomaten
+- [ ] **1 große Salatgurke (~400g)** - **für Rohkost in Bowls** (Tag 1 + Tag 5)
+
+### Zwiebeln & Knoblauch:
+- [ ] 2 große Zwiebeln
+- [ ] 1 Knolle Knoblauch (mind. 6 Zehen benötigt)
+
+### Pilze:
+- [ ] 300g gemischte Pilze (Champignons, Shiitake)
+- [ ] 100g extra Champignons (Tag 5)
+
+### Ingwer & Frische Kräuter:
+- [ ] 1 Stück frischer Ingwer (~40g)
+- [ ] 1 Bund frische Petersilie
+
+**Lagerungs-Tipps:**
+- Rotkohl: Ganze Woche haltbar
+- Karotten & Gurke: Vorgeschnittene Rohkost in Behälter mit feuchtem Tuch, hält 5 Tage!
+- Pilze: Innerhalb 3-4 Tagen verbrauchen
+- Kräuter: In feuchtem Küchentuch im Kühlschrank
+
+---
+
+## 🍎 FRISCHES OBST
+
+- [ ] 4 mittelgroße Äpfel (fest, z.B. Boskop, Braeburn)
+- [ ] 1 Banane (nicht zu reif)
+- [ ] 300g gemischte Beeren (frisch oder TK):
+  - Himbeeren
+  - Blaubeeren
+  - Optional: Erdbeeren
+
+**November-Saisonal:** Äpfel sind jetzt perfekt! Deutsche Lageräpfel verwenden.
+
+---
+
+## 🥜 NÜSSE & SAMEN
+
+### Nüsse:
+- [ ] 200g Walnüsse (mehrfach verwendet!)
+- [ ] 100g Mandeln (gehackt oder ganz)
+- [ ] 80g Cashews
+- [ ] 80g Pistazien (optional, für Variationen)
+
+### Samen:
+- [ ] 150g Chiasamen
+- [ ] 100g gemahlene Leinsamen (oder ganze zum Selbermahlen)
+- [ ] 100g Hanfsamen
+- [ ] 100g Kürbiskerne
+- [ ] 50g Sonnenblumenkerne
+
+**Tipp:** In kleinen Portionen bei Bioläden oft günstiger
+
+---
+
+## 🥛 PFLANZENMILCH & NUSSMUS
+
+### Pflanzenmilch:
+- [ ] 2 Liter Hafermilch (ungesüßt, natur)
+
+### Nussmus:
+- [ ] 1 Glas Mandelmus (250g)
+- [ ] 1 Glas Cashewmus (250g)
+- [ ] 1 Glas Erdnussmus (250g)
+
+### Protein-Pulver:
+- [ ] **110g Erbsenprotein-Pulver** (pur, ohne Zusätze) - *erhöht für Protein-Optimierung*
+
+**Wichtig:** Pflanzenmilch MUSS ungesüßt sein! Nussmus ohne Zusatzstoffe (100% Nuss).
+
+---
+
+## 🌿 GEWÜRZE, PASTEN & BASICS
+
+### Würzpasten:
+- [ ] 1 Glas Currypaste (Thai, ohne tierische Produkte)
+- [ ] 1 Glas Miso-Paste (dunkel, 200g)
+- [ ] 1 Glas Tahini (250g)
+
+### Gewürze (falls nicht vorhanden):
+- [ ] Kreuzkümmel (gemahlen)
+- [ ] Kurkuma (gemahlen)
+- [ ] Paprika (edelsüß und geräuchert)
+- [ ] Zimt (gemahlen)
+- [ ] Kardamom (optional)
+- [ ] Garam Masala
+- [ ] Knoblauchpulver
+- [ ] Getrockneter Thymian
+
+### Öle & Essig:
+- [ ] 200ml Olivenöl (nativ extra)
+- [ ] 100ml Kokosöl
+- [ ] 50ml Sesamöl
+- [ ] 200ml Apfelessig
+- [ ] 100ml Balsamico-Essig
+
+### Weitere Basics:
+- [ ] Sojasauce (250ml)
+- [ ] Ahornsirup (200ml)
+- [ ] Dijon-Senf
+- [ ] Gemüsebrühe (Pulver oder Würfel, ohne Zusatzstoffe)
+- [ ] Kokosmilch aus der Dose (2 Dosen à 400ml)
+- [ ] Kokosraspeln (ungesüßt, 100g)
+- [ ] Rohes Kakaopulver (50g)
+- [ ] Getrocknete Cranberries (50g)
+
+### Frische Aromaten:
+- [ ] Zitronen (3 Stück)
+- [ ] 1 Limette (optional)
+
+### Tofu (für Protein-Optimierung):
+- [ ] **870g Natur-Tofu (fest)** - *essentiell für Protein-Target*
+
+**Verwendung im Plan:**
+- Tag 1 Abendessen: 180g
+- Tag 2 Mittagessen: 120g
+- Tag 3 Mittagessen: 150g (bereits im Rezept)
+- Tag 4 Abendessen: 120g
+- Tag 5 Mittagessen: 150g
+- Puffer: 150g (für Verluste beim Pressen/Braten)
+
+---
+
+## 📋 OPTIONALE EXTRAS (für Variationen)
+
+- [ ] Avocado (1-2 Stück)
+- [ ] Hummus (selbstgemacht oder challenge-konform gekauft)
+- [ ] Wakame (getrocknete Algen für Miso-Suppe)
+- [ ] Nährhefe-Flocken (für käsigen Geschmack)
+
+---
+
+## 💰 EINKAUFS-STRATEGIE
+
+### Bio-Laden / Unverpackt-Laden:
+- Nüsse, Samen, Getreide in Bulk (günstiger)
+- Gewürze in kleinen Mengen
+- Getrocknete Hülsenfrüchte
+
+### Wochenmarkt (Samstag):
+- Saisonales Gemüse (Rotkohl, Äpfel, Rote Bete)
+- Frische Kräuter
+
+### Supermarkt:
+- Pflanzenmilch, Nussmus
+- TK-Beeren
+- Kokosmilch, Würzpasten
+
+### Asialaden:
+- Miso-Paste (günstiger)
+- Sesam- und Kokosöl
+- Sojasauce
+- Shiitake-Pilze
+
+---
+
+## 📦 LAGERUNGS-ÜBERSICHT
+
+### Kühlschrank (sofort):
+- Tofu, Pflanzenmilch (geöffnet)
+- Frisches Gemüse (außer Zwiebeln, Knoblauch)
+- Beeren (frisch)
+- Nussmus (geöffnet)
+
+### Kühlschrank (nach Meal Prep):
+- Gekochte Hülsenfrüchte (5 Tage)
+- Gekochtes Getreide (4-5 Tage)
+- Overnight Oats (3 Tage)
+- Rotkohl-Zubereitungen (4-5 Tage)
+- Dressings (5-7 Tage)
+
+### Raumtemperatur:
+- Trockene Hülsenfrüchte, Getreide
+- Nüsse, Samen (verschlossen)
+- Gewürze
+- Zwiebeln, Knoblauch, Äpfel
+
+### Tiefkühler:
+- TK-Beeren
+- Überschüssige Brot-Wraps
+
+---
+
+## 🎯 SPEZIAL-TIPP: SAISONALE NOVEMBER-ZUTATEN
+
+**Regional und saisonal in Deutschland (November):**
+- ✅ **Rotkohl** - Hauptsaison, super frisch, 5x verwendet!
+- ✅ **Lauch/Porree** - Typisches Herbst-/Wintergemüse, Hauptsaison
+- ✅ **Feldsalat** - Der klassische Wintersalat
+- ✅ **Äpfel** - Lageräpfel aus deutscher Ernte
+- ✅ **Walnüsse** - Frische Ernte (September-November)
+- ✅ **Rote Bete** - Herbst-/Wintergemüse
+- ✅ **Karotten** - Ganzjährig, Lagerware, viel verwendet für Rohkost!
+- ✅ **Gurke** - Gewächshausware, ganzjährig verfügbar
+- ✅ **Pilze** - Champignons ganzjährig verfügbar
+
+**Preis-Vorteil:** Diese Zutaten sind jetzt am günstigsten!
+**Meal-Prep-Bonus:** Viel Rohkost = lange haltbar, knackig, keine Ofenzeit!
+
+---
+
+## ⏱️ EINKAUFS-ZEITPLAN
+
+**Freitag oder Samstag:**
+- Haupteinkauf für die Woche
+- Getrocknete Hülsenfrüchte einweichen (Samstag Abend)
+
+**Mittwoch (Wochenmitte):**
+- Frische Kräuter nachkaufen (falls nötig)
+- Rucola/Salat nachkaufen
+- Frisches Obst auffüllen
+
+---
+
+## 💡 KOSTEN-SCHÄTZUNG
+
+**Geschätzte Gesamtkosten:** 50-70 EUR (für 5 Tage, 1 Person)
+
+**Teuerste Posten:**
+- Nüsse & Samen: ~15 EUR
+- Nussmus: ~12 EUR
+- Frisches Gemüse: ~15 EUR
+- **Tofu (870g): ~7 EUR** - *neu hinzugefügt*
+- Rest: ~20 EUR
+
+**Kostensteigerung durch Protein-Optimierung:** +5-10 EUR für Tofu und extra Hülsenfrüchte
+
+**Spar-Tipps:**
+- Hülsenfrüchte getrocknet kaufen (-50% vs. Dosen)
+- Bulk-Einkauf bei Nüssen/Samen
+- Saisonales Gemüse bevorzugen
+- Eigenmarken bei Pflanzenmilch
+
+---
+
+**Hinweis:** Diese Liste enthält bereits die Protein-Optimierung mit Tofu und erhöhten Hülsenfrüchten. Der Plan erreicht damit durchschnittlich 99g Protein/Tag (Minimum: 100g fast erreicht!).

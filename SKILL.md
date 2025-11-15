@@ -102,8 +102,14 @@ python3 scripts/mealie_export.py
 - **Wann verwenden:** Nach jedem Meal Plan, vor Finalisierung
 
 **`scripts/mealie_export.py`** - Mealie-Integration
-- Generiert Mealie-kompatible JSON-Rezepte
-- Inkl. Nährwerte, Zutaten, Instruktionen
+- Generiert Mealie-kompatible JSON-Rezepte im schema.org Format
+- **Format-Anforderungen:**
+  - **Vorgekochte Zutaten:** "50g Rote Linsen (ca. 100g gekocht)" - immer rohe Menge + gekochte Menge in Klammern
+  - **Farben groß:** Rote Linsen, Schwarze Bohnen, Rote Bete (für Parser-Erkennung)
+  - **Anmerkungen:** "80g Heidelbeeren (TK)" - Format "Menge Zutat (Anmerkung)"
+  - **Keywords:** Comma-separated String mit "whole food,KI Rezepte,food prep,vegetarisch,vegan,{mahlzeit}"
+  - **Anweisungen:** Ein String mit \n Zeilenumbrüchen (nicht Array)
+  - **Zutaten:** Array von Strings (nicht Objekte)
 - **Wann verwenden:** Wenn Nutzer Mealie verwendet oder Rezepte digital verwalten möchte
 
 ### References
@@ -194,7 +200,7 @@ python3 scripts/mealie_export.py
    - ⚠️ **Häufige Fehler vermeiden:**
      - Trockenes Tofu ohne Marinade
      - Rohes Gemüse ohne Dressing in warmen Gerichten
-     - Kaltes geröstetes Gemüse wird oft glibbrig
+     - **Geröstetes Gemüse in Meal-Prep-Bowls:** Gemüse nach 4-5 Tagen aufwärmen + kombinieren mit kalten Komponenten = matschig/glibbrig! Besser: Rohkost (Karotten-Julienne, Gurke, Rotkohl hobeln) oder Gemüse komplett getrennt warm servieren
      - Nur Basis-Zutaten ohne Geschmacksträger
      - Erbsenprotein in Salaten/Bowls (funktioniert nicht!)
 
@@ -266,6 +272,8 @@ python3 scripts/mealie_export.py
 **Meal-Prep-Eignung:**
 - Suppen und Currys: sehr gut (5-7 Tage)
 - Buddha Bowls mit getrennten Komponenten: sehr gut (4-5 Tage)
+  - ⚠️ **Wichtig:** Für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl), NICHT geröstetes Gemüse (wird matschig nach 4-5 Tagen)
+  - Geröstetes Gemüse nur wenn Bowl komplett warm serviert wird
 - Salate: nur Basis vorkochen, Dressing separat (3-4 Tage)
 - Overnight Oats/Chia Pudding: perfekt (5 Tage)
 
@@ -396,6 +404,7 @@ python3 scripts/mealie_export.py
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
+- [ ] **Meal-Prep-Kompatibilität:** Geröstetes Gemüse nur wenn komplett warm serviert wird; für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl)
 
 ### Für neue Rezepte (vor Nährwert-Validierung):
 - [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
@@ -406,4 +415,5 @@ python3 scripts/mealie_export.py
 - [ ] Fette/Öle enthalten (1-2 EL pro Portion für Geschmack)
 - [ ] Alle Zubereitungsschritte vollständig dokumentiert
 - [ ] Garzeiten realistisch und spezifisch angegeben
+- [ ] **Meal-Prep-Tauglichkeit:** Geröstetes Gemüse nur für sofort-Verzehr oder komplett warme Gerichte; für Meal-Prep-Bowls (4-5 Tage) Rohkost bevorzugen
 - [ ] Bei Korrekturen: Nährwerte entsprechend angepasst

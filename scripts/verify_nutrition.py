@@ -346,37 +346,193 @@ def generate_verification_report(verification_results: Dict[str, any]) -> str:
 
 # Example usage
 if __name__ == "__main__":
-    # Example meal plan
-    breakfast = Meal(
-        name="Overnight Oats mit Beeren",
-        nutrition=NutritionInfo(calories=320, protein=12, carbs=55, fat=8, fiber=10),
-        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Beeren"]
+    # Meal Plans für Woche 17.-21. November 2024
+
+    # TAG 1 - Sonntag, 17. November (PROTEIN-OPTIMIERT)
+    day1_breakfast = Meal(
+        name="Apfel-Zimt Overnight Oats",
+        nutrition=NutritionInfo(calories=390, protein=28, carbs=50, fat=10, fiber=11),
+        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Mandelmus",
+                    "20g Erbsenprotein", "Apfel", "Walnüsse", "Zimt"]
     )
-    
-    lunch = Meal(
-        name="Kichererbsen-Buddha-Bowl",
-        nutrition=NutritionInfo(calories=420, protein=22, carbs=58, fat=14, fiber=15),
-        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Avocado", "Tahini"]
+    day1_lunch = Meal(
+        name="Kichererbsen-Buddha-Bowl mit Karotten-Gurken-Rohkost",
+        nutrition=NutritionInfo(calories=400, protein=24, carbs=54, fat=16, fiber=14),
+        ingredients=["Kichererbsen", "Quinoa", "Brokkoli", "Karotten-Julienne (roh)", "Gurke (roh)", "Avocado",
+                    "Tahini", "Kürbiskerne", "Petersilie"]
     )
-    
-    dinner = Meal(
-        name="Rotkohl-Miso-Suppe",
-        nutrition=NutritionInfo(calories=460, protein=76, carbs=35, fat=12, fiber=12),
-        ingredients=["Rotkohl", "Tofu", "Miso", "Gemüsebrühe"]
+    day1_dinner = Meal(
+        name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen und Tofu",
+        nutrition=NutritionInfo(calories=524, protein=33, carbs=56, fat=18, fiber=14),
+        ingredients=["Rotkohl", "Apfel", "Cannellini-Bohnen", "180g Tofu mariniert",
+                    "Walnüsse", "Apfelessig", "Olivenöl", "Rucola"]
     )
-    
-    daily_plan = DailyPlan(
-        date="2025-09-01",
-        meals=[breakfast, lunch, dinner]
+    day1 = DailyPlan(
+        date="2024-11-17 (Montag)",
+        meals=[day1_breakfast, day1_lunch, day1_dinner]
     )
-    
-    # Verify the plan
-    results = verify_daily_plan(daily_plan)
-    
-    # Generate and print report
-    report = generate_verification_report(results)
-    print(report)
-    
-    # Also output JSON for programmatic use
-    print("\n\nJSON Output:")
-    print(json.dumps(results, indent=2))
+
+    # TAG 2 - Dienstag, 18. November (PROTEIN-OPTIMIERT)
+    day2_breakfast = Meal(
+        name="Protein-Boost Overnight Oats",
+        nutrition=NutritionInfo(calories=380, protein=33, carbs=44, fat=11, fiber=12),
+        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Cashewmus",
+                    "25g Erbsenprotein", "Hanfsamen", "Kürbiskerne", "Sonnenblumenkerne", "Beeren"]
+    )
+    day2_lunch = Meal(
+        name="Rotkohl-Curry mit Kichererbsen und Tofu",
+        nutrition=NutritionInfo(calories=506, protein=42, carbs=52, fat=18, fiber=12),
+        ingredients=["Rotkohl", "Kichererbsen", "120g Tofu", "Zwiebel", "Knoblauch",
+                    "Currypaste", "Kokosmilch", "Quinoa", "Gewürze"]
+    )
+    day2_dinner = Meal(
+        name="Linsen-Gemüse-Salat mit Rote-Bete (Protein-optimiert)",
+        nutrition=NutritionInfo(calories=432, protein=31, carbs=58, fat=10, fiber=16),
+        ingredients=["180g Linsen", "Kirschtomaten", "Rote Bete", "Gurke", "Rucola",
+                    "Walnüsse", "Zitrone", "Olivenöl"]
+    )
+    day2 = DailyPlan(
+        date="2024-11-18 (Dienstag)",
+        meals=[day2_breakfast, day2_lunch, day2_dinner]
+    )
+
+    # TAG 3 - Mittwoch, 19. November (PROTEIN-OPTIMIERT)
+    day3_breakfast = Meal(
+        name="Schoko-Banane Overnight Oats",
+        nutrition=NutritionInfo(calories=410, protein=29, carbs=54, fat=12, fiber=12),
+        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Erdnussmus",
+                    "20g Erbsenprotein", "Kakaopulver", "Banane", "Mandeln"]
+    )
+    day3_lunch = Meal(
+        name="Lauch-Miso-Suppe mit Tofu und Pilzen",
+        nutrition=NutritionInfo(calories=335, protein=28, carbs=28, fat=12, fiber=9),
+        ingredients=["Lauch", "150g Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
+                    "Ingwer", "Frühlingszwiebeln", "Hanfsamen"]
+    )
+    day3_dinner = Meal(
+        name="Gerösteter Rotkohl-Salat mit Kichererbsen (Protein-optimiert)",
+        nutrition=NutritionInfo(calories=570, protein=44, carbs=72, fat=16, fiber=18),
+        ingredients=["Rotkohl", "300g Kichererbsen geröstet", "Walnüsse", "Ahornsirup",
+                    "Olivenöl", "Balsamico", "Rucola", "Quinoa"]
+    )
+    day3 = DailyPlan(
+        date="2024-11-19 (Mittwoch)",
+        meals=[day3_breakfast, day3_lunch, day3_dinner]
+    )
+
+    # TAG 4 - Donnerstag, 20. November (PROTEIN-OPTIMIERT)
+    day4_breakfast = Meal(
+        name="Apfel-Walnuss Quinoa-Frühstücksbowl mit Protein-Boost",
+        nutrition=NutritionInfo(calories=480, protein=39, carbs=62, fat=12, fiber=10),
+        ingredients=["Quinoa", "Hafermilch", "25g Erbsenprotein", "Walnüsse", "Apfel",
+                    "Zimt", "Cranberries", "Mandelmus"]
+    )
+    day4_lunch = Meal(
+        name="Vollkorn-Wrap mit Pilz-Nuss-Füllung",
+        nutrition=NutritionInfo(calories=450, protein=28, carbs=52, fat=16, fiber=12),
+        ingredients=["Pilze", "Walnüsse", "Cashews", "Rotkohl", "Hummus", "Tahini",
+                    "Rucola", "Vollkorn-Wrap"]
+    )
+    day4_dinner = Meal(
+        name="Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse",
+        nutrition=NutritionInfo(calories=455, protein=36, carbs=58, fat=16, fiber=16),
+        ingredients=["Linsen", "120g Tofu mariniert", "Quinoa", "Karotten-Julienne (roh)", "Rote Bete (gekocht)",
+                    "Rotkohl (roh)", "Tahini", "Hanfsamen", "Kürbiskerne", "Petersilie"]
+    )
+    day4 = DailyPlan(
+        date="2024-11-20 (Donnerstag)",
+        meals=[day4_breakfast, day4_lunch, day4_dinner]
+    )
+
+    # TAG 5 - Freitag, 21. November (PROTEIN-OPTIMIERT)
+    day5_breakfast = Meal(
+        name="Beeren-Power Overnight Oats",
+        nutrition=NutritionInfo(calories=370, protein=27, carbs=48, fat=10, fiber=11),
+        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Mandelmus",
+                    "20g Erbsenprotein", "Beeren", "Hanfsamen", "Zimt"]
+    )
+    day5_lunch = Meal(
+        name="Kichererbsen-Curry mit Spinat, Pilzen und Tofu",
+        nutrition=NutritionInfo(calories=540, protein=41, carbs=56, fat=18, fiber=13),
+        ingredients=["Kichererbsen", "150g Tofu", "Champignons", "Spinat", "Currypaste",
+                    "Kokosmilch", "Quinoa", "Kürbiskerne", "Gewürze"]
+    )
+    day5_dinner = Meal(
+        name="Linsen-Feldsalat mit buntem Rohkost-Gemüse (Protein-optimiert)",
+        nutrition=NutritionInfo(calories=420, protein=31, carbs=60, fat=12, fiber=18),
+        ingredients=["180g Linsen", "Karotten-Julienne (roh)", "Gurke (roh)", "Apfel", "80g Feldsalat", "Walnüsse",
+                    "Quinoa", "Apfel-Balsamico-Vinaigrette"]
+    )
+    day5 = DailyPlan(
+        date="2024-11-21 (Freitag)",
+        meals=[day5_breakfast, day5_lunch, day5_dinner]
+    )
+
+    # Verify all days
+    all_plans = [day1, day2, day3, day4, day5]
+
+    print("═══════════════════════════════════════════════════════════════")
+    print("WHOLE FOOD CHALLENGE - WOCHENPLAN NOVEMBER 17-21, 2024")
+    print("═══════════════════════════════════════════════════════════════\n")
+
+    weekly_totals = {
+        "calories": 0,
+        "protein": 0,
+        "fiber": 0,
+        "days_passed": 0,
+        "total_days": len(all_plans)
+    }
+
+    for plan in all_plans:
+        results = verify_daily_plan(plan)
+        report = generate_verification_report(results)
+        print(report)
+        print("\n")
+
+        # Track weekly totals
+        weekly_totals["calories"] += results["total_nutrition"]["calories"]
+        weekly_totals["protein"] += results["total_nutrition"]["protein"]
+        weekly_totals["fiber"] += results["total_nutrition"]["fiber"]
+        if results["passed"]:
+            weekly_totals["days_passed"] += 1
+
+    # Weekly summary
+    print("═══════════════════════════════════════════════════════════════")
+    print("WOCHENZUSAMMENFASSUNG")
+    print("═══════════════════════════════════════════════════════════════")
+    print(f"\nTage bestanden: {weekly_totals['days_passed']}/{weekly_totals['total_days']}")
+    print(f"\nDurchschnittliche Tageswerte:")
+    print(f"  Kalorien: {weekly_totals['calories']/len(all_plans):.0f} kcal/Tag "
+          f"(Target: {NUTRITIONAL_TARGETS['daily']['calories']['target']})")
+    print(f"  Protein:  {weekly_totals['protein']/len(all_plans):.1f}g/Tag "
+          f"(Target: {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
+    print(f"  Ballaststoffe: {weekly_totals['fiber']/len(all_plans):.1f}g/Tag "
+          f"(Target: {NUTRITIONAL_TARGETS['daily']['fiber']['target']}g)")
+
+    # Recommendations
+    avg_protein = weekly_totals['protein']/len(all_plans)
+    avg_calories = weekly_totals['calories']/len(all_plans)
+
+    print("\n📋 EMPFEHLUNGEN:")
+    if avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['min']:
+        deficit = NUTRITIONAL_TARGETS['daily']['protein']['min'] - avg_protein
+        print(f"  ⚠️  Protein-Target nicht erreicht (Defizit: {deficit:.1f}g/Tag)")
+        print(f"     → Füge 100-150g Tofu zu Hauptmahlzeiten hinzu (+10-15g Protein)")
+        print(f"     → Erhöhe Erbsenprotein-Pulver auf 20g im Frühstück (+5g Protein)")
+        print(f"     → Füge zusätzliche Hülsenfrüchte hinzu (+8-12g Protein/100g)")
+    elif avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['target']:
+        print(f"  ℹ️  Protein über Minimum aber unter Target")
+        print(f"     → Kleine Anpassungen empfohlen für optimale Ergebnisse")
+    else:
+        print(f"  ✅ Protein-Target erreicht!")
+
+    if avg_calories < NUTRITIONAL_TARGETS['daily']['calories']['min']:
+        print(f"  ⚠️  Kalorien unter Minimum")
+        print(f"     → Füge Nüsse, Samen oder Avocado hinzu")
+    elif avg_calories > NUTRITIONAL_TARGETS['daily']['calories']['max']:
+        print(f"  ⚠️  Kalorien über Maximum")
+        print(f"     → Reduziere Öl in Dressings oder Nussportionen")
+    else:
+        print(f"  ✅ Kalorien im Zielbereich!")
+
+    print("\n═══════════════════════════════════════════════════════════════")

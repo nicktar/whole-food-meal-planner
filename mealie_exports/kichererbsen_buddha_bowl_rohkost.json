@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Karotten-Gurken-Rohkost",
+  "description": "Meal-Prep-optimierte Buddha-Bowl mit rohem Gemüse statt geröstetem. Rohkost bleibt 4-5 Tage knackig! Perfekt für die Wochenvorbereitung.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "40g Kichererbsen (ca. 120g gekocht, geröstet)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "80g Brokkoli (gedämpft)",
+    "80g Karotten (in Julienne-Streifen, roh)",
+    "50g Gurke (in Streifen, roh)",
+    "1/4 Avocado",
+    "2 EL Tahini-Dressing",
+    "1 EL Kürbiskerne",
+    "Petersilie (frisch, zum Garnieren)"
+  ],
+  "recipeInstructions": "Quinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nKichererbsen rösten: Mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, 1 TL Knoblauchpulver würzen. Bei 200°C für 25 Min rösten bis knusprig.\nBrokkoli dämpfen: In Röschen schneiden, 8 Min dämpfen, kalt abschrecken.\nRohkost vorbereiten: Karotten mit Gemüseschäler in dünne Julienne-Streifen schneiden. Gurke in Streifen schneiden.\nBowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren (Kichererbsen, Brokkoli, Karotten-Julienne, Gurkenstreifen, Avocado).\nMit Tahini-Dressing beträufeln, Kürbiskerne darüberstreuen, mit Petersilie garnieren.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "400",
+    "proteinContent": "24g",
+    "carbohydrateContent": "54g",
+    "fatContent": "16g",
+    "fiberContent": "14g"
+  }
+}

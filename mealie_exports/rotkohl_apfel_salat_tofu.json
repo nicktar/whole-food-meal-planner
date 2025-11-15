@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Apfel-Salat mit Cannellini-Bohnen und mariniertem Tofu",
+  "description": "Protein-reicher Salat mit 33g Protein. Frischer Rotkohl kombiniert mit gebratenen Tofu-Würfeln. Dressing separat lagern für Meal Prep!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "120g Rotkohl (fein gehobelt)",
+    "80g Cannellini-Bohnen (ca. 120g gekocht)",
+    "180g Tofu (mariniert und angebraten)",
+    "1 Apfel (in Spalten geschnitten)",
+    "20g Walnüsse (gehackt)",
+    "30g Rucola",
+    "2 EL Apfelessig (für Dressing)",
+    "1 EL Olivenöl (für Dressing)",
+    "1 TL Ahornsirup (für Dressing)",
+    "2 EL Sojasauce (für Tofu-Marinade)",
+    "1/2 TL Senf (für Dressing)"
+  ],
+  "recipeInstructions": "Tofu-Marinade: Tofu in Würfel schneiden, mit 2 EL Sojasauce marinieren (mind. 30 Min).\nMarinierten Tofu in heißer Pfanne 5-7 Min von allen Seiten goldbraun braten. Beiseite stellen.\nRotkohl fein hobeln. Apfel in dünne Spalten schneiden.\nDressing: 2 EL Apfelessig, 1 EL Olivenöl, 1 TL Ahornsirup und 1/2 TL Senf in Schraubglas schütteln.\nSalat zusammenstellen: Rotkohl, Cannellini-Bohnen, gebratenen Tofu, Apfel und Rucola in Schüssel geben.\nMit Dressing beträufeln, gehackte Walnüsse darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT7M",
+  "nutrition": {
+    "calories": "524",
+    "proteinContent": "33g",
+    "carbohydrateContent": "56g",
+    "fatContent": "18g",
+    "fiberContent": "14g"
+  }
+}

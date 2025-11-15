@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Gemüse-Salat mit Rote Bete (Protein-optimiert)",
+  "description": "Bunter, protein-reicher Salat mit 31g Protein und 16g Ballaststoffen. Rote Bete färbt - separat lagern! Dressing vor dem Servieren hinzufügen.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "60g Grüne Linsen (ca. 180g gekocht)",
+    "80g Rote Bete (gekocht, gewürfelt)",
+    "80g Kirschtomaten (halbiert)",
+    "60g Gurke (gewürfelt)",
+    "30g Rucola",
+    "15g Walnüsse (gehackt)",
+    "2 EL Zitronensaft (frisch gepresst)",
+    "1 EL Olivenöl",
+    "1/2 Knoblauchzehe (gepresst)"
+  ],
+  "recipeInstructions": "Grüne Linsen kochen: 60g Linsen mit 150ml Wasser 25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.\nRote Bete kochen: Würfeln, in Wasser 30 Min kochen bis weich (Handschuhe tragen!). Abkühlen lassen.\nDressing: 2 EL Zitronensaft, 1 EL Olivenöl und 1/2 Zehe gepressten Knoblauch vermischen. Mit Salz und Pfeffer abschmecken.\nKirschtomaten halbieren, Gurke würfeln.\nSalat zusammenstellen: Linsen, Rote Bete, Tomaten, Gurke und Rucola in Schüssel geben.\nMit Dressing beträufeln, gehackte Walnüsse darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "432",
+    "proteinContent": "31g",
+    "carbohydrateContent": "58g",
+    "fatContent": "10g",
+    "fiberContent": "16g"
+  }
+}

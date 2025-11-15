@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl",
+  "description": "Herzhafter Wrap mit 28g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "1 Vollkorn-Wrap (groß)",
+    "150g gemischte Pilze (klein gehackt)",
+    "20g Walnüsse (fein gehackt)",
+    "15g Cashews (fein gehackt)",
+    "60g Rotkohl (fein gehobelt, mariniert)",
+    "50g Hummus",
+    "20g Rucola (frisch)",
+    "1 EL Tahini-Dressing",
+    "1,5 EL Sojasauce (für Pilzfüllung)",
+    "1/2 TL Ahornsirup (für Pilzfüllung)",
+    "1/2 TL Paprika geräuchert (für Pilzfüllung)",
+    "2 EL Apfelessig (für Rotkohl-Marinade)",
+    "1/2 TL Kreuzkümmel (für Rotkohl)"
+  ],
+  "recipeInstructions": "Rotkohl marinieren: 60g fein gehobelten Rotkohl mit 2 EL Apfelessig, 1 TL Ahornsirup, Zitronensaft und Kreuzkümmel kräftig massieren. Mind. 1h ziehen lassen.\nPilz-Nuss-Füllung: Pilze klein hacken, trocken in Pfanne anbraten bis Wasser verdampft (5 Min).\n1 TL Olivenöl, 1 Knoblauchzehe hinzufügen. Walnüsse und Cashews (fein gehackt) hinzufügen.\n1,5 EL Sojasauce, 1/2 TL Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.\nWrap zusammenstellen: Hummus auf Wrap streichen. Pilz-Nuss-Füllung, marinierten Rotkohl und Rucola darauf verteilen.\nMit Tahini-Dressing beträufeln. Wrap fest einrollen, halbieren und servieren.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT12M",
+  "nutrition": {
+    "calories": "450",
+    "proteinContent": "28g",
+    "carbohydrateContent": "52g",
+    "fatContent": "16g",
+    "fiberContent": "12g"
+  }
+}
