@@ -485,7 +485,7 @@ def create_chia_pudding_beeren_power():
     """Chia Pudding Beeren-Power"""
     return create_recipe(
         name="Chia Pudding Beeren-Power",
-        description="Protein-reiches Frühstück mit 29g Protein. Chia-Samen quellen über Nacht auf. TK-Beeren tauen über Nacht auf und geben köstlichen Saft ab.",
+        description="Chia-Samen quellen über Nacht auf. TK-Beeren tauen über Nacht auf und geben köstlichen Saft ab.",
         prep_time="PT5M",
         meal_type="Frühstück",
         ingredients=[
