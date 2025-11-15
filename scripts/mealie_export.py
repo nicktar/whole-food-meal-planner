@@ -478,45 +478,556 @@ Salat zusammenstellen: Quinoa und Linsen als Basis, Rohkost-Gemüse, Feldsalat, 
 
 
 # ============================================================================
+# NOVEMBER 2025 RECIPES (WOCHE 24.-28. November) - Neue saisonale Rezepte
+# ============================================================================
+
+def create_chia_pudding_beeren_power():
+    """Chia Pudding Beeren-Power"""
+    return create_recipe(
+        name="Chia Pudding Beeren-Power",
+        description="Protein-reiches Frühstück mit 29g Protein. Chia-Samen quellen über Nacht auf. TK-Beeren tauen über Nacht auf und geben köstlichen Saft ab.",
+        prep_time="PT5M",
+        meal_type="Frühstück",
+        ingredients=[
+            "3 EL Chiasamen (30g)",
+            "200ml Hafermilch (ungesüßt)",
+            "1/2 TL Vanillepulver",
+            "1 EL Cashewmus",
+            "20g Erbsenprotein-Pulver (pur)",
+            "100g gemischte Beeren (TK)",
+            "1 EL Mandelsplitter",
+            "1 EL Hanfsamen",
+            "Prise Salz"
+        ],
+        instructions="""Chiasamen und Erbsenprotein-Pulver in Schraubglas (400ml) geben.
+Hafermilch, Vanillepulver, Cashewmus und Salz hinzufügen.
+Sehr kräftig schütteln oder mit Schneebesen rühren (Proteinpulver + Chiasamen = Klumpengefahr!).
+Nach 5 Minuten nochmal kräftig durchrühren.
+Mindestens 2-4 Stunden (ideal: über Nacht) im Kühlschrank quellen lassen.
+Am Morgen: Mit TK-Beeren (tauen über Nacht auf), Mandelsplittern und Hanfsamen toppen.""",
+        calories="420",
+        protein="29g",
+        carbs="44g",
+        fat="14g",
+        fiber="14g"
+    )
+
+
+def create_overnight_oats_protein_boost():
+    """Overnight Oats Protein-Boost"""
+    return create_recipe(
+        name="Overnight Oats Protein-Boost",
+        description="Maximale Protein-Power mit 33g Protein! Triple-Samen-Topping (Hanf, Kürbis, Sonnenblume) für zusätzliche Nährstoffe.",
+        prep_time="PT5M",
+        meal_type="Frühstück",
+        ingredients=[
+            "30g Haferflocken (Vollkorn)",
+            "200ml Hafermilch (ungesüßt)",
+            "1 EL Chiasamen",
+            "1 EL gemahlene Leinsamen",
+            "1 EL Mandelmus",
+            "20g Erbsenprotein-Pulver (pur)",
+            "1 EL Hanfsamen",
+            "1 EL Kürbiskerne",
+            "1 EL Sonnenblumenkerne",
+            "50g Beeren (frisch oder TK)",
+            "Prise Salz"
+        ],
+        instructions="""Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Mandelmus, Erbsenprotein-Pulver und Salz in Schraubglas gut mischen.
+Glas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.
+Am Morgen: Mit Hanfsamen, Kürbiskernen, Sonnenblumenkernen und Beeren toppen.
+Optional: Mit etwas zusätzlicher Hafermilch verdünnen falls zu dick.""",
+        calories="380",
+        protein="33g",
+        carbs="44g",
+        fat="11g",
+        fiber="12g"
+    )
+
+
+def create_quinoa_fruehstuecksbowl_walnuesse():
+    """Quinoa-Frühstücksbowl mit Walnüssen"""
+    return create_recipe(
+        name="Quinoa-Frühstücksbowl mit Walnüssen",
+        description="Warmes Frühstück mit 38g Protein! Quinoa wird mit Hafermilch und Proteinpulver cremig aufgewärmt. Apfel und Cranberries geben süße Akzente.",
+        prep_time="PT3M",
+        cook_time="PT3M",
+        meal_type="Frühstück",
+        ingredients=[
+            "60g Quinoa (roh) → 180g gekocht",
+            "200ml Hafermilch",
+            "25g Erbsenprotein-Pulver (pur)",
+            "1 EL Walnüsse (gehackt)",
+            "1 kleiner Apfel (gewürfelt)",
+            "1 TL Zimt",
+            "1 EL getrocknete Cranberries",
+            "1 EL Mandelmus",
+            "Prise Salz"
+        ],
+        instructions="""Quinoa vorbereiten (am Sonntag): 60g Quinoa mit 120ml Wasser 15 Min köcheln, 5 Min ruhen lassen.
+Am Morgen: 180g gekochte Quinoa mit 200ml Hafermilch und 25g Erbsenprotein-Pulver in Topf geben.
+Unter ständigem Rühren 3 Min aufwärmen bis cremig.
+Mandelmus unterrühren, in Schüssel geben.
+Mit gewürfeltem Apfel, gehackten Walnüssen, Cranberries und Zimt toppen.""",
+        calories="480",
+        protein="38g",
+        carbs="62g",
+        fat="12g",
+        fiber="10g"
+    )
+
+
+def create_beeren_power_overnight_oats():
+    """Beeren-Power Overnight Oats"""
+    return create_recipe(
+        name="Beeren-Power Overnight Oats",
+        description="Protein-optimierte Overnight Oats mit 32g Protein. Extra Kürbiskerne und Hanfsamen für zusätzliche Proteine und Omega-3-Fettsäuren.",
+        prep_time="PT5M",
+        meal_type="Frühstück",
+        ingredients=[
+            "30g Haferflocken (Vollkorn)",
+            "150ml Hafermilch (ungesüßt)",
+            "1 EL Chiasamen",
+            "1 EL gemahlene Leinsamen",
+            "1 EL Mandelmus",
+            "25g Erbsenprotein-Pulver (pur)",
+            "100g gemischte Beeren (frisch oder TK)",
+            "1 EL Hanfsamen",
+            "1 EL Kürbiskerne",
+            "Prise Zimt",
+            "Prise Salz"
+        ],
+        instructions="""Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Mandelmus, Erbsenprotein-Pulver, Zimt und Salz in Schraubglas gut mischen.
+Glas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.
+Am Morgen: Mit Beeren, Hanfsamen und Kürbiskernen toppen.
+Bei TK-Beeren: Können direkt auf die Oats gegeben werden und tauen während der Nacht auf.""",
+        calories="390",
+        protein="32g",
+        carbs="48g",
+        fat="10g",
+        fiber="11g"
+    )
+
+
+def create_kichererbsen_buddha_bowl_rote_bete():
+    """Kichererbsen-Buddha-Bowl mit Rote Bete und Tofu"""
+    return create_recipe(
+        name="Kichererbsen-Buddha-Bowl mit Rote Bete und Tofu",
+        description="Bunte Buddha-Bowl mit 34g Protein. Rote Bete gibt erdige Süße, geröstete Kichererbsen knusprige Textur. Meal-Prep-freundlich!",
+        prep_time="PT15M",
+        cook_time="PT30M",
+        meal_type="Mittagessen",
+        ingredients=[
+            "50g Kichererbsen (ca. 150g gekocht, geröstet)",
+            "30g Quinoa (ca. 80g gekocht)",
+            "100g Rote Bete (gekocht und gewürfelt)",
+            "120g Tofu (gewürfelt und angebraten)",
+            "50g Karotten (roh, julienne)",
+            "2 EL Tahini-Dressing",
+            "1 EL Kürbiskerne",
+            "Frische Petersilie",
+            "1 TL Kreuzkümmel (für Kichererbsen)",
+            "1 TL Paprikapulver (für Kichererbsen)",
+            "1 TL Knoblauchpulver (für Kichererbsen)"
+        ],
+        instructions="""Kichererbsen rösten: Mit Kreuzkümmel, Paprika und Knoblauchpulver würzen. Bei 200°C für 25 Min rösten bis knusprig.
+Quinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.
+Rote Bete kochen: Würfeln, in Wasser 30 Min kochen (oder vorgekochte verwenden).
+Tofu anbraten: Würfeln und in heißer Pfanne 5-7 Min goldbraun braten.
+Karotten-Julienne: Mit Gemüseschäler in dünne Streifen schneiden.
+Bowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren, mit Tahini-Dressing beträufeln, Kürbiskerne und Petersilie darüber.""",
+        calories="440",
+        protein="34g",
+        carbs="54g",
+        fat="18g",
+        fiber="14g"
+    )
+
+
+def create_linsen_salat_rote_bete_walnuesse():
+    """Linsen-Salat mit Rote Bete und Walnüssen"""
+    return create_recipe(
+        name="Linsen-Salat mit Rote Bete und Walnüssen",
+        description="Protein-reicher Salat mit 36g Protein. Tofu wird separat angebraten für beste Textur. Rote Bete separat lagern (färbt stark!).",
+        prep_time="PT15M",
+        cook_time="PT25M",
+        meal_type="Mittagessen",
+        ingredients=[
+            "60g Grüne Linsen (ca. 180g gekocht)",
+            "120g Tofu (gewürfelt und angebraten)",
+            "100g Rote Bete (gekocht und gewürfelt)",
+            "50g Gurke (gewürfelt)",
+            "30g Feldsalat",
+            "2 EL Walnüsse (gehackt)",
+            "Saft 1/2 Zitrone",
+            "1 TL Olivenöl",
+            "Salz, Pfeffer"
+        ],
+        instructions="""Grüne Linsen kochen: 60g Linsen mit 150ml Wasser 25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.
+Rote Bete kochen: Würfeln, in Wasser 30 Min kochen (oder vorgekochte verwenden). Abkühlen lassen.
+Tofu anbraten: Würfeln und in heißer Pfanne 5-7 Min goldbraun braten.
+Dressing: Zitronensaft, Olivenöl, Salz und Pfeffer vermischen.
+Salat zusammenstellen: Linsen, Tofu, Rote Bete, Gurke und Feldsalat in Schüssel geben.
+Mit Dressing vermengen, gehackte Walnüsse darüberstreuen.""",
+        calories="450",
+        protein="36g",
+        carbs="48g",
+        fat="14g",
+        fiber="16g"
+    )
+
+
+def create_kichererbsen_curry_spinat_tofu_v2():
+    """Kichererbsen-Curry mit Spinat und Tofu (Version 2)"""
+    return create_recipe(
+        name="Kichererbsen-Curry mit Spinat und Tofu",
+        description="Cremiges Curry mit 38g Protein. Spinat erst am Ende hinzufügen damit er nicht verkocht. Champignons geben umami-Tiefe.",
+        prep_time="PT10M",
+        cook_time="PT20M",
+        meal_type="Mittagessen",
+        ingredients=[
+            "50g Kichererbsen (ca. 150g gekocht)",
+            "120g Tofu (gewürfelt)",
+            "80g Spinat (frisch)",
+            "100g Champignons (geschnitten)",
+            "1 TL Currypaste",
+            "75ml Kokosmilch",
+            "1 TL Ingwer (gerieben)",
+            "1 TL Kurkuma",
+            "1/2 TL Kreuzkümmel",
+            "30g Quinoa (ca. 80g gekocht)",
+            "1 EL Kürbiskerne",
+            "1 EL Kokosöl"
+        ],
+        instructions="""Tofu würfeln und in 1 TL Kokosöl kräftig anbraten (5 Min), aus der Pfanne nehmen.
+Champignons in Pfanne anbraten (3 Min).
+Currypaste, Ingwer, Kurkuma und Kreuzkümmel hinzufügen, 1 Min unter Rühren anbraten.
+Kichererbsen und Kokosmilch hinzufügen. 10 Min köcheln lassen.
+Spinat und gebratenen Tofu hinzufügen, 2 Min mitköcheln bis Spinat zusammenfällt.
+Über gekochte Quinoa servieren, mit Kürbiskernen bestreuen.""",
+        calories="470",
+        protein="38g",
+        carbs="56g",
+        fat="18g",
+        fiber="14g"
+    )
+
+
+def create_rotkohl_curry_kichererbsen_tofu_v2():
+    """Rotkohl-Curry mit Kichererbsen und Tofu (Version 2)"""
+    return create_recipe(
+        name="Rotkohl-Curry mit Kichererbsen und Tofu",
+        description="Farbenfrohes Curry mit 34g Protein. Rotkohl färbt das Curry wunderschön violett! Tofu separat anbraten für knusprige Textur.",
+        prep_time="PT10M",
+        cook_time="PT20M",
+        meal_type="Mittagessen",
+        ingredients=[
+            "150g Rotkohl (fein geschnitten)",
+            "40g Kichererbsen (ca. 120g gekocht)",
+            "120g Tofu (gewürfelt)",
+            "1 TL Currypaste",
+            "75ml Kokosmilch",
+            "1 TL Ingwer (gerieben)",
+            "1 TL Kurkuma",
+            "1/2 TL Kreuzkümmel",
+            "30g Quinoa (ca. 80g gekocht)",
+            "1 EL Hanfsamen",
+            "1 EL Kokosöl"
+        ],
+        instructions="""Tofu würfeln und in 1 TL Kokosöl kräftig anbraten (5 Min), aus der Pfanne nehmen.
+Currypaste, Ingwer, Kurkuma und Kreuzkümmel anrösten (1 Min).
+Rotkohl hinzugeben, 3 Min anbraten bis er etwas zusammenfällt.
+Kichererbsen und Kokosmilch hinzufügen. 10 Min köcheln lassen.
+Gebratenen Tofu zurück in die Pfanne geben, 2 Min mitköcheln.
+Über gekochte Quinoa servieren, mit Hanfsamen bestreuen.""",
+        calories="420",
+        protein="34g",
+        carbs="48g",
+        fat="16g",
+        fiber="12g"
+    )
+
+
+def create_pilz_lauch_pfanne_tofu():
+    """Pilz-Lauch-Pfanne mit Tofu und Quinoa"""
+    return create_recipe(
+        name="Pilz-Lauch-Pfanne mit Tofu und Quinoa",
+        description="Herzhaftes Pilz-Gericht mit 36g Protein. Shiitake und Champignons kombiniert für komplexen umami-Geschmack. Thymian gibt mediterrane Note.",
+        prep_time="PT10M",
+        cook_time="PT15M",
+        meal_type="Mittagessen",
+        ingredients=[
+            "150g gemischte Pilze (Champignons, Shiitake)",
+            "100g Lauch (in Ringen)",
+            "150g Tofu (gewürfelt und angebraten)",
+            "1 Knoblauchzehe (gehackt)",
+            "1 TL Thymian (getrocknet)",
+            "30g Quinoa (ca. 80g gekocht)",
+            "1 EL Walnüsse (gehackt)",
+            "1 EL Hanfsamen",
+            "Salz, Pfeffer",
+            "1 EL Olivenöl"
+        ],
+        instructions="""Tofu würfeln und in heißer Pfanne 5-7 Min goldbraun braten. Beiseite stellen.
+Pilze putzen und in Scheiben schneiden. Lauch in Ringe schneiden, waschen.
+In derselben Pfanne 1 EL Olivenöl erhitzen. Knoblauch glasig anbraten.
+Pilze hinzufügen, 5 Min anbraten bis sie Farbe nehmen.
+Lauch und Thymian hinzufügen, weitere 3 Min braten.
+Tofu zurück in die Pfanne geben, aufwärmen. Mit Salz und Pfeffer abschmecken.
+Über gekochte Quinoa servieren, mit Walnüssen und Hanfsamen bestreuen.""",
+        calories="450",
+        protein="36g",
+        carbs="42g",
+        fat="18g",
+        fiber="12g"
+    )
+
+
+def create_geroesteter_rotkohl_salat_cannellini():
+    """Gerösteter Rotkohl-Salat mit Cannellini-Bohnen"""
+    return create_recipe(
+        name="Gerösteter Rotkohl-Salat mit Cannellini-Bohnen",
+        description="Warmer Salat mit 28g Protein. Rotkohl wird mit Ahornsirup karamellisiert für süß-herzhaften Geschmack. Meal-Prep: Rotkohl hält 3-4 Tage.",
+        prep_time="PT10M",
+        cook_time="PT25M",
+        meal_type="Abendessen",
+        ingredients=[
+            "150g Rotkohl (in Wedges geschnitten)",
+            "50g Cannellini-Bohnen (ca. 150g gekocht)",
+            "80g Tofu (gewürfelt)",
+            "30g Walnüsse",
+            "30g Rucola (frisch)",
+            "1 EL Kürbiskerne",
+            "1 TL Ahornsirup",
+            "1 TL Olivenöl",
+            "1/2 TL Balsamico-Essig",
+            "Salz, Pfeffer"
+        ],
+        instructions="""Ofen auf 200°C vorheizen.
+Rotkohl in Wedges schneiden, mit Olivenöl, Ahornsirup, Salz und Pfeffer marinieren.
+Auf Backblech geben, 20-25 Min rösten bis Ränder karamellisieren.
+Walnüsse in den letzten 5 Min mitrösten.
+Tofu in Pfanne goldbraun braten (5-7 Min).
+Salat zusammenstellen: Gerösteten Rotkohl über Rucola arrangieren.
+Cannellini-Bohnen, gebratenen Tofu und geröstete Walnüsse hinzufügen.
+Mit Balsamico beträufeln, Kürbiskerne darüberstreuen.""",
+        calories="420",
+        protein="28g",
+        carbs="52g",
+        fat="16g",
+        fiber="15g"
+    )
+
+
+def create_pilz_nuss_bowl_rote_bete():
+    """Pilz-Nuss-Bowl mit Rote Bete und Quinoa"""
+    return create_recipe(
+        name="Pilz-Nuss-Bowl mit Rote Bete und Quinoa",
+        description="Herzhafte Bowl mit Pilz-Nuss-Füllung. Walnüsse und Cashews geben fleischige Textur. Pilze werden erst trocken angebraten für intensive Aromen.",
+        prep_time="PT15M",
+        cook_time="PT15M",
+        meal_type="Abendessen",
+        ingredients=[
+            "180g gemischte Pilze (Champignons, Shiitake, klein gehackt)",
+            "20g Walnüsse (fein gehackt)",
+            "15g Cashews (fein gehackt)",
+            "30g Quinoa (ca. 100g gekocht)",
+            "80g Rote Bete (geröstet)",
+            "50g Tofu (gewürfelt)",
+            "1 EL Kürbiskerne",
+            "Frische Petersilie",
+            "1,5 EL Sojasauce",
+            "1/2 TL Ahornsirup",
+            "1 TL Paprika (geräuchert)",
+            "1 TL Thymian (getrocknet)",
+            "1 TL Olivenöl"
+        ],
+        instructions="""Pilze klein hacken, trocken in Pfanne anbraten bis Wasser verdampft (5 Min).
+1 TL Olivenöl und 1 Knoblauchzehe hinzufügen, 2 Min braten.
+Walnüsse und Cashews (fein gehackt) hinzufügen.
+Sojasauce, Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.
+Rote Bete im Ofen bei 200°C für 25 Min rösten (oder vorgekochte verwenden).
+Tofu würfeln und in Pfanne goldbraun braten.
+Bowl zusammenstellen: Quinoa als Basis, Pilz-Nuss-Füllung, Rote Bete und Tofu arrangieren.
+Mit Kürbiskernen und Petersilie garnieren.""",
+        calories="400",
+        protein="24g",
+        carbs="54g",
+        fat="18g",
+        fiber="14g"
+    )
+
+
+def create_linsen_buddha_bowl_karotten_tofu():
+    """Linsen-Buddha-Bowl mit Karotten und Tofu"""
+    return create_recipe(
+        name="Linsen-Buddha-Bowl mit Karotten und Tofu",
+        description="Meal-Prep-optimierte Bowl mit 32g Protein. Karotten als rohe Julienne für maximale Haltbarkeit (4-5 Tage knackig!). Tahini-Dressing separat lagern.",
+        prep_time="PT15M",
+        cook_time="PT25M",
+        meal_type="Abendessen",
+        ingredients=[
+            "50g Grüne Linsen (ca. 150g gekocht)",
+            "100g Tofu (mariniert und angebraten)",
+            "30g Quinoa (ca. 80g gekocht)",
+            "80g Karotten (roh, julienne)",
+            "50g Kirschtomaten (halbiert)",
+            "2 EL Tahini-Dressing",
+            "1 EL Kürbiskerne",
+            "1 EL Hanfsamen",
+            "Frische Petersilie",
+            "1 EL Sojasauce (für Tofu)"
+        ],
+        instructions="""Grüne Linsen kochen: 50g Linsen mit 125ml Wasser 20-25 Min köcheln bis bissfest.
+Quinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.
+Tofu marinieren: Würfeln, mit 1 EL Sojasauce marinieren (30 Min). In Pfanne 5-7 Min goldbraun braten.
+Karotten-Julienne: Mit Gemüseschäler in dünne Streifen schneiden (hält 4-5 Tage!).
+Kirschtomaten halbieren.
+Bowl zusammenstellen: Quinoa als Basis, Linsen, Tofu, Karotten-Julienne und Tomaten arrangieren.
+Mit Tahini-Dressing beträufeln, Kürbiskerne, Hanfsamen und Petersilie darüber.""",
+        calories="400",
+        protein="32g",
+        carbs="48g",
+        fat="14g",
+        fiber="16g"
+    )
+
+
+def create_rotkohl_apfel_salat_cannellini_v2():
+    """Rotkohl-Apfel-Salat mit Cannellini-Bohnen (Version 2)"""
+    return create_recipe(
+        name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen",
+        description="Frischer Salat mit 28g Protein. Rotkohl wird mariniert für weichere Textur. Apfel gibt süßen Kontrast. Perfekt als kaltes Abendessen.",
+        prep_time="PT15M",
+        meal_type="Abendessen",
+        ingredients=[
+            "120g Rotkohl (fein gehobelt und mariniert)",
+            "80g Apfel (dünn geschnitten)",
+            "50g Cannellini-Bohnen (ca. 150g gekocht)",
+            "80g Tofu (gewürfelt)",
+            "2 EL Walnüsse (gehackt)",
+            "2 EL Apfelessig (für Marinade)",
+            "1 EL Balsamico (für Vinaigrette)",
+            "1/2 EL Ahornsirup",
+            "1/2 TL Dijon-Senf",
+            "1/2 EL Olivenöl",
+            "Salz, Pfeffer"
+        ],
+        instructions="""Rotkohl marinieren: 120g fein gehobelten Rotkohl mit 2 EL Apfelessig, 1 TL Ahornsirup und etwas Zitronensaft kräftig massieren. Mind. 15 Min ziehen lassen (besser 1-2 Std).
+Apfel-Balsamico-Vinaigrette: 1 EL Balsamico, 1/2 EL Ahornsirup, 1/2 TL Senf und 1/2 EL Olivenöl in Schraubglas schütteln.
+Apfel dünn schneiden, Walnüsse hacken.
+Tofu würfeln (kann optional angebraten werden für mehr Textur).
+Salat zusammenstellen: Marinierten Rotkohl, Cannellini-Bohnen, Tofu, Apfel zusammengeben.
+Mit Vinaigrette beträufeln, gehackte Walnüsse darüberstreuen.""",
+        calories="420",
+        protein="28g",
+        carbs="56g",
+        fat="14g",
+        fiber="18g"
+    )
+
+
+# ============================================================================
 # MAIN EXPORT
 # ============================================================================
 
 if __name__ == "__main__":
-    # Create all November 2024 recipes
-    recipes = [
-        ("apfel_zimt_overnight_oats_protein_optimiert.json", create_apfel_zimt_overnight_oats_protein()),
-        ("kichererbsen_buddha_bowl_rohkost.json", create_kichererbsen_buddha_bowl_rohkost()),
-        ("rotkohl_curry_tofu_protein_optimiert.json", create_rotkohl_curry_tofu()),
-        ("lauch_miso_suppe_tofu.json", create_lauch_miso_suppe_tofu()),
-        ("vollkorn_wrap_pilz_nuss.json", create_vollkorn_wrap_pilz_nuss()),
-        ("kichererbsen_curry_spinat_tofu.json", create_kichererbsen_curry_spinat_tofu()),
-        ("rotkohl_apfel_salat_tofu.json", create_rotkohl_apfel_salat_tofu()),
-        ("linsen_gemuese_salat_rote_bete.json", create_linsen_gemuese_salat_rote_bete()),
-        ("geroesteter_rotkohl_salat_kichererbsen.json", create_geroesteter_rotkohl_salat_kichererbsen()),
-        ("buddha_bowl_linsen_tofu_rohkost.json", create_buddha_bowl_linsen_tofu_rohkost()),
-        ("linsen_feldsalat_rohkost.json", create_linsen_feldsalat_rohkost())
-    ]
+    import sys
 
-    print("📦 Exporting November 2024 recipes in schema.org format...\n")
+    # Determine which export to run
+    export_mode = sys.argv[1] if len(sys.argv) > 1 else "2025"
 
-    for filename, recipe in recipes:
-        save_recipe(recipe, filename)
+    if export_mode == "2024":
+        # November 2024 recipes
+        recipes = [
+            ("apfel_zimt_overnight_oats_protein_optimiert.json", create_apfel_zimt_overnight_oats_protein()),
+            ("kichererbsen_buddha_bowl_rohkost.json", create_kichererbsen_buddha_bowl_rohkost()),
+            ("rotkohl_curry_tofu_protein_optimiert.json", create_rotkohl_curry_tofu()),
+            ("lauch_miso_suppe_tofu.json", create_lauch_miso_suppe_tofu()),
+            ("vollkorn_wrap_pilz_nuss.json", create_vollkorn_wrap_pilz_nuss()),
+            ("kichererbsen_curry_spinat_tofu.json", create_kichererbsen_curry_spinat_tofu()),
+            ("rotkohl_apfel_salat_tofu.json", create_rotkohl_apfel_salat_tofu()),
+            ("linsen_gemuese_salat_rote_bete.json", create_linsen_gemuese_salat_rote_bete()),
+            ("geroesteter_rotkohl_salat_kichererbsen.json", create_geroesteter_rotkohl_salat_kichererbsen()),
+            ("buddha_bowl_linsen_tofu_rohkost.json", create_buddha_bowl_linsen_tofu_rohkost()),
+            ("linsen_feldsalat_rohkost.json", create_linsen_feldsalat_rohkost())
+        ]
 
-    print("\n✅ All recipes exported to mealie_exports/")
-    print("📝 Import these JSON files directly into Mealie")
-    print("\n🌟 November 2024 Recipes - Komplett-Set (11 Rezepte):")
-    print("\n   FRÜHSTÜCK:")
-    print("   • Apfel-Zimt Overnight Oats (28g Protein)")
-    print("\n   MITTAGESSEN:")
-    print("   • Kichererbsen-Buddha-Bowl mit Rohkost (24g Protein)")
-    print("   • Rotkohl-Curry mit Tofu (42g Protein)")
-    print("   • Lauch-Miso-Suppe mit Tofu (28g Protein)")
-    print("   • Vollkorn-Wrap mit Pilz-Nuss-Füllung (28g Protein)")
-    print("   • Kichererbsen-Curry mit Spinat und Tofu (41g Protein)")
-    print("\n   ABENDESSEN:")
-    print("   • Rotkohl-Apfel-Salat mit Tofu (33g Protein)")
-    print("   • Linsen-Gemüse-Salat mit Rote-Bete (31g Protein)")
-    print("   • Gerösteter Rotkohl-Salat mit Kichererbsen (44g Protein)")
-    print("   • Buddha-Bowl mit Linsen, Tofu und Rohkost (36g Protein)")
-    print("   • Linsen-Feldsalat mit Rohkost (31g Protein)")
-    print("\n✨ Alle im korrekten schema.org Format mit rohen Mengenangaben!")
+        print("📦 Exporting November 2024 recipes in schema.org format...\n")
+
+        for filename, recipe in recipes:
+            save_recipe(recipe, filename)
+
+        print("\n✅ All recipes exported to mealie_exports/")
+        print("📝 Import these JSON files directly into Mealie")
+        print("\n🌟 November 2024 Recipes - Komplett-Set (11 Rezepte):")
+        print("\n   FRÜHSTÜCK:")
+        print("   • Apfel-Zimt Overnight Oats (28g Protein)")
+        print("\n   MITTAGESSEN:")
+        print("   • Kichererbsen-Buddha-Bowl mit Rohkost (24g Protein)")
+        print("   • Rotkohl-Curry mit Tofu (42g Protein)")
+        print("   • Lauch-Miso-Suppe mit Tofu (28g Protein)")
+        print("   • Vollkorn-Wrap mit Pilz-Nuss-Füllung (28g Protein)")
+        print("   • Kichererbsen-Curry mit Spinat und Tofu (41g Protein)")
+        print("\n   ABENDESSEN:")
+        print("   • Rotkohl-Apfel-Salat mit Tofu (33g Protein)")
+        print("   • Linsen-Gemüse-Salat mit Rote-Bete (31g Protein)")
+        print("   • Gerösteter Rotkohl-Salat mit Kichererbsen (44g Protein)")
+        print("   • Buddha-Bowl mit Linsen, Tofu und Rohkost (36g Protein)")
+        print("   • Linsen-Feldsalat mit Rohkost (31g Protein)")
+        print("\n✨ Alle im korrekten schema.org Format mit rohen Mengenangaben!")
+
+    else:  # Default: November 2025
+        # November 2025 recipes (Woche 24.-28. November)
+        recipes = [
+            # Frühstück
+            ("2025_apfel_zimt_overnight_oats.json", create_apfel_zimt_overnight_oats_protein()),  # Reuse from 2024
+            ("2025_chia_pudding_beeren_power.json", create_chia_pudding_beeren_power()),
+            ("2025_overnight_oats_protein_boost.json", create_overnight_oats_protein_boost()),
+            ("2025_quinoa_fruehstuecksbowl_walnuesse.json", create_quinoa_fruehstuecksbowl_walnuesse()),
+            ("2025_beeren_power_overnight_oats.json", create_beeren_power_overnight_oats()),
+
+            # Mittagessen
+            ("2025_kichererbsen_buddha_bowl_rote_bete.json", create_kichererbsen_buddha_bowl_rote_bete()),
+            ("2025_linsen_salat_rote_bete_walnuesse.json", create_linsen_salat_rote_bete_walnuesse()),
+            ("2025_kichererbsen_curry_spinat_tofu.json", create_kichererbsen_curry_spinat_tofu_v2()),
+            ("2025_rotkohl_curry_kichererbsen_tofu.json", create_rotkohl_curry_kichererbsen_tofu_v2()),
+            ("2025_pilz_lauch_pfanne_tofu.json", create_pilz_lauch_pfanne_tofu()),
+
+            # Abendessen
+            ("2025_lauch_miso_suppe_tofu.json", create_lauch_miso_suppe_tofu()),  # Reuse from 2024
+            ("2025_geroesteter_rotkohl_salat_cannellini.json", create_geroesteter_rotkohl_salat_cannellini()),
+            ("2025_pilz_nuss_bowl_rote_bete.json", create_pilz_nuss_bowl_rote_bete()),
+            ("2025_linsen_buddha_bowl_karotten_tofu.json", create_linsen_buddha_bowl_karotten_tofu()),
+            ("2025_rotkohl_apfel_salat_cannellini.json", create_rotkohl_apfel_salat_cannellini_v2())
+        ]
+
+        print("📦 Exporting November 2025 recipes in schema.org format...\n")
+
+        for filename, recipe in recipes:
+            save_recipe(recipe, filename)
+
+        print("\n✅ All recipes exported to mealie_exports/")
+        print("📝 Import these JSON files directly into Mealie")
+        print("\n🌟 November 2025 Recipes - Woche 24.-28. November (15 Rezepte):")
+        print("\n   FRÜHSTÜCK (5 Rezepte):")
+        print("   • Apfel-Zimt Overnight Oats (28g Protein)")
+        print("   • Chia Pudding Beeren-Power (29g Protein)")
+        print("   • Overnight Oats Protein-Boost (33g Protein)")
+        print("   • Quinoa-Frühstücksbowl mit Walnüssen (38g Protein)")
+        print("   • Beeren-Power Overnight Oats (32g Protein)")
+        print("\n   MITTAGESSEN (5 Rezepte):")
+        print("   • Kichererbsen-Buddha-Bowl mit Rote Bete (34g Protein)")
+        print("   • Linsen-Salat mit Rote Bete und Walnüssen (36g Protein)")
+        print("   • Kichererbsen-Curry mit Spinat und Tofu (38g Protein)")
+        print("   • Rotkohl-Curry mit Kichererbsen und Tofu (34g Protein)")
+        print("   • Pilz-Lauch-Pfanne mit Tofu (36g Protein)")
+        print("\n   ABENDESSEN (5 Rezepte):")
+        print("   • Lauch-Miso-Suppe mit Tofu (32g Protein)")
+        print("   • Gerösteter Rotkohl-Salat mit Cannellini-Bohnen (28g Protein)")
+        print("   • Pilz-Nuss-Bowl mit Rote Bete (24g Protein)")
+        print("   • Linsen-Buddha-Bowl mit Karotten (32g Protein)")
+        print("   • Rotkohl-Apfel-Salat mit Cannellini-Bohnen (28g Protein)")
+        print("\n✨ Alle im korrekten schema.org Format mit rohen Mengenangaben!")
+        print("\n💡 Tipp: Um November 2024 Rezepte zu exportieren, führe aus:")
+        print("   python3 scripts/mealie_export.py 2024")

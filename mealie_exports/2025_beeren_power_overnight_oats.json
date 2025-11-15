@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Beeren-Power Overnight Oats",
+  "description": "Protein-optimierte Overnight Oats mit 32g Protein. Extra Kürbiskerne und Hanfsamen für zusätzliche Proteine und Omega-3-Fettsäuren.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Haferflocken (Vollkorn)",
+    "150ml Hafermilch (ungesüßt)",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandelmus",
+    "25g Erbsenprotein-Pulver (pur)",
+    "100g gemischte Beeren (frisch oder TK)",
+    "1 EL Hanfsamen",
+    "1 EL Kürbiskerne",
+    "Prise Zimt",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Mandelmus, Erbsenprotein-Pulver, Zimt und Salz in Schraubglas gut mischen.\nGlas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.\nAm Morgen: Mit Beeren, Hanfsamen und Kürbiskernen toppen.\nBei TK-Beeren: Können direkt auf die Oats gegeben werden und tauen während der Nacht auf.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "nutrition": {
+    "calories": "390",
+    "proteinContent": "32g",
+    "carbohydrateContent": "48g",
+    "fatContent": "10g",
+    "fiberContent": "11g"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Rote Bete und Tofu",
+  "description": "Bunte Buddha-Bowl mit 34g Protein. Rote Bete gibt erdige Süße, geröstete Kichererbsen knusprige Textur. Meal-Prep-freundlich!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "50g Kichererbsen (ca. 150g gekocht, geröstet)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "100g Rote Bete (gekocht und gewürfelt)",
+    "120g Tofu (gewürfelt und angebraten)",
+    "50g Karotten (roh, julienne)",
+    "2 EL Tahini-Dressing",
+    "1 EL Kürbiskerne",
+    "Frische Petersilie",
+    "1 TL Kreuzkümmel (für Kichererbsen)",
+    "1 TL Paprikapulver (für Kichererbsen)",
+    "1 TL Knoblauchpulver (für Kichererbsen)"
+  ],
+  "recipeInstructions": "Kichererbsen rösten: Mit Kreuzkümmel, Paprika und Knoblauchpulver würzen. Bei 200°C für 25 Min rösten bis knusprig.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nRote Bete kochen: Würfeln, in Wasser 30 Min kochen (oder vorgekochte verwenden).\nTofu anbraten: Würfeln und in heißer Pfanne 5-7 Min goldbraun braten.\nKarotten-Julienne: Mit Gemüseschäler in dünne Streifen schneiden.\nBowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren, mit Tahini-Dressing beträufeln, Kürbiskerne und Petersilie darüber.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "440",
+    "proteinContent": "34g",
+    "carbohydrateContent": "54g",
+    "fatContent": "18g",
+    "fiberContent": "14g"
+  }
+}

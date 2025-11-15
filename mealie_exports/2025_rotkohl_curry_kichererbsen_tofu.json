@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Curry mit Kichererbsen und Tofu",
+  "description": "Farbenfrohes Curry mit 34g Protein. Rotkohl färbt das Curry wunderschön violett! Tofu separat anbraten für knusprige Textur.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Rotkohl (fein geschnitten)",
+    "40g Kichererbsen (ca. 120g gekocht)",
+    "120g Tofu (gewürfelt)",
+    "1 TL Currypaste",
+    "75ml Kokosmilch",
+    "1 TL Ingwer (gerieben)",
+    "1 TL Kurkuma",
+    "1/2 TL Kreuzkümmel",
+    "30g Quinoa (ca. 80g gekocht)",
+    "1 EL Hanfsamen",
+    "1 EL Kokosöl"
+  ],
+  "recipeInstructions": "Tofu würfeln und in 1 TL Kokosöl kräftig anbraten (5 Min), aus der Pfanne nehmen.\nCurrypaste, Ingwer, Kurkuma und Kreuzkümmel anrösten (1 Min).\nRotkohl hinzugeben, 3 Min anbraten bis er etwas zusammenfällt.\nKichererbsen und Kokosmilch hinzufügen. 10 Min köcheln lassen.\nGebratenen Tofu zurück in die Pfanne geben, 2 Min mitköcheln.\nÜber gekochte Quinoa servieren, mit Hanfsamen bestreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "34g",
+    "carbohydrateContent": "48g",
+    "fatContent": "16g",
+    "fiberContent": "12g"
+  }
+}

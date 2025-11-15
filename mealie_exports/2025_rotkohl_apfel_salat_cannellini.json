@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Apfel-Salat mit Cannellini-Bohnen",
+  "description": "Frischer Salat mit 28g Protein. Rotkohl wird mariniert für weichere Textur. Apfel gibt süßen Kontrast. Perfekt als kaltes Abendessen.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "120g Rotkohl (fein gehobelt und mariniert)",
+    "80g Apfel (dünn geschnitten)",
+    "50g Cannellini-Bohnen (ca. 150g gekocht)",
+    "80g Tofu (gewürfelt)",
+    "2 EL Walnüsse (gehackt)",
+    "2 EL Apfelessig (für Marinade)",
+    "1 EL Balsamico (für Vinaigrette)",
+    "1/2 EL Ahornsirup",
+    "1/2 TL Dijon-Senf",
+    "1/2 EL Olivenöl",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Rotkohl marinieren: 120g fein gehobelten Rotkohl mit 2 EL Apfelessig, 1 TL Ahornsirup und etwas Zitronensaft kräftig massieren. Mind. 15 Min ziehen lassen (besser 1-2 Std).\nApfel-Balsamico-Vinaigrette: 1 EL Balsamico, 1/2 EL Ahornsirup, 1/2 TL Senf und 1/2 EL Olivenöl in Schraubglas schütteln.\nApfel dünn schneiden, Walnüsse hacken.\nTofu würfeln (kann optional angebraten werden für mehr Textur).\nSalat zusammenstellen: Marinierten Rotkohl, Cannellini-Bohnen, Tofu, Apfel zusammengeben.\nMit Vinaigrette beträufeln, gehackte Walnüsse darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "28g",
+    "carbohydrateContent": "56g",
+    "fatContent": "14g",
+    "fiberContent": "18g"
+  }
+}

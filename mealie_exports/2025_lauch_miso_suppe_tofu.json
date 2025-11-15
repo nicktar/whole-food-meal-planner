@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Lauch-Miso-Suppe mit Tofu und Pilzen",
+  "description": "Leichte, aromatische Suppe mit 28g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Lauch/Porree (in Ringe geschnitten)",
+    "150g Tofu (gewürfelt)",
+    "100g Shiitake-Pilze (in Scheiben)",
+    "2 EL Miso-Paste (helle oder dunkle)",
+    "500ml Gemüsebrühe",
+    "1 TL Ingwer (frisch, gerieben)",
+    "2 Frühlingszwiebeln (in Ringe)",
+    "1 EL Hanfsamen (zum Topping)",
+    "1/2 TL Sesamöl (zum Verfeinern)"
+  ],
+  "recipeInstructions": "Lauch in feine Ringe schneiden, gründlich waschen. Shiitake-Pilze in Scheiben schneiden.\nTofu in kleine Würfel schneiden.\nGemüsebrühe in Topf zum Kochen bringen. Ingwer hinzufügen.\nLauch und Pilze hinzugeben, 5 Min köcheln lassen.\nTofu-Würfel hinzufügen, weitere 3 Min köcheln.\nHitze ausschalten. Miso-Paste in etwas Brühe auflösen, dann in die Suppe einrühren (NICHT kochen, sonst verliert Miso Nährstoffe!).\nMit Frühlingszwiebeln, Hanfsamen und einem Tropfen Sesamöl servieren.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT10M",
+  "nutrition": {
+    "calories": "335",
+    "proteinContent": "28g",
+    "carbohydrateContent": "28g",
+    "fatContent": "12g",
+    "fiberContent": "9g"
+  }
+}
