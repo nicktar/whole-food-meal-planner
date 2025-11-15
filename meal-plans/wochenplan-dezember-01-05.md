@@ -419,10 +419,10 @@ Alle Komponenten in Bowl geben, Dressing drüber, mit Haselnüssen toppen
 - Cannellini-Bohnen: 200g gekocht
 
 **Rotkohl-Komponenten (4 Zubereitungen):**
-1. Rotkohl-Curry (300g)
-2. Rotkohl geröstet (300g)
-3. Rotkohl roh gehobelt & mariniert (480g - für 2 Salate + 2 Bowls)
-4. Rotkohl für Miso-Suppe (100g)
+1. Rotkohl-Curry (150g)
+2. Rotkohl geröstet (150g)
+3. Rotkohl mariniert (120g)
+4. Rotkohl roh (50g für Buddha-Bowl)
 
 **Overnight/Chia Preps:**
 - 4x Overnight Oats/Chia Pudding vorbereiten (So-Do)

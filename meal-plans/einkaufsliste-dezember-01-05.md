@@ -31,8 +31,8 @@
 ## 🥬 FRISCHES GEMÜSE
 
 ### Dezember-Saisonal (Hauptzutaten):
-- [ ] **900g Rotkohl** (1 kleiner Kopf) 🥬
-  - Verwendung: Curry (150g), geröstet (300g), mariniert (450g für 2 Salate + 2 Bowls)
+- [ ] **470g Rotkohl** 🥬
+  - Verwendung: Curry (150g), geröstet (150g), mariniert (120g), roh (50g)
 - [ ] **340g Rote Bete** (vorgekocht) ODER 500g frisch - Dezember-Saison! 🔴
   - Verwendung: Mi Abend (100g) + Do Mittag (120g) + Fr Abend (120g)
 - [ ] **150g Pastinaken** - Dezember-Saison! 🥔
@@ -162,7 +162,7 @@
 ### Kostenoptimierung:
 - **Hülsenfrüchte trocken kaufen:** 50-70% günstiger als Dosen (aber +1 Tag Einweichzeit!)
 - **Bulk-Einkauf:** Quinoa, Haferflocken, Chiasamen in größeren Mengen kaufen
-- **Rotkohl:** 900g = 1 kleiner Kopf (ca. 1-2€)
+- **Rotkohl:** 470g = ca. halber Kopf (ca. 0,50-1€)
 - **Rote Bete vorgekocht:** Zeitsparend, ca. 2-3€ für 500g
 - **Pastinaken:** Ähnlich wie Karotten, ca. 2-3€/kg
 - **Bio-Qualität:** Vor allem bei Äpfeln, Rote Bete, Karotten, Haferflocken empfohlen

@@ -67,10 +67,10 @@ Sonntag Meal Prep (3,5 Std):
   - Vierteln, Strunk entfernen
   - Nicht schneiden, nur vierteln!
 
-- [ ] **Portionen aufteilen** (für 3 Zubereitungen):
+- [ ] **Portionen aufteilen** (für 4 Zubereitungen):
   - 150g → Curry (hobeln)
   - 150g → Geröstet (in Wedges)
-  - 170g → Mariniert für Salate (fein hobeln)
+  - 120g → Mariniert für Salat (fein hobeln)
   - 50g → Roh für Buddha-Bowl (fein hobeln)
 
 - [ ] **In Container lagern**
@@ -181,13 +181,13 @@ Sonntag Meal Prep (3,5 Std):
 
 ### Rotkohl-Vorbereitung (falls nicht Samstag gemacht):
 
-- [ ] **520g Rotkohl vorbereiten** (10 Min)
+- [ ] **470g Rotkohl vorbereiten** (10 Min)
   - Äußere Blätter entfernen
   - Vierteln, Strunk raus
   - **Aufteilen:**
     - 150g → fein hobeln für Curry
     - 150g → in Wedges für Rösten
-    - 170g → sehr fein hobeln für Salat-Marinade (Di + Fr Abend)
+    - 120g → sehr fein hobeln für Salat-Marinade (Di Abend)
     - 50g → fein hobeln für Buddha-Bowl
 
 ---
@@ -239,20 +239,20 @@ Sonntag Meal Prep (3,5 Std):
 
 **Start:** 11:10 Uhr
 
-**Apfelessig-Dressing (für Di + Fr Abendessen):**
+**Apfelessig-Dressing (für Di Abendessen):**
 
-- [ ] **170g Rotkohl** sehr fein hobeln
+- [ ] **120g Rotkohl** sehr fein hobeln
 - [ ] Dressing mischen:
-  - 3 EL Apfelessig
-  - 1 EL Ahornsirup
+  - 2 EL Apfelessig
+  - 1 TL Ahornsirup
   - 1 TL Olivenöl
   - 1 TL Dijon-Senf
   - Salz, Pfeffer
 - [ ] Rotkohl kräftig massieren mit Dressing
 - [ ] In Container, **mind. 1 Std ziehen lassen**
 
-**Ergebnis:** ~170g marinierter Rotkohl
-**Verwendung:** Dienstag (120g) + Freitag (50g) Abendessen
+**Ergebnis:** ~120g marinierter Rotkohl
+**Verwendung:** Dienstag Abendessen
 
 ---
 
@@ -653,7 +653,7 @@ Sonntag Meal Prep (3,5 Std):
 ### Effizienz:
 - ✅ **Paralleles Kochen:** Quinoa + Hülsenfrüchte + Overnight Oats gleichzeitig
 - ✅ **Ofen ausnutzen:** Rotkohl rösten + Kichererbsen + Karotten gleichzeitig (200°C)
-- ✅ **Rotkohl-Synergien:** 520g → 4 verschiedene Verwendungen!
+- ✅ **Rotkohl-Synergien:** 470g → 4 verschiedene Verwendungen!
 - ✅ **Batch-Größen:** Alle Komponenten für ganze Woche
 
 ### Frische bewahren:
