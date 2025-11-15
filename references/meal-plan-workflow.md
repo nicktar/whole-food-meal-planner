@@ -69,7 +69,7 @@ Meal Prep:
 
 **Beispiel-Rotation:**
 - Tag 1-2: Overnight Oats
-- Tag 3-4: Quinoa-Frühstücksbowl
+- Tag 3-4: Chia Pudding
 - Tag 5: Overnight Oats (variiert)
 
 ### Mittags-/Abendessen-Rotation (5-7 Rezepte)
@@ -306,7 +306,7 @@ python3 scripts/verify_nutrition.py
 1. **Gewürz-Variation:** Gleiche Basis, verschiedene Würzungen
 2. **Frische Komponenten:** Täglich frische Kräuter/Toppings hinzufügen
 3. **Textur-Kontraste:** Knusprige + cremige Elemente kombinieren
-4. **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Rotkohl, Hokkaido, Rote Bete, etc. - Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
+4. **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Rotkohl, Hokkaido, etc. - Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
 
 ---
 
