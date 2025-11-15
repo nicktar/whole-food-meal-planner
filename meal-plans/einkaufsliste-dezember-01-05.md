@@ -1,0 +1,234 @@
+# 🛒 EINKAUFSLISTE - Wochenplan 1.-5. Dezember 2025
+
+**Zeitraum:** 5 Tage (Montag bis Freitag)
+**Personen:** 1
+**Schwerpunkt:** Saisonale Dezember-Zutaten (Rotkohl, Äpfel, Walnüsse)
+
+---
+
+## 🌾 VOLLKORNPRODUKTE & GETREIDE
+
+- [ ] **400g Quinoa** (trocken) → ergibt ca. 1200g gekocht
+- [ ] **120g Haferflocken** (Vollkorn) → für 4x Overnight Oats
+- [ ] **90g Chiasamen** → für 2x Chia Pudding + Overnight Oats
+
+---
+
+## 🫘 HÜLSENFRÜCHTE
+
+**Trocken zum selbst kochen (günstiger):**
+- [ ] **100g grüne Linsen** (trocken) → ergibt ca. 240g gekocht
+- [ ] **100g Kichererbsen** (trocken, über Nacht einweichen) → ergibt ca. 240g gekocht
+- [ ] **80g Cannellini-Bohnen** (trocken, über Nacht einweichen) → ergibt ca. 200g gekocht
+
+**ODER vorgekocht (zeitsparend):**
+- [ ] **1 Dose grüne Linsen** (240g Abtropfgewicht)
+- [ ] **1 Dose Kichererbsen** (240g Abtropfgewicht)
+- [ ] **1 Dose Cannellini-Bohnen** (200g Abtropfgewicht)
+
+---
+
+## 🥬 FRISCHES GEMÜSE
+
+### Dezember-Saisonal (Hauptzutaten):
+- [ ] **900g Rotkohl** (1 kleiner Kopf) 🥬
+  - Verwendung: Curry (150g), geröstet (300g), mariniert (450g für 2 Salate + 2 Bowls)
+- [ ] **340g Rote Bete** (vorgekocht) ODER 500g frisch - Dezember-Saison! 🔴
+  - Verwendung: Mi Abend (100g) + Do Mittag (120g) + Fr Abend (120g)
+- [ ] **150g Pastinaken** - Dezember-Saison! 🥔
+  - Verwendung: Fr Mittag (Curry)
+
+### Weitere Gemüse:
+- [ ] **80g Brokkoli** → für 1x Buddha-Bowl (Dienstag)
+- [ ] **300g Kirschtomaten** → für Linsensalate (Mo + Do)
+- [ ] **150g Gurke** → für Linsensalate (Mo + Do)
+- [ ] **250g Karotten** → für Mi Salat (50g Julienne) + Do Bowl (100g geröstet) + Fr Curry (100g)
+- [ ] **100g Feldsalat** → saisonal im Dezember! Für Do Bowl + Fr Abend
+- [ ] **30g Rucola** → für Mi Salat + Mo/Do Linsensalate
+- [ ] **2 Frühlingszwiebeln** → für Mo Curry
+
+### Protein-Komponenten:
+- [ ] **270g Tofu** (natur, fest)
+  - Montag: 120g (Curry)
+  - Mittwoch: 100g (Rotkohl-Salat) + 50g (Rote-Bete-Salat)
+  - Donnerstag: (kein Tofu - Optional: +100g wenn gewünscht für extra Protein in Bowl)
+
+---
+
+## 🍎 FRISCHES OBST
+
+### Dezember-Saisonal:
+- [ ] **7-8 mittelgroße Äpfel** (ca. 1kg) - Lagersorten (Elstar, Braeburn, Boskoop)
+  - Verwendung: 4x Frühstück, 2x Abendessen (Salate), 1x Reserve
+
+### Weitere Früchte:
+- [ ] **30g getrocknete Cranberries** → für Freitag-Frühstück
+
+---
+
+## 🥜 NÜSSE & SAMEN
+
+### Dezember-typisch:
+- [ ] **130g Walnüsse** - frisch aus der Ernte 🌰
+  - Verwendung: 4x Frühstück + Mo/Mi/Do Salate
+- [ ] **30g Haselnüsse** - Winter-Nuss! 🌰
+  - Verwendung: Fr Abend (Rote-Bete-Apfel-Salat)
+
+### Weitere Samen:
+- [ ] **30g gemahlene Leinsamen** → für Overnight Oats
+- [ ] **15g Kürbiskerne** → für Di Buddha-Bowl
+
+---
+
+## 🥛 PFLANZENMILCH & NUSSMUS
+
+- [ ] **2 Liter Hafermilch** (ungesüßt)
+  - Frühstück: ca. 1,5 Liter
+  - Quinoa-Bowl (Freitag): 200ml
+  - Reserve: 300ml
+
+- [ ] **100g Mandelmus** (natürlich, ohne Zusätze)
+  - Verwendung: 2x Overnight Oats
+
+- [ ] **100g Cashewmus** (natürlich, ohne Zusätze)
+  - Verwendung: 2x Chia Pudding
+
+---
+
+## 🌶️ GEWÜRZE, PASTEN & BASICS
+
+### Frisch:
+- [ ] **1 Knoblauchknolle** (3-4 Zehen benötigt)
+- [ ] **50g frischer Ingwer**
+
+### Pasten & Würzungen:
+- [ ] **Currypaste** (30g benötigt) - vegan, ohne Zusätze (Mo + Fr)
+- [ ] **Tahini** (Sesampaste, ca. 30g für Dressings)
+
+### Gewürze (falls nicht vorhanden):
+- [ ] Zimt (gemahlen)
+- [ ] Kreuzkümmel (gemahlen)
+- [ ] Paprikapulver
+- [ ] Knoblauchpulver
+- [ ] Kurkuma
+- [ ] Vanilleextrakt oder -pulver
+
+### Öle & Essig:
+- [ ] **Sesamöl** (ca. 30ml)
+- [ ] **Olivenöl** (ca. 50ml)
+- [ ] **Kokosöl** (1 TL für Curry)
+- [ ] **Apfelessig** (ca. 100ml) - für Rotkohl-Marinaden
+- [ ] **Balsamico-Essig** (ca. 30ml)
+
+### Saucen:
+- [ ] **Sojasauce** (für Tofu-Marinade, ca. 30ml)
+- [ ] **Ahornsirup** (ca. 50ml)
+- [ ] **Dijon-Senf** (ca. 20g)
+
+### Weitere Basics:
+- [ ] **Kokosmilch** (1 Dose = 400ml, Verwendung: Mo 75ml + Fr 75ml)
+- [ ] **Gemüsebrühe** (Pulver oder Würfel für ca. 150ml)
+- [ ] **Zitronen** (3 Stück) - für Dressings
+- [ ] **Frischer Koriander** (optional) - für Fr Curry
+- [ ] **Salz, Pfeffer**
+
+---
+
+## 💪 PROTEIN-BOOST (WICHTIG!)
+
+- [ ] **Erbsenprotein-Pulver** (100-150g benötigt)
+  - PUR, ohne Zusätze!
+  - Verwendung: täglich 15-35g im Frühstück
+  - **KRITISCH:** Ohne dieses Supplement erreichen Sie nur ~69g Protein/Tag statt 100+g!
+
+---
+
+## 📦 SONSTIGES
+
+- [ ] **1 Avocado** (reif) - für Di Buddha-Bowl (1/4 Avocado)
+
+---
+
+## 💡 EINKAUFS-TIPPS
+
+### Saisonale Vorteile im Dezember:
+- ✅ **Rotkohl:** Hauptsaison! Günstig, frisch, regional verfügbar
+- ✅ **Äpfel:** Lagersorten aus deutscher Ernte, sehr günstig
+- ✅ **Walnüsse:** Frisch aus der Ernte (September-November), beste Qualität
+
+### Kostenoptimierung:
+- **Hülsenfrüchte trocken kaufen:** 50-70% günstiger als Dosen (aber +1 Tag Einweichzeit!)
+- **Bulk-Einkauf:** Quinoa, Haferflocken, Chiasamen in größeren Mengen kaufen
+- **Rotkohl:** 900g = 1 kleiner Kopf (ca. 1-2€)
+- **Rote Bete vorgekocht:** Zeitsparend, ca. 2-3€ für 500g
+- **Pastinaken:** Ähnlich wie Karotten, ca. 2-3€/kg
+- **Bio-Qualität:** Vor allem bei Äpfeln, Rote Bete, Karotten, Haferflocken empfohlen
+
+### Lagerung:
+- **Rotkohl:** Nach dem Schneiden Schnittfläche mit Frischhaltefolie abdecken, hält 7-10 Tage
+- **Äpfel:** Kühl und dunkel lagern (Keller oder Kühlschrank), bleiben wochenlang frisch
+- **Tofu:** Angebrochene Packung in Wasser lagern, alle 2 Tage Wasser wechseln, 5-7 Tage haltbar
+- **Nussmus:** Nach Öffnung im Kühlschrank lagern
+
+### Beste Einkaufsorte:
+- **Wochenmarkt:** Rotkohl, Äpfel (oft günstiger + frischer)
+- **Bio-Laden:** Erbsenprotein-Pulver pur, Nussmus ohne Zusätze
+- **Unverpackt-Laden:** Quinoa, Haferflocken, Hülsenfrüchte, Nüsse (Bulk)
+- **Asia-Laden:** Miso-Paste, Sesam öl, Tofu (oft günstiger)
+
+---
+
+## ⏰ WANN EINKAUFEN?
+
+**Empfehlung: Donnerstag/Freitag vor dem Meal Prep Wochenende**
+
+**Freitag Abend/Samstag Morgen:**
+- Hülsenfrüchte (Kichererbsen, Cannellini-Bohnen) über Nacht einweichen
+- Rotkohl putzen, in Komponenten aufteilen
+
+**Sonntag:**
+- Meal Prep (3-4 Stunden)
+
+---
+
+## ✅ EINKAUFS-CHECKLISTE ZUSAMMENFASSUNG
+
+**Anzahl Positionen:** ~35 (ohne Standard-Gewürze)
+**Geschätzter Preis:** 40-55€ (abhängig von Bio/Konventionell, Bulk-Kauf)
+**Gewicht gesamt:** ca. 5-6 kg
+
+**Kategorien-Schnellcheck:**
+- [ ] Vollkorn & Getreide (3 Positionen) ✓
+- [ ] Hülsenfrüchte (3 Positionen) ✓
+- [ ] Gemüse (8 Positionen) ✓
+- [ ] Obst (2 Positionen) ✓
+- [ ] Nüsse & Samen (3 Positionen) ✓
+- [ ] Pflanzenmilch & Nussmus (3 Positionen) ✓
+- [ ] Gewürze, Pasten, Basics (~12 Positionen) ✓
+- [ ] Erbsenprotein-Pulver (KRITISCH!) ✓
+
+---
+
+## 🎯 SPECIAL NOTE: PROTEIN-ANPASSUNG
+
+**Wie im Meal Plan erwähnt:** Der Basis-Plan erreicht nur ~69g Protein/Tag.
+
+**Um auf 95-101g Protein zu kommen:**
+
+**Option 1 (empfohlen):** Erbsenprotein-Pulver erhöhen
+- Statt 15g → **35-45g pro Frühstück**
+- Ergibt +20-30g Protein/Tag
+- **Kaufmenge:** 150-200g Erbsenprotein-Pulver statt 100g
+
+**Option 2:** Mehr Tofu
+- +100g Tofu zu Do Mittag-Bowl = +15g Protein
+- **Kaufmenge:** 370g Tofu statt 270g
+
+**Option 3 (Kombi):**
+- +20g Erbsenprotein ins Frühstück (+20g Protein)
+- +100g Tofu zu Do Mittag (+15g Protein)
+- **Kaufmenge:** 120-150g Erbsenprotein + 370g Tofu
+
+---
+
+**Viel Erfolg beim Einkaufen!** 🛒✨
