@@ -84,7 +84,8 @@ Meal Prep:
 1. Nutzer-Präferenzen berücksichtigen
 2. Zu verbrauchende Zutaten priorisieren
 3. Synergien identifizieren (gleiche Basis-Komponenten)
-4. Ausgewogene Makro-Verteilung sicherstellen
+4. **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x verwenden (Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt OK)
+5. Ausgewogene Makro-Verteilung sicherstellen
 
 ---
 
@@ -305,6 +306,7 @@ python3 scripts/verify_nutrition.py
 1. **Gewürz-Variation:** Gleiche Basis, verschiedene Würzungen
 2. **Frische Komponenten:** Täglich frische Kräuter/Toppings hinzufügen
 3. **Textur-Kontraste:** Knusprige + cremige Elemente kombinieren
+4. **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Rotkohl, Hokkaido, Rote Bete, etc. - Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
 
 ---
 
@@ -337,6 +339,7 @@ Vor Finalisierung des Plans:
 - [ ] Alle Challenge-Regeln eingehalten
 - [ ] Nährwerte verifiziert (verify_nutrition.py)
 - [ ] Ausgeschlossene Zutaten vermieden
+- [ ] **Zutatenwiderholungs-Regel beachtet:** Geschmacksgebende Komponenten maximal 4x verwendet
 - [ ] Meal Prep Synergie maximiert
 - [ ] Einkaufsliste vollständig
 - [ ] Zubereitungszeiten realistisch

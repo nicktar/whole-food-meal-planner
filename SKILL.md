@@ -79,6 +79,14 @@ python3 scripts/mealie_export.py
 - Alle tierischen Produkte
 - Verarbeitete Lebensmittel
 
+**Zutatenwiderholungs-Regel:**
+- **Geschmacksgebende Komponenten** (Gemüse mit starkem Eigengeschmack): Maximal **4 Gerichte** pro Wochenplan
+  - Beispiele: Rotkohl, Hokkaido-Kürbis, Rote Bete, Fenchel, Sellerie, Brokkoli, Blumenkohl, Möhren, Spinat, Mangold, etc.
+- **Unbegrenzt verwendbar** (Ausnahmen von der 4-Gerichte-Regel):
+  - Alle Hülsenfrüchte (Sättigungskomponenten): Linsen, Kichererbsen, Bohnen, etc.
+  - Alle Getreide (Sättigungskomponenten): Quinoa, Hafer, Buchweizen, Dinkel, etc.
+  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini
+
 ## Standard-Targets
 
 **Tägliche Ziele (typisch):**
@@ -146,6 +154,7 @@ python3 scripts/mealie_export.py
 **Wichtigste Punkte:**
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
 - ✅ Externe Rezepte prüfen: `ls recipe-database.md` (falls vorhanden, werden diese verwendet)
+- ✅ **Zutatenwiderholungen prüfen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
 - ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
@@ -293,6 +302,7 @@ python3 scripts/mealie_export.py
 - Gleiche Basis, verschiedene Gewürze
 - Internationale Variationen (Mediterran, Asiatisch, Mexikanisch)
 - Textur-Kontraste (knusprig + cremig)
+- **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x pro Woche verwenden (siehe Challenge-Regeln)
 
 ### Meal-Prep-Synergien
 - **Rotkohl:** Curry, Salat, mariniert, Suppe
@@ -403,6 +413,7 @@ python3 scripts/mealie_export.py
 - [ ] Realistische Zubereitungszeiten
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
+- [ ] **Zutatenwiderholungs-Regel beachtet:** Geschmacksgebende Komponenten maximal 4x verwendet (Hülsenfrüchte, Getreide, Paprika, Süßkartoffeln, Zucchini unbegrenzt OK)
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
 - [ ] **Meal-Prep-Kompatibilität:** Geröstetes Gemüse nur wenn komplett warm serviert wird; für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl)
 
