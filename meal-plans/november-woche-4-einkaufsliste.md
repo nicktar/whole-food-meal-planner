@@ -8,8 +8,8 @@
 
 ## VOLLKORNPRODUKTE & GETREIDE
 
-- [ ] 150g Haferflocken (Vollkorn, für Overnight Oats)
-- [ ] 400g Quinoa (roh) → ergibt ca. 1.200g gekocht
+- [ ] 90g Haferflocken (Vollkorn, für Overnight Oats)
+- [ ] 250g Quinoa (roh) → ergibt ca. 680g gekocht
 - [ ] Optional: 50g Buchweizen (für Abwechslung)
 
 **Lagerung:** Trocken, luftdicht, bis zu 6 Monate haltbar
@@ -19,14 +19,14 @@
 ## HÜLSENFRÜCHTE
 
 ### Getrocknet (günstiger, selbst kochen)
-- [ ] 400g grüne/braune Linsen (getrocknet) → ergibt ca. 1.000g gekocht
-- [ ] 300g Kichererbsen (getrocknet) → ergibt ca. 750g gekocht
-- [ ] 200g Cannellini-Bohnen (getrocknet) → ergibt ca. 500g gekocht
+- [ ] 135g grüne/braune Linsen (getrocknet) → ergibt ca. 330g gekocht
+- [ ] 170g Kichererbsen (getrocknet) → ergibt ca. 420g gekocht
+- [ ] 125g Cannellini-Bohnen (getrocknet) → ergibt ca. 300g gekocht
 
 **ODER als Dosen (falls keine Zeit zum Kochen):**
-- [ ] 3 Dosen grüne Linsen (à 400g Abtropfgewicht)
-- [ ] 2 Dosen Kichererbsen (à 400g Abtropfgewicht)
-- [ ] 1 Dose Cannellini-Bohnen (400g Abtropfgewicht)
+- [ ] 1 Dose grüne Linsen (400g Abtropfgewicht - Rest einfrieren)
+- [ ] 1 Dose Kichererbsen (400g Abtropfgewicht - 420g benötigt)
+- [ ] 1 Dose Cannellini-Bohnen (400g Abtropfgewicht - Rest einfrieren)
 
 **Einweich-Tipp:** Kichererbsen und Cannellini-Bohnen Samstag Abend einweichen!
 
@@ -34,9 +34,9 @@
 
 ## TOFU & PROTEINQUELLEN
 
-- [ ] 850g Naturtofu (fest, zum Braten)
-  - Alternativ: 5x 170g Packungen
-- [ ] 100-125g Erbsenprotein-Pulver (pur, ohne Zusätze)
+- [ ] 1.100g Naturtofu (fest, zum Braten)
+  - Alternativ: 7x 170g Packungen (= 1.190g, 90g Reserve)
+- [ ] 110g Erbsenprotein-Pulver (pur, ohne Zusätze)
   - Für 5 Frühstücke à 20-25g
 
 **Lagerung Tofu:** Gekühlt, nach Öffnen in Wasser einlegen und täglich wechseln
@@ -49,9 +49,9 @@
 - [ ] 420g Rotkohl (nur 3 Gerichte!)
 - [ ] 250g Lauch (2 Portionen)
 - [ ] 400g Rote Bete (frisch oder vorgekocht vakuumiert)
-- [ ] 350g gemischte Pilze:
-  - 200g Champignons
-  - 150g Shiitake-Pilze
+- [ ] 550g gemischte Pilze:
+  - 300g Champignons (für Pilz-Nuss-Füllung + Curry)
+  - 250g Shiitake-Pilze (für Pilz-Nuss-Füllung + Miso-Suppe)
 
 ### Standardgemüse
 - [ ] 200g Karotten (für Julienne-Rohkost)
@@ -175,16 +175,16 @@
 ## MENGENÜBERSICHT FÜR 5 TAGE
 
 **Hauptproteinquellen:**
-- Tofu: 850g
-- Linsen (gekocht): 780g
-- Kichererbsen (gekocht): 690g
-- Cannellini-Bohnen (gekocht): 450g
+- Tofu: 1.100g (7 Packungen)
+- Linsen (gekocht): 330g (von 135g roh)
+- Kichererbsen (gekocht): 420g (von 170g roh)
+- Cannellini-Bohnen (gekocht): 300g (von 125g roh)
 - Erbsenprotein-Pulver: 110g
-- **Gesamt Protein aus Quellen:** ~420g rein pflanzliches Protein!
+- **Gesamt Protein aus Quellen:** ~380g rein pflanzliches Protein
 
 **Getreide (gekocht):**
-- Quinoa: ca. 1.100g
-- Haferflocken: 150g (trocken)
+- Quinoa: ca. 680g (von 250g roh)
+- Haferflocken: 90g (trocken)
 
 ---
 

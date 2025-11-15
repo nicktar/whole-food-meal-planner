@@ -299,18 +299,15 @@ Aus Kühlschrank nehmen, mit Beeren und Samen toppen.
 **Kalorien:** 450 | **Protein:** 36g | **Ballaststoffe:** 12g | **Prep:** 5 Min (aufwärmen)
 
 **Zutaten (vorbereitet):**
-- 150g gemischte Pilze (Champignons, Shiitake)
-- 100g Lauch, in Ringen
+- 160g Pilz-Nuss-Füllung (vorbereitet am Sonntag)
+- 100g Lauch, in Ringen (mit Pilz-Füllung kombiniert)
 - 150g Tofu, gewürfelt und angebraten
-- 1 Knoblauchzehe, gehackt
-- 1 TL Thymian
 - 80g Quinoa, gekocht
-- 1 EL Walnüsse, gehackt
 - 1 EL Hanfsamen
 - Salz, Pfeffer
 
 **Zubereitung:**
-Pilz-Lauch-Pfanne aufwärmen, über Quinoa servieren, mit Walnüssen und Hanfsamen toppen.
+Pilz-Lauch-Pfanne aufwärmen (Pilz-Nuss-Füllung wurde am Sonntag mit Lauch kombiniert), über Quinoa servieren, mit Hanfsamen toppen.
 
 ---
 

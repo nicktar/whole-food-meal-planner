@@ -11,9 +11,11 @@
 ⏰ **10 Minuten**
 
 ### Hülsenfrüchte einweichen
-- [ ] 300g Kichererbsen in große Schüssel, mit Wasser bedecken (3cm über Bohnen)
-- [ ] 200g Cannellini-Bohnen in separate Schüssel, mit Wasser bedecken
+- [ ] **170g Kichererbsen** in große Schüssel, mit Wasser bedecken (3cm über Bohnen)
+- [ ] **125g Cannellini-Bohnen** in separate Schüssel, mit Wasser bedecken
 - [ ] Über Nacht (mind. 8 Std) einweichen lassen
+
+**Hinweis:** Reduzierte Mengen = exakt nach Bedarf! 🎯
 
 ### Material bereitstellen
 - [ ] 5 Schraubgläser für Frühstück (400ml)
@@ -29,14 +31,15 @@
 
 ### 1.1 Getreide kochen (parallel!)
 
-**Quinoa (3 Töpfe parallel oder nacheinander):**
-- [ ] **Topf 1:** 150g Quinoa + 300ml Wasser → 15 Min köcheln
-- [ ] **Topf 2:** 150g Quinoa + 300ml Wasser → 15 Min köcheln
-- [ ] **Topf 3:** 100g Quinoa + 200ml Wasser → 15 Min köcheln
+**Quinoa (2 Töpfe parallel):**
+- [ ] **Topf 1:** 130g Quinoa + 260ml Wasser → 15 Min köcheln
+- [ ] **Topf 2:** 120g Quinoa + 240ml Wasser → 15 Min köcheln
 - [ ] Nach Kochzeit 5 Min ruhen lassen, auflockern
-- [ ] **Ergebnis:** ~1.200g gekochte Quinoa
+- [ ] **Ergebnis:** ~680g gekochte Quinoa (exakt nach Bedarf!)
 
-**Zeitspar-Tipp:** Alle 3 Töpfe gleichzeitig auf verschiedenen Herdplatten!
+**Hinweis:** Tag 4 Frühstück verwendet separate 60g roh → 180g gekocht (am Sonntag vorkochen!)
+
+**Zeitspar-Tipp:** Beide Töpfe gleichzeitig auf verschiedenen Herdplatten!
 
 ---
 
@@ -44,17 +47,19 @@
 
 **Eingeweichte Kichererbsen & Bohnen:**
 - [ ] Einweichwasser abgießen, Hülsenfrüchte abspülen
-- [ ] **Kichererbsen:** In Topf mit frischem Wasser (3cm bedeckt), 60-90 Min köcheln
-- [ ] **Cannellini-Bohnen:** In separatem Topf, 60-75 Min köcheln
+- [ ] **Kichererbsen:** 170g in Topf mit frischem Wasser (3cm bedeckt), 60-90 Min köcheln
+- [ ] **Cannellini-Bohnen:** 125g in separatem Topf, 60-75 Min köcheln
 - [ ] Schaum abschöpfen während des Kochens
-- [ ] **Ergebnis:** ~750g Kichererbsen, ~500g Cannellini-Bohnen
+- [ ] **Ergebnis:** ~420g Kichererbsen, ~300g Cannellini-Bohnen (exakt nach Bedarf!)
 
 **Linsen (brauchen kein Einweichen!):**
-- [ ] 400g grüne/braune Linsen mit 1 Liter Wasser
+- [ ] 135g grüne/braune Linsen mit 350ml Wasser
 - [ ] 20-25 Min köcheln
-- [ ] **Ergebnis:** ~1.000g gekochte Linsen
+- [ ] **Ergebnis:** ~330g gekochte Linsen (exakt nach Bedarf!)
 
 **Parallel-Timer:** Quinoa (15 Min) läuft während Hülsenfrüchte starten!
+
+**Hinweis:** Reduzierte Mengen = keine Verschwendung! 🎯
 
 ---
 
@@ -62,19 +67,21 @@
 
 ⏰ **15 Minuten**
 
+**Haferflocken gesamt:** 90g (3 × 30g) - exakt nach Bedarf! 🎯
+
 **3x Overnight Oats (Tag 1, 3, 5):**
 
-**Glas 1 - Apfel-Zimt:**
+**Glas 1 - Apfel-Zimt (Tag 1):**
 - [ ] 30g Haferflocken + 150ml Hafermilch + 1 EL Chiasamen + 1 EL Leinsamen
 - [ ] 1 EL Mandelmus + 20g Erbsenprotein-Pulver + Prise Salz + 1 TL Zimt
 - [ ] Gut mischen, Kühlschrank
 
-**Glas 2 - Protein-Boost:**
+**Glas 2 - Protein-Boost (Tag 3):**
 - [ ] 30g Haferflocken + 200ml Hafermilch + 1 EL Chiasamen + 1 EL Leinsamen
 - [ ] 1 EL Mandelmus + 20g Erbsenprotein-Pulver + Prise Salz
 - [ ] Gut mischen, Kühlschrank
 
-**Glas 3 - Beeren-Power:**
+**Glas 3 - Beeren-Power (Tag 5):**
 - [ ] 30g Haferflocken + 150ml Hafermilch + 1 EL Chiasamen + 1 EL Leinsamen
 - [ ] 1 EL Mandelmus + 25g Erbsenprotein-Pulver + Prise Zimt
 - [ ] Gut mischen, Kühlschrank
@@ -129,19 +136,21 @@
 
 ### 2.2 Kichererbsen rösten (parallel zu Gemüse!)
 
-**Für Tag 1 + 4 Mittag:**
-- [ ] 300g gekochte Kichererbsen gut abtropfen, trocken tupfen
-- [ ] Mit Gewürzen mischen: 1 TL Kreuzkümmel, 1 TL Paprika, 1/2 TL Knoblauchpulver, Salz
+**Für Tag 1 Mittag (Buddha-Bowl):**
+- [ ] 150g gekochte Kichererbsen gut abtropfen, trocken tupfen
+- [ ] Mit Gewürzen mischen: 1/2 TL Kreuzkümmel, 1/2 TL Paprika, Prise Knoblauchpulver, Salz
 - [ ] **Blech 3:** 25 Min rösten bei 200°C, nach 15 Min wenden
 
 **Ergebnis:** Knusprige, würzige Kichererbsen!
+
+**Hinweis:** Die restlichen 270g Kichererbsen bleiben ungekocht für die Currys (Tag 3 + 4)
 
 ---
 
 ### 2.3 Tofu vorbereiten (während Ofen läuft)
 
 **Tofu marinieren & braten:**
-- [ ] 850g Tofu in 1-2cm Würfel schneiden
+- [ ] **1.100g Tofu** in 1-2cm Würfel schneiden (7 Packungen à 170g)
 - [ ] Trocken tupfen mit Küchenpapier (wichtig für knusprigen Tofu!)
 - [ ] In 2-3 Pfannen parallel braten:
   - 1 TL Öl pro Pfanne erhitzen
@@ -149,7 +158,7 @@
 - [ ] Mit Salz, Pfeffer würzen
 - [ ] Abkühlen lassen, in Container portionieren
 
-**Tofu-Portionen:**
+**Tofu-Portionen (gesamt 1.090g, 10g Reserve):**
 - Tag 1 Mittag: 120g
 - Tag 1 Abend: 150g
 - Tag 2 Mittag: 120g
@@ -160,6 +169,8 @@
 - Tag 4 Abend: 100g
 - Tag 5 Mittag: 150g
 - Tag 5 Abend: 80g
+
+**WICHTIG:** Korrigierte Menge von 850g → 1.100g! ✅
 
 ---
 
@@ -189,19 +200,27 @@
 
 ⏰ **50 Minuten**
 
-### 3.1 Pilz-Nuss-Füllung (Tag 3 + 5 Abend)
+### 3.1 Pilz-Nuss-Füllung (WICHTIG: Für Tag 3 Abend UND Tag 5 Mittag!)
 
 ⏰ **20 Minuten**
 
-- [ ] 350g gemischte Pilze (Champignons, Shiitake) klein hacken
+**Diese Füllung wird für 2 Gerichte verwendet:**
+- Tag 3 Abend: Pilz-Nuss-Bowl (180g)
+- Tag 5 Mittag: Pilz-Lauch-Pfanne (160g) → **Siehe Korrektur unten!**
+
+- [ ] **550g gemischte Pilze** (300g Champignons, 250g Shiitake) klein hacken
+- [ ] **WICHTIG:** 100g Shiitake + 100g Champignons separat halten für andere Gerichte!
+  - 100g Shiitake → Tag 1 Abend (Miso-Suppe)
+  - 100g Champignons → Tag 3 Mittag (Curry)
+- [ ] **Für Pilz-Füllung verwenden:** 350g gemischte Pilze (200g Champignons, 150g Shiitake)
 - [ ] In Pfanne trocken anbraten bis Wasser verdampft (5-7 Min)
 - [ ] 1 TL Olivenöl + 1 Knoblauchzehe gepresst hinzufügen, 2 Min braten
 - [ ] 30g Walnüsse + 20g Cashews (fein gehackt) hinzufügen
 - [ ] 2 EL Sojasauce, 1 TL Ahornsirup, 1 TL geräuchertes Paprikapulver, 1 TL Thymian
 - [ ] 5-7 Min braten bis goldbraun
 - [ ] Abkühlen lassen, teilen:
-  - 180g für Tag 3
-  - 160g für Tag 5
+  - **180g für Tag 3 Abend** (Pilz-Nuss-Bowl)
+  - **160g für Tag 5 Mittag** (Pilz-Lauch-Pfanne - wird mit Lauch kombiniert!)
 
 ---
 
@@ -394,10 +413,15 @@
 - [ ] Topping: 1 EL Hanfsamen
 
 **TAG 5 - Pilz-Lauch-Pfanne:**
-- [ ] Container 1: 150g Pilze + 100g Lauch + 150g Tofu (frisch Tag 5 morgens braten!)
-  - ODER: Am Sonntag vorbraten und Freitag aufwärmen
+- [ ] Container 1: 160g Pilz-Nuss-Füllung (vorbereitet!) + 100g Lauch + 150g Tofu
+  - **Korrektur:** Verwendet vorgekochte Pilz-Füllung, nicht frische Pilze!
 - [ ] Container 2: 80g Quinoa
-- [ ] Toppings: 1 EL Walnüsse, 1 EL Hanfsamen
+- [ ] Toppings: 1 EL Hanfsamen
+
+**Lauch-Vorbereitung (Sonntag):**
+- [ ] 100g Lauch in Ringe schneiden, waschen
+- [ ] Mit 160g Pilz-Nuss-Füllung mischen
+- [ ] In Container für Tag 5 Mittag
 
 ---
 
