@@ -21,11 +21,11 @@
 
 **Zutaten (bereits vorbereitet am Sonntag):**
 - 30g Haferflocken
-- 200ml Hafermilch (erhöht für bessere Konsistenz mit mehr Proteinpulver)
+- 200ml Hafermilch
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Mandelmus
-- 30g Erbsenprotein-Pulver (MAXIMAL erlaubt!)
+- 30g Erbsenprotein-Pulver
 - 1 mittelgroßer Apfel, gewürfelt
 - 1 EL gehackte Walnüsse
 - 1 TL Zimt
@@ -95,10 +95,10 @@ Alle Komponenten in Bowl geben, Dressing drüber, fertig!
 
 **Zutaten (bereits vorbereitet am Sonntag):**
 - 3 EL Chiasamen
-- 250ml Hafermilch (erhöht für bessere Konsistenz mit mehr Proteinpulver)
+- 250ml Hafermilch
 - 1/2 TL Vanilleextrakt
 - 1 EL Cashewmus
-- 30g Erbsenprotein-Pulver (MAXIMAL erlaubt!)
+- 30g Erbsenprotein-Pulver
 - 1 TL Zimt zur Basis
 - 1 Apfel, klein gewürfelt
 - 1 EL Walnüsse
@@ -156,7 +156,7 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 **Protein-Optimierung umgesetzt:**
 - ✅ Erbsenprotein-Pulver: 15g → 30g (+15g Protein)
 - ✅ Tofu im Abendessen: 0g → 70g (+10g Protein)
-- ✅ **Gesamt: +25g Protein** (mehr wäre über Kalorien-Limit!)
+- ✅ **Gesamt: +25g Protein**
 
 ---
 
@@ -165,7 +165,7 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 ### Frühstück: Overnight Oats Apfel-Zimt (Variation 2)
 **Kalorien:** 430 | **Protein:** 38g | **Ballaststoffe:** 11g | **Prep:** 2 Min
 
-**Identisch zu Tag 1** (mit 30g Erbsenprotein-Pulver)
+**Identisch zu Tag 1**
 
 ---
 
@@ -225,8 +225,8 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 **Protein-Optimierung umgesetzt:**
 - ✅ Erbsenprotein-Pulver: 15g → 30g (+15g Protein)
 - ✅ Tofu im Mittagessen: bereits inkludiert (100g)
-- ✅ Tofu im Abendessen: minimal (20g) - mehr wäre über Kalorien-Limit!
-- ✅ **Gesamt: +18g Protein** (mehr wäre über Kalorien-Limit!)
+- ✅ Tofu im Abendessen: 20g
+- ✅ **Gesamt: +18g Protein**
 
 ---
 
@@ -235,7 +235,7 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 ### Frühstück: Chia Pudding Apfel-Zimt
 **Kalorien:** 485 | **Protein:** 39g | **Ballaststoffe:** 14g | **Prep:** 2 Min
 
-**Identisch zu Tag 2** (mit 30g Erbsenprotein-Pulver)
+**Identisch zu Tag 2**
 
 ---
 
@@ -288,8 +288,8 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 
 **Protein-Optimierung umgesetzt:**
 - ✅ Erbsenprotein-Pulver: 15g → 30g (+15g Protein)
-- ✅ Tofu im Abendessen: minimal (20g) - mehr wäre über Kalorien-Limit!
-- ✅ **Gesamt: +18g Protein** (mehr wäre über Kalorien-Limit!)
+- ✅ Tofu im Abendessen: 20g
+- ✅ **Gesamt: +18g Protein**
 
 ---
 
@@ -300,8 +300,8 @@ Alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.
 
 **Zutaten:**
 - 60g Quinoa (gekocht: ~180g, vorbereitet)
-- 250ml Hafermilch (erhöht für bessere Konsistenz)
-- 30g Erbsenprotein-Pulver (MAXIMAL erlaubt!)
+- 250ml Hafermilch
+- 30g Erbsenprotein-Pulver
 - 1 EL Walnüsse, gehackt
 - 1 kleiner Apfel, gewürfelt
 - 1 TL Zimt
@@ -367,8 +367,8 @@ Alle Komponenten in Bowl geben, Dressing drüber, mit Haselnüssen toppen
 
 **Protein-Optimierung umgesetzt:**
 - ✅ Erbsenprotein-Pulver: 15g → 30g (+15g Protein)
-- ✅ Tofu im Mittagessen: minimal (25g) - mehr wäre über Kalorien-Limit!
-- ✅ **Gesamt: +19g Protein** (mehr wäre über Kalorien-Limit!)
+- ✅ Tofu im Mittagessen: 25g
+- ✅ **Gesamt: +19g Protein**
 
 ---
 
@@ -389,8 +389,8 @@ Alle Komponenten in Bowl geben, Dressing drüber, mit Haselnüssen toppen
 - Tag 5: 1300 kcal, 86g Protein ⚠️
 
 **Protein-Optimierung umgesetzt:**
-- ✅ Erbsenprotein-Pulver: 15g → 30g in allen Frühstücken (MAXIMAL erlaubt!)
-- ✅ Minimaler zusätzlicher Tofu (total +155g über die Woche) - mehr wäre über 1300 kcal!
+- ✅ Erbsenprotein-Pulver: 15g → 30g in allen Frühstücken
+- ✅ Zusätzlicher Tofu: total +155g über die Woche
 - ⚠️ **100g Protein-Ziel nicht erreichbar** innerhalb der 1300 kcal-Grenze
 
 ### Saisonalitäts-Score: ⭐⭐⭐⭐⭐
@@ -439,16 +439,15 @@ Alle Komponenten in Bowl geben, Dressing drüber, mit Haselnüssen toppen
 **1300 kcal Grenze strikt eingehalten - 100g Protein nicht erreichbar!**
 
 **Umgesetzte Maßnahmen:**
-- ✅ **Erbsenprotein-Pulver erhöht:** Von 15g → 30g pro Frühstück (MAXIMAL erlaubt!)
-- ✅ **Hafermilch erhöht:** Auf 200-250ml für bessere Konsistenz mit mehr Proteinpulver
-- ⚠️ **Tofu minimal ergänzt:** Nur +155g über die Woche (mehr wäre über 1300 kcal!)
+- ✅ **Erbsenprotein-Pulver erhöht:** Von 15g → 30g pro Frühstück
+- ✅ **Hafermilch erhöht:** Auf 200-250ml
+- ⚠️ **Tofu ergänzt:** +155g über die Woche
 - ✅ **Geschmack:** Zimt, Ahornsirup und Vanille maskieren den Erbsenprotein-Geschmack
 
 **Ergebnis:**
 - Durchschnitt: ~90g Protein/Tag ⚠️ (unter 100g-Ziel)
 - Durchschnitt: 1299 kcal/Tag ✅ (unter 1300 kcal-Grenze!)
 - **Klarstellung:** Mit 30g Proteinpulver-Limit UND 1300 kcal-Grenze ist 100g Protein nicht erreichbar
-- Maximale Proteinpulver-Grenze (30g/Mahlzeit) eingehalten ✅
 
 ### Saisonalität Dezember
 

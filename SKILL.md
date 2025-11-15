@@ -451,4 +451,7 @@ python3 scripts/mealie_export.py
 - [ ] Alle Zubereitungsschritte vollständig dokumentiert
 - [ ] Garzeiten realistisch und spezifisch angegeben
 - [ ] **Meal-Prep-Tauglichkeit:** Geröstetes Gemüse nur für sofort-Verzehr oder komplett warme Gerichte; für Meal-Prep-Bowls (4-5 Tage) Rohkost bevorzugen
+- [ ] **KEINE internen Optimierungskommentare** in finalen Rezepten (z.B. "(MAXIMAL erlaubt!)", "(erhöht für bessere Konsistenz)", "(mehr wäre über Kalorien-Limit!)")
+  - Diese Kommentare gehören in Entwicklungsnotizen, nicht in fertige Meal Plans
+  - Nutzer sollen nur die finale Zutatenliste sehen, ohne interne Begründungen
 - [ ] Bei Korrekturen: Nährwerte entsprechend angepasst
