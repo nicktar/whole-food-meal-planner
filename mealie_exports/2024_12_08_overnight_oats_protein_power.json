@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Protein-Power",
+  "description": "Protein-reich mit 35g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "30g Haferflocken",
+    "150ml Hafermilch",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandel-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "50ml zusätzliche Hafermilch",
+    "Prise Salz",
+    "1 EL Hanfsamen",
+    "1 EL Kürbiskerne",
+    "1 EL Sonnenblumenkerne",
+    "50g Beeren"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "370",
+    "proteinContent": "35g",
+    "carbohydrateContent": "28g",
+    "fatContent": "14g",
+    "fiberContent": "12g"
+  }
+}

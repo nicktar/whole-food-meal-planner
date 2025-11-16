@@ -161,7 +161,8 @@ class RecipeMarkdownParser:
         # Extrahiere Zubereitung
         instructions = self._extract_instructions(block)
         if not instructions:
-            return None
+            # Fallback für Meal-Prep-Rezepte ohne explizite Zubereitung
+            instructions = "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie."
 
         # Extrahiere Zeiten
         prep_time, cook_time = self._extract_times(block)
