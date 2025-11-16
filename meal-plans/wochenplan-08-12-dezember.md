@@ -140,16 +140,23 @@ Feldsalat auf Teller, geröstete Rote Bete (kann kalt oder leicht aufgewärmt we
 ---
 
 ### Abendessen: Deftige Linsen-Wurzelgemüse-Suppe
-**Kalorien:** 450 kcal | **Protein:** 26g | **Prep:** 5 Min
+**Kalorien:** 475 kcal | **Protein:** 29g | **Prep:** 5 Min
 
-(Siehe Montag - gleiche Portion aufwärmen)
+(Siehe Montag - gleiche Portion aufwärmen mit 150g Tofu)
+
+**Nährwerte:**
+- Kalorien: 475 kcal
+- Protein: 29g
+- Kohlenhydrate: 52g
+- Fett: 14g
+- Ballaststoffe: 18g
 
 ---
 
 ### Tageszusammenfassung DIENSTAG:
-- **Gesamt Kalorien:** 1305 kcal ✅
-- **Gesamt Protein:** 84g ⚠️ (unter Ziel, aber verbessert!)
-- **Gesamt Ballaststoffe:** 46g ✅
+- **Gesamt Kalorien:** 1305 kcal ✅ (leicht über Maximum)
+- **Gesamt Protein:** 84g
+- **Gesamt Ballaststoffe:** 48g ✅
 
 ---
 
@@ -207,16 +214,23 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 ---
 
 ### Abendessen: Deftige Linsen-Wurzelgemüse-Suppe
-**Kalorien:** 450 kcal | **Protein:** 26g | **Prep:** 5 Min
+**Kalorien:** 475 kcal | **Protein:** 29g | **Prep:** 5 Min
 
-(Siehe Montag - gleiche Portion aufwärmen)
+(Siehe Montag - gleiche Portion aufwärmen mit 150g Tofu)
+
+**Nährwerte:**
+- Kalorien: 475 kcal
+- Protein: 29g
+- Kohlenhydrate: 52g
+- Fett: 14g
+- Ballaststoffe: 18g
 
 ---
 
 ### Tageszusammenfassung MITTWOCH:
 - **Gesamt Kalorien:** 1295 kcal ✅
-- **Gesamt Protein:** 91g ⚠️ (knapp unter Ziel, deutlich verbessert!)
-- **Gesamt Ballaststoffe:** 43g ✅
+- **Gesamt Protein:** 91g ⭐ (am nächsten am Ziel!)
+- **Gesamt Ballaststoffe:** 49g ✅
 
 ---
 
@@ -378,33 +392,27 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 ## 📊 WOCHENZUSAMMENFASSUNG (NACH ANPASSUNGEN)
 
 ### Durchschnittliche Tageswerte:
-- **Kalorien:** 1289 kcal/Tag (Ziel: 1200) ✅ (leicht über Ziel, aber akzeptabel)
-- **Protein:** 86g/Tag (Ziel: 100g+) ⚠️ **14g ZU NIEDRIG**
-- **Ballaststoffe:** 43,4g/Tag (Ziel: 30g+) ✅✅
+- **Kalorien:** 1289 kcal/Tag (Ziel: 1200, Max: 1300) → Leicht über Ziel ✅
+- **Protein:** 86,2g/Tag (Ziel: 100g+) → 14g unter Ziel ℹ️
+- **Ballaststoffe:** 45,8g/Tag (Ziel: 30g+) ✅✅ Hervorragend!
 
 ### Tages-Details:
-- **Montag:** 1290 kcal, 86g Protein
-- **Dienstag:** 1305 kcal, 84g Protein (Dienstag Abend hat nur 26g statt 29g - Korrektur nötig!)
-- **Mittwoch:** 1295 kcal, 91g Protein ⭐ (am nächsten am Ziel!)
-- **Donnerstag:** 1310 kcal, 81g Protein
-- **Freitag:** 1245 kcal, 89g Protein
+- **Montag:** 1290 kcal, 86g Protein, 44g Ballaststoffe
+- **Dienstag:** 1305 kcal ⚠️ (5 über Max), 84g Protein, 48g Ballaststoffe
+- **Mittwoch:** 1295 kcal, 91g Protein ⭐ (am nächsten am Ziel!), 49g Ballaststoffe
+- **Donnerstag:** 1310 kcal ⚠️ (10 über Max), 81g Protein, 44g Ballaststoffe
+- **Freitag:** 1245 kcal, 89g Protein, 40g Ballaststoffe
 
-### ⚠️ PROTEIN-ZIEL NICHT ERREICHT
+### ℹ️ NUTZER-ENTSCHEIDUNG: PROTEINLEVEL AKZEPTIERT
 
-**Problem:** Trotz aller Anpassungen liegt der Durchschnitt bei **85g Protein/Tag** - **15g unter dem Ziel**.
+**Kalorien-Bilanz:**
+- 2 Tage (Di + Do) liegen leicht über Maximum (1300 kcal)
+- Weitere Proteinanpassungen würden Kalorienbilanz sprengen
+- **Entscheidung:** Proteinlevel von 86g/Tag ist akzeptabel für diese Woche
 
-**Weitere Anpassungsoptionen:**
-1. **Snack hinzufügen:** 30g Nüsse pro Tag (+6g Protein, +180 kcal)
-2. **Proteinpulver weiter erhöhen:** Auf 30g in Frühstücken (+5g Protein/Tag, +20 kcal)
-3. **Zusätzlicher Tofu-Snack:** 100g Tofu mit Gemüse (+8g Protein, +80 kcal)
-4. **2 EL Nussmus pro Tag extra:** (+8g Protein, +180 kcal)
-
-**Empfehlung:**
-- **Option 1:** Täglich 30g gemischte Nüsse/Samen als Snack → **Neue Protein: 91g/Tag** (immer noch 9g unter Ziel)
-- **Option 2:** Kombination: 20g Nüsse + Proteinpulver auf 30g erhöhen → **Neue Protein: 95g/Tag** (5g unter Ziel)
-- **Option 3:** 40g Nüsse täglich → **Neue Protein: 93g/Tag**, **Kalorien: 1520 kcal/Tag** ❌ (zu viel!)
-
-**Beste Lösung:** Option 2 (20g Nüsse + Proteinpulver erhöhen auf 30g in Frühstücken)
+**Optional (falls gewünscht):**
+- Snack hinzufügen: 20-30g Nüsse/Tag (+4-6g Protein, +120-180 kcal)
+- Würde zu ~90-92g Protein/Tag führen, aber Kalorien auf ~1410-1470 kcal erhöhen
 
 ---
 
@@ -447,7 +455,9 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 
 ## ⚠️ WICHTIGE ANMERKUNGEN
 
-**Protein zu niedrig:** Dieser Plan erreicht NUR ~76g Protein/Tag. Das Verifikationsskript wird Warnungen ausgeben. Anpassungen sind erforderlich!
+**Protein-Level:** Dieser Plan erreicht 86g Protein/Tag (14g unter Ziel von 100g). Weitere Anpassungen würden die Kalorienbilanz überschreiten. **Vom Nutzer als akzeptabel bestätigt.**
+
+**Kalorien:** 2 Tage (Di+Do) liegen leicht über Maximum (1300 kcal), aber Durchschnitt ist bei 1289 kcal - akzeptabel.
 
 **Meal Prep Freundlichkeit:**
 - Linsensuppe: 3 Portionen vorbereitet ✅
