@@ -17,7 +17,7 @@
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Mandel-Nussmus
-- **25g Erbsenprotein-Pulver** (pur, ohne Zusätze) ⬆️ ERHÖHT
+- **25g Erbsenprotein-Pulver** (pur, ohne Zusätze)
 - Prise Salz
 
 **Toppings (am Morgen frisch hinzufügen):**
@@ -42,7 +42,7 @@ Glas aus Kühlschrank nehmen, umrühren, Toppings hinzufügen, genießen!
 
 **Komponenten (vorbereitet am Sonntag):**
 - 200g Blumenkohl, in Röschen
-- **150g gekochte Kichererbsen** ⬆️ ERHÖHT
+- **150g gekochte Kichererbsen**
 - 80g Quinoa, gekocht
 - Curry-Sauce (Kokosmilch, Currypaste, Gewürze)
 
@@ -64,7 +64,7 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 **Komponenten (vorbereitet am Sonntag):**
 - Grüne Linsen
 - Karotten, Sellerie, Pastinaken
-- **150g Tofu-Würfel** ⬆️ ERHÖHT
+- **150g Tofu-Würfel**
 - Aromatische Gewürze (Kreuzkümmel, Koriander, Paprika)
 
 **Zubereitung:**
@@ -81,7 +81,7 @@ Suppe in Topf aufwärmen (5-7 Min bei mittlerer Hitze), mit frischer Petersilie 
 
 ### Tageszusammenfassung MONTAG:
 - **Gesamt Kalorien:** 1290 kcal ✅
-- **Gesamt Protein:** 86g ⚠️ (unter Ziel von 100g, aber verbessert!)
+- **Gesamt Protein:** 86g
 - **Gesamt Ballaststoffe:** 44g ✅
 
 ---
@@ -96,7 +96,7 @@ Suppe in Topf aufwärmen (5-7 Min bei mittlerer Hitze), mit frischer Petersilie 
 - 200ml Hafermilch
 - 1/2 TL Vanilleextrakt
 - 1 EL Cashew-Nussmus
-- **25g Erbsenprotein-Pulver** ⬆️ ERHÖHT
+- **25g Erbsenprotein-Pulver** ERHÖHT
 - Prise Salz
 
 **Toppings:**
@@ -122,7 +122,7 @@ Glas aus Kühlschrank nehmen, umrühren, Toppings hinzufügen.
 **Komponenten (vorbereitet am Sonntag):**
 - 60g Feldsalat (frisch gewaschen)
 - 200g Rote Bete, geröstet
-- **150g Cannellini-Bohnen, gekocht** ⬆️ ERHÖHT
+- **150g Cannellini-Bohnen, gekocht**
 - 30g Walnüsse, geröstet
 - 1/2 Apfel, dünn geschnitten (frisch)
 - Apfel-Senf-Dressing (separat)
@@ -171,7 +171,7 @@ Feldsalat auf Teller, geröstete Rote Bete (kann kalt oder leicht aufgewärmt we
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Cashew-Nussmus
-- **25g Erbsenprotein-Pulver** ⬆️ ERHÖHT
+- **25g Erbsenprotein-Pulver** ERHÖHT
 - 1 TL Zimt
 - Prise Salz
 
@@ -193,7 +193,7 @@ Feldsalat auf Teller, geröstete Rote Bete (kann kalt oder leicht aufgewärmt we
 **Kalorien:** 430 kcal | **Protein:** 29g | **Prep:** 5 Min
 
 **Komponenten (vorbereitet am Sonntag):**
-- **150g gekochte grüne Linsen** ⬆️ ERHÖHT
+- **150g gekochte grüne Linsen**
 - 100g Kirschtomaten, halbiert
 - 50g Gurke, gewürfelt
 - 30g Rucola (frisch)
@@ -244,7 +244,7 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 - 200ml Hafermilch
 - 1 EL rohes Kakaopulver
 - 1 EL Mandel-Nussmus
-- **25g Erbsenprotein-Pulver** ⬆️ ERHÖHT
+- **25g Erbsenprotein-Pulver** ERHÖHT
 - 1/2 TL Vanille
 - Prise Salz
 
@@ -267,7 +267,7 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 
 **Komponenten (vorbereitet am Sonntag):**
 - Hokkaido-Kürbis-Suppe (mit Ingwer, Kokosmilch)
-- **180g gekochte weiße Bohnen (püriert mit der Suppe für Cremigkeit)** ⬆️ ERHÖHT
+- **180g gekochte weiße Bohnen (püriert mit der Suppe für Cremigkeit)**
 - 2 EL Kürbiskerne, geröstet
 - Frische Petersilie
 
@@ -312,7 +312,7 @@ Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren.
 
 ### Tageszusammenfassung DONNERSTAG:
 - **Gesamt Kalorien:** 1310 kcal ✅
-- **Gesamt Protein:** 81g ⚠️ (unter Ziel, aber verbessert!)
+- **Gesamt Protein:** 81g
 - **Gesamt Ballaststoffe:** 44g ✅
 
 ---
@@ -328,7 +328,7 @@ Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren.
 - 1 EL Chiasamen
 - 1 EL gemahlene Leinsamen
 - 1 EL Mandel-Nussmus
-- **25g Erbsenprotein-Pulver** ⬆️
+- **25g Erbsenprotein-Pulver**
 - 50ml zusätzliche Hafermilch
 - Prise Salz
 
@@ -352,7 +352,7 @@ Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren.
 
 **Komponenten (vorbereitet am Sonntag):**
 - 200g Blumenkohl, in Röschen
-- **150g gekochte Kichererbsen** ⬆️ ERHÖHT
+- **150g gekochte Kichererbsen**
 - 80g Quinoa, gekocht
 - Curry-Sauce (Kokosmilch, Currypaste, Gewürze)
 
@@ -384,7 +384,7 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 
 ### Tageszusammenfassung FREITAG:
 - **Gesamt Kalorien:** 1245 kcal ✅
-- **Gesamt Protein:** 89g ⚠️ (unter Ziel, aber verbessert!)
+- **Gesamt Protein:** 89g
 - **Gesamt Ballaststoffe:** 40g ✅
 
 ---
