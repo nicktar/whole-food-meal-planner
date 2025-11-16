@@ -44,7 +44,18 @@ Glas aus Kühlschrank nehmen, umrühren, Toppings hinzufügen, genießen!
 - 200g Blumenkohl, in Röschen
 - 150g gekochte Kichererbsen
 - 80g Quinoa, gekocht
-- Curry-Sauce (Kokosmilch, Currypaste, Gewürze)
+- 50g Zwiebeln, gewürfelt
+- 2 Knoblauchzehen, gehackt
+- 1 TL Ingwer, frisch gerieben
+- 1 EL Currypaste (mittelscharf)
+- 80ml Kokosmilch
+- 100ml Gemüsebrühe
+- 1/2 TL Kurkuma
+- 1/2 TL Garam Masala
+- 1/2 TL Kreuzkümmel
+- 1 TL Kokosöl
+- Saft von 1/4 Limette
+- Frischer Koriander zum Garnieren
 
 **Zubereitung:**
 Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit frischem Koriander garnieren.
@@ -354,7 +365,18 @@ Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren.
 - 200g Blumenkohl, in Röschen
 - 150g gekochte Kichererbsen
 - 80g Quinoa, gekocht
-- Curry-Sauce (Kokosmilch, Currypaste, Gewürze)
+- 50g Zwiebeln, gewürfelt
+- 2 Knoblauchzehen, gehackt
+- 1 TL Ingwer, frisch gerieben
+- 1 EL Currypaste (mittelscharf)
+- 80ml Kokosmilch
+- 100ml Gemüsebrühe
+- 1/2 TL Kurkuma
+- 1/2 TL Garam Masala
+- 1/2 TL Kreuzkümmel
+- 1 TL Kokosöl
+- Saft von 1/4 Limette
+- Frischer Koriander zum Garnieren
 
 **Zubereitung:**
 Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit frischem Koriander garnieren.
