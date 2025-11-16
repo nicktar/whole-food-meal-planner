@@ -277,10 +277,19 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 **Kalorien:** 450 kcal | **Protein:** 22g | **Prep:** 5 Min
 
 **Komponenten (vorbereitet am Sonntag):**
-- Hokkaido-Kürbis-Suppe (mit Ingwer, Kokosmilch)
+- 300g Hokkaido-Kürbis (mit Schale), gewürfelt
+- 50g Zwiebeln, gewürfelt
+- 1 TL Ingwer, frisch gerieben
+- 1 Knoblauchzehe, gehackt
+- 300ml Gemüsebrühe
+- 80ml Kokosmilch
 - 180g gekochte weiße Bohnen (püriert mit der Suppe für Cremigkeit)
+- 1 TL Kokosöl
+- 1/2 TL Kurkuma
+- 1/4 TL Kreuzkümmel
 - 2 EL Kürbiskerne, geröstet
 - Frische Petersilie
+- Salz, Pfeffer
 
 **Zubereitung:**
 Suppe mit pürierten Bohnen aufwärmen, mit Kürbiskernen und Petersilie garnieren.
