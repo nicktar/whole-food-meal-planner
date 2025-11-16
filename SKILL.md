@@ -171,16 +171,18 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 
 ## Meal Planning Workflow
 
-**Folge dem 8-Schritte-Prozess** (vollständige Details in `references/meal-plan-workflow.md`):
+**Folge dem Basis-Workflow** (vollständige Details in `references/meal-plan-workflow.md`):
 
 1. **Anforderungen sammeln** → Zeitraum, Ernährungsziele, Präferenzen (Template in workflow.md)
 2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
 3. **Plan erstellen** → Template-Format verwenden, Dateiname: `wochenplan-YYYY-MM-DD-bis-DD.md` (siehe workflow.md Abschnitt 3)
 4. **Verifikation** → `python3 scripts/verify_nutrition.py` ausführen (**KRITISCH!**)
 5. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
+
+**Optional (nur auf expliziten Nutzer-Wunsch):**
 6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren, Dateiname: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
 7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren), Dateiname: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
-8. **Optional: Mealie-Export** → `python3 scripts/mealie_export_v2.py wochenplan-file.md --prefix YYYY_MM_DD`
+8. **Mealie-Export** → `python3 scripts/mealie_export_v2.py wochenplan-file.md --prefix YYYY_MM_DD`
 
 **Wichtigste Punkte:**
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
@@ -189,7 +191,7 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 - ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
-- ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
+- ⚠️ **Einkaufsliste & Meal Prep Strategie:** Nur auf expliziten Nutzer-Wunsch erstellen!
 
 ## File Naming Conventions
 
@@ -384,7 +386,7 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 2. Rezepte aus DB wählen (meal-plan-workflow.md Abschnitt 2)
 3. Plan nach Template erstellen
 4. verify_nutrition.py ausführen
-5. Einkaufsliste + Meal Prep Timeline
+5. (Optional, nur auf Wunsch) Einkaufsliste + Meal Prep Strategie
 ```
 
 ### Szenario 2: Spezifische Zutaten verwerten
@@ -475,8 +477,6 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 ### Für Meal Plans (vor Finalisierung):
 - [ ] Challenge-Regeln eingehalten (keine ausgeschlossenen Zutaten)
 - [ ] Nährwerte verifiziert und im Target-Bereich
-- [ ] Meal Prep Synergien maximiert
-- [ ] Einkaufsliste vollständig und kategorisiert
 - [ ] Realistische Zubereitungszeiten
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
@@ -485,6 +485,10 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
   - Unbegrenzt: Hülsenfrüchte, Getreide, Paprika, Süßkartoffeln, Zucchini, Rote Beete, Karotten
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
 - [ ] **Meal-Prep-Kompatibilität:** Geröstetes Gemüse nur wenn komplett warm serviert wird; für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl)
+
+### Für optionale Komponenten (nur auf Nutzer-Wunsch):
+- [ ] **Einkaufsliste:** Vollständig und nach Kategorien organisiert
+- [ ] **Meal Prep Strategie:** 4-Phasen-Timeline mit realistischen Zeitangaben
 
 ### Für neue Rezepte (vor Nährwert-Validierung):
 - [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
