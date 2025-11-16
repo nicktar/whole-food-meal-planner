@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Deftige Linsen-Wurzelgemüse-Suppe",
+  "description": "475 kcal, 29g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT7M",
+  "totalTime": "PT12M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "Grüne Linsen",
+    "Karotten, Sellerie, Pastinaken",
+    "150g Tofu-Würfel",
+    "Aromatische Gewürze (Kreuzkümmel, Koriander, Paprika)"
+  ],
+  "recipeInstructions": "Suppe in Topf aufwärmen (5-7 Min bei mittlerer Hitze), mit frischer Petersilie garnieren. Mit etwas Wasser verdünnen falls zu dick.",
+  "nutrition": {
+    "calories": "475",
+    "proteinContent": "29g",
+    "carbohydrateContent": "52g",
+    "fatContent": "14g",
+    "fiberContent": "18g"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Protein-Power",
+  "description": "Ultra-protein-reiche Overnight Oats mit 35g Protein! Mix aus Hanfsamen, Kürbiskernen und Sonnenblumenkernen für optimales Aminosäure-Profil.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Haferflocken",
+    "150ml Hafermilch",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandel-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "50ml zusätzliche Hafermilch",
+    "Prise Salz",
+    "1 EL Hanfsamen",
+    "1 EL Kürbiskerne",
+    "1 EL Sonnenblumenkerne",
+    "50g Beeren"
+  ],
+  "recipeInstructions": "Vorabend vorbereiten: Haferflocken, 150ml Hafermilch, Chiasamen, gemahlene Leinsamen, Mandel-Nussmus, Erbsenprotein-Pulver und Prise Salz in Glas geben. Gründlich mixen.\nExtra Hafermilch: 50ml zusätzliche Hafermilch hinzufügen (Protein-Powder macht sehr dick, extra Flüssigkeit notwendig!).\nKühlschrank: Mind. 8 Std quellen lassen.\nSamen-Mix vorbereiten: Hanfsamen, Kürbiskerne und Sonnenblumenkerne mischen. Können optional in trockener Pfanne 2-3 Min geröstet werden für nussigeren Geschmack.\nMorgens: Oats aus Kühlschrank, gut umrühren. Falls zu dick: 1-2 EL Hafermilch hinzufügen.\nToppings: Samen-Mix und Beeren darübergeben.\nPower-Boost: Hanfsamen = vollständiges Protein mit allen 9 essentiellen Aminosäuren! Kürbiskerne = Zink und Magnesium.\nMeal Prep: Oats-Basis für 3-4 Portionen. Samen-Mix in größerer Menge vorbereiten und in Schraubglas lagern. Täglich 3 EL über Oats streuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "performTime": "PT0M",
+  "nutrition": {
+    "calories": "370",
+    "proteinContent": "35g",
+    "carbohydrateContent": "28g",
+    "fatContent": "14g",
+    "fiberContent": "12g"
+  }
+}

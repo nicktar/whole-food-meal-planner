@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Wintergemüse",
+  "description": "mit knackigem Rohkost-Anteil.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT10M",
+  "performTime": "PT10M",
+  "totalTime": "PT20M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "120g geröstete Kichererbsen (Gewürze: Kreuzkümmel, Paprika, Knoblauch)",
+    "80g Quinoa, gekocht",
+    "100g Karotten, in Julienne geschnitten (ROH, nicht geröstet!)",
+    "50g Gurke, gewürfelt (Alternative zu Chinakohl!)",
+    "30g Rucola oder Feldsalat (frisch)",
+    "2 EL Tahini-Dressing",
+    "1 EL Kürbiskerne",
+    "Optional: 1/4 Avocado"
+  ],
+  "recipeInstructions": "Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren. Kichererbsen kurz aufwärmen oder zimmerwarm servieren. Mit Tahini-Dressing beträufeln.",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "24g",
+    "carbohydrateContent": "52g",
+    "fatContent": "14g",
+    "fiberContent": "16g"
+  }
+}

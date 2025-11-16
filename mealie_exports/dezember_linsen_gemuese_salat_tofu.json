@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Gemüse-Salat mit Tofu",
+  "description": "Bunter, protein-reicher Salat mit 29g Protein. Basis (Linsen, Tofu) vorkochen, Dressing separat lagern, frische Komponenten täglich hinzufügen.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "50g Grüne Linsen (ca. 150g gekocht)",
+    "100g Tofu (gewürfelt und mariniert)",
+    "100g Kirschtomaten (halbiert)",
+    "50g Gurke (gewürfelt)",
+    "30g Rucola (frisch)",
+    "2 EL Walnüsse (gehackt)",
+    "Saft von 1/2 Zitrone",
+    "1 TL Olivenöl",
+    "1 TL Sojasauce (für Tofu-Marinade)",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Grüne Linsen kochen: 50g Linsen mit 125ml Wasser 20-25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.\nTofu marinieren: Tofu in 1cm Würfel schneiden. Mit 1 TL Sojasauce, 1/2 TL Paprika und Prise Knoblauchpulver marinieren (mind. 30 Min). Kann roh verwendet oder kurz angebraten werden.\nZitronen-Öl-Dressing: Zitronensaft, Olivenöl, Salz und Pfeffer vermischen.\nGemüse vorbereiten: Kirschtomaten halbieren, Gurke würfeln, Rucola waschen, Walnüsse hacken.\nSalat zusammenstellen: Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüberstreuen.\nMeal Prep: Basis (Linsen, marinierter Tofu) 2-3 Tage haltbar. Tomaten und Gurke täglich frisch schneiden. Dressing separat lagern.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "430",
+    "proteinContent": "29g",
+    "carbohydrateContent": "38g",
+    "fatContent": "16g",
+    "fiberContent": "13g"
+  }
+}

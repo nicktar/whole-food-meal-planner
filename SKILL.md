@@ -44,14 +44,16 @@ view references/meal-plan-workflow.md
 view recipe-database.md || view references/recipe-database.md
 
 # 3. Plan erstellen (Templates aus workflow.md)
+# Dateiname: meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
+
 # 4. Nährwerte verifizieren (KRITISCH!)
 python3 scripts/verify_nutrition.py
 
-# 5. Optional: Mealie-Export
-python3 scripts/mealie_export.py
+# 5. Optional: Mealie-Export (Parser-basiert, vollautomatisch!)
+python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md --prefix 2024_12_08
 ```
 
-**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → Verifizieren → Optional: Mealie-Export
+**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen (mit Datumsbereich-Dateinamen) → Verifizieren → Optional: Mealie-Export
 
 ## Challenge-Regeln
 
@@ -131,16 +133,23 @@ python3 scripts/mealie_export.py
 - Output: Text-Report + JSON
 - **Wann verwenden:** Nach jedem Meal Plan, vor Finalisierung
 
-**`scripts/mealie_export.py`** - Mealie-Integration
-- Generiert Mealie-kompatible JSON-Rezepte im schema.org Format
-- **Format-Anforderungen:**
-  - **Vorgekochte Zutaten:** "50g Rote Linsen (ca. 100g gekocht)" - immer rohe Menge + gekochte Menge in Klammern
-  - **Farben groß:** Rote Linsen, Schwarze Bohnen, Rote Bete (für Parser-Erkennung)
-  - **Anmerkungen:** "80g Heidelbeeren (TK)" - Format "Menge Zutat (Anmerkung)"
-  - **Keywords:** Comma-separated String mit "whole food,KI Rezepte,food prep,vegetarisch,vegan,{mahlzeit}"
-  - **Anweisungen:** Ein String mit \n Zeilenumbrüchen (nicht Array)
-  - **Zutaten:** Array von Strings (nicht Objekte)
-- **Wann verwenden:** Wenn Nutzer Mealie verwendet oder Rezepte digital verwalten möchte
+**`scripts/mealie_export_v2.py`** - Parser-basierte Mealie-Integration (NEU!)
+- **Vollautomatischer Export:** Parst Markdown-Rezepte und konvertiert automatisch zu Mealie-Format
+- **Keine manuelle Code-Änderung nötig** - funktioniert mit beliebigen Rezept-Markdown-Dateien
+- **Verwendung:**
+  ```bash
+  # Aus Wochenplan exportieren
+  python3 scripts/mealie_export_v2.py meal-plans/wochenplan-08-12-dezember.md --prefix 2024_12_08
+
+  # Aus separater Rezeptdatei
+  python3 scripts/mealie_export_v2.py rezepte-2024-12-08-bis-12.md
+  ```
+- **Unterstützte Formate:**
+  - Wochenplan-Format (TAG 1, TAG 2 mit ### Frühstück:, ### Mittagessen:, ### Abendessen:)
+  - Standalone-Rezepte (## REZEPTNAME Format)
+  - Extrahiert automatisch: Name, Zutaten, Anleitung, Nährwerte, Zeiten
+- **Dateinamen:** Datumsbereich-basiert (z.B. `2024_12_08_overnight_oats_beeren.json`)
+- **Wann verwenden:** Bei jedem neuen Wochenplan oder neuen Rezepten für Mealie-Import
 
 ### References
 
@@ -166,12 +175,12 @@ python3 scripts/mealie_export.py
 
 1. **Anforderungen sammeln** → Zeitraum, Ernährungsziele, Präferenzen (Template in workflow.md)
 2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
-3. **Plan erstellen** → Template-Format verwenden (siehe workflow.md Abschnitt 3)
+3. **Plan erstellen** → Template-Format verwenden, Dateiname: `wochenplan-YYYY-MM-DD-bis-DD.md` (siehe workflow.md Abschnitt 3)
 4. **Verifikation** → `python3 scripts/verify_nutrition.py` ausführen (**KRITISCH!**)
 5. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
-6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren
-7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren)
-8. **Optional: Mealie-Export** → `python3 scripts/mealie_export.py`
+6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren, Dateiname: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
+7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren), Dateiname: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
+8. **Optional: Mealie-Export** → `python3 scripts/mealie_export_v2.py wochenplan-file.md --prefix YYYY_MM_DD`
 
 **Wichtigste Punkte:**
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
@@ -181,6 +190,42 @@ python3 scripts/mealie_export.py
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
 - ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
+
+## File Naming Conventions
+
+**Datumsbereich-basierte Benennung** für alle Meal Plans und Rezeptdateien:
+
+**Wochenpläne:**
+- Format: `wochenplan-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/wochenplan-2024-12-08-bis-12.md`
+- Vorher: `wochenplan-08-12-dezember.md` ❌ (unklar, Jahr fehlt)
+- Jetzt: `wochenplan-2024-12-08-bis-12.md` ✅ (eindeutig, maschinenlesbar)
+
+**Rezeptdateien:**
+- Format: `rezepte-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `rezepte-2024-12-08-bis-12.md`
+- Für Wochenrezepte: Start- und Enddatum der Woche
+- Für einzelne Rezepte: Erstellungsdatum oder Verwendungsdatum
+
+**Einkaufslisten:**
+- Format: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/einkaufsliste-2024-12-08-bis-12.md`
+
+**Meal Prep Strategien:**
+- Format: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/meal-prep-strategie-2024-12-08-bis-12.md`
+
+**Mealie Exports:**
+- Format: `YYYY_MM_DD_rezeptname.json`
+- Beispiel: `mealie_exports/2024_12_08_overnight_oats_beeren_power.json`
+- Automatisch generiert durch `mealie_export_v2.py` mit `--prefix` Option
+
+**Warum Datumsbereich-basiert?**
+- ✅ Eindeutig identifizierbar (kein Raten welches Jahr)
+- ✅ Maschinenlesbar und sortierbar
+- ✅ Kompatibel mit Parser-Tools
+- ✅ Internationale Eindeutigkeit (keine Monatsnamen)
+- ✅ Einfache Zuordnung zwischen Plan, Einkaufsliste und Rezepten
 
 ## Neue Rezepte generieren
 

@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Beeren",
+  "description": "Protein-reich mit 34g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "3 EL Chiasamen (~30g)",
+    "200ml Hafermilch",
+    "1/2 TL Vanilleextrakt",
+    "1 EL Cashew-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "Prise Salz",
+    "100g gemischte Beeren (TK)",
+    "1 EL Mandelsplitter",
+    "Frische Minze"
+  ],
+  "recipeInstructions": "Glas aus Kühlschrank nehmen, umrühren, Toppings hinzufügen.",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "34g",
+    "carbohydrateContent": "30g",
+    "fatContent": "16g",
+    "fiberContent": "14g"
+  }
+}
