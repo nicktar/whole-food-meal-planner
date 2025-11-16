@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Beeren-Power",
+  "description": "Protein-reiche Overnight Oats mit 32g Protein. Am Vorabend vorbereiten, morgens nur Toppings hinzufügen. TK-Beeren sind günstiger und gleichwertig!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Haferflocken (Vollkorn)",
+    "150ml Hafermilch (ungesüßt)",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandel-Nussmus",
+    "25g Erbsenprotein-Pulver (pur, ohne Zusätze)",
+    "Prise Salz",
+    "100g gemischte Beeren (TK)",
+    "1 EL Hanfsamen",
+    "Prise Zimt"
+  ],
+  "recipeInstructions": "Vorabend vorbereiten: Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Mandel-Nussmus, Erbsenprotein-Pulver und Prise Salz in verschließbarem Glas oder Schüssel mischen. Gut umrühren bis Proteinpulver vollständig eingerührt ist.\nKühlschrank: Über Nacht (mind. 8 Std, besser 12 Std) im Kühlschrank quellen lassen. Samen absorbieren Flüssigkeit und werden cremig.\nMorgens: Glas aus Kühlschrank nehmen, nochmal gut umrühren (wird sehr dick sein).\nToppings: TK-Beeren (können direkt aus Tiefkühler, tauen in 5 Min), Hanfsamen und Zimt darübergeben.\nServieren: Kann direkt aus Glas gegessen werden oder in Schüssel umfüllen.\nMeal Prep: Basis für 3-4 Gläser auf einmal vorbereiten (ohne Toppings). Haltbar 4-5 Tage im Kühlschrank. Toppings täglich frisch hinzufügen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "performTime": "PT0M",
+  "nutrition": {
+    "calories": "370",
+    "proteinContent": "32g",
+    "carbohydrateContent": "30g",
+    "fatContent": "12g",
+    "fiberContent": "11g"
+  }
+}
