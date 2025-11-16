@@ -191,7 +191,8 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 - ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
-- ⚠️ **Einkaufsliste & Meal Prep Strategie:** Nur auf expliziten Nutzer-Wunsch erstellen!
+- ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
+- ⚠️ **Einkaufsliste & Meal Prep Strategie-Dokument:** Nur auf expliziten Nutzer-Wunsch erstellen!
 
 ## File Naming Conventions
 
