@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "FELDSALAT-BOWL MIT GERÖSTETEM HOKKAIDO UND LINSEN",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT35M",
+  "performTime": "PT35M",
+  "totalTime": "PT70M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "120g gekochte grüne Linsen",
+    "80g Hokkaido-Kürbis, in Würfeln geröstet",
+    "100g Tofu, mariniert",
+    "50g Feldsalat",
+    "50g Quinoa, gekocht",
+    "1 EL Walnüsse, gehackt",
+    "1 kleiner Apfel, gewürfelt",
+    "2 EL Apfel-Balsamico-Vinaigrette"
+  ],
+  "recipeInstructions": "1. Hokkaido-Kürbis mit Prise Salz, Paprikapulver, Kreuzkümmel würzen, bei 200°C 25 Min rösten\n2. Tofu marinieren (Sojasauce, Ahornsirup) mindestens 30 Min, dann braten\n3. Quinoa und Feldsalat als Basis\n4. Linsen, gerösteten Kürbis, Tofu, Apfel arrangieren\n5. Mit Vinaigrette beträufeln, Walnüsse darüberstreuen",
+  "nutrition": {
+    "calories": "445",
+    "proteinContent": "27g",
+    "carbohydrateContent": "58g",
+    "fatContent": "14g",
+    "fiberContent": "14g"
+  }
+}

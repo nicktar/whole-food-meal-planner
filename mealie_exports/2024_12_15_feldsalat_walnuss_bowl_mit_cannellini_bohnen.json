@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "FELDSALAT-WALNUSS-BOWL MIT CANNELLINI-BOHNEN",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT15M",
+  "performTime": "PT30M",
+  "totalTime": "PT45M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "140g gekochte Cannellini-Bohnen",
+    "150g Feldsalat (oder alternativ: 100g Feldsalat + 50g Rucola)",
+    "120g Tofu, mariniert (Balsamico, Ahornsirup, Dijon-Senf)",
+    "1 kleine Birne, in dünnen Scheiben",
+    "1.5 EL Walnüsse, gehackt",
+    "2 EL Apfel-Balsamico-Vinaigrette"
+  ],
+  "recipeInstructions": "1. Tofu marinieren (mind. 30 Min), dann in Pfanne braten bis goldbraun\n2. Feldsalat (und Rucola falls verwendet) waschen und als Basis arrangieren\n3. Cannellini-Bohnen, gebratenen Tofu, Birnenscheiben darauf verteilen\n4. Mit Vinaigrette beträufeln\n5. Walnüsse darüberstreuen",
+  "nutrition": {
+    "calories": "400",
+    "proteinContent": "28g",
+    "carbohydrateContent": "50g",
+    "fatContent": "13g",
+    "fiberContent": "12g"
+  }
+}

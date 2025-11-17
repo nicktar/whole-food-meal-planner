@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Blumenkohl-Curry mit Kichererbsen",
+  "description": "445 kcal, 25g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "200g Blumenkohl, in Röschen",
+    "150g gekochte Kichererbsen",
+    "80g Quinoa, gekocht",
+    "50g Zwiebeln, gewürfelt",
+    "2 Knoblauchzehen, gehackt",
+    "1 TL Ingwer, frisch gerieben",
+    "1 EL Currypaste (mittelscharf)",
+    "80ml Kokosmilch",
+    "100ml Gemüsebrühe",
+    "1/2 TL Kurkuma",
+    "1/2 TL Garam Masala",
+    "1/2 TL Kreuzkümmel",
+    "1 TL Kokosöl",
+    "Saft von 1/4 Limette",
+    "Frischer Koriander zum Garnieren"
+  ],
+  "recipeInstructions": "Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit frischem Koriander garnieren.",
+  "nutrition": {
+    "calories": "445",
+    "proteinContent": "25g",
+    "carbohydrateContent": "62g",
+    "fatContent": "13g",
+    "fiberContent": "15g"
+  }
+}

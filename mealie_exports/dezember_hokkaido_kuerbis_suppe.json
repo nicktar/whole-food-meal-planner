@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Hokkaido-Kürbis-Suppe mit weißen Bohnen",
+  "description": "Cremige, süßliche Suppe mit saisonalem Hokkaido-Kürbis. Schale kann dranbleiben! Mit pürierten weißen Bohnen für Extra-Protein und Cremigkeit.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "300g Hokkaido-Kürbis (mit Schale, gewürfelt)",
+    "60g Weiße Bohnen (ca. 180g gekocht, werden püriert)",
+    "50g Zwiebeln (gewürfelt)",
+    "1 TL Ingwer (frisch gerieben)",
+    "1 Knoblauchzehe (gehackt)",
+    "300ml Gemüsebrühe",
+    "80ml Kokosmilch (aus Dose)",
+    "1 TL Kokosöl",
+    "1/2 TL Kurkuma",
+    "1/4 TL Kreuzkümmel",
+    "2 EL Kürbiskerne (geröstet, zum Topping)",
+    "Frische Petersilie",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Kürbis vorbereiten: Hokkaido-Kürbis waschen (Schale kann dranbleiben!), entkernen, in 2cm Würfel schneiden.\nBasis anbraten: Kokosöl in Topf erhitzen. Zwiebeln glasig dünsten (3 Min). Knoblauch und Ingwer hinzufügen, 1 Min mitbraten.\nGewürze rösten: Kurkuma und Kreuzkümmel hinzufügen, 30 Sek rösten.\nKürbis kochen: Kürbiswürfel und Gemüsebrühe hinzufügen. Aufkochen, dann 15-20 Min köcheln bis Kürbis sehr weich ist.\nBohnen & Pürieren: Gekochte weiße Bohnen und Kokosmilch hinzufügen. Mit Stabmixer cremig pürieren.\nAbschmecken: Mit Salz und Pfeffer abschmecken.\nKürbiskerne rösten: In trockener Pfanne 2-3 Min rösten bis sie duften und leicht poppen.\nServieren: Suppe in Schüssel füllen, mit gerösteten Kürbiskernen und Petersilie garnieren.\nMeal Prep: Kürbiskerne separat lagern (bleiben knusprig), erst beim Servieren aufstreuen. Suppe 5 Tage Kühlschrank, 3 Monate Tiefkühler.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "450",
+    "proteinContent": "22g",
+    "carbohydrateContent": "58g",
+    "fatContent": "14g",
+    "fiberContent": "13g"
+  }
+}

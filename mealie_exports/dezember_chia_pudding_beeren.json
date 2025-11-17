@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Beeren",
+  "description": "Cremiger Chia Pudding mit 34g Protein. Über Nacht quellen lassen, morgens nur Toppings hinzufügen. Cashew-Nussmus macht besonders cremig!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "3 EL Chiasamen (~30g)",
+    "200ml Hafermilch",
+    "1/2 TL Vanilleextrakt",
+    "1 EL Cashew-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "Prise Salz",
+    "100g gemischte Beeren (TK)",
+    "1 EL Mandelsplitter",
+    "Frische Minze (optional)"
+  ],
+  "recipeInstructions": "Vorabend vorbereiten: Chiasamen, Hafermilch, Vanilleextrakt, Cashew-Nussmus, Erbsenprotein-Pulver und Prise Salz in Glas oder Schüssel geben. Sehr gründlich mixen bis Nussmus und Proteinpulver vollständig eingerührt sind (kein Klumpen!).\nNach 5 Min nochmal umrühren: Verhindert dass Chiasamen am Boden verklumpen.\nKühlschrank: Mind. 8 Std (besser über Nacht) quellen lassen. Chiasamen werden gelartig und sehr sättigend.\nMorgens: Glas aus Kühlschrank nehmen, umrühren (wird sehr dickflüssig, ggf. 1-2 EL Hafermilch hinzufügen für cremigere Konsistenz).\nToppings: TK-Beeren, Mandelsplitter und frische Minze darübergeben.\nMandelsplitter rösten (optional): In trockener Pfanne 2-3 Min goldbraun rösten für Extra-Crunch.\nMeal Prep: Chia Pudding Basis für 2-3 Portionen vorbereiten. 4-5 Tage haltbar. Toppings täglich frisch.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "performTime": "PT0M",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "34g",
+    "carbohydrateContent": "30g",
+    "fatContent": "16g",
+    "fiberContent": "14g"
+  }
+}

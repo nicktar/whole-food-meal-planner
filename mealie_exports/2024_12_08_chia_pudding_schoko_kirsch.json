@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Schoko-Kirsch",
+  "description": "Protein-reich mit 35g Protein - mit knackigem Rohkost-Anteil.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "3 EL Chiasamen",
+    "200ml Hafermilch",
+    "1 EL rohes Kakaopulver",
+    "1 EL Mandel-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "1/2 TL Vanille",
+    "Prise Salz",
+    "80g Kirschen (TK, aufgetaut)",
+    "1 EL gehackte Walnüsse",
+    "Optional: Dunkle Schokoraspeln (85%+)"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "440",
+    "proteinContent": "35g",
+    "carbohydrateContent": "32g",
+    "fatContent": "18g",
+    "fiberContent": "15g"
+  }
+}

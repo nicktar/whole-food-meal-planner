@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Apfel-Zimt",
+  "description": "Winterliche Overnight Oats mit Apfel und Zimt - 33g Protein. Äpfel sind im Dezember noch als Lagerware gut verfügbar und günstig!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Haferflocken",
+    "150ml Hafermilch",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Cashew-Nussmus",
+    "25g Erbsenprotein-Pulver",
+    "1 TL Zimt",
+    "Prise Salz",
+    "1 mittelgroßer Apfel (gewürfelt)",
+    "1 EL gehackte Walnüsse",
+    "Extra Zimt zum Bestreuen"
+  ],
+  "recipeInstructions": "Vorabend vorbereiten: Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Cashew-Nussmus, Erbsenprotein-Pulver, Zimt und Prise Salz in Glas geben. Sehr gründlich mixen.\nKühlschrank: Mind. 8 Std quellen lassen.\nMorgens Apfel vorbereiten: Apfel entkernen, in kleine Würfel schneiden (mit oder ohne Schale, Schale hat mehr Ballaststoffe).\nWalnüsse hacken: Grob hacken (oder vorgeröstet für intensiveren Geschmack).\nZusammenstellen: Oats aus Kühlschrank, umrühren, Apfelwürfel und Walnüsse darübergeben.\nZimt: Großzügig extra Zimt darüberstreuen (Zimt hilft bei Blutzuckerregulation!).\nMeal Prep: Oats-Basis für 3-4 Portionen vorbereiten. Äpfel täglich frisch würfeln (oxidieren sonst braun). Alternativ: Apfel mit etwas Zitronensaft marinieren gegen Braunfärbung.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "performTime": "PT0M",
+  "nutrition": {
+    "calories": "390",
+    "proteinContent": "33g",
+    "carbohydrateContent": "35g",
+    "fatContent": "13g",
+    "fiberContent": "12g"
+  }
+}

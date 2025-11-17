@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "APFEL-BALSAMICO-VINAIGRETTE",
+  "description": "40 kcal, 0g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "3 EL Apfelessig",
+    "2 EL Balsamico-Essig",
+    "1 EL Ahornsirup",
+    "1 TL Dijon-Senf",
+    "1 EL Olivenöl",
+    "Prise Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Alle Zutaten in verschließbarem Glas geben\n2. Kräftig schütteln bis gut vermischt\n3. Mit Salz und Pfeffer abschmecken",
+  "nutrition": {
+    "calories": "40",
+    "proteinContent": "0g",
+    "carbohydrateContent": "6g",
+    "fatContent": "2g",
+    "fiberContent": "0g"
+  }
+}

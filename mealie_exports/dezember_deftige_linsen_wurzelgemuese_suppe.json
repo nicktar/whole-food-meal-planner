@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Deftige Linsen-Wurzelgemüse-Suppe",
+  "description": "Herzhafte, wärmende Suppe mit saisonalem Wurzelgemüse - perfekt für kalte Dezemberabende. Sehr Meal-Prep-freundlich: 5 Tage haltbar, 3 Monate tiefkühlbar!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "45g Grüne Linsen (ca. 110g gekocht)",
+    "100g Karotten (gewürfelt)",
+    "80g Sellerie (Knollensellerie, gewürfelt)",
+    "60g Pastinaken (gewürfelt)",
+    "50g Zwiebeln (gewürfelt)",
+    "2 Knoblauchzehen (gehackt)",
+    "150g Tofu (gewürfelt)",
+    "400ml Gemüsebrühe",
+    "1 EL Tomatenmark",
+    "1 TL Olivenöl",
+    "1 TL Kreuzkümmel (gemahlen)",
+    "1 TL Koriander (gemahlen)",
+    "1 TL Paprikapulver (geräuchert)",
+    "1/2 TL Thymian (getrocknet)",
+    "1 Lorbeerblatt",
+    "Salz, Pfeffer",
+    "Frische Petersilie (zum Garnieren)"
+  ],
+  "recipeInstructions": "Tofu marinieren (15 Min im Voraus): Tofu-Würfel mit 1 TL Sojasauce, 1/2 TL Paprika und Prise Knoblauchpulver mischen. Beiseite stellen.\nGemüse vorbereiten: Karotten, Sellerie, Pastinaken in 1cm Würfel schneiden. Zwiebeln und Knoblauch fein hacken.\nBasis anbraten: Olivenöl in großem Topf erhitzen. Zwiebeln glasig dünsten (3 Min). Knoblauch hinzufügen, 1 Min mitbraten.\nGewürze rösten: Kreuzkümmel, Koriander, Paprika, Thymian hinzufügen. 30 Sek unter Rühren rösten bis aromatisch.\nWurzelgemüse anbraten: Karotten, Sellerie, Pastinaken hinzufügen. 5 Min unter gelegentlichem Rühren anbraten.\nTomatenmark karamellisieren: Tomatenmark einrühren, 2 Min mitbraten (entwickelt Umami).\nKochen: Linsen, Gemüsebrühe und Lorbeerblatt hinzufügen. Aufkochen, dann auf mittlere Hitze reduzieren. 20-25 Min köcheln lassen bis Linsen weich sind.\nTofu hinzufügen: Marinierten Tofu in letzten 5 Min zugeben, miterhitzen.\nAbschmecken: Lorbeerblatt entfernen. Mit Salz und Pfeffer abschmecken. Mit frischer Petersilie garnieren.\nMeal Prep Tipp: Suppe wird beim Stehen dicker (Linsen saugen Flüssigkeit auf) - beim Aufwärmen 50-100ml Wasser/Brühe hinzufügen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "475",
+    "proteinContent": "29g",
+    "carbohydrateContent": "52g",
+    "fatContent": "14g",
+    "fiberContent": "18g"
+  }
+}

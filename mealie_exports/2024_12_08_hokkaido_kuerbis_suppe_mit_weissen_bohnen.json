@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Hokkaido-Kürbis-Suppe mit weißen Bohnen",
+  "description": "450 kcal, 22g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "300g Hokkaido-Kürbis (mit Schale), gewürfelt",
+    "50g Zwiebeln, gewürfelt",
+    "1 TL Ingwer, frisch gerieben",
+    "1 Knoblauchzehe, gehackt",
+    "300ml Gemüsebrühe",
+    "80ml Kokosmilch",
+    "180g gekochte weiße Bohnen (püriert mit der Suppe für Cremigkeit)",
+    "1 TL Kokosöl",
+    "1/2 TL Kurkuma",
+    "1/4 TL Kreuzkümmel",
+    "2 EL Kürbiskerne, geröstet",
+    "Frische Petersilie",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Suppe mit pürierten Bohnen aufwärmen, mit Kürbiskernen und Petersilie garnieren.",
+  "nutrition": {
+    "calories": "450",
+    "proteinContent": "22g",
+    "carbohydrateContent": "58g",
+    "fatContent": "14g",
+    "fiberContent": "13g"
+  }
+}
