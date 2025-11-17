@@ -63,6 +63,20 @@
 - **Hummus:** 166 kcal, 8g P, 14g C, 10g F, 6g Fiber
 - **Ahornsirup:** 260 kcal, 0g P, 67g C, 0.2g F, 0g Fiber
 - **Kakaopulver (roh):** 228 kcal, 20g P, 58g C, 14g F, 33g Fiber
+- **Miso-Paste:** 199 kcal, 12g P, 26g C, 6g F, 5g Fiber
+- **Currypaste (rot):** 200 kcal, 2g P, 12g C, 16g F, 2g Fiber
+- **Tahini (siehe Nussmus):** 595 kcal, 17g P, 21g C, 54g F, 9g Fiber
+- **Sojasauce:** 53 kcal, 8g P, 5g C, 0g F, 0.8g Fiber
+- **Dijon-Senf:** 66 kcal, 4g P, 5g C, 3g F, 3g Fiber
+- **Apfelessig:** 21 kcal, 0g P, 0.9g C, 0g F, 0g Fiber
+- **Balsamico-Essig:** 88 kcal, 0.5g P, 17g C, 0g F, 0g Fiber
+- **Vanillepulver:** 288 kcal, 0.1g P, 13g C, 0.1g F, 0g Fiber
+- **Cranberries (getrocknet):** 308 kcal, 0g P, 82g C, 1.4g F, 5g Fiber
+- **Wakame (Algen, getrocknet):** 45 kcal, 3g P, 9g C, 0.6g F, 0.5g Fiber
+- **Ingwer (frisch):** 80 kcal, 1.8g P, 18g C, 0.8g F, 2g Fiber
+- **Frühlingszwiebeln:** 32 kcal, 1.8g P, 7g C, 0.2g F, 2.6g Fiber
+- **Knoblauch:** 149 kcal, 6.4g P, 33g C, 0.5g F, 2.1g Fiber
+- **Gemüsebrühe:** 2 kcal/100ml, 0g P, 0.4g C, 0g F, 0g Fiber
 
 ---
 
