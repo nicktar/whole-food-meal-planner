@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Gerösteter Rotkohl-Salat mit Cannellini",
+  "description": "Knuspriger gerösteter Rotkohl! Süß-herzhaft, saisonal.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Rotkohl-Wedges",
+    "140g Cannellini-Bohnen (gekocht)",
+    "80g Tofu (gewürfelt)",
+    "20g Walnüsse",
+    "30g Rucola",
+    "1 EL Kürbiskerne",
+    "Ahornsirup, Balsamico",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Meal Prep: Rotkohl in Wedges schneiden, mit Ahornsirup + Salz beträufeln, bei 200°C 20 Min rösten.\nTäglich: Gerösteten Rotkohl kurz aufwärmen, über Rucola servieren, mit Bohnen + Tofu + Walnüssen + Kürbiskernen toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Abendessen",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "562",
+    "proteinContent": "29g",
+    "carbohydrateContent": "60g",
+    "fatContent": "23g",
+    "fiberContent": "16g"
+  }
+}
