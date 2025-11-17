@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Lauch-Miso-Suppe mit Tofu und Pilzen",
-  "description": "Leichte, aromatische Suppe mit 28g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
+  "description": "Leichte, aromatische Suppe mit 23g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
   "prepTime": "PT10M",
   "recipeIngredient": [
     "150g Lauch/Porree (in Ringe geschnitten)",
@@ -19,10 +19,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
   "performTime": "PT10M",
   "nutrition": {
-    "calories": "335",
-    "proteinContent": "28g",
-    "carbohydrateContent": "28g",
-    "fatContent": "12g",
-    "fiberContent": "9g"
+    "calories": "395",
+    "proteinContent": "23g",
+    "carbohydrateContent": "39g",
+    "fatContent": "17g",
+    "fiberContent": "8g"
   }
 }

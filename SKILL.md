@@ -151,6 +151,14 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 - **Dateinamen:** Datumsbereich-basiert (z.B. `2024_12_08_overnight_oats_beeren.json`)
 - **Wann verwenden:** Bei jedem neuen Wochenplan oder neuen Rezepten für Mealie-Import
 
+**`scripts/nutrition_recalculation.md`** - Nährwert-Standardwerte Referenz
+- **PFLICHTLEKTÜRE vor jeder Nährwertberechnung!**
+- Enthält präzise Standardwerte für ALLE gängigen Zutaten (pro 100g/100ml)
+- Vollständige Neuberechnung der November 2024 Rezepte als Beispiel
+- Dokumentiert systematische Fehlerquellen und deren Auswirkungen (+180-420 kcal Fehler!)
+- **Verwende diese Werte** für manuelle Nährwertberechnungen
+- **Wann lesen:** IMMER vor dem Erstellen neuer Rezepte oder Meal Plans
+
 ### References
 
 **Recipe Database** - Verifizierte Rezepte
@@ -168,6 +176,145 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 - Einkaufslisten-Generator
 - Optimierungs-Tipps
 - **Wann lesen:** Vor der ersten Meal Plan Erstellung und als Referenz
+
+## ⚠️ KRITISCH: Nährwertberechnung - Häufige Fehlerquellen
+
+**WICHTIG:** Das `verify_nutrition.py` Script **validiert** nur hardcoded Werte gegen Targets. Es **berechnet NICHT** automatisch die Nährwerte aus Zutaten!
+
+### Typische Unterschätzungen (führen zu massiven Fehlern!)
+
+**Die folgenden Zutaten werden systematisch unterschätzt und führen zu 180-420 kcal Differenz pro Mahlzeit:**
+
+#### 1. Nüsse & Samen (600-650 kcal/100g!)
+- **Walnüsse:** 654 kcal/100g → **15g = 98 kcal** (oft als "30 kcal" unterschätzt)
+- **Cashews:** 553 kcal/100g → **15g = 83 kcal**
+- **Kürbiskerne:** 559 kcal/100g → **1 EL (10g) = 56 kcal**
+- **Hanfsamen:** 553 kcal/100g → **1 EL (10g) = 55 kcal**
+- **Sonnenblumenkerne:** 584 kcal/100g → **1 EL (10g) = 58 kcal**
+
+#### 2. Nussmus (590-650 kcal/100g!)
+- **Mandelmus:** 614 kcal/100g → **1 EL (15g) = 92 kcal** (oft als "50 kcal" unterschätzt)
+- **Erdnussmus:** 588 kcal/100g → **1 EL (15g) = 88 kcal**
+- **Cashewmus:** 587 kcal/100g → **1 EL (15g) = 88 kcal**
+- **Tahini:** 595 kcal/100g → **2 EL (30g) = 179 kcal** ⚠️ SEHR HÄUFIG UNTERSCHÄTZT!
+
+#### 3. Öle & Fette (880-900 kcal/100ml!)
+- **Olivenöl:** 884 kcal/100ml → **1 TL (5ml) = 44 kcal**
+- **Kokosöl:** 862 kcal/100ml → **1 TL (5ml) = 43 kcal**
+- **Avocado:** 160 kcal/100g → **1/4 Avocado (40g) = 64 kcal**
+
+#### 4. Kokosmilch (230 kcal/100ml!)
+- **Kokosmilch:** 230 kcal/100ml → **75ml = 172 kcal** ⚠️ SEHR KALORIENREICH!
+- Oft als "50 kcal" unterschätzt → führt zu +120 kcal Fehler pro Curry!
+
+#### 5. Erbsenprotein-Pulver
+- **Erbsenprotein:** 375 kcal/100g → **20g = 75 kcal**, 16g Protein
+- Manchmal komplett vergessen zu zählen!
+
+### Realistische EL/TL Mengen
+
+**1 Esslöffel (EL) = je nach Zutat unterschiedlich!**
+- Chiasamen: ~12g
+- Leinsamen gemahlen: ~10g
+- Nussmus: ~15g
+- Tahini: ~15g
+- Kürbiskerne/Hanfsamen: ~10g
+- Haferflocken: ~10g
+
+**1 Teelöffel (TL) = 5ml/5g** (bei Ölen und Pulvern)
+
+### Nährwertberechnung-Prozess (PFLICHT!)
+
+**VOR dem Eintragen in verify_nutrition.py:**
+
+1. **Erstelle Zutatenliste mit exakten Mengen**
+   ```
+   - 30g Haferflocken
+   - 150ml Hafermilch
+   - 1 EL Chiasamen (12g)
+   - 1 EL Mandelmus (15g)
+   - 20g Erbsenprotein
+   - 15g Walnüsse
+   ```
+
+2. **Rechne JEDE Zutat einzeln aus** (nutze Standardwerte aus `scripts/nutrition_recalculation.md`)
+   ```
+   30g Haferflocken: 111 kcal, 3.9g P, 18g C, 2.1g F, 3g Fiber
+   150ml Hafermilch: 52 kcal, 0.75g P, 9g C, 1.5g F, 0g Fiber
+   12g Chiasamen: 58 kcal, 2g P, 5g C, 3.7g F, 4.1g Fiber
+   15g Mandelmus: 92 kcal, 3.2g P, 3.2g C, 8g F, 1.2g Fiber
+   20g Erbsenprotein: 75 kcal, 16g P, 1g C, 1.4g F, 0g Fiber
+   15g Walnüsse: 98 kcal, 2.3g P, 2.1g C, 9.8g F, 1g Fiber
+   ```
+
+3. **Summiere alle Werte**
+   ```
+   SUMME: 486 kcal, 28.15g P, 38.3g C, 26.5g F, 9.3g Fiber
+   ```
+
+4. **Prüfe gegen Meal-Ranges**
+   - Frühstück sollte 300-400 kcal haben
+   - 486 kcal ist zu viel! → Nussmus/Walnüsse reduzieren
+
+5. **ERST JETZT** in verify_nutrition.py eintragen
+
+### Standardwerte-Referenz
+
+**Vollständige Standardwerte für alle gängigen Zutaten:** Siehe `scripts/nutrition_recalculation.md`
+
+Die wichtigsten Werte (pro 100g/100ml):
+- Haferflocken: 370 kcal, 13g P
+- Quinoa gekocht: 120 kcal, 4g P
+- Kichererbsen gekocht: 164 kcal, 9g P
+- Grüne Linsen gekocht: 116 kcal, 9g P
+- Tofu: 76 kcal, 8g P
+- Tahini: 595 kcal, 17g P ⚠️
+- Mandelmus: 614 kcal, 21g P ⚠️
+- Walnüsse: 654 kcal, 15g P ⚠️
+- Kokosmilch: 230 kcal, 2.3g P ⚠️
+- Olivenöl: 884 kcal ⚠️
+
+### Warnsignale für Fehler
+
+🚨 **Wenn ein Rezept diese Zutaten hat, aber unter 400 kcal angegeben ist → FEHLER!**
+- 2 EL Tahini + Nüsse + Öl
+- Kokosmilch (75ml+) + Nussmus + Nüsse
+- Mehrere EL Nussmus (2+ EL)
+
+🚨 **Typische Unterschätzungen:**
+- Overnight Oats mit Nussmus + Nüssen + Proteinpulver als "390 kcal" → **FALSCH!** (Realität: 550-650 kcal)
+- Curry mit Kokosmilch als "500 kcal" → Prüfen! (Kokosmilch allein = 170+ kcal)
+- Salat mit 2 EL Tahini als "400 kcal" → Prüfen! (Tahini allein = 180 kcal)
+
+### Realistische Kalorienverteilung (1200 kcal/Tag)
+
+**Damit ein 1200 kcal Tagesplan funktioniert:**
+- Frühstück: **350-450 kcal** (mit Proteinpulver, Nussmus, Nüssen wird es schnell 500+)
+- Mittagessen: **350-450 kcal** (Curry mit Kokosmilch = schwierig unter 450!)
+- Abendessen: **350-450 kcal** (Salat mit Tahini + Nüssen = schnell 450+)
+
+**Wenn alle drei Mahlzeiten Nüsse/Nussmus/Tahini/Öle enthalten → typisch 1800-2000 kcal!**
+
+### Anpassungen für 1200 kcal Ziel
+
+**Um 1200 kcal zu erreichen, EINE der folgenden Strategien:**
+
+**Option 1: Portionen reduzieren**
+- Nussmus: 1 EL → 1 TL (60 kcal gespart)
+- Walnüsse: 15g → 5g (65 kcal gespart)
+- Tahini: 2 EL → 1 EL (90 kcal gespart)
+- Öl: Sprühöl statt gegossen (30 kcal gespart)
+
+**Option 2: Nur 1-2 Mahlzeiten mit Fett-Toppings**
+- Frühstück: MIT Nussmus + Nüssen (500 kcal)
+- Mittagessen: OHNE Öl/Nussmus, nur gedämpft (350 kcal)
+- Abendessen: MIT Dressing, aber ohne extra Nüsse (400 kcal)
+- = 1250 kcal ✅
+
+**Option 3: Größeres Kalorienziel akzeptieren**
+- 1200 kcal mit Nüssen/Ölen/Tahini ist sehr restriktiv
+- 1600-1800 kcal ist realistischer für ausgewogene Whole Food Ernährung
+- User fragen ob Ziel angepasst werden soll
 
 ## Meal Planning Workflow
 

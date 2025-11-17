@@ -97,25 +97,21 @@ def create_apfel_zimt_overnight_oats_protein():
         prep_time="PT5M",
         meal_type="Frühstück",
         ingredients=[
-            "30g Haferflocken",
-            "150ml Hafermilch (ungesüßt)",
-            "1 EL Chiasamen",
-            "1 EL Leinsamen (gemahlen)",
-            "20g Erbsenprotein-Pulver (pur, ohne Zusätze)",
-            "1 EL Mandelmus",
-            "1 Apfel (morgens frisch schneiden)",
-            "15g Walnüsse (gehackt)",
+            "15g Haferflocken",
+            "75ml Hafermilch (ungesüßt)",
+            "10g Erbsenprotein-Pulver (pur, ohne Zusätze)",
+            "1/2 Apfel (~75g, morgens frisch schneiden)",
             "1/2 TL Zimt"
         ],
-        instructions="""Haferflocken, Hafermilch, Chiasamen, Leinsamen, Erbsenprotein-Pulver, Mandelmus und Zimt in einem Schraubglas (400ml) gut vermischen.
+        instructions="""Haferflocken, Hafermilch, Erbsenprotein-Pulver und Zimt in einem Schraubglas (200ml) gut vermischen.
 Glas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.
-Am Morgen: Apfel in kleine Würfel schneiden und zusammen mit gehackten Walnüssen auf die Overnight Oats geben.
+Am Morgen: Halben Apfel in kleine Würfel schneiden und auf die Overnight Oats geben.
 Optional: Mit etwas zusätzlichem Zimt bestreuen und genießen.""",
-        calories="390",
-        protein="28g",
-        carbs="50g",
-        fat="10g",
-        fiber="11g"
+        calories="158",
+        protein="11.5g",
+        carbs="20g",
+        fat="2.5g",
+        fiber="6g"
     )
 
 
@@ -133,8 +129,7 @@ def create_kichererbsen_buddha_bowl_rohkost():
             "80g Brokkoli (gedämpft)",
             "80g Karotten (in Julienne-Streifen, roh)",
             "50g Gurke (in Streifen, roh)",
-            "1/4 Avocado",
-            "2 EL Tahini-Dressing",
+            "1 EL Tahini-Dressing",
             "1 EL Kürbiskerne",
             "Petersilie (frisch, zum Garnieren)"
         ],
@@ -142,13 +137,13 @@ def create_kichererbsen_buddha_bowl_rohkost():
 Kichererbsen rösten: Mit 1 TL Kreuzkümmel, 1 TL Paprikapulver, 1 TL Knoblauchpulver würzen. Bei 200°C für 25 Min rösten bis knusprig.
 Brokkoli dämpfen: In Röschen schneiden, 8 Min dämpfen, kalt abschrecken.
 Rohkost vorbereiten: Karotten mit Gemüseschäler in dünne Julienne-Streifen schneiden. Gurke in Streifen schneiden.
-Bowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren (Kichererbsen, Brokkoli, Karotten-Julienne, Gurkenstreifen, Avocado).
+Bowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren (Kichererbsen, Brokkoli, Karotten-Julienne, Gurkenstreifen).
 Mit Tahini-Dressing beträufeln, Kürbiskerne darüberstreuen, mit Petersilie garnieren.""",
-        calories="400",
-        protein="24g",
-        carbs="54g",
-        fat="16g",
-        fiber="14g"
+        calories="506.5",
+        protein="21g",
+        carbs="70g",
+        fat="15g",
+        fiber="18g"
     )
 
 
@@ -156,7 +151,7 @@ def create_rotkohl_curry_tofu():
     """Rotkohl-Curry mit Kichererbsen und Tofu"""
     return create_recipe(
         name="Rotkohl-Curry mit Kichererbsen und Tofu (Protein-optimiert)",
-        description="Protein-reiches Curry mit 42g Protein. Tofu wird separat angebraten für beste Textur. Schmeckt aufgewärmt noch besser - ideal für Meal Prep!",
+        description="Protein-reiches Curry mit 39g Protein. Tofu wird separat angebraten für beste Textur. Schmeckt aufgewärmt noch besser - ideal für Meal Prep!",
         prep_time="PT10M",
         cook_time="PT20M",
         meal_type="Mittagessen",
@@ -168,7 +163,7 @@ def create_rotkohl_curry_tofu():
             "2 Knoblauchzehen (gehackt)",
             "1,5 EL Currypaste (z.B. rote Currypaste)",
             "1 TL Ingwer (frisch, gerieben)",
-            "100ml Kokosmilch",
+            "40ml Kokosmilch",
             "50ml Gemüsebrühe",
             "1 TL Kurkuma",
             "1/2 TL Kreuzkümmel",
@@ -182,11 +177,11 @@ Rotkohl hinzugeben, 3 Min anbraten bis er etwas zusammenfällt.
 Kichererbsen, Kokosmilch und Gemüsebrühe hinzufügen. 10 Min köcheln lassen.
 Gebratenen Tofu zurück in die Pfanne geben, 2 Min mitköcheln. Mit Salz und Pfeffer abschmecken.
 Über gekochte Quinoa servieren.""",
-        calories="506",
-        protein="42g",
-        carbs="52g",
-        fat="18g",
-        fiber="12g"
+        calories="654",
+        protein="39g",
+        carbs="75g",
+        fat="27g",
+        fiber="18g"
     )
 
 
@@ -194,7 +189,7 @@ def create_lauch_miso_suppe_tofu():
     """Lauch-Miso-Suppe mit Tofu und Pilzen"""
     return create_recipe(
         name="Lauch-Miso-Suppe mit Tofu und Pilzen",
-        description="Leichte, aromatische Suppe mit 28g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
+        description="Leichte, aromatische Suppe mit 23g Protein. Miso-Paste erst am Ende hinzufügen (nicht kochen!). Frisch zubereiten für bestes Aroma - 15 Min am Morgen.",
         prep_time="PT10M",
         cook_time="PT10M",
         meal_type="Mittagessen",
@@ -216,11 +211,11 @@ Lauch und Pilze hinzugeben, 5 Min köcheln lassen.
 Tofu-Würfel hinzufügen, weitere 3 Min köcheln.
 Hitze ausschalten. Miso-Paste in etwas Brühe auflösen, dann in die Suppe einrühren (NICHT kochen, sonst verliert Miso Nährstoffe!).
 Mit Frühlingszwiebeln, Hanfsamen und einem Tropfen Sesamöl servieren.""",
-        calories="335",
-        protein="28g",
-        carbs="28g",
-        fat="12g",
-        fiber="9g"
+        calories="395",
+        protein="23g",
+        carbs="39g",
+        fat="17g",
+        fiber="8g"
     )
 
 
@@ -228,17 +223,17 @@ def create_vollkorn_wrap_pilz_nuss():
     """Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl"""
     return create_recipe(
         name="Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl",
-        description="Herzhafter Wrap mit 28g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
+        description="Herzhafter Wrap mit 24g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
         prep_time="PT15M",
         cook_time="PT12M",
         meal_type="Mittagessen",
         ingredients=[
             "1 Vollkorn-Wrap (groß)",
             "150g gemischte Pilze (klein gehackt)",
-            "20g Walnüsse (fein gehackt)",
-            "15g Cashews (fein gehackt)",
+            "10g Walnüsse (fein gehackt)",
+            "7.5g Cashews (fein gehackt)",
             "60g Rotkohl (fein gehobelt, mariniert)",
-            "50g Hummus",
+            "40g Hummus",
             "20g Rucola (frisch)",
             "1 EL Tahini-Dressing",
             "1,5 EL Sojasauce (für Pilzfüllung)",
@@ -253,11 +248,11 @@ Pilz-Nuss-Füllung: Pilze klein hacken, trocken in Pfanne anbraten bis Wasser ve
 1,5 EL Sojasauce, 1/2 TL Ahornsirup, geräucherte Paprika und Thymian hinzufügen. 5-7 Min braten bis goldbraun.
 Wrap zusammenstellen: Hummus auf Wrap streichen. Pilz-Nuss-Füllung, marinierten Rotkohl und Rucola darauf verteilen.
 Mit Tahini-Dressing beträufeln. Wrap fest einrollen, halbieren und servieren.""",
-        calories="450",
-        protein="28g",
-        carbs="52g",
-        fat="16g",
-        fiber="12g"
+        calories="588.5",
+        protein="24g",
+        carbs="56g",
+        fat="32g",
+        fiber="14g"
     )
 
 
@@ -265,7 +260,7 @@ def create_kichererbsen_curry_spinat_tofu():
     """Kichererbsen-Curry mit Spinat, Pilzen und Tofu"""
     return create_recipe(
         name="Kichererbsen-Curry mit Spinat, Pilzen und Tofu",
-        description="Protein-reiches Curry mit 41g Protein! Tofu wird separat angebraten für perfekte Textur. Spinat erst am Ende hinzufügen. Frisch zubereiten - 20 Min.",
+        description="Protein-reiches Curry mit 38g Protein! Tofu wird separat angebraten für perfekte Textur. Spinat erst am Ende hinzufügen. Frisch zubereiten - 20 Min.",
         prep_time="PT10M",
         cook_time="PT20M",
         meal_type="Mittagessen",
@@ -278,7 +273,7 @@ def create_kichererbsen_curry_spinat_tofu():
             "2 Knoblauchzehen (gehackt)",
             "2 EL Currypaste (z.B. gelbe Currypaste)",
             "1 TL Ingwer (frisch, gerieben)",
-            "150ml Kokosmilch",
+            "40ml Kokosmilch",
             "50ml Gemüsebrühe",
             "1 TL Kurkuma",
             "1/2 TL Kreuzkümmel",
@@ -293,11 +288,11 @@ Currypaste, Ingwer, Kurkuma und Kreuzkümmel hinzufügen, 1 Min unter Rühren an
 Kichererbsen, Kokosmilch und Gemüsebrühe hinzufügen. 10 Min köcheln lassen.
 Spinat und gebratenen Tofu hinzufügen, 2 Min mitköcheln bis Spinat zusammenfällt. Mit Salz und Pfeffer abschmecken.
 Über gekochte Quinoa servieren, mit Kürbiskernen bestreuen.""",
-        calories="540",
-        protein="41g",
-        carbs="56g",
-        fat="18g",
-        fiber="13g"
+        calories="740",
+        protein="38g",
+        carbs="70g",
+        fat="33g",
+        fiber="19g"
     )
 
 
@@ -328,11 +323,11 @@ Rotkohl fein hobeln. Apfel in dünne Spalten schneiden.
 Dressing: 2 EL Apfelessig, 1 EL Olivenöl, 1 TL Ahornsirup und 1/2 TL Senf in Schraubglas schütteln.
 Salat zusammenstellen: Rotkohl, Cannellini-Bohnen, gebratenen Tofu, Apfel und Rucola in Schüssel geben.
 Mit Dressing beträufeln, gehackte Walnüsse darüberstreuen.""",
-        calories="524",
+        calories="597",
         protein="33g",
-        carbs="56g",
-        fat="18g",
-        fiber="14g"
+        carbs="58g",
+        fat="28g",
+        fiber="15g"
     )
 
 
@@ -340,7 +335,7 @@ def create_linsen_gemuese_salat_rote_bete():
     """Linsen-Gemüse-Salat mit Rote-Bete"""
     return create_recipe(
         name="Linsen-Gemüse-Salat mit Rote Bete (Protein-optimiert)",
-        description="Bunter, protein-reicher Salat mit 31g Protein und 16g Ballaststoffen. Rote Bete färbt - separat lagern! Dressing vor dem Servieren hinzufügen.",
+        description="Bunter, protein-reicher Salat mit 23g Protein und 19g Ballaststoffen. Rote Bete färbt - separat lagern! Dressing vor dem Servieren hinzufügen.",
         prep_time="PT15M",
         cook_time="PT30M",
         meal_type="Abendessen",
@@ -361,11 +356,11 @@ Dressing: 2 EL Zitronensaft, 1 EL Olivenöl und 1/2 Zehe gepressten Knoblauch ve
 Kirschtomaten halbieren, Gurke würfeln.
 Salat zusammenstellen: Linsen, Rote Bete, Tomaten, Gurke und Rucola in Schüssel geben.
 Mit Dressing beträufeln, gehackte Walnüsse darüberstreuen.""",
-        calories="432",
-        protein="31g",
-        carbs="58g",
-        fat="10g",
-        fiber="16g"
+        calories="458",
+        protein="23g",
+        carbs="54g",
+        fat="19g",
+        fiber="19g"
     )
 
 
@@ -373,13 +368,13 @@ def create_geroesteter_rotkohl_salat_kichererbsen():
     """Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen"""
     return create_recipe(
         name="Gerösteter Rotkohl-Salat mit Kichererbsen und Walnüssen (Protein-optimiert)",
-        description="Herzhafter Salat mit 44g Protein und 18g Ballaststoffen! Karamellisierter Rotkohl und knusprige Kichererbsen. Komplett warm servieren für beste Textur.",
+        description="Herzhafter Salat mit 31g Protein und 21g Ballaststoffen! Karamellisierter Rotkohl und knusprige Kichererbsen. Komplett warm servieren für beste Textur.",
         prep_time="PT10M",
         cook_time="PT30M",
         meal_type="Abendessen",
         ingredients=[
             "150g Rotkohl (in Wedges geschnitten)",
-            "100g Kichererbsen (ca. 300g gekocht, geröstet)",
+            "50g Kichererbsen (ca. 150g gekocht, geröstet)",
             "30g Quinoa (ca. 80g gekocht)",
             "30g Walnüsse (gehackt, geröstet)",
             "30g Rucola (frisch)",
@@ -396,11 +391,11 @@ Beide Bleche im Ofen: Rotkohl 20-25 Min (bis Ränder karamellisieren), Kichererb
 Walnüsse in den letzten 5 Min mitrösten.
 Quinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.
 Salat zusammenstellen: Quinoa als Basis, gerösteten Rotkohl, knusprige Kichererbsen und frischen Rucola arrangieren. Mit Balsamico beträufeln, Walnüsse darüberstreuen.""",
-        calories="570",
-        protein="44g",
-        carbs="72g",
-        fat="16g",
-        fiber="18g"
+        calories="741",
+        protein="31g",
+        carbs="95g",
+        fat="32g",
+        fiber="21g"
     )
 
 
@@ -408,7 +403,7 @@ def create_buddha_bowl_linsen_tofu_rohkost():
     """Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse"""
     return create_recipe(
         name="Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse",
-        description="Meal-Prep-freundliche Bowl mit Rohkost statt geröstetem Gemüse. Rohkost bleibt 4-5 Tage knackig! 36g Protein pro Portion.",
+        description="Meal-Prep-freundliche Bowl mit Rohkost statt geröstetem Gemüse. Rohkost bleibt 4-5 Tage knackig! 35g Protein pro Portion.",
         prep_time="PT15M",
         cook_time="PT30M",
         meal_type="Abendessen",
@@ -419,7 +414,7 @@ def create_buddha_bowl_linsen_tofu_rohkost():
             "100g Karotten (in Julienne-Streifen, roh)",
             "80g Rote Bete (gekocht, gewürfelt)",
             "80g Rotkohl (fein gehobelt, roh)",
-            "2 EL Tahini-Dressing",
+            "1 EL Tahini-Dressing",
             "1 EL Hanfsamen",
             "1 EL Kürbiskerne",
             "Petersilie (frisch, zum Garnieren)",
@@ -433,11 +428,11 @@ Rote Bete kochen: Würfeln, in Wasser 30 Min kochen bis weich (Handschuhe tragen
 Rohkost vorbereiten: Karotten in Julienne-Streifen schneiden. Rotkohl fein hobeln. In luftdichten Containern lagern (hält 5 Tage!).
 Tofu anbraten: Marinierten Tofu in heißer Pfanne 5-7 Min von allen Seiten goldbraun braten.
 Bowl zusammenstellen: Quinoa als Basis, alle Komponenten arrangieren. Mit Tahini-Dressing beträufeln, Hanfsamen und Kürbiskerne darüberstreuen.""",
-        calories="455",
-        protein="36g",
-        carbs="58g",
-        fat="16g",
-        fiber="16g"
+        calories="634.5",
+        protein="35g",
+        carbs="73g",
+        fat="26g",
+        fiber="21g"
     )
 
 
@@ -445,7 +440,7 @@ def create_linsen_feldsalat_rohkost():
     """Linsen-Feldsalat mit buntem Rohkost-Gemüse"""
     return create_recipe(
         name="Linsen-Feldsalat mit buntem Rohkost-Gemüse (Protein-optimiert)",
-        description="Leichter, protein-reicher Salat mit 31g Protein und 18g Ballaststoffen. Rohkost-Gemüse für optimale Meal-Prep-Haltbarkeit (4-5 Tage). Apfel und Walnüsse am besten frisch hinzufügen.",
+        description="Leichter, protein-reicher Salat mit 24g Protein und 24g Ballaststoffen. Rohkost-Gemüse für optimale Meal-Prep-Haltbarkeit (4-5 Tage). Apfel und Walnüsse am besten frisch hinzufügen.",
         prep_time="PT15M",
         cook_time="PT25M",
         meal_type="Abendessen",
@@ -455,7 +450,7 @@ def create_linsen_feldsalat_rohkost():
             "60g Gurke (in Streifen, roh)",
             "80g Feldsalat (gewaschen)",
             "1 Apfel (dünn geschnitten)",
-            "20g Walnüsse (gehackt)",
+            "10g Walnüsse (gehackt)",
             "30g Quinoa (ca. 80g gekocht)",
             "1,5 EL Apfelessig (für Dressing)",
             "1 EL Balsamico (für Dressing)",
@@ -469,11 +464,11 @@ Apfel-Balsamico-Vinaigrette: 1,5 EL Apfelessig, 1 EL Balsamico, 1/2 EL Ahornsiru
 Rohkost vorbereiten: Karotten in Julienne-Streifen schneiden. Gurke in Streifen schneiden. Feldsalat waschen.
 Am Servieren: Apfel dünn schneiden, Walnüsse hacken.
 Salat zusammenstellen: Quinoa und Linsen als Basis, Rohkost-Gemüse, Feldsalat, Apfel und Walnüsse hinzufügen. Mit Vinaigrette beträufeln.""",
-        calories="420",
-        protein="31g",
-        carbs="60g",
+        calories="528.5",
+        protein="24g",
+        carbs="85g",
         fat="12g",
-        fiber="18g"
+        fiber="24g"
     )
 
 

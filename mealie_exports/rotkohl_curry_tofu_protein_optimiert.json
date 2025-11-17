@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Rotkohl-Curry mit Kichererbsen und Tofu (Protein-optimiert)",
-  "description": "Protein-reiches Curry mit 42g Protein. Tofu wird separat angebraten für beste Textur. Schmeckt aufgewärmt noch besser - ideal für Meal Prep!",
+  "description": "Protein-reiches Curry mit 39g Protein. Tofu wird separat angebraten für beste Textur. Schmeckt aufgewärmt noch besser - ideal für Meal Prep!",
   "prepTime": "PT10M",
   "recipeIngredient": [
     "150g Rotkohl (fein geschnitten)",
@@ -12,7 +12,7 @@
     "2 Knoblauchzehen (gehackt)",
     "1,5 EL Currypaste (z.B. rote Currypaste)",
     "1 TL Ingwer (frisch, gerieben)",
-    "100ml Kokosmilch",
+    "40ml Kokosmilch",
     "50ml Gemüsebrühe",
     "1 TL Kurkuma",
     "1/2 TL Kreuzkümmel",
@@ -23,10 +23,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
   "performTime": "PT20M",
   "nutrition": {
-    "calories": "506",
-    "proteinContent": "42g",
-    "carbohydrateContent": "52g",
-    "fatContent": "18g",
-    "fiberContent": "12g"
+    "calories": "654",
+    "proteinContent": "39g",
+    "carbohydrateContent": "75g",
+    "fatContent": "27g",
+    "fiberContent": "18g"
   }
 }

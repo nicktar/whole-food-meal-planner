@@ -349,123 +349,121 @@ if __name__ == "__main__":
     # Meal Plans für Woche 15.-19. Dezember 2024
     # Saisonale Dezember-Zutaten, OHNE Rotkohl, mit deftiger Erbsensuppe
 
-    # TAG 1 - Montag, 15. Dezember
+    # TAG 1 - Montag, 17. November (KORRIGIERT - halbiert, Nüsse/Samen entfernt)
     day1_breakfast = Meal(
-        name="Overnight Oats Protein-Boost",
-        nutrition=NutritionInfo(calories=355, protein=28, carbs=45, fat=12, fiber=10),
-        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Mandelmus",
-                    "20g Erbsenprotein", "Hanfsamen", "Kürbiskerne", "Sonnenblumenkerne", "Beeren"]
+        name="Apfel-Zimt Overnight Oats (halbiert, ohne Nüsse/Samen)",
+        nutrition=NutritionInfo(calories=158, protein=11.5, carbs=20, fat=2.5, fiber=6),
+        ingredients=["15g Haferflocken", "75ml Hafermilch", "10g Erbsenprotein",
+                    "1/2 Apfel", "Zimt"]
     )
     day1_lunch = Meal(
-        name="Kichererbsen-Buddha-Bowl mit Wintergemüse",
-        nutrition=NutritionInfo(calories=440, protein=28, carbs=52, fat=16, fiber=14),
-        ingredients=["130g Kichererbsen geröstet", "120g Tofu mariniert", "Quinoa",
-                    "Karotten geröstet", "Feldsalat", "Tahini-Dressing", "Kürbiskerne"]
+        name="Kichererbsen-Buddha-Bowl (Tahini+Avocado reduziert)",
+        nutrition=NutritionInfo(calories=506.5, protein=21, carbs=70, fat=15, fiber=18),
+        ingredients=["120g Kichererbsen", "80g Quinoa", "80g Brokkoli",
+                    "Karotten-Julienne (roh)", "Gurke (roh)",
+                    "1 EL Tahini", "Kürbiskerne", "Petersilie"]
     )
     day1_dinner = Meal(
-        name="Deftige Wintererbsensuppe",
-        nutrition=NutritionInfo(calories=400, protein=30, carbs=52, fat=9, fiber=14),
-        ingredients=["65g Schälerbsen", "120g geräucherter Tofu", "Kartoffeln", "Karotten",
-                    "Sellerie", "Porree", "Zwiebel", "Gewürze", "Lorbeer"]
+        name="Rotkohl-Apfel-Salat mit Cannellini-Bohnen und Tofu",
+        nutrition=NutritionInfo(calories=597, protein=33, carbs=58, fat=28, fiber=15),
+        ingredients=["Rotkohl", "Apfel", "Cannellini-Bohnen", "180g Tofu mariniert",
+                    "20g Walnüsse", "Apfelessig", "Olivenöl", "Rucola"]
     )
     day1 = DailyPlan(
-        date="2024-12-15 (Montag)",
+        date="2024-11-17 (Montag) - KORRIGIERT",
         meals=[day1_breakfast, day1_lunch, day1_dinner]
     )
 
-    # TAG 2 - Dienstag, 16. Dezember
+    # TAG 2 - Dienstag, 18. November (KORRIGIERT)
     day2_breakfast = Meal(
-        name="Chia Pudding Apfel-Zimt mit Protein-Boost",
-        nutrition=NutritionInfo(calories=380, protein=30, carbs=42, fat=14, fiber=13),
-        ingredients=["Chiasamen", "Hafermilch", "20g Erbsenprotein", "Cashewmus",
-                    "Zimt", "Kardamom", "Apfel", "Walnüsse", "Kürbiskerne"]
+        name="Protein-Boost Overnight Oats (halbiert, ohne Nussmus/Samen)",
+        nutrition=NutritionInfo(calories=236.5, protein=18.65, carbs=27, fat=18, fiber=7),
+        ingredients=["Haferflocken", "Hafermilch", "25g Erbsenprotein", "Beeren"]
     )
     day2_lunch = Meal(
-        name="Rote-Beete-Linsen-Bowl mit Tahini",
-        nutrition=NutritionInfo(calories=412, protein=25, carbs=48, fat=16, fiber=12),
-        ingredients=["100g Linsen", "100g Rote Beete geröstet", "80g Tofu mariniert",
-                    "Quinoa", "Feldsalat", "Walnüsse", "Tahini-Dressing"]
+        name="Rotkohl-Curry (Kokosmilch reduziert 75→40ml)",
+        nutrition=NutritionInfo(calories=654, protein=39, carbs=75, fat=27, fiber=18),
+        ingredients=["Rotkohl", "Kichererbsen", "120g Tofu", "Zwiebel", "Knoblauch",
+                    "Currypaste", "40ml Kokosmilch", "Quinoa", "Gewürze"]
     )
     day2_dinner = Meal(
-        name="Deftige Wintererbsensuppe",
-        nutrition=NutritionInfo(calories=400, protein=30, carbs=52, fat=9, fiber=14),
-        ingredients=["65g Schälerbsen", "120g geräucherter Tofu", "Kartoffeln", "Karotten",
-                    "Sellerie", "Porree", "Zwiebel", "Gewürze"]
+        name="Linsen-Gemüse-Salat (unverändert)",
+        nutrition=NutritionInfo(calories=458, protein=23, carbs=54, fat=19, fiber=19),
+        ingredients=["Linsen", "Kirschtomaten", "Rote Bete", "Gurke", "Rucola",
+                    "Walnüsse", "Zitrone", "Olivenöl"]
     )
     day2 = DailyPlan(
-        date="2024-12-16 (Dienstag)",
+        date="2024-11-18 (Dienstag) - KORRIGIERT",
         meals=[day2_breakfast, day2_lunch, day2_dinner]
     )
 
-    # TAG 3 - Mittwoch, 17. Dezember
+    # TAG 3 - Mittwoch, 19. November (KORRIGIERT)
     day3_breakfast = Meal(
-        name="Overnight Oats Apfel-Zimt mit Protein",
-        nutrition=NutritionInfo(calories=370, protein=26, carbs=48, fat=11, fiber=11),
-        ingredients=["Haferflocken", "Hafermilch", "Chiasamen", "Leinsamen", "Mandelmus",
-                    "18g Erbsenprotein", "Apfel", "Walnüsse", "Zimt"]
+        name="Schoko-Banane Overnight Oats (halbiert, ohne Nüsse/Samen)",
+        nutrition=NutritionInfo(calories=154.5, protein=12.4, carbs=30, fat=15, fiber=8),
+        ingredients=["Haferflocken", "Hafermilch", "20g Erbsenprotein", "Kakaopulver", "Banane"]
     )
     day3_lunch = Meal(
-        name="Pastinaken-Tomaten-Curry mit Kichererbsen",
-        nutrition=NutritionInfo(calories=429, protein=25, carbs=54, fat=12, fiber=13),
-        ingredients=["120g Kichererbsen", "150g Tofu", "Pastinaken", "Karotten",
-                    "Tomaten", "Currypaste", "Ingwer", "Gemüsebrühe"]
+        name="Lauch-Miso-Suppe (unverändert)",
+        nutrition=NutritionInfo(calories=395, protein=23, carbs=39, fat=17, fiber=8),
+        ingredients=["Lauch", "150g Tofu", "Shiitake-Pilze", "Miso-Paste", "Gemüsebrühe",
+                    "Ingwer", "Frühlingszwiebeln"]
     )
     day3_dinner = Meal(
-        name="Deftige Wintererbsensuppe",
-        nutrition=NutritionInfo(calories=400, protein=30, carbs=52, fat=9, fiber=14),
-        ingredients=["65g Schälerbsen", "120g geräucherter Tofu", "Kartoffeln", "Karotten",
-                    "Sellerie", "Porree", "Zwiebel", "Gewürze"]
+        name="Gerösteter Rotkohl-Salat (Kichererbsen 300→150g)",
+        nutrition=NutritionInfo(calories=741, protein=31, carbs=95, fat=32, fiber=21),
+        ingredients=["Rotkohl", "150g Kichererbsen geröstet", "Walnüsse", "Ahornsirup",
+                    "Olivenöl", "Balsamico", "Rucola", "Quinoa"]
     )
     day3 = DailyPlan(
-        date="2024-12-17 (Mittwoch)",
+        date="2024-11-19 (Mittwoch) - KORRIGIERT",
         meals=[day3_breakfast, day3_lunch, day3_dinner]
     )
 
-    # TAG 4 - Donnerstag, 18. Dezember
+    # TAG 4 - Donnerstag, 20. November (KORRIGIERT)
     day4_breakfast = Meal(
-        name="Chia Pudding Beeren mit Protein",
-        nutrition=NutritionInfo(calories=365, protein=28, carbs=38, fat=14, fiber=13),
-        ingredients=["Chiasamen", "Hafermilch", "20g Erbsenprotein", "Mandelmus",
-                    "Vanille", "Beeren", "Mandelsplitter", "Hanfsamen"]
+        name="Quinoa-Bowl (halbiert, ohne Nüsse)",
+        nutrition=NutritionInfo(calories=122, protein=15, carbs=43, fat=13, fiber=6),
+        ingredients=["Quinoa", "Hafermilch", "25g Erbsenprotein", "Apfel",
+                    "Zimt", "Cranberries"]
     )
     day4_lunch = Meal(
-        name="Feldsalat-Bowl mit geröstetem Hokkaido und Linsen",
-        nutrition=NutritionInfo(calories=445, protein=27, carbs=58, fat=14, fiber=14),
-        ingredients=["120g Linsen", "80g Hokkaido geröstet", "100g Tofu mariniert",
-                    "Feldsalat", "Quinoa", "Walnüsse", "Apfel", "Vinaigrette"]
+        name="Vollkorn-Wrap (Nüsse halbiert, Hummus reduziert)",
+        nutrition=NutritionInfo(calories=588.5, protein=24, carbs=56, fat=32, fiber=14),
+        ingredients=["Pilze", "Walnüsse (halbiert)", "Cashews (halbiert)", "Rotkohl", "Hummus (reduziert)", "Tahini",
+                    "Rucola", "Vollkorn-Wrap"]
     )
     day4_dinner = Meal(
-        name="Pilz-Tofu-Bowl mit Sesam",
-        nutrition=NutritionInfo(calories=395, protein=30, carbs=40, fat=15, fiber=9),
-        ingredients=["170g Tofu mariniert", "150g Pilze", "Quinoa", "Spinat",
-                    "Karotten geraspelt", "Tahini-Dressing", "Sesamsamen"]
+        name="Buddha-Bowl mit Linsen (Tahini reduziert)",
+        nutrition=NutritionInfo(calories=634.5, protein=35, carbs=73, fat=26, fiber=21),
+        ingredients=["Linsen", "120g Tofu mariniert", "Quinoa", "Karotten-Julienne (roh)", "Rote Bete (gekocht)",
+                    "Rotkohl (roh)", "Tahini (reduziert)", "Kürbiskerne", "Petersilie"]
     )
     day4 = DailyPlan(
-        date="2024-12-18 (Donnerstag)",
+        date="2024-11-20 (Donnerstag) - KORRIGIERT",
         meals=[day4_breakfast, day4_lunch, day4_dinner]
     )
 
-    # TAG 5 - Freitag, 19. Dezember
+    # TAG 5 - Freitag, 21. November (KORRIGIERT)
     day5_breakfast = Meal(
-        name="Quinoa-Frühstücksbowl mit Walnüssen und Protein",
-        nutrition=NutritionInfo(calories=430, protein=30, carbs=60, fat=13, fiber=8),
-        ingredients=["Quinoa", "Hafermilch", "20g Erbsenprotein", "Walnüsse", "Apfel",
-                    "Zimt", "Cranberries"]
+        name="Beeren-Power Overnight Oats (halbiert, ohne Nussmus/Samen)",
+        nutrition=NutritionInfo(calories=175, protein=14.2, carbs=27, fat=13, fiber=7),
+        ingredients=["Haferflocken", "Hafermilch", "20g Erbsenprotein", "Beeren", "Zimt"]
     )
     day5_lunch = Meal(
-        name="Linsen-Gemüse-Salat mit Tofu",
-        nutrition=NutritionInfo(calories=405, protein=28, carbs=46, fat=14, fiber=12),
-        ingredients=["120g Linsen", "100g Tofu mariniert", "Kirschtomaten", "Gurke",
-                    "Karotten geraspelt", "Rucola", "Walnüsse", "Zitrone", "Olivenöl"]
+        name="Kichererbsen-Curry (Kokosmilch reduziert 75→40ml)",
+        nutrition=NutritionInfo(calories=740, protein=38, carbs=70, fat=33, fiber=19),
+        ingredients=["Kichererbsen", "150g Tofu", "Champignons", "Spinat", "Currypaste",
+                    "40ml Kokosmilch", "Quinoa", "Kürbiskerne", "Gewürze"]
     )
     day5_dinner = Meal(
-        name="Feldsalat-Walnuss-Bowl mit Cannellini-Bohnen",
-        nutrition=NutritionInfo(calories=400, protein=28, carbs=50, fat=13, fiber=12),
-        ingredients=["140g Cannellini-Bohnen", "150g Feldsalat", "120g Tofu mariniert",
-                    "Birne", "Walnüsse", "Vinaigrette"]
+        name="Linsen-Feldsalat (Walnüsse 30→10g)",
+        nutrition=NutritionInfo(calories=528.5, protein=24, carbs=85, fat=12, fiber=24),
+        ingredients=["180g Linsen", "Karotten-Julienne (roh)", "Gurke (roh)", "Apfel", "80g Feldsalat", "10g Walnüsse",
+                    "Quinoa", "Apfel-Balsamico-Vinaigrette"]
     )
     day5 = DailyPlan(
-        date="2024-12-19 (Freitag)",
+        date="2024-11-21 (Freitag) - KORRIGIERT",
         meals=[day5_breakfast, day5_lunch, day5_dinner]
     )
 
