@@ -2,35 +2,30 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Overnight Oats Protein-Power",
-  "description": "Protein-reich mit 35g Protein.",
+  "description": "Protein-optimierte Overnight Oats mit 20g Protein. Cremige Konsistenz durch extra Hafermilch. Einfach und vielseitig.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
-  "performTime": "PT5M",
-  "totalTime": "PT10M",
+  "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "keywords": "whole food challenge,meal prep,overnight oats,protein power,proteinreich,vegan",
   "recipeIngredient": [
-    "30g Haferflocken",
-    "150ml Hafermilch",
-    "1 EL Chiasamen",
-    "1 EL gemahlene Leinsamen",
-    "1 EL Mandel-Nussmus",
-    "25g Erbsenprotein-Pulver",
-    "50ml zusätzliche Hafermilch",
+    "25g Haferflocken (Vollkorn)",
+    "125ml Hafermilch (ungesüßt)",
+    "1/2 EL gemahlene Leinsamen (ca. 5g)",
+    "1/2 EL Mandel-Nussmus (ca. 7g)",
+    "17g Erbsenprotein-Pulver",
     "Prise Salz",
-    "1 EL Hanfsamen",
-    "1 EL Kürbiskerne",
-    "1 EL Sonnenblumenkerne",
-    "50g Beeren"
+    "25g gemischte Beeren (TK)"
   ],
-  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "recipeInstructions": "Am Vorabend alle Basis-Zutaten (Haferflocken, Hafermilch, Leinsamen, Mandel-Nussmus, Proteinpulver, Salz) in einem verschließbaren Glas vermischen. Gut umrühren. Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, besser 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen, kurz umrühren, gefrorene Beeren hinzufügen und sofort genießen oder für unterwegs mitnehmen!",
   "nutrition": {
-    "calories": "370",
-    "proteinContent": "35g",
-    "carbohydrateContent": "28g",
-    "fatContent": "14g",
-    "fiberContent": "12g"
+    "@type": "NutritionInformation",
+    "calories": "281",
+    "proteinContent": "20g",
+    "carbohydrateContent": "29g",
+    "fatContent": "10g",
+    "fiberContent": "5g"
   }
 }
