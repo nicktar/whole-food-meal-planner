@@ -112,6 +112,14 @@ python3 scripts/mealie_export.py
   - **Zutaten:** Array von Strings (nicht Objekte)
 - **Wann verwenden:** Wenn Nutzer Mealie verwendet oder Rezepte digital verwalten möchte
 
+**`scripts/nutrition_recalculation.md`** - Nährwert-Standardwerte Referenz
+- **PFLICHTLEKTÜRE vor jeder Nährwertberechnung!**
+- Enthält präzise Standardwerte für ALLE gängigen Zutaten (pro 100g/100ml)
+- Vollständige Neuberechnung der November 2024 Rezepte als Beispiel
+- Dokumentiert systematische Fehlerquellen und deren Auswirkungen (+180-420 kcal Fehler!)
+- **Verwende diese Werte** für manuelle Nährwertberechnungen
+- **Wann lesen:** IMMER vor dem Erstellen neuer Rezepte oder Meal Plans
+
 ### References
 
 **Recipe Database** - Verifizierte Rezepte
