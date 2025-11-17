@@ -121,7 +121,7 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 - Bei Konflikten zwischen Zielen: Kalorien-Grenze einhalten, auch wenn Protein darunter leidet
 - Beispiel: Lieber 72g Protein bei 1299 kcal als 85g Protein bei 1320 kcal
 - Mit 30g Proteinpulver-Limit pro Mahlzeit + 1300 kcal-Grenze ist das 75-90g Protein-Ziel gut erreichbar
-- **Ziel-Range:** 75-90g Protein bei unter 1300 kcal
+- **Akzeptabel:** 70-75g Protein, wenn dadurch unter 1300 kcal geblieben wird
 
 ## Bundled Resources
 
