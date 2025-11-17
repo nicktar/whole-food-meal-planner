@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "PILZ-TOFU-BOWL MIT SESAM",
+  "description": "Protein-reich mit 30g Protein - Meal-Prep-freundlich - mit knackigem Rohkost-Anteil.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT25M",
+  "performTime": "PT30M",
+  "totalTime": "PT55M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "170g Tofu, mariniert (Marinade: 1 EL Misopaste, 1 TL Sojasauce, 1 TL Reisessig)",
+    "150g gemischte Pilze (Champignons, Shiitake), in Scheiben",
+    "60g Quinoa, gekocht",
+    "80g Spinat oder Mangold, gedämpft",
+    "60g Karotten, geraspelt (roh)",
+    "1.5 EL Tahini-Dressing",
+    "1 EL Sesamsamen"
+  ],
+  "recipeInstructions": "1. Tofu mindestens 30 Min marinieren, dann in Pfanne braten (goldbraun)\n2. Pilze in Pfanne trocken anbraten, bis Wasser verdampft, dann mit Sojasauce würzen\n3. Spinat kurz dämpfen (2-3 Min)\n4. Quinoa als Basis, Tofu, Pilze, Spinat, Karotten arrangieren\n5. Mit Tahini-Dressing beträufeln, Sesamsamen darüberstreuen",
+  "nutrition": {
+    "calories": "395",
+    "proteinContent": "30g",
+    "carbohydrateContent": "40g",
+    "fatContent": "15g",
+    "fiberContent": "9g"
+  }
+}

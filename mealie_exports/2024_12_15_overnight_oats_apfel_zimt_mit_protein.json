@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "OVERNIGHT OATS APFEL-ZIMT MIT PROTEIN",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "30g Haferflocken",
+    "150ml Hafermilch",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandelmus",
+    "18g Erbsenprotein-Pulver",
+    "1 mittelgroßer Apfel, gewürfelt",
+    "1 EL gehackte Walnüsse",
+    "1 TL Zimt"
+  ],
+  "recipeInstructions": "1. Haferflocken, Chiasamen, Leinsamen, Proteinpulver, Zimt mischen\n2. Hafermilch und Mandelmus hinzufügen, gut durchrühren\n3. Nach 5 Min nochmal umrühren\n4. Über Nacht quellen lassen\n5. Mit gewürfeltem Apfel und Walnüssen toppen",
+  "nutrition": {
+    "calories": "370",
+    "proteinContent": "26g",
+    "carbohydrateContent": "48g",
+    "fatContent": "11g",
+    "fiberContent": "11g"
+  }
+}
