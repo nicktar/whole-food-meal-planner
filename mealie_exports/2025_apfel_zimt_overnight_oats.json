@@ -5,23 +5,19 @@
   "description": "Über Nacht vorbereitet, morgens nur noch Toppings hinzufügen. Perfekt für Meal Prep (bis zu 3 Tage haltbar).",
   "prepTime": "PT5M",
   "recipeIngredient": [
-    "30g Haferflocken",
-    "150ml Hafermilch (ungesüßt)",
-    "1 EL Chiasamen",
-    "1 EL Leinsamen (gemahlen)",
-    "20g Erbsenprotein-Pulver (pur, ohne Zusätze)",
-    "1 EL Mandelmus",
-    "1 Apfel (morgens frisch schneiden)",
-    "15g Walnüsse (gehackt)",
+    "15g Haferflocken",
+    "75ml Hafermilch (ungesüßt)",
+    "10g Erbsenprotein-Pulver (pur, ohne Zusätze)",
+    "1/2 Apfel (~75g, morgens frisch schneiden)",
     "1/2 TL Zimt"
   ],
-  "recipeInstructions": "Haferflocken, Hafermilch, Chiasamen, Leinsamen, Erbsenprotein-Pulver, Mandelmus und Zimt in einem Schraubglas (400ml) gut vermischen.\nGlas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.\nAm Morgen: Apfel in kleine Würfel schneiden und zusammen mit gehackten Walnüssen auf die Overnight Oats geben.\nOptional: Mit etwas zusätzlichem Zimt bestreuen und genießen.",
+  "recipeInstructions": "Haferflocken, Hafermilch, Erbsenprotein-Pulver und Zimt in einem Schraubglas (200ml) gut vermischen.\nGlas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.\nAm Morgen: Halben Apfel in kleine Würfel schneiden und auf die Overnight Oats geben.\nOptional: Mit etwas zusätzlichem Zimt bestreuen und genießen.",
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
   "nutrition": {
-    "calories": "390",
-    "proteinContent": "28g",
-    "carbohydrateContent": "50g",
-    "fatContent": "10g",
-    "fiberContent": "11g"
+    "calories": "158",
+    "proteinContent": "11.5g",
+    "carbohydrateContent": "20g",
+    "fatContent": "2.5g",
+    "fiberContent": "6g"
   }
 }

@@ -2,34 +2,32 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Overnight Oats Apfel-Zimt",
-  "description": "Protein-reich mit 33g Protein.",
+  "description": "Klassische Apfel-Zimt Overnight Oats mit 20g Protein. Perfekt für die Winterzeit und Meal Prep geeignet.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
-  "performTime": "PT5M",
-  "totalTime": "PT10M",
+  "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "keywords": "whole food challenge,meal prep,overnight oats,apfel zimt,proteinreich,vegan",
   "recipeIngredient": [
-    "30g Haferflocken",
-    "150ml Hafermilch",
-    "1 EL Chiasamen",
-    "1 EL gemahlene Leinsamen",
-    "1 EL Cashew-Nussmus",
-    "25g Erbsenprotein-Pulver",
-    "1 TL Zimt",
+    "25g Haferflocken (Vollkorn)",
+    "100ml Hafermilch (ungesüßt)",
+    "1/2 EL gemahlene Leinsamen (ca. 5g)",
+    "1/2 EL Cashew-Nussmus (ca. 7g)",
+    "17g Erbsenprotein-Pulver",
+    "1/2 TL Zimt",
     "Prise Salz",
-    "1 mittelgroßer Apfel, gewürfelt",
-    "1 EL gehackte Walnüsse",
+    "1/2 mittelgroßer Apfel, gewürfelt (ca. 75g)",
     "Extra Zimt zum Bestreuen"
   ],
-  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "recipeInstructions": "Am Vorabend alle Basis-Zutaten (Haferflocken, Hafermilch, Leinsamen, Cashew-Nussmus, Proteinpulver, Zimt, Salz) in einem verschließbaren Glas vermischen. Gut umrühren. Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, besser 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen, umrühren. Apfel waschen, entkernen und in kleine Würfel schneiden. Gewürfelten Apfel über die Overnight Oats geben, mit zusätzlichem Zimt bestreuen und genießen!",
   "nutrition": {
-    "calories": "390",
-    "proteinContent": "33g",
-    "carbohydrateContent": "35g",
-    "fatContent": "13g",
-    "fiberContent": "12g"
+    "@type": "NutritionInformation",
+    "calories": "298",
+    "proteinContent": "20g",
+    "carbohydrateContent": "36g",
+    "fatContent": "10g",
+    "fiberContent": "6g"
   }
 }

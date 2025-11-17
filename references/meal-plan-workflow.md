@@ -140,13 +140,13 @@ python3 scripts/verify_nutrition.py
 
 **Tägliche Targets:**
 - ✅ Kalorien: 1100-1300 kcal (Ziel: 1200)
-- ✅ Protein: >100g (Ziel: 110g)
+- ✅ Protein: >75g (Ziel: 80-90g)
 - ✅ Ballaststoffe: >25g (Ziel: 30g)
 
 **Mahlzeiten-Ranges:**
 - ✅ Frühstück: 300-400 kcal, 15-30g Protein
-- ✅ Mittagessen: 350-450 kcal, 25-45g Protein
-- ✅ Abendessen: 350-400 kcal, 25-45g Protein
+- ✅ Mittagessen: 350-450 kcal, 20-35g Protein
+- ✅ Abendessen: 350-400 kcal, 20-35g Protein
 
 **Anpassungen bei Abweichungen:**
 - Kalorien zu niedrig → Nüsse/Samen/Avocado hinzufügen
