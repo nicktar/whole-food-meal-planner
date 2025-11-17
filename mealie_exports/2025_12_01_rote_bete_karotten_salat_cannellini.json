@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rote-Bete-Karotten-Salat mit Cannellini-Bohnen",
+  "description": "Bunter Wintersalat mit Rote Bete, gerösteten Karotten, Cannellini-Bohnen und Walnüssen.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "120g Rote Bete, gewürfelt",
+    "80g Karotten, geröstet",
+    "110g Cannellini-Bohnen",
+    "50g Tofu, gewürfelt",
+    "40g Feldsalat",
+    "10g Walnüsse, gehackt",
+    "Für die Karotten:",
+    "  - 1 TL Olivenöl (Karotten)",
+    "Zitronen-Kreuzkümmel-Dressing:",
+    "  - Saft 1/2 Zitrone",
+    "  - 1 TL Olivenöl (5ml)",
+    "  - 1/2 TL Kreuzkümmel",
+    "  - Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine große Bowl geben.\nFür das Dressing Zitronensaft, Olivenöl, Kreuzkümmel, Salz und Pfeffer gut verrühren.\nDressing über den Salat geben.\nMit Walnüssen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Abendessen,Woche 1-5",
+  "nutrition": {
+    "calories": "439 kcal",
+    "proteinContent": "20g",
+    "carbohydrateContent": "50g",
+    "fatContent": "19g",
+    "fiberContent": "13g"
+  }
+}

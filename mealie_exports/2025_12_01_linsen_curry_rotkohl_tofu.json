@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Curry mit Rotkohl und Tofu",
+  "description": "Wärmendes Curry mit grünen Linsen, Rotkohl und Tofu. Perfekt für kalte Dezembertage!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "150g Rotkohl, fein gehobelt",
+    "160g gekochte grüne Linsen",
+    "80g Tofu, gewürfelt",
+    "1 TL Currypaste (10g)",
+    "150ml Gemüsebrühe",
+    "1 TL Ingwer, gerieben (5g)",
+    "1 Knoblauchzehe, gehackt (3g)",
+    "30g Zwiebel, gewürfelt",
+    "1 TL Olivenöl",
+    "1/2 TL Kurkuma, Kreuzkümmel",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Olivenöl in Pfanne erhitzen, Zwiebel + Knoblauch 2 Min anbraten\n2. Currypaste, Ingwer, Gewürze dazugeben und kurz mitbraten\n3. Rotkohl + Tofu 3 Min anbraten\n4. Linsen + Gemüsebrühe hinzufügen, 10 Min köcheln lassen\n5. Mit Salz, Pfeffer abschmecken und servieren",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Mittagessen,Woche 1-5",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "380 kcal",
+    "proteinContent": "24g",
+    "carbohydrateContent": "50g",
+    "fatContent": "11g",
+    "fiberContent": "18g"
+  }
+}
