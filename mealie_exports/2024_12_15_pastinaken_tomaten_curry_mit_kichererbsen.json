@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "PASTINAKEN-TOMATEN-CURRY MIT KICHERERBSEN",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT30M",
+  "performTime": "PT30M",
+  "totalTime": "PT60M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "120g gekochte Kichererbsen",
+    "150g Tofu, gewürfelt",
+    "100g Pastinaken, gewürfelt",
+    "80g Karotten, gewürfelt",
+    "100g Tomaten, gewürfelt (oder Dosentomaten)",
+    "30g Zwiebel, gewürfelt",
+    "1 Knoblauchzehe, gehackt",
+    "1 TL Currypaste (oder Currypulver)",
+    "1/2 TL Ingwer, gerieben",
+    "1/2 TL Kurkuma",
+    "1/2 TL Kreuzkümmel",
+    "200ml Gemüsebrühe",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Zwiebel und Knoblauch in etwas Brühe anschwitzen\n2. Currypaste, Ingwer, Gewürze hinzufügen, kurz anrösten\n3. Pastinaken, Karotten, Tofu dazugeben\n4. Mit Gemüsebrühe und Tomaten ablöschen\n5. 20 Min köcheln lassen\n6. Kichererbsen in letzten 5 Min hinzufügen\n7. Mit Salz & Pfeffer abschmecken",
+  "nutrition": {
+    "calories": "429",
+    "proteinContent": "25g",
+    "carbohydrateContent": "54g",
+    "fatContent": "12g",
+    "fiberContent": "13g"
+  }
+}

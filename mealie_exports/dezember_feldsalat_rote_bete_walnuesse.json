@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Feldsalat mit gerösteten Rote Bete und Walnüssen",
+  "description": "Winterlicher Salat mit gerösteten Rote Bete - perfekt als leichteres Mittagessen. Rote Bete kann warm oder kalt serviert werden. Feldsalat ist DER Wintersalat!",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "60g Feldsalat (gewaschen)",
+    "200g Rote Bete (in Wedges geschnitten)",
+    "50g Cannellini-Bohnen (ca. 150g gekocht)",
+    "30g Walnüsse (grob gehackt)",
+    "1/2 Apfel (dünn geschnitten)",
+    "1 TL Olivenöl (für Rote Bete)",
+    "1 TL Ahornsirup (für Rote Bete)",
+    "1 EL Apfelessig (für Dressing)",
+    "1 TL Senf (für Dressing)",
+    "1/2 TL Ahornsirup (für Dressing)",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Ofen vorheizen: 200°C Ober-/Unterhitze.\nRote Bete vorbereiten: Rote Bete in 2cm dicke Wedges schneiden. Mit Olivenöl, Ahornsirup, Salz und Pfeffer marinieren.\nRösten: Rote Bete auf Backblech verteilen. 25-30 Min rösten bis weich und Ränder karamellisieren. Walnüsse in letzten 5 Min auf separatem kleinen Blech mitrösten (nicht verbrennen lassen!).\nDressing: Während Rote Bete röstet, Apfelessig, Senf, Ahornsirup, Salz und Pfeffer in kleinem Glas schütteln.\nZusammenstellen: Feldsalat als Basis auf Teller geben. Geröstete Rote Bete, Cannellini-Bohnen und Apfelscheiben darauf arrangieren.\nFinalisieren: Mit Dressing beträufeln. Geröstete Walnüsse darüberstreuen.\nMeal Prep: Geröstete Rote Bete und Walnüsse vorrösten (2-3 Tage haltbar). Täglich frisch zusammenstellen (5 Min).",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT30M",
+  "nutrition": {
+    "calories": "410",
+    "proteinContent": "21g",
+    "carbohydrateContent": "46g",
+    "fatContent": "17g",
+    "fiberContent": "14g"
+  }
+}

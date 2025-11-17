@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "LINSEN-GEMÜSE-SALAT MIT TOFU",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT15M",
+  "performTime": "PT15M",
+  "totalTime": "PT30M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "120g gekochte grüne Linsen",
+    "100g Tofu, mariniert und gebraten",
+    "100g Kirschtomaten, halbiert",
+    "50g Gurke, gewürfelt",
+    "60g Karotten, geraspelt",
+    "30g Rucola oder Feldsalat",
+    "1.5 EL Walnüsse, gehackt",
+    "Saft 1/2 Zitrone",
+    "1 TL Olivenöl",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Tofu marinieren (Zitronensaft, Kräuter, Salz) und in Pfanne braten\n2. Alle Gemüse in Schüssel geben\n3. Linsen und gebratenen Tofu hinzufügen\n4. Mit Zitrone, Öl, Salz, Pfeffer würzen\n5. Walnüsse darüberstreuen",
+  "nutrition": {
+    "calories": "405",
+    "proteinContent": "28g",
+    "carbohydrateContent": "46g",
+    "fatContent": "14g",
+    "fiberContent": "12g"
+  }
+}

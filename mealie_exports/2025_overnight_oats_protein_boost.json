@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Protein-Boost",
+  "description": "Triple-Samen-Topping (Hanf, Kürbis, Sonnenblume) für zusätzliche Nährstoffe.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Haferflocken (Vollkorn)",
+    "200ml Hafermilch (ungesüßt)",
+    "1 EL Chiasamen",
+    "1 EL gemahlene Leinsamen",
+    "1 EL Mandelmus",
+    "20g Erbsenprotein-Pulver (pur)",
+    "1 EL Hanfsamen",
+    "1 EL Kürbiskerne",
+    "1 EL Sonnenblumenkerne",
+    "50g Beeren (frisch oder TK)",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Haferflocken, Hafermilch, Chiasamen, gemahlene Leinsamen, Mandelmus, Erbsenprotein-Pulver und Salz in Schraubglas gut mischen.\nGlas verschließen und über Nacht (mind. 6 Stunden) im Kühlschrank ziehen lassen.\nAm Morgen: Mit Hanfsamen, Kürbiskernen, Sonnenblumenkernen und Beeren toppen.\nOptional: Mit etwas zusätzlicher Hafermilch verdünnen falls zu dick.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Frühstück",
+  "nutrition": {
+    "calories": "380",
+    "proteinContent": "33g",
+    "carbohydrateContent": "44g",
+    "fatContent": "11g",
+    "fiberContent": "12g"
+  }
+}

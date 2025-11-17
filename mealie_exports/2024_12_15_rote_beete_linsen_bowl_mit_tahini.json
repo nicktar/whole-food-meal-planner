@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "ROTE-BEETE-LINSEN-BOWL MIT TAHINI",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT35M",
+  "performTime": "PT35M",
+  "totalTime": "PT70M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "100g gekochte grüne Linsen",
+    "100g Rote Beete, in Wedges geschnitten, geröstet",
+    "80g Tofu, mariniert (Marinade: 1 TL Balsamico, 1 TL Ahornsirup, Salz, Pfeffer)",
+    "50g Quinoa, gekocht",
+    "50g Feldsalat",
+    "1 EL Walnüsse, gehackt",
+    "2 EL Tahini-Zitronen-Dressing"
+  ],
+  "recipeInstructions": "1. Rote Beete mit Prise Salz, Pfeffer, etwas Olivenöl marinieren, bei 200°C 25-30 Min rösten\n2. Tofu in Marinade einlegen (mind. 30 Min), dann in Pfanne braten\n3. Quinoa als Basis, Linsen, geröstete Rote Beete, Tofu, Feldsalat arrangieren\n4. Mit Tahini-Dressing beträufeln, Walnüsse darüberstreuen",
+  "nutrition": {
+    "calories": "412",
+    "proteinContent": "25g",
+    "carbohydrateContent": "48g",
+    "fatContent": "16g",
+    "fiberContent": "12g"
+  }
+}

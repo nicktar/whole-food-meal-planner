@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Gerösteter Rotkohl-Salat mit Cannellini-Bohnen",
+  "description": "Rotkohl wird mit Ahornsirup karamellisiert für süß-herzhaften Geschmack. Meal-Prep: Rotkohl hält 3-4 Tage.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Rotkohl (in Wedges geschnitten)",
+    "50g Cannellini-Bohnen (ca. 150g gekocht)",
+    "80g Tofu (gewürfelt)",
+    "30g Walnüsse",
+    "30g Rucola (frisch)",
+    "1 EL Kürbiskerne",
+    "1 TL Ahornsirup",
+    "1 TL Olivenöl",
+    "1/2 TL Balsamico-Essig",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Ofen auf 200°C vorheizen.\nRotkohl in Wedges schneiden, mit Olivenöl, Ahornsirup, Salz und Pfeffer marinieren.\nAuf Backblech geben, 20-25 Min rösten bis Ränder karamellisieren.\nWalnüsse in den letzten 5 Min mitrösten.\nTofu in Pfanne goldbraun braten (5-7 Min).\nSalat zusammenstellen: Gerösteten Rotkohl über Rucola arrangieren.\nCannellini-Bohnen, gebratenen Tofu und geröstete Walnüsse hinzufügen.\nMit Balsamico beträufeln, Kürbiskerne darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "28g",
+    "carbohydrateContent": "52g",
+    "fatContent": "16g",
+    "fiberContent": "15g"
+  }
+}

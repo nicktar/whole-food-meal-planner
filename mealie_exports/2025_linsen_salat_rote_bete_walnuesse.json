@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Salat mit Rote Bete und Walnüssen",
+  "description": "Tofu wird separat angebraten für beste Textur. Rote Bete separat lagern (färbt stark!).",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "60g Grüne Linsen (ca. 180g gekocht)",
+    "120g Tofu (gewürfelt und angebraten)",
+    "100g Rote Bete (gekocht und gewürfelt)",
+    "50g Gurke (gewürfelt)",
+    "30g Feldsalat",
+    "2 EL Walnüsse (gehackt)",
+    "Saft 1/2 Zitrone",
+    "1 TL Olivenöl",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Grüne Linsen kochen: 60g Linsen mit 150ml Wasser 25 Min köcheln bis bissfest. Abgießen, abkühlen lassen.\nRote Bete kochen: Würfeln, in Wasser 30 Min kochen (oder vorgekochte verwenden). Abkühlen lassen.\nTofu anbraten: Würfeln und in heißer Pfanne 5-7 Min goldbraun braten.\nDressing: Zitronensaft, Olivenöl, Salz und Pfeffer vermischen.\nSalat zusammenstellen: Linsen, Tofu, Rote Bete, Gurke und Feldsalat in Schüssel geben.\nMit Dressing vermengen, gehackte Walnüsse darüberstreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "450",
+    "proteinContent": "36g",
+    "carbohydrateContent": "48g",
+    "fatContent": "14g",
+    "fiberContent": "16g"
+  }
+}

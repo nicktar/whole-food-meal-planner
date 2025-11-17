@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "DEFTIGE WINTERERBSENSUPPE",
+  "description": "Protein-reich mit 30g Protein - Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT60M",
+  "performTime": "PT60M",
+  "totalTime": "PT120M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "65g getrocknete gelbe Schälerbsen",
+    "120g geräucherter Tofu, gewürfelt",
+    "40g Kartoffeln, gewürfelt",
+    "60g Karotten, gewürfelt",
+    "50g Sellerie (Knollensellerie), gewürfelt",
+    "40g Porree/Lauch, in Ringe geschnitten",
+    "30g Zwiebel, gewürfelt",
+    "1 Knoblauchzehe, gehackt",
+    "600ml Gemüsebrühe",
+    "1 Lorbeerblatt",
+    "1 TL geräuchertes Paprikapulver",
+    "1/2 TL Majoran (getrocknet)",
+    "1/2 TL Thymian",
+    "1/2 TL Kümmel",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Erbsen unter fließendem Wasser abspülen\n2. Zwiebel und Knoblauch in etwas Brühe anschwitzen\n3. Erbsen, Kartoffeln, Karotten, Sellerie, Porree hinzufügen\n4. Mit Gemüsebrühe aufgießen, Lorbeerblatt hinzufügen\n5. Alle Gewürze einrühren\n6. 45-50 Min köcheln lassen, bis Erbsen weich sind\n7. Geräucherten Tofu in letzten 10 Min hinzufügen\n8. Mit Salz & Pfeffer abschmecken",
+  "nutrition": {
+    "calories": "400",
+    "proteinContent": "30g",
+    "carbohydrateContent": "52g",
+    "fatContent": "9g",
+    "fiberContent": "14g"
+  }
+}

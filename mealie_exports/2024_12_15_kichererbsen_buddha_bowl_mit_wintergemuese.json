@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "KICHERERBSEN-BUDDHA-BOWL MIT WINTERGEMÜSE",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT25M",
+  "performTime": "PT30M",
+  "totalTime": "PT55M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "130g gekochte Kichererbsen (gewürzt: Kreuzkümmel, Paprika, Knoblauchpulver)",
+    "120g Tofu, mariniert und gebraten (Marinade: 1 EL Sojasauce, 1 TL Misopaste, 1 TL Sesamöl)",
+    "80g Quinoa, gekocht",
+    "80g Karotten, geröstet (200°C, 20 Min)",
+    "50g Feldsalat",
+    "2 EL Tahini-Zitronen-Dressing",
+    "1 EL Kürbiskerne"
+  ],
+  "recipeInstructions": "1. Tofu mindestens 30 Min in Marinade einlegen, dann in Pfanne braten (5 Min pro Seite)\n2. Kichererbsen mit Gewürzen mischen, in Pfanne oder Ofen rösten (15 Min bei 200°C)\n3. Karotten in Sticks schneiden, mit Prise Salz & Pfeffer rösten\n4. Quinoa als Basis in Bowl, alle Komponenten arrangieren\n5. Mit Tahini-Dressing beträufeln, Kürbiskerne darüberstreuen",
+  "nutrition": {
+    "calories": "440",
+    "proteinContent": "28g",
+    "carbohydrateContent": "52g",
+    "fatContent": "16g",
+    "fiberContent": "14g"
+  }
+}

@@ -44,14 +44,16 @@ view references/meal-plan-workflow.md
 view recipe-database.md || view references/recipe-database.md
 
 # 3. Plan erstellen (Templates aus workflow.md)
+# Dateiname: meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
+
 # 4. Nährwerte verifizieren (KRITISCH!)
 python3 scripts/verify_nutrition.py
 
-# 5. Optional: Mealie-Export
-python3 scripts/mealie_export.py
+# 5. Optional: Mealie-Export (Parser-basiert, vollautomatisch!)
+python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md --prefix 2024_12_08
 ```
 
-**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → Verifizieren → Optional: Mealie-Export
+**Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen (mit Datumsbereich-Dateinamen) → Verifizieren → Optional: Mealie-Export
 
 ## Challenge-Regeln
 
@@ -79,6 +81,28 @@ python3 scripts/mealie_export.py
 - Alle tierischen Produkte
 - Verarbeitete Lebensmittel
 
+**Zutatenwiderholungs-Regel:**
+- **Geschmacksgebende Komponenten** (Gemüse mit starkem Eigengeschmack): Maximal **4 MAHLZEITEN** pro Wochenplan
+  - **WICHTIG:** Jede Mahlzeit zählt einzeln, auch wenn das gleiche Rezept wiederholt wird!
+  - Beispiele: Rotkohl, Hokkaido-Kürbis, Fenchel, Sellerie, Brokkoli, Blumenkohl, Mangold, etc.
+  - **Erlaubtes Beispiel:**
+    - Mo Mittag: Rotkohl-Curry (1)
+    - Di Mittag: Buddha-Bowl mit Rotkohl (2)
+    - Di Abend: Rotkohl-Apfel-Salat (3)
+    - Mi Mittag: Gerösteter Rotkohl-Salat (4)
+    - → **4 Mahlzeiten total, perfekt!** ✅
+  - **NICHT erlaubt:**
+    - Mo Mittag: Rotkohl-Curry (1)
+    - Di Mittag: Buddha-Bowl mit Rotkohl (2)
+    - Di Abend: Rotkohl-Apfel-Salat (3)
+    - Mi Mittag: Gerösteter Rotkohl-Salat (4)
+    - Do Mittag: Rotkohl-Curry (5) ← **ZU VIEL!** ❌
+    - → Auch wenn "Rotkohl-Curry" schon existiert, zählt die Wiederholung als 5. Mahlzeit!
+- **Unbegrenzt verwendbar** (Ausnahmen von der 4-Mahlzeiten-Regel):
+  - Alle Hülsenfrüchte (Sättigungskomponenten): Linsen, Kichererbsen, Bohnen, etc.
+  - Alle Getreide (Sättigungskomponenten): Quinoa, Hafer, Buchweizen, Dinkel, etc.
+  - Flexible Gemüse: Paprika, Süßkartoffeln, Zucchini, Rote Beete, Karotten
+
 ## Standard-Targets
 
 **Tägliche Ziele (typisch):**
@@ -91,6 +115,14 @@ python3 scripts/mealie_export.py
 - Mittagessen: 350-450 kcal, 25-45g Protein
 - Abendessen: 350-400 kcal, 25-45g Protein
 
+**WICHTIG - Ziel-Priorisierung:**
+- ⚠️ **1300 kcal ist eine HARTE Grenze** - NIEMALS überschreiten!
+- **Kalorien-Limit hat IMMER Priorität** über Protein-Ziel
+- Bei Konflikten zwischen Zielen: Kalorien-Grenze einhalten, auch wenn Protein darunter leidet
+- Beispiel: Lieber 90g Protein bei 1299 kcal als 105g Protein bei 1320 kcal
+- Mit 30g Proteinpulver-Limit pro Mahlzeit + 1300 kcal-Grenze ist 100g Protein oft nicht erreichbar
+- **Akzeptabel:** 85-95g Protein, wenn dadurch unter 1300 kcal geblieben wird
+
 ## Bundled Resources
 
 ### Scripts
@@ -101,16 +133,23 @@ python3 scripts/mealie_export.py
 - Output: Text-Report + JSON
 - **Wann verwenden:** Nach jedem Meal Plan, vor Finalisierung
 
-**`scripts/mealie_export.py`** - Mealie-Integration
-- Generiert Mealie-kompatible JSON-Rezepte im schema.org Format
-- **Format-Anforderungen:**
-  - **Vorgekochte Zutaten:** "50g Rote Linsen (ca. 100g gekocht)" - immer rohe Menge + gekochte Menge in Klammern
-  - **Farben groß:** Rote Linsen, Schwarze Bohnen, Rote Bete (für Parser-Erkennung)
-  - **Anmerkungen:** "80g Heidelbeeren (TK)" - Format "Menge Zutat (Anmerkung)"
-  - **Keywords:** Comma-separated String mit "whole food,KI Rezepte,food prep,vegetarisch,vegan,{mahlzeit}"
-  - **Anweisungen:** Ein String mit \n Zeilenumbrüchen (nicht Array)
-  - **Zutaten:** Array von Strings (nicht Objekte)
-- **Wann verwenden:** Wenn Nutzer Mealie verwendet oder Rezepte digital verwalten möchte
+**`scripts/mealie_export_v2.py`** - Parser-basierte Mealie-Integration (NEU!)
+- **Vollautomatischer Export:** Parst Markdown-Rezepte und konvertiert automatisch zu Mealie-Format
+- **Keine manuelle Code-Änderung nötig** - funktioniert mit beliebigen Rezept-Markdown-Dateien
+- **Verwendung:**
+  ```bash
+  # Aus Wochenplan exportieren
+  python3 scripts/mealie_export_v2.py meal-plans/wochenplan-08-12-dezember.md --prefix 2024_12_08
+
+  # Aus separater Rezeptdatei
+  python3 scripts/mealie_export_v2.py rezepte-2024-12-08-bis-12.md
+  ```
+- **Unterstützte Formate:**
+  - Wochenplan-Format (TAG 1, TAG 2 mit ### Frühstück:, ### Mittagessen:, ### Abendessen:)
+  - Standalone-Rezepte (## REZEPTNAME Format)
+  - Extrahiert automatisch: Name, Zutaten, Anleitung, Nährwerte, Zeiten
+- **Dateinamen:** Datumsbereich-basiert (z.B. `2024_12_08_overnight_oats_beeren.json`)
+- **Wann verwenden:** Bei jedem neuen Wochenplan oder neuen Rezepten für Mealie-Import
 
 **`scripts/nutrition_recalculation.md`** - Nährwert-Standardwerte Referenz
 - **PFLICHTLEKTÜRE vor jeder Nährwertberechnung!**
@@ -279,24 +318,64 @@ Die wichtigsten Werte (pro 100g/100ml):
 
 ## Meal Planning Workflow
 
-**Folge dem 8-Schritte-Prozess** (vollständige Details in `references/meal-plan-workflow.md`):
+**Folge dem Basis-Workflow** (vollständige Details in `references/meal-plan-workflow.md`):
 
 1. **Anforderungen sammeln** → Zeitraum, Ernährungsziele, Präferenzen (Template in workflow.md)
 2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
-3. **Plan erstellen** → Template-Format verwenden (siehe workflow.md Abschnitt 3)
+3. **Plan erstellen** → Template-Format verwenden, Dateiname: `wochenplan-YYYY-MM-DD-bis-DD.md` (siehe workflow.md Abschnitt 3)
 4. **Verifikation** → `python3 scripts/verify_nutrition.py` ausführen (**KRITISCH!**)
 5. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
-6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren
-7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren)
-8. **Optional: Mealie-Export** → `python3 scripts/mealie_export.py`
+
+**Optional (nur auf expliziten Nutzer-Wunsch):**
+6. **Einkaufsliste** → Nach Kategorien gruppieren, Mengen summieren, Dateiname: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
+7. **Meal Prep Strategie** → 4-Phasen-Timeline (Grundlagen → Gemüse → Spezial → Portionieren), Dateiname: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
+8. **Mealie-Export** → `python3 scripts/mealie_export_v2.py wochenplan-file.md --prefix YYYY_MM_DD`
 
 **Wichtigste Punkte:**
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
 - ✅ Externe Rezepte prüfen: `ls recipe-database.md` (falls vorhanden, werden diese verwendet)
+- ✅ **Zutatenwiderholungen prüfen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
 - ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
 - ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
+- ⚠️ **Einkaufsliste & Meal Prep Strategie-Dokument:** Nur auf expliziten Nutzer-Wunsch erstellen!
+
+## File Naming Conventions
+
+**Datumsbereich-basierte Benennung** für alle Meal Plans und Rezeptdateien:
+
+**Wochenpläne:**
+- Format: `wochenplan-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/wochenplan-2024-12-08-bis-12.md`
+- Vorher: `wochenplan-08-12-dezember.md` ❌ (unklar, Jahr fehlt)
+- Jetzt: `wochenplan-2024-12-08-bis-12.md` ✅ (eindeutig, maschinenlesbar)
+
+**Rezeptdateien:**
+- Format: `rezepte-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `rezepte-2024-12-08-bis-12.md`
+- Für Wochenrezepte: Start- und Enddatum der Woche
+- Für einzelne Rezepte: Erstellungsdatum oder Verwendungsdatum
+
+**Einkaufslisten:**
+- Format: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/einkaufsliste-2024-12-08-bis-12.md`
+
+**Meal Prep Strategien:**
+- Format: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
+- Beispiel: `meal-plans/meal-prep-strategie-2024-12-08-bis-12.md`
+
+**Mealie Exports:**
+- Format: `YYYY_MM_DD_rezeptname.json`
+- Beispiel: `mealie_exports/2024_12_08_overnight_oats_beeren_power.json`
+- Automatisch generiert durch `mealie_export_v2.py` mit `--prefix` Option
+
+**Warum Datumsbereich-basiert?**
+- ✅ Eindeutig identifizierbar (kein Raten welches Jahr)
+- ✅ Maschinenlesbar und sortierbar
+- ✅ Kompatibel mit Parser-Tools
+- ✅ Internationale Eindeutigkeit (keine Monatsnamen)
+- ✅ Einfache Zuordnung zwischen Plan, Einkaufsliste und Rezepten
 
 ## Neue Rezepte generieren
 
@@ -440,6 +519,7 @@ Die wichtigsten Werte (pro 100g/100ml):
 - Gleiche Basis, verschiedene Gewürze
 - Internationale Variationen (Mediterran, Asiatisch, Mexikanisch)
 - Textur-Kontraste (knusprig + cremig)
+- **Zutatenwiderholungen begrenzen:** Geschmacksgebende Komponenten maximal 4x pro Woche verwenden (siehe Challenge-Regeln)
 
 ### Meal-Prep-Synergien
 - **Rotkohl:** Curry, Salat, mariniert, Suppe
@@ -454,7 +534,7 @@ Die wichtigsten Werte (pro 100g/100ml):
 2. Rezepte aus DB wählen (meal-plan-workflow.md Abschnitt 2)
 3. Plan nach Template erstellen
 4. verify_nutrition.py ausführen
-5. Einkaufsliste + Meal Prep Timeline
+5. (Optional, nur auf Wunsch) Einkaufsliste + Meal Prep Strategie
 ```
 
 ### Szenario 2: Spezifische Zutaten verwerten
@@ -545,13 +625,18 @@ Die wichtigsten Werte (pro 100g/100ml):
 ### Für Meal Plans (vor Finalisierung):
 - [ ] Challenge-Regeln eingehalten (keine ausgeschlossenen Zutaten)
 - [ ] Nährwerte verifiziert und im Target-Bereich
-- [ ] Meal Prep Synergien maximiert
-- [ ] Einkaufsliste vollständig und kategorisiert
 - [ ] Realistische Zubereitungszeiten
 - [ ] Lagerungshinweise enthalten
 - [ ] Abwechslung über die Woche
+- [ ] **Zutatenwiderholungs-Regel beachtet:** Geschmacksgebende Komponenten maximal 4 MAHLZEITEN pro Woche (jede Mahlzeit zählt einzeln, auch Wiederholungen!)
+  - Beispiel: Rotkohl-Curry Mo + Do = 2 Mahlzeiten (nicht 1!)
+  - Unbegrenzt: Hülsenfrüchte, Getreide, Paprika, Süßkartoffeln, Zucchini, Rote Beete, Karotten
 - [ ] Saisonale und verfügbare Zutaten (Deutschland)
 - [ ] **Meal-Prep-Kompatibilität:** Geröstetes Gemüse nur wenn komplett warm serviert wird; für kalte/lauwarme Bowls Rohkost verwenden (Karotten-Julienne, Gurke, Rotkohl)
+
+### Für optionale Komponenten (nur auf Nutzer-Wunsch):
+- [ ] **Einkaufsliste:** Vollständig und nach Kategorien organisiert
+- [ ] **Meal Prep Strategie:** 4-Phasen-Timeline mit realistischen Zeitangaben
 
 ### Für neue Rezepte (vor Nährwert-Validierung):
 - [ ] Erbsenprotein-Pulver nur in Flüssigkeiten verwendet (NICHT in Bowls/Salaten)
@@ -563,4 +648,7 @@ Die wichtigsten Werte (pro 100g/100ml):
 - [ ] Alle Zubereitungsschritte vollständig dokumentiert
 - [ ] Garzeiten realistisch und spezifisch angegeben
 - [ ] **Meal-Prep-Tauglichkeit:** Geröstetes Gemüse nur für sofort-Verzehr oder komplett warme Gerichte; für Meal-Prep-Bowls (4-5 Tage) Rohkost bevorzugen
+- [ ] **KEINE internen Optimierungskommentare** in finalen Rezepten (z.B. "(MAXIMAL erlaubt!)", "(erhöht für bessere Konsistenz)", "(mehr wäre über Kalorien-Limit!)")
+  - Diese Kommentare gehören in Entwicklungsnotizen, nicht in fertige Meal Plans
+  - Nutzer sollen nur die finale Zutatenliste sehen, ohne interne Begründungen
 - [ ] Bei Korrekturen: Nährwerte entsprechend angepasst

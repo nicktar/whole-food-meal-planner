@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "TAHINI-ZITRONEN-DRESSING",
+  "description": "60 kcal, 2g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "4 EL Tahini",
+    "3 EL Zitronensaft",
+    "1 Knoblauchzehe, gepresst",
+    "4 EL Wasser",
+    "1 TL Kreuzkümmel",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Alle Zutaten mit Schneebesen verrühren\n2. Mit Wasser verdünnen bis gewünschte Konsistenz erreicht ist\n3. Mit Salz und Pfeffer abschmecken",
+  "nutrition": {
+    "calories": "60",
+    "proteinContent": "2g",
+    "carbohydrateContent": "3g",
+    "fatContent": "5g",
+    "fiberContent": "1g"
+  }
+}

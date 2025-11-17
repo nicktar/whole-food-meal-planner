@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Wintergemüse",
+  "description": "Buddha-Bowl mit gerösteten Kichererbsen und rohem Wintergemüse. Rohkost (Karotten, Gurke) bleibt 4-5 Tage knackig - optimal für Meal Prep!",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "40g Kichererbsen (ca. 120g gekocht, geröstet)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "100g Karotten (in Julienne geschnitten, ROH!)",
+    "50g Gurke (gewürfelt)",
+    "30g Rucola oder Feldsalat (frisch)",
+    "2 EL Tahini-Dressing",
+    "1 EL Kürbiskerne",
+    "1 TL Kreuzkümmel (für Kichererbsen)",
+    "1 TL Paprikapulver (für Kichererbsen)",
+    "1 TL Knoblauchpulver (für Kichererbsen)",
+    "1 TL Olivenöl (für Kichererbsen)",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Kichererbsen rösten: Gekochte Kichererbsen sehr gut abtupfen (trocken!). Mit Kreuzkümmel, Paprikapulver, Knoblauchpulver, Olivenöl, Salz und Pfeffer mischen. Auf Backblech bei 200°C 20-25 Min rösten, alle 10 Min wenden, bis knusprig.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nRohkost vorbereiten: Karotten mit Gemüseschäler in Julienne-Streifen schneiden. Gurke würfeln. (Rohkost hält 4-5 Tage knackig im Kühlschrank!)\nTahini-Dressing: 2 EL Tahini, 1,5 EL Zitronensaft, 1 Knoblauchzehe gepresst, 2-3 EL Wasser, 1/2 TL Kreuzkümmel, Salz, Pfeffer - alles mixen.\nBowl zusammenstellen: Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren. Kichererbsen kurz aufwärmen oder zimmerwarm servieren. Mit Tahini-Dressing beträufeln.\nMeal Prep: Geröstete Kichererbsen separat lagern (bleiben knusprig!). Komponenten täglich frisch zusammenstellen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "420",
+    "proteinContent": "24g",
+    "carbohydrateContent": "52g",
+    "fatContent": "14g",
+    "fiberContent": "16g"
+  }
+}

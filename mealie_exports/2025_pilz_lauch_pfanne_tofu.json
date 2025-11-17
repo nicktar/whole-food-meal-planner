@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pilz-Lauch-Pfanne mit Tofu und Quinoa",
+  "description": "Shiitake und Champignons kombiniert für komplexen umami-Geschmack. Thymian gibt mediterrane Note.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g gemischte Pilze (Champignons, Shiitake)",
+    "100g Lauch (in Ringen)",
+    "150g Tofu (gewürfelt und angebraten)",
+    "1 Knoblauchzehe (gehackt)",
+    "1 TL Thymian (getrocknet)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "1 EL Walnüsse (gehackt)",
+    "1 EL Hanfsamen",
+    "Salz, Pfeffer",
+    "1 EL Olivenöl"
+  ],
+  "recipeInstructions": "Tofu würfeln und in heißer Pfanne 5-7 Min goldbraun braten. Beiseite stellen.\nPilze putzen und in Scheiben schneiden. Lauch in Ringe schneiden, waschen.\nIn derselben Pfanne 1 EL Olivenöl erhitzen. Knoblauch glasig anbraten.\nPilze hinzufügen, 5 Min anbraten bis sie Farbe nehmen.\nLauch und Thymian hinzufügen, weitere 3 Min braten.\nTofu zurück in die Pfanne geben, aufwärmen. Mit Salz und Pfeffer abschmecken.\nÜber gekochte Quinoa servieren, mit Walnüssen und Hanfsamen bestreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "450",
+    "proteinContent": "36g",
+    "carbohydrateContent": "42g",
+    "fatContent": "18g",
+    "fiberContent": "12g"
+  }
+}

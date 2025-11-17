@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Curry mit Spinat und Tofu",
+  "description": "Cremiges Curry mit 38g Protein. Spinat erst am Ende hinzufügen damit er nicht verkocht. Champignons geben umami-Tiefe.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "50g Kichererbsen (ca. 150g gekocht)",
+    "120g Tofu (gewürfelt)",
+    "80g Spinat (frisch)",
+    "100g Champignons (geschnitten)",
+    "1 TL Currypaste",
+    "75ml Kokosmilch",
+    "1 TL Ingwer (gerieben)",
+    "1 TL Kurkuma",
+    "1/2 TL Kreuzkümmel",
+    "30g Quinoa (ca. 80g gekocht)",
+    "1 EL Kürbiskerne",
+    "1 EL Kokosöl"
+  ],
+  "recipeInstructions": "Tofu würfeln und in 1 TL Kokosöl kräftig anbraten (5 Min), aus der Pfanne nehmen.\nChampignons in Pfanne anbraten (3 Min).\nCurrypaste, Ingwer, Kurkuma und Kreuzkümmel hinzufügen, 1 Min unter Rühren anbraten.\nKichererbsen und Kokosmilch hinzufügen. 10 Min köcheln lassen.\nSpinat und gebratenen Tofu hinzufügen, 2 Min mitköcheln bis Spinat zusammenfällt.\nÜber gekochte Quinoa servieren, mit Kürbiskernen bestreuen.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "470",
+    "proteinContent": "38g",
+    "carbohydrateContent": "56g",
+    "fatContent": "18g",
+    "fiberContent": "14g"
+  }
+}

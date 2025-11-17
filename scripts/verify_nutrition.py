@@ -346,7 +346,8 @@ def generate_verification_report(verification_results: Dict[str, any]) -> str:
 
 # Example usage
 if __name__ == "__main__":
-    # Meal Plans für Woche 17.-21. November 2024
+    # Meal Plans für Woche 15.-19. Dezember 2024
+    # Saisonale Dezember-Zutaten, OHNE Rotkohl, mit deftiger Erbsensuppe
 
     # TAG 1 - Montag, 17. November (KORRIGIERT - halbiert, Nüsse/Samen entfernt)
     day1_breakfast = Meal(
@@ -470,7 +471,9 @@ if __name__ == "__main__":
     all_plans = [day1, day2, day3, day4, day5]
 
     print("═══════════════════════════════════════════════════════════════")
-    print("WHOLE FOOD CHALLENGE - WOCHENPLAN NOVEMBER 17-21, 2024")
+    print("WHOLE FOOD CHALLENGE - WOCHENPLAN DEZEMBER 15-19, 2024")
+    print("SAISONALER FOKUS: Dezember-Gemüse, OHNE Rotkohl")
+    print("BESONDERHEIT: Deftige Wintererbsensuppe (Mo-Mi)")
     print("═══════════════════════════════════════════════════════════════\n")
 
     weekly_totals = {

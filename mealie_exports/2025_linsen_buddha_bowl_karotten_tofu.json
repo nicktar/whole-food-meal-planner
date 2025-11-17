@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Buddha-Bowl mit Karotten und Tofu",
+  "description": "Karotten als rohe Julienne für maximale Haltbarkeit (4-5 Tage knackig!). Tahini-Dressing separat lagern.",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "50g Grüne Linsen (ca. 150g gekocht)",
+    "100g Tofu (mariniert und angebraten)",
+    "30g Quinoa (ca. 80g gekocht)",
+    "80g Karotten (roh, julienne)",
+    "50g Kirschtomaten (halbiert)",
+    "2 EL Tahini-Dressing",
+    "1 EL Kürbiskerne",
+    "1 EL Hanfsamen",
+    "Frische Petersilie",
+    "1 EL Sojasauce (für Tofu)"
+  ],
+  "recipeInstructions": "Grüne Linsen kochen: 50g Linsen mit 125ml Wasser 20-25 Min köcheln bis bissfest.\nQuinoa kochen: 30g Quinoa mit 60ml Wasser 15 Min köcheln, 5 Min ruhen lassen.\nTofu marinieren: Würfeln, mit 1 EL Sojasauce marinieren (30 Min). In Pfanne 5-7 Min goldbraun braten.\nKarotten-Julienne: Mit Gemüseschäler in dünne Streifen schneiden (hält 4-5 Tage!).\nKirschtomaten halbieren.\nBowl zusammenstellen: Quinoa als Basis, Linsen, Tofu, Karotten-Julienne und Tomaten arrangieren.\nMit Tahini-Dressing beträufeln, Kürbiskerne, Hanfsamen und Petersilie darüber.",
+  "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
+  "performTime": "PT25M",
+  "nutrition": {
+    "calories": "400",
+    "proteinContent": "32g",
+    "carbohydrateContent": "48g",
+    "fatContent": "14g",
+    "fiberContent": "16g"
+  }
+}
