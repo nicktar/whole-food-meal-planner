@@ -358,9 +358,9 @@ if __name__ == "__main__":
     )
     day1_lunch = Meal(
         name="Deftige Brechbohnensuppe (Portion 1)",
-        nutrition=NutritionInfo(calories=410, protein=28, carbs=52, fat=9, fiber=15),
+        nutrition=NutritionInfo(calories=455, protein=33, carbs=52, fat=11, fiber=15),
         ingredients=["300g Brechbohnen TK", "250g Kartoffeln", "Karotten", "Sellerie",
-                    "180g weiße Bohnen", "120g geräucherter Tofu", "Zwiebel", "Gewürze"]
+                    "180g weiße Bohnen", "210g geräucherter Tofu", "Zwiebel", "Gewürze"]
     )
     day1_dinner = Meal(
         name="Rote-Beete-Salat mit Linsen und Walnüssen",
@@ -382,7 +382,7 @@ if __name__ == "__main__":
     )
     day2_lunch = Meal(
         name="Deftige Brechbohnensuppe (Portion 2)",
-        nutrition=NutritionInfo(calories=410, protein=28, carbs=52, fat=9, fiber=15),
+        nutrition=NutritionInfo(calories=455, protein=33, carbs=52, fat=11, fiber=15),
         ingredients=["Brechbohnen", "Kartoffeln", "Karotten", "Sellerie",
                     "weiße Bohnen", "geräucherter Tofu", "Gewürze"]
     )
@@ -406,7 +406,7 @@ if __name__ == "__main__":
     )
     day3_lunch = Meal(
         name="Deftige Brechbohnensuppe (Portion 3)",
-        nutrition=NutritionInfo(calories=410, protein=28, carbs=52, fat=9, fiber=15),
+        nutrition=NutritionInfo(calories=455, protein=33, carbs=52, fat=11, fiber=15),
         ingredients=["Brechbohnen", "Kartoffeln", "Karotten", "Sellerie",
                     "weiße Bohnen", "geräucherter Tofu", "Gewürze"]
     )

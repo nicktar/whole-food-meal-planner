@@ -37,7 +37,7 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 ---
 
 ### Mittagessen: Deftige Brechbohnensuppe (Portion 1)
-**Kalorien:** 410 | **Protein:** 28g | **Prep:** 5 Min aufwärmen
+**Kalorien:** 455 | **Protein:** 33g | **Prep:** 5 Min aufwärmen
 
 **Beschreibung:** Herzhafte Wintersuppe mit grünen Bohnen, Kartoffeln, Karotten, Sellerie, weißen Bohnen und geräuchertem Tofu. Klassisch mit Bohnenkraut gewürzt.
 
@@ -47,7 +47,7 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 - 100g Karotten, gewürfelt
 - 80g Sellerie, gewürfelt
 - 180g weiße Bohnen (gekocht)
-- 120g geräucherter Tofu, gewürfelt
+- 210g geräucherter Tofu, gewürfelt
 - 1 große Zwiebel, gewürfelt
 - 2 Knoblauchzehen, gehackt
 - 1 Lorbeerblatt
@@ -69,10 +69,10 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 8. Optional: Mit frischer Petersilie servieren
 
 **Nährwerte pro Portion:**
-- Kalorien: 410 kcal
-- Protein: 28g
+- Kalorien: 455 kcal
+- Protein: 33g
 - Kohlenhydrate: 52g
-- Fett: 9g
+- Fett: 11g
 - Ballaststoffe: 15g
 
 **Meal Prep:** Gesamte Suppe vorbereiten, in 3 Portionen aufteilen. Haltbarkeit: 5 Tage im Kühlschrank. Täglich eine Portion aufwärmen (3-4 Min Mikrowelle oder 5-7 Min Topf).
@@ -110,8 +110,8 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1165 kcal ✅
-- Gesamt Protein: 80g ⚠️
+- Gesamt Kalorien: 1210 kcal ✅
+- Gesamt Protein: 85g ⚠️
 - Gesamt Ballaststoffe: 40g ✅
 
 ---
@@ -145,14 +145,14 @@ Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig
 ---
 
 ### Mittagessen: Deftige Brechbohnensuppe (Portion 2)
-**Kalorien:** 410 | **Protein:** 28g | **Prep:** 5 Min aufwärmen
+**Kalorien:** 455 | **Protein:** 33g | **Prep:** 5 Min aufwärmen
 
 **Zubereitung:**
 Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf aufwärmen.
 
 **Nährwerte:** (siehe Tag 1)
-- Kalorien: 410 kcal
-- Protein: 28g
+- Kalorien: 455 kcal
+- Protein: 33g
 - Ballaststoffe: 15g
 
 ---
@@ -194,8 +194,8 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1210 kcal ✅
-- Gesamt Protein: 86g ⚠️
+- Gesamt Kalorien: 1255 kcal ✅
+- Gesamt Protein: 91g ⚠️
 - Gesamt Ballaststoffe: 44g ✅
 
 ---
@@ -227,14 +227,14 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 ### Mittagessen: Deftige Brechbohnensuppe (Portion 3)
-**Kalorien:** 410 | **Protein:** 28g | **Prep:** 5 Min aufwärmen
+**Kalorien:** 455 | **Protein:** 33g | **Prep:** 5 Min aufwärmen
 
 **Zubereitung:**
 Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf aufwärmen.
 
 **Nährwerte:** (siehe Tag 1)
-- Kalorien: 410 kcal
-- Protein: 28g
+- Kalorien: 455 kcal
+- Protein: 33g
 - Ballaststoffe: 15g
 
 ---
@@ -279,8 +279,8 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1190 kcal ✅
-- Gesamt Protein: 80g ⚠️
+- Gesamt Kalorien: 1235 kcal ✅
+- Gesamt Protein: 85g ⚠️
 - Gesamt Ballaststoffe: 44g ✅
 
 ---
@@ -507,14 +507,14 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ## WOCHENZUSAMMENFASSUNG
 
 **Durchschnitt pro Tag:**
-- Kalorien: 1186 kcal ✅ (Ziel: 1200, Range: 1100-1300)
-- Protein: 80g ⚠️ (Ziel: 100g+, akzeptabel mit Kalorien-Limit)
+- Kalorien: 1213 kcal ✅ (Ziel: 1200, Range: 1100-1300)
+- Protein: 83g ⚠️ (Ziel: 100g+, akzeptabel mit Kalorien-Limit)
 - Ballaststoffe: 43g ✅ (Ziel: 30g+)
 
 **Hinweis zum Protein-Ziel:**
-Die Woche liegt bei durchschnittlich 80g Protein pro Tag. Laut SKILL.md ist bei der 1300 kcal-Grenze 85-95g Protein akzeptabel. Um näher an 100g zu kommen, könntest du:
+Die Woche liegt bei durchschnittlich 83g Protein pro Tag (durch erhöhte Tofumenge in Brechbohnensuppe). Laut SKILL.md ist bei der 1300 kcal-Grenze 85-95g Protein akzeptabel. Um näher an 90g+ zu kommen, könntest du:
 - Proteinpulver in Overnight Oats/Chia Pudding auf 25-30g erhöhen (maximal 30g pro Mahlzeit)
-- Zu Suppen/Currys zusätzlich 50-100g Tofu hinzufügen (+5-10g Protein)
+- Zu Currys/Suppen (Tag 3-5) zusätzlich 50-100g Tofu hinzufügen (+5-10g Protein)
 - Hanfsamen und Kürbiskerne als Toppings großzügiger verwenden
 
 **Saisonale Januar-Zutaten verwendet:**
@@ -564,7 +564,7 @@ Die Woche liegt bei durchschnittlich 80g Protein pro Tag. Laut SKILL.md ist bei 
 
 ## REZEPT: DEFTIGE BRECHBOHNENSUPPE
 
-**Portionen:** 3 | **Pro Portion: 410 kcal | 28g Protein | 15g Ballaststoffe** | **Prep:** 40 Min | **Haltbarkeit:** 5 Tage
+**Portionen:** 3 | **Pro Portion: 455 kcal | 33g Protein | 15g Ballaststoffe** | **Prep:** 40 Min | **Haltbarkeit:** 5 Tage
 
 ### Zutaten (für 3 Portionen):
 - 300g Brechbohnen (TK grüne Bohnen in Stücken) - 75 kcal, 6g Protein
@@ -572,7 +572,7 @@ Die Woche liegt bei durchschnittlich 80g Protein pro Tag. Laut SKILL.md ist bei 
 - 100g Karotten, gewürfelt - 35 kcal, 1g Protein
 - 80g Sellerie (Stange), gewürfelt - 12 kcal, 1g Protein
 - 180g weiße Bohnen (gekocht, z.B. Cannellini) - 216 kcal, 14g Protein
-- 120g geräucherter Tofu, gewürfelt - 180 kcal, 20g Protein
+- 210g geräucherter Tofu, gewürfelt - 315 kcal, 35g Protein
 - 1 große Zwiebel, gewürfelt (80g) - 32 kcal, 1g Protein
 - 2 Knoblauchzehen, gehackt - 8 kcal, 0g Protein
 - 1 Lorbeerblatt
@@ -595,15 +595,15 @@ Die Woche liegt bei durchschnittlich 80g Protein pro Tag. Laut SKILL.md ist bei 
 8. **Servieren:** Optional mit frischer Petersilie garnieren
 
 ### Nährwerte pro Portion (1 von 3):
-- Kalorien: 410 kcal
-- Protein: 28g
+- Kalorien: 455 kcal
+- Protein: 33g
 - Kohlenhydrate: 52g
-- Fett: 9g
+- Fett: 11g
 - Ballaststoffe: 15g
 
 ### Gesamt-Nährwerte (alle 3 Portionen):
-- Kalorien: ~1230 kcal
-- Protein: ~84g
+- Kalorien: ~1365 kcal
+- Protein: ~99g
 
 ### Meal Prep Hinweise:
 - **Vorbereitung:** Komplett am Sonntag kochen
@@ -614,11 +614,12 @@ Die Woche liegt bei durchschnittlich 80g Protein pro Tag. Laut SKILL.md ist bei 
 - **Tipp:** Suppe wird beim Stehen dicker - beim Aufwärmen evtl. 2-3 EL Wasser hinzufügen
 
 ### Variationen:
-- **Mehr Protein:** 150g Tofu statt 120g (+5g Protein pro Portion)
+- **Noch mehr Protein:** Tofumenge auf 240g erhöhen (+2g Protein pro Portion)
 - **Cremiger:** 100ml Hafermilch in den letzten 5 Min hinzufügen
 - **Schärfer:** 1/2 TL Chiliflocken oder frische Chilischote
 - **Frischer:** Mit frischem Dill statt Petersilie servieren
 - **Sättigender:** Kartoffelmenge auf 300g erhöhen (+50 kcal pro Portion)
+- **Original-Version:** Mit 120g Tofu für leichtere Variante (410 kcal, 28g Protein)
 
 ### Warum diese Suppe perfekt für Meal Prep ist:
 - ✅ Haltbarkeit 5 Tage
