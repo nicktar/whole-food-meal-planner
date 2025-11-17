@@ -1,4 +1,4 @@
-# Rotkohl-Apfel-Salat mit Cannellini-Bohnen
+# Rotkohl-Apfel-Salat mit Cannellini-Bohnen (Angepasste Version)
 
 **Kategorie:** Abendessen
 **Portionen:** 1
@@ -8,23 +8,23 @@
 
 ## Nährwerte
 
-- **Kalorien:** 586 kcal | **Protein:** 25g | **KH:** 62g | **Fett:** 27g | **Fiber:** 16g
+- **Kalorien:** ~540 kcal | **Protein:** ~19g | **KH:** ~47g | **Fett:** ~29g | **Fiber:** ~12g
 
 ---
 
 ## Zutaten
 
-- 120g Rotkohl (fein gehobelt, mariniert)
-- 80g Apfel (dünn geschnitten)
-- 150g Cannellini-Bohnen (gekocht)
-- 80g Tofu (gewürfelt)
-- 15g Walnüsse (gehackt)
+- 90g Rotkohl (fein gehobelt, mariniert)
+- 60g Apfel (dünn geschnitten)
+- 110g Cannellini-Bohnen (gekocht)
+- 60g Tofu (gewürfelt)
+- 10g Walnüsse (gehackt)
 - **Apfel-Balsamico-Vinaigrette:**
-  - 2 EL Apfelessig
-  - 1 EL Balsamico
-  - 2 TL Ahornsirup (10ml)
-  - 1 TL Senf
-  - 2 TL Olivenöl (10ml)
+  - 3 EL Apfelessig
+  - 1,5 EL Balsamico
+  - 3 TL Ahornsirup (15ml)
+  - 1,5 TL Senf
+  - 3 TL Olivenöl (15ml)
 
 ---
 
@@ -36,6 +36,8 @@ Rotkohl dünn hobeln, mit Essig marinieren (10 Min), mit Apfel + Bohnen + Tofu m
 
 ## Notizen
 
-⚠️ **HYBRID:** Walnüsse 20g→15g, Olivenöl 1EL→2TL, Ahornsirup 1EL→2TL | **-90 kcal**
+✅ **ANGEPASST:** Feste Zutaten auf 75% reduziert (bessere Portionsgröße), Dressing um 50% erhöht (besseres Verhältnis)
 
 ✅ Frisch & knackig! | ✅ Süß-sauer | ✅ Rotkohl-Saison! | ✅ Saisonal: Äpfel + Rotkohl
+
+💡 **User-Feedback:** Ursprüngliche Menge war zu viel, mehr Dressing macht den Salat saftiger
