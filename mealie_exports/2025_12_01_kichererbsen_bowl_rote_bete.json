@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Bowl mit Rote Bete",
+  "description": "Bunte Bowl mit gerösteten Kichererbsen, Rote Bete, Tofu und Tahini-Dressing.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "130g Kichererbsen, geröstet",
+    "100g Rote Bete, gewürfelt",
+    "80g Tofu, gewürfelt",
+    "50g Karotten, roh gehobelt",
+    "30g Feldsalat",
+    "8g Kürbiskerne",
+    "Zitronen-Tahini-Dressing (leicht):",
+    "  - 1 TL Tahini (5g)",
+    "  - Saft 1/2 Zitrone",
+    "  - 2 EL Wasser",
+    "  - Salz, Kreuzkümmel"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine Bowl arrangieren.\nFür das Dressing Tahini, Zitronensaft, Wasser, Salz und Kreuzkümmel gut verrühren.\nDressing über die Bowl träufeln.\nMit Kürbiskernen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Mittagessen,Woche 1-5",
+  "nutrition": {
+    "calories": "421 kcal",
+    "proteinContent": "23g",
+    "carbohydrateContent": "54g",
+    "fatContent": "14g",
+    "fiberContent": "15g"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Gerösteter Rotkohl mit Linsen und Tofu",
+  "description": "Rotkohl-Wedges mit Ahornsirup-Glasur, dazu Linsen und Tofu auf Rucola. Einfach lecker!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "150g Rotkohl-Wedges, geröstet mit Ahornsirup-Glasur",
+    "120g gekochte grüne Linsen",
+    "90g Tofu, gewürfelt",
+    "30g Rucola",
+    "10g Walnüsse, geröstet",
+    "Für den Rotkohl:",
+    "  - 1 TL Olivenöl (Rösten)",
+    "  - 5g Ahornsirup (Glasur)",
+    "1/2 TL Balsamico-Essig",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Rotkohl und Tofu kurz in der Pfanne oder im Ofen aufwärmen.\nMit gekochten Linsen und frischem Rucola auf einem Teller arrangieren.\nMit Balsamico beträufeln.\nMit gerösteten Walnüssen toppen und servieren.",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Mittagessen,Woche 1-5",
+  "nutrition": {
+    "calories": "388 kcal",
+    "proteinContent": "22g",
+    "carbohydrateContent": "42g",
+    "fatContent": "17g",
+    "fiberContent": "15g"
+  }
+}
