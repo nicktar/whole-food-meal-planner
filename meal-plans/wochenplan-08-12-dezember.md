@@ -9,15 +9,14 @@
 ## TAG 1 - MONTAG 8. DEZEMBER
 
 ### Frühstück: Overnight Oats Beeren-Power
-**Kalorien:** 273 kcal | **Protein:** 16g | **Prep:** 5 Min (Vorbereitung am Vorabend)
+**Kalorien:** 263 kcal | **Protein:** 19g | **Prep:** 5 Min (Vorbereitung am Vorabend)
 
 **Zutaten (bereits vorbereitet am Sonntag):**
 - 15g Haferflocken (Vollkorn)
 - 75ml Hafermilch (ungesüßt)
-- 1/2 EL Chiasamen (ca. 6g)
 - 1/2 EL gemahlene Leinsamen (ca. 5g)
 - 1/2 EL Mandel-Nussmus (ca. 7g)
-- 12g Erbsenprotein-Pulver (pur, ohne Zusätze)
+- 17g Erbsenprotein-Pulver (pur, ohne Zusätze)
 - Prise Salz
 
 **Toppings (am Morgen frisch hinzufügen):**
@@ -28,11 +27,11 @@
 Glas aus Kühlschrank nehmen, umrühren, Toppings hinzufügen, genießen!
 
 **Nährwerte:**
-- Kalorien: 273 kcal
-- Protein: 16g
-- Kohlenhydrate: 25g
-- Fett: 12g
-- Ballaststoffe: 7g
+- Kalorien: 263 kcal
+- Protein: 19g
+- Kohlenhydrate: 23g
+- Fett: 10g
+- Ballaststoffe: 5g
 
 ---
 
@@ -90,9 +89,9 @@ Suppe in Topf aufwärmen (5-7 Min bei mittlerer Hitze), mit frischer Petersilie 
 ---
 
 ### Tageszusammenfassung MONTAG:
-- **Gesamt Kalorien:** 1193 kcal ✅
-- **Gesamt Protein:** 70g ⚠️ (leicht unter Minimum 75g)
-- **Gesamt Ballaststoffe:** 40g ✅
+- **Gesamt Kalorien:** 1183 kcal ✅
+- **Gesamt Protein:** 73g ⚠️ (knapp unter Minimum 75g, aber im akzeptablen Bereich)
+- **Gesamt Ballaststoffe:** 38g ✅
 
 ---
 
@@ -172,15 +171,14 @@ Feldsalat auf Teller, geröstete Rote Bete (kann kalt oder leicht aufgewärmt we
 ## TAG 3 - MITTWOCH 10. DEZEMBER
 
 ### Frühstück: Overnight Oats Apfel-Zimt
-**Kalorien:** 297 kcal | **Protein:** 17g | **Prep:** 5 Min
+**Kalorien:** 287 kcal | **Protein:** 20g | **Prep:** 5 Min
 
 **Basis (vorbereitet am Sonntag):**
 - 15g Haferflocken
 - 75ml Hafermilch
-- 1/2 EL Chiasamen (ca. 6g)
 - 1/2 EL gemahlene Leinsamen (ca. 5g)
 - 1/2 EL Cashew-Nussmus (ca. 7g)
-- 12g Erbsenprotein-Pulver
+- 17g Erbsenprotein-Pulver
 - 1/2 TL Zimt
 - Prise Salz
 
@@ -189,11 +187,11 @@ Feldsalat auf Teller, geröstete Rote Bete (kann kalt oder leicht aufgewärmt we
 - Extra Zimt zum Bestreuen
 
 **Nährwerte:**
-- Kalorien: 297 kcal
-- Protein: 17g
-- Kohlenhydrate: 31g
-- Fett: 12g
-- Ballaststoffe: 7g
+- Kalorien: 287 kcal
+- Protein: 20g
+- Kohlenhydrate: 29g
+- Fett: 10g
+- Ballaststoffe: 5g
 
 ---
 
@@ -236,9 +234,9 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 ---
 
 ### Tageszusammenfassung MITTWOCH:
-- **Gesamt Kalorien:** 1202 kcal ✅
-- **Gesamt Protein:** 75g ✅ (genau am Minimum!)
-- **Gesamt Ballaststoffe:** 42g ✅
+- **Gesamt Kalorien:** 1192 kcal ✅
+- **Gesamt Protein:** 78g ✅✅ (über Minimum, im Zielbereich!)
+- **Gesamt Ballaststoffe:** 40g ✅
 
 ---
 
@@ -336,26 +334,25 @@ Quinoa als Basis (kann leicht aufgewärmt werden), alle Komponenten arrangieren.
 ## TAG 5 - FREITAG 12. DEZEMBER
 
 ### Frühstück: Overnight Oats Protein-Power
-**Kalorien:** 273 kcal | **Protein:** 16g | **Prep:** 5 Min
+**Kalorien:** 263 kcal | **Protein:** 19g | **Prep:** 5 Min
 
 **Basis (vorbereitet am Sonntag):**
 - 15g Haferflocken
 - 100ml Hafermilch (75ml + 25ml zusätzlich)
-- 1/2 EL Chiasamen (ca. 6g)
 - 1/2 EL gemahlene Leinsamen (ca. 5g)
 - 1/2 EL Mandel-Nussmus (ca. 7g)
-- 12g Erbsenprotein-Pulver
+- 17g Erbsenprotein-Pulver
 - Prise Salz
 
 **Toppings:**
 - 25g Beeren
 
 **Nährwerte:**
-- Kalorien: 273 kcal
-- Protein: 16g
-- Kohlenhydrate: 24g
-- Fett: 12g
-- Ballaststoffe: 7g
+- Kalorien: 263 kcal
+- Protein: 19g
+- Kohlenhydrate: 22g
+- Fett: 10g
+- Ballaststoffe: 5g
 
 ---
 
@@ -406,27 +403,27 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 ---
 
 ### Tageszusammenfassung FREITAG:
-- **Gesamt Kalorien:** 1148 kcal ✅
-- **Gesamt Protein:** 70g ⚠️ (leicht unter Minimum 75g)
-- **Gesamt Ballaststoffe:** 35g ✅
+- **Gesamt Kalorien:** 1138 kcal ✅
+- **Gesamt Protein:** 73g ⚠️ (knapp unter Minimum 75g, aber im akzeptablen Bereich)
+- **Gesamt Ballaststoffe:** 33g ✅
 
 ---
 
 ## 📊 WOCHENZUSAMMENFASSUNG (NACH ANPASSUNGEN)
 
 ### Durchschnittliche Tageswerte:
-- **Kalorien:** 1167 kcal/Tag ✅✅ (Ziel: 1200, Max: 1300) → Perfekt unter Limit!
-- **Protein:** 70g/Tag ⚠️ (Minimum: 75g, Ziel: 75-90g) → 5g unter Minimum, aber im akzeptablen Bereich
-- **Ballaststoffe:** 39g/Tag ✅✅ (Ziel: 30g+) → Hervorragend!
+- **Kalorien:** 1161 kcal/Tag ✅✅ (Ziel: 1200, Max: 1300) → Perfekt unter Limit!
+- **Protein:** 72g/Tag ⚠️ (Minimum: 75g, Ziel: 75-90g) → 3g unter Minimum, aber im akzeptablen Bereich
+- **Ballaststoffe:** 37g/Tag ✅✅ (Ziel: 30g+) → Hervorragend!
 
 ### Tages-Details:
-- **Montag:** 1193 kcal, 70g Protein ⚠️, 40g Ballaststoffe
+- **Montag:** 1183 kcal, 73g Protein ⚠️, 38g Ballaststoffe
 - **Dienstag:** 1142 kcal, 70g Protein ⚠️, 41g Ballaststoffe
-- **Mittwoch:** 1202 kcal, 75g Protein ✅, 42g Ballaststoffe
+- **Mittwoch:** 1192 kcal, 78g Protein ✅✅, 40g Ballaststoffe
 - **Donnerstag:** 1150 kcal, 67g Protein ⚠️, 36g Ballaststoffe
-- **Freitag:** 1148 kcal, 70g Protein ⚠️, 35g Ballaststoffe
+- **Freitag:** 1138 kcal, 73g Protein ⚠️, 33g Ballaststoffe
 
-### ⚠️ PROTEIN KNAPP UNTER MINIMUM - ABER AKZEPTABEL
+### ✅ PROTEIN IM AKZEPTABLEN BEREICH
 
 **Laut SKILL.md Ziel-Priorisierung:**
 > **Kalorien-Limit hat IMMER Priorität über Protein-Ziel**
@@ -434,8 +431,9 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 
 **Kalorien-Bilanz:**
 - ✅ **ALLE Tage** unter Maximum (1300 kcal)
-- ✅ Durchschnitt bei 1167 kcal - **133 kcal Puffer zum Limit!**
-- ✅ Protein bei 70g/Tag (5g unter Minimum, aber **genau im akzeptablen Bereich 70-75g**)
+- ✅ Durchschnitt bei 1161 kcal - **139 kcal Puffer zum Limit!**
+- ✅ Protein bei 72g/Tag (3g unter Minimum, aber **im akzeptablen Bereich 70-75g**)
+- ✅ **1 Tag (Mittwoch)** erreicht sogar 78g Protein im Zielbereich!
 
 **Handlungsoptionen:**
 1. **Status Quo beibehalten** - Akzeptabel laut Prioritätsregel
@@ -484,13 +482,14 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 
 ## ⚠️ WICHTIGE ANMERKUNGEN
 
-**Protein-Level:** Dieser Plan erreicht durchschnittlich 70g Protein/Tag (5g unter Minimum von 75g). Laut SKILL.md Ziel-Priorisierung ist dies **akzeptabel**, da die Kalorien-Grenze von 1300 kcal eingehalten wird und 70-75g Protein im akzeptablen Bereich liegen.
+**Protein-Level:** Dieser Plan erreicht durchschnittlich 72g Protein/Tag (3g unter Minimum von 75g). Laut SKILL.md Ziel-Priorisierung ist dies **akzeptabel**, da die Kalorien-Grenze von 1300 kcal eingehalten wird und 70-75g Protein im akzeptablen Bereich liegen.
 
-**Kalorien:** ✅ **Alle Tage** unter Maximum (1300 kcal), Durchschnitt bei 1167 kcal - hervorragend unter Limit!
+**Kalorien:** ✅ **Alle Tage** unter Maximum (1300 kcal), Durchschnitt bei 1161 kcal - hervorragend unter Limit!
 
 **Anpassungen durchgeführt:**
-- ✅ Alle Frühstücke **halbiert** (Haferflocken, Hafermilch, Samen, Nussmus)
-- ✅ Proteinpulver halbiert (25g → 12g), außer Chia Puddings Di+Do (17g für bessere Proteinbilanz)
+- ✅ Alle Frühstücke **halbiert** (Haferflocken, Hafermilch, Leinsamen, Nussmus, Beeren)
+- ✅ Proteinpulver **erhöht**: Overnight Oats 17g, Chia Puddings 17g (statt ursprünglich 25g)
+- ✅ **Chiasamen aus Overnight Oats entfernt** und durch 5g zusätzliches Erbsenprotein ersetzt (+3g Protein, -10 kcal)
 - ✅ Hanfsamen, Kürbiskerne, Sonnenblumenkerne **entfernt**
 - ✅ Mandelsplitter aus Chia Pudding **entfernt**
 - ✅ Walnüsse aus Overnight Oats **entfernt**
