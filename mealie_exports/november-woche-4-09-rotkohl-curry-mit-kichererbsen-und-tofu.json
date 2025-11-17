@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Curry mit Kichererbsen und Tofu",
+  "description": "Violett-farbenfroh! Rotkohl hat November-Saison. Cremig-würzig.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "150g Rotkohl (fein geschnitten)",
+    "110g Kichererbsen (gekocht)",
+    "120g Tofu (gewürfelt)",
+    "1 TL Currypaste",
+    "50ml Kokosmilch",
+    "1 TL Ingwer (gerieben)",
+    "Kurkuma, Kreuzkümmel",
+    "80g Quinoa (gekocht)",
+    "1 EL Hanfsamen",
+    "1 EL Kokosöl"
+  ],
+  "recipeInstructions": "Kokosöl erhitzen, Tofu anbraten, Rotkohl + Currypaste + Gewürze anrösten, Kichererbsen + Kokosmilch hinzufügen, 10-12 Min köcheln bis Rotkohl weich, über Quinoa servieren, Hanfsamen toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Mittagessen",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "646",
+    "proteinContent": "30g",
+    "carbohydrateContent": "68g",
+    "fatContent": "29g",
+    "fiberContent": "18g"
+  }
+}

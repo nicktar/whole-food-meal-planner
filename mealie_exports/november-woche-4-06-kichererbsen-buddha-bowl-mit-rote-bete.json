@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Rote Bete",
+  "description": "Farbenfroh, sättigend, meal-prep perfekt. Rote Bete ist saisonal!",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "130g Kichererbsen (gekocht)",
+    "80g Quinoa (gekocht)",
+    "100g Rote Bete (gekocht, gewürfelt)",
+    "120g Tofu (gewürfelt, angebraten)",
+    "50g Karotten (julienne, roh)",
+    "1 TL Kreuzkümmel",
+    "1 TL Paprikapulver",
+    "1/2 TL Knoblauchpulver",
+    "1.5 EL Tahini-Dressing (23g)",
+    "1 EL Kürbiskerne",
+    "Frische Petersilie",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Meal Prep (Sonntag):\n1. Kichererbsen mit Gewürzen rösten (200°C, 20 Min)\n2. Quinoa kochen\n3. Rote Bete kochen/würfeln\n4. Tofu würfeln und anbraten\n5. Tahini-Dressing: Tahini + Zitronensaft + Wasser + Knoblauch\n\nTäglich: Quinoa aufwärmen, alle Komponenten in Bowl arrangieren, Dressing drüber, Kürbiskerne toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Mittagessen",
+  "performTime": "PT20M",
+  "nutrition": {
+    "calories": "660",
+    "proteinContent": "35g",
+    "carbohydrateContent": "71g",
+    "fatContent": "25g",
+    "fiberContent": "20g"
+  }
+}

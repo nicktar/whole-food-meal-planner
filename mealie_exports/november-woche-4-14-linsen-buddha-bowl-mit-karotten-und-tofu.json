@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Buddha-Bowl mit Karotten und Tofu",
+  "description": "Proteinreich! Roh + gekocht Mix, farbenfroh.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "140g grüne Linsen (gekocht)",
+    "100g Tofu (mariniert, angebraten)",
+    "70g Quinoa (gekocht)",
+    "80g Karotten (julienne, roh)",
+    "50g Kirschtomaten (halbiert)",
+    "1.5 EL Tahini-Dressing (23g)",
+    "1 EL Kürbiskerne",
+    "5g Hanfsamen",
+    "Petersilie"
+  ],
+  "recipeInstructions": "Alle Komponenten in Bowl arrangieren, Tahini-Dressing drüber, mit Kürbiskernen + Hanfsamen + Petersilie toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Abendessen",
+  "nutrition": {
+    "calories": "587",
+    "proteinContent": "34g",
+    "carbohydrateContent": "66g",
+    "fatContent": "20g",
+    "fiberContent": "20g"
+  }
+}

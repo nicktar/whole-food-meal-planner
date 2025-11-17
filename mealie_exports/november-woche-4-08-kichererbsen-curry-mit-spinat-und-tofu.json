@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Curry mit Spinat und Tofu",
+  "description": "Cremig-würzig, leicht reduzierte Kokosmilch. Wärmend und sättigend.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "140g Kichererbsen (gekocht)",
+    "120g Tofu (gewürfelt)",
+    "80g Spinat (frisch)",
+    "100g Champignons (geschnitten)",
+    "1 TL Currypaste",
+    "50ml Kokosmilch",
+    "1 TL Ingwer (gerieben)",
+    "Kurkuma, Kreuzkümmel",
+    "80g Quinoa (gekocht)",
+    "1 EL Kürbiskerne",
+    "1 EL Kokosöl"
+  ],
+  "recipeInstructions": "Meal Prep: Kichererbsen + Quinoa vorkochen.\nTäglich: Kokosöl erhitzen, Tofu anbraten, Champignons + Currypaste + Gewürze anrösten, Kichererbsen + Kokosmilch + Spinat hinzufügen, 10 Min köcheln, über Quinoa servieren, Kürbiskerne toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Mittagessen",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "690",
+    "proteinContent": "35g",
+    "carbohydrateContent": "65g",
+    "fatContent": "32g",
+    "fiberContent": "19g"
+  }
+}
