@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Buddha-Bowl mit Linsen, Tofu und buntem Rohkost-Gemüse",
-  "description": "Meal-Prep-freundliche Bowl mit Rohkost statt geröstetem Gemüse. Rohkost bleibt 4-5 Tage knackig! 36g Protein pro Portion.",
+  "description": "Meal-Prep-freundliche Bowl mit Rohkost statt geröstetem Gemüse. Rohkost bleibt 4-5 Tage knackig! 35g Protein pro Portion.",
   "prepTime": "PT15M",
   "recipeIngredient": [
     "40g Braune Linsen (ca. 120g gekocht)",
@@ -11,7 +11,7 @@
     "100g Karotten (in Julienne-Streifen, roh)",
     "80g Rote Bete (gekocht, gewürfelt)",
     "80g Rotkohl (fein gehobelt, roh)",
-    "2 EL Tahini-Dressing",
+    "1 EL Tahini-Dressing",
     "1 EL Hanfsamen",
     "1 EL Kürbiskerne",
     "Petersilie (frisch, zum Garnieren)",
@@ -22,10 +22,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
   "performTime": "PT30M",
   "nutrition": {
-    "calories": "455",
-    "proteinContent": "36g",
-    "carbohydrateContent": "58g",
-    "fatContent": "16g",
-    "fiberContent": "16g"
+    "calories": "634.5",
+    "proteinContent": "35g",
+    "carbohydrateContent": "73g",
+    "fatContent": "26g",
+    "fiberContent": "21g"
   }
 }

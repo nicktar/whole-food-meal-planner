@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Linsen-Feldsalat mit buntem Rohkost-Gemüse (Protein-optimiert)",
-  "description": "Leichter, protein-reicher Salat mit 31g Protein und 18g Ballaststoffen. Rohkost-Gemüse für optimale Meal-Prep-Haltbarkeit (4-5 Tage). Apfel und Walnüsse am besten frisch hinzufügen.",
+  "description": "Leichter, protein-reicher Salat mit 24g Protein und 24g Ballaststoffen. Rohkost-Gemüse für optimale Meal-Prep-Haltbarkeit (4-5 Tage). Apfel und Walnüsse am besten frisch hinzufügen.",
   "prepTime": "PT15M",
   "recipeIngredient": [
     "60g Grüne Linsen (ca. 180g gekocht)",
@@ -10,7 +10,7 @@
     "60g Gurke (in Streifen, roh)",
     "80g Feldsalat (gewaschen)",
     "1 Apfel (dünn geschnitten)",
-    "20g Walnüsse (gehackt)",
+    "10g Walnüsse (gehackt)",
     "30g Quinoa (ca. 80g gekocht)",
     "1,5 EL Apfelessig (für Dressing)",
     "1 EL Balsamico (für Dressing)",
@@ -22,10 +22,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Abendessen",
   "performTime": "PT25M",
   "nutrition": {
-    "calories": "420",
-    "proteinContent": "31g",
-    "carbohydrateContent": "60g",
+    "calories": "528.5",
+    "proteinContent": "24g",
+    "carbohydrateContent": "85g",
     "fatContent": "12g",
-    "fiberContent": "18g"
+    "fiberContent": "24g"
   }
 }
