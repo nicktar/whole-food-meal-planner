@@ -1,6 +1,6 @@
 ---
 name: whole-food-meal-planner
-description: Comprehensive meal planning system for the Whole Food Challenge with recipe generation, verified recipes, nutritional validation, Mealie integration, and automated meal prep strategies. Can create new custom recipes based on available ingredients, dietary targets, and preferences - all automatically validated against challenge rules. Use when creating meal plans that require only whole foods (no processed foods, no animal products), generating new recipe ideas within strict dietary constraints, having specific caloric/protein targets (typically 1200 kcal, 100+g protein), needing nutritional verification, requiring Mealie-compatible recipe exports, or needing detailed meal prep workflows with shopping lists. Especially useful for multi-day plans (3-7 days) with ingredient synergies and custom recipe development.
+description: Comprehensive meal planning system for the Whole Food Challenge with recipe generation, verified recipes, nutritional validation, Mealie integration, and automated meal prep strategies. Can create new custom recipes based on available ingredients, dietary targets, and preferences - all automatically validated against challenge rules. Use when creating meal plans that require only whole foods (no processed foods, no animal products), generating new recipe ideas within strict dietary constraints, having specific caloric/protein targets (typically 1200 kcal, 75-90g protein), needing nutritional verification, requiring Mealie-compatible recipe exports, or needing detailed meal prep workflows with shopping lists. Especially useful for multi-day plans (3-7 days) with ingredient synergies and custom recipe development.
 ---
 
 # Whole Food Challenge Meal Planner
@@ -107,21 +107,21 @@ python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md -
 
 **Tägliche Ziele (typisch):**
 - Kalorien: 1200 kcal (Range: 1100-1300)
-- Protein: 100-110g (Minimum: 100g)
+- Protein: 75-90g (Minimum: 75g)
 - Ballaststoffe: 30g (Minimum: 25g)
 
 **Mahlzeiten-Ranges:**
 - Frühstück: 300-400 kcal, 15-30g Protein
-- Mittagessen: 350-450 kcal, 25-45g Protein
-- Abendessen: 350-400 kcal, 25-45g Protein
+- Mittagessen: 350-450 kcal, 20-35g Protein
+- Abendessen: 350-400 kcal, 20-35g Protein
 
 **WICHTIG - Ziel-Priorisierung:**
 - ⚠️ **1300 kcal ist eine HARTE Grenze** - NIEMALS überschreiten!
 - **Kalorien-Limit hat IMMER Priorität** über Protein-Ziel
 - Bei Konflikten zwischen Zielen: Kalorien-Grenze einhalten, auch wenn Protein darunter leidet
-- Beispiel: Lieber 90g Protein bei 1299 kcal als 105g Protein bei 1320 kcal
-- Mit 30g Proteinpulver-Limit pro Mahlzeit + 1300 kcal-Grenze ist 100g Protein oft nicht erreichbar
-- **Akzeptabel:** 85-95g Protein, wenn dadurch unter 1300 kcal geblieben wird
+- Beispiel: Lieber 72g Protein bei 1299 kcal als 85g Protein bei 1320 kcal
+- Mit 30g Proteinpulver-Limit pro Mahlzeit + 1300 kcal-Grenze ist das 75-90g Protein-Ziel gut erreichbar
+- **Ziel-Range:** 75-90g Protein bei unter 1300 kcal
 
 ## Bundled Resources
 
@@ -335,7 +335,7 @@ Die wichtigsten Werte (pro 100g/100ml):
 - ✅ Immer verify_nutrition.py nach Plan-Erstellung ausführen
 - ✅ Externe Rezepte prüfen: `ls recipe-database.md` (falls vorhanden, werden diese verwendet)
 - ✅ **Zutatenwiderholungen prüfen:** Geschmacksgebende Komponenten maximal 4x pro Woche (Hülsenfrüchte/Getreide/Paprika/Süßkartoffeln/Zucchini unbegrenzt)
-- ✅ Bei Protein <100g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
+- ✅ Bei Protein <75g: Tofu/Hülsenfrüchte/Erbsenprotein in Flüssigkeiten ergänzen
 - ✅ Bei Kalorien >1300: Öl/Nüsse reduzieren
 - ✅ Bei Kalorien <1100: Nüsse/Avocado hinzufügen
 - ✅ Meal Prep Synergien maximieren (gleiche Basis-Komponenten für mehrere Gerichte)
@@ -530,7 +530,7 @@ Die wichtigsten Werte (pro 100g/100ml):
 
 ### Szenario 1: Standard 5-Tage Plan
 ```
-1. Anforderungen: 5 Tage, 1200 kcal, 100g Protein
+1. Anforderungen: 5 Tage, 1200 kcal, 75g+ Protein
 2. Rezepte aus DB wählen (meal-plan-workflow.md Abschnitt 2)
 3. Plan nach Template erstellen
 4. verify_nutrition.py ausführen
@@ -551,9 +551,9 @@ Die wichtigsten Werte (pro 100g/100ml):
 
 ### Szenario 3: Protein-Boost erforderlich
 ```
-1. Erste Verifikation zeigt <100g Protein
+1. Erste Verifikation zeigt <75g Protein
 2. Anpassungen:
-   - Tofu zu Suppen hinzufügen (+15g)
+   - Tofu zu Suppen hinzufügen (+10-15g)
    - Extra Nussmus im Frühstück (+4g)
    - Erbsenprotein-Pulver in Flüssig-Mahlzeiten erhöhen (Overnight Oats, Smoothies, Porridge)
 3. Erneut verifizieren

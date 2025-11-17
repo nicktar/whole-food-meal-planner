@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The **Whole Food Meal Planner** is a meal planning system for the "Whole Food Challenge" - a strict plant-based, whole-food dietary program. The project is written in **German** and provides tools for:
 
-- Creating nutritionally-balanced meal plans (typically 1200 kcal/day, 100+g protein)
+- Creating nutritionally-balanced meal plans (typically 1200 kcal/day, 75-90g protein)
 - Validating meals against challenge rules and nutritional targets
 - Managing a database of verified recipes
 - Exporting recipes to Mealie (self-hosted recipe manager)
@@ -166,13 +166,13 @@ The challenge has specific exclusions (check before suggesting recipes):
 
 ### Nutritional Targets (Daily)
 - **Calories**: 1200 kcal (acceptable range: 1100-1300)
-- **Protein**: 110g target (minimum: 100g)
+- **Protein**: 80g target (minimum: 75g)
 - **Fiber**: 30g target (minimum: 25g)
 
 ### Meal Ranges
 - **Frühstück (Breakfast)**: 300-400 kcal, 15-30g protein
-- **Mittagessen (Lunch)**: 350-450 kcal, 25-45g protein
-- **Abendessen (Dinner)**: 350-400 kcal, 25-45g protein
+- **Mittagessen (Lunch)**: 350-450 kcal, 20-35g protein
+- **Abendessen (Dinner)**: 350-400 kcal, 20-35g protein
 
 ## Meal Planning Workflow
 
@@ -295,10 +295,11 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 
 ### Common Adjustments
 
-**Protein too low (<100g)**:
-- Add 100g tofu (+15g protein)
+**Protein too low (<75g)**:
+- Add 80-100g tofu to meals (+10-15g protein)
 - Add extra Nussmus to breakfast (+4g protein)
 - Add extra legumes to meals (+8-12g protein per 100g)
+- Increase Erbsenprotein-Pulver in liquid meals (Overnight Oats, Smoothies)
 
 **Calories too high (>1300)**:
 - Reduce oil in dressings

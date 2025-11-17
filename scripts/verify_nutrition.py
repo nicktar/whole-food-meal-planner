@@ -520,16 +520,15 @@ if __name__ == "__main__":
     print("\n📋 EMPFEHLUNGEN:")
     if avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['min']:
         deficit = NUTRITIONAL_TARGETS['daily']['protein']['min'] - avg_protein
-        print(f"  ⚠️  Protein-Target nicht erreicht (Defizit: {deficit:.1f}g/Tag)")
-        print(f"     → Füge 100-150g Tofu zu Hauptmahlzeiten hinzu (+10-15g Protein)")
-        print(f"     → Erhöhe Erbsenprotein-Pulver auf 30g im Frühstück (+4g Protein)")
+        print(f"  ⚠️  Protein-Minimum nicht erreicht (Defizit: {deficit:.1f}g/Tag)")
+        print(f"     → Füge 80-100g Tofu zu Hauptmahlzeiten hinzu (+10-12g Protein)")
+        print(f"     → Erhöhe Erbsenprotein-Pulver auf 25-30g im Frühstück (+3-4g Protein)")
         print(f"     → Füge zusätzliche Hülsenfrüchte hinzu (+8-12g Protein/100g)")
     elif avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['target']:
         print(f"  ℹ️  Protein über Minimum aber unter Target ({avg_protein:.1f}g vs {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
-        print(f"     → Laut SKILL.md akzeptabel bei 1300 kcal-Grenze!")
-        print(f"     → Mit minimalen Fetten bleibt wenig Spielraum für mehr Protein")
+        print(f"     → Gut im Zielbereich! Bei Bedarf leicht erhöhen.")
     else:
-        print(f"  ✅ Protein-Target erreicht!")
+        print(f"  ✅ Protein-Target erreicht oder übertroffen!")
 
     if avg_calories < NUTRITIONAL_TARGETS['daily']['calories']['min']:
         print(f"  ⚠️  Kalorien unter Minimum")
