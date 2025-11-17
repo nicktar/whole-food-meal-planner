@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Gemüse-Eintopf OHNE Fett - Korrigiert",
+  "description": "Mittagessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Mittagessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "80g rote Linsen trocken",
+    "1 Möhre / 100g",
+    "1 Tomate / 100g",
+    "50g Spinat",
+    "1 Zwiebel / 80g",
+    "2 Knoblauchzehen",
+    "1 TL Kreuzkümmel, Paprika, Kurkuma",
+    "400ml Gemüsebrühe",
+    "Zitronensaft, Salz, Pfeffer",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "1. Zwiebel, Knoblauch, Möhre würfeln\n2. In Topf mit wenig Wasser andünsten\n3. Gewürze kurz anrösten\n4. Linsen + Brühe + Tomate hinzufügen\n5. 15-20 Min köcheln\n6. Spinat unterheben, 2 Min ziehen lassen\n7. Mit Zitronensaft + Salz abschmecken",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "318",
+    "proteinContent": "24.1",
+    "carbohydrateContent": "56.5",
+    "fatContent": "1.5",
+    "fiberContent": "17.4"
+  }
+}
