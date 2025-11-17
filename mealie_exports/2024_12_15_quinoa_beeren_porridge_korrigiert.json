@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Quinoa-Beeren-Porridge - Korrigiert",
+  "description": "Frühstück aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Frühstück",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "50g Quinoa trocken",
+    "200ml Hafermilch ungesüßt",
+    "20g Erbsenprotein-Pulver",
+    "15g Cashewmus",
+    "**1.5 EL Walnüsse gehackt / 15g**",
+    "100g Beeren gemischt",
+    "Prise Zimt, 1 TL Vanilleextrakt"
+  ],
+  "recipeInstructions": "1. Quinoa in Hafermilch + 100ml Wasser aufkochen\n2. 15-20 Min köcheln bis cremig\n3. Proteinpulver + Cashewmus einrühren\n4. Mit Beeren, Walnüssen, Zimt toppen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "522",
+    "proteinContent": "28.7",
+    "carbohydrateContent": "60.8",
+    "fatContent": "16.8",
+    "fiberContent": "11.6"
+  }
+}

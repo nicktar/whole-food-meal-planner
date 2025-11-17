@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Quinoa-Schoko-Porridge - Korrigiert",
+  "description": "Frühstück aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Frühstück",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "**45g Quinoa trocken**",
+    "200ml Hafermilch ungesüßt",
+    "20g Erbsenprotein-Pulver",
+    "**1 EL Walnüsse gehackt / 10g**",
+    "1 EL Kakaopulver ungesüßt / 5g",
+    "1 Banane / 120g",
+    "1 TL Ahornsirup",
+    "Prise Zimt, Vanille"
+  ],
+  "recipeInstructions": "1. Quinoa in Hafermilch + 100ml Wasser + Kakao aufkochen\n2. 15-20 Min köcheln bis cremig\n3. Proteinpulver einrühren\n4. Mit Bananenscheiben, Walnüssen, Ahornsirup toppen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "516",
+    "proteinContent": "28.35",
+    "carbohydrateContent": "68.9",
+    "fatContent": "10.9",
+    "fiberContent": "11.4"
+  }
+}

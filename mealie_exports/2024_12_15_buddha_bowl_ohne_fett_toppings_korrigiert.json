@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Buddha Bowl OHNE Fett-Toppings - Korrigiert",
+  "description": "Mittagessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Mittagessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "60g Quinoa trocken",
+    "150g Kichererbsen gekocht",
+    "100g Rotkohl roh",
+    "1 Möhre / 100g",
+    "50g Edamame TK",
+    "Frische Kräuter"
+  ],
+  "recipeInstructions": "1. Quinoa nach Packungsanweisung kochen\n2. Rotkohl fein hobeln, Möhre raspeln\n3. Edamame blanchieren (2-3 Min)\n4. Alle Komponenten in Bowl anrichten\n5. Dressing: Zitronensaft + Gewürze vermischen, über Bowl träufeln",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "480",
+    "proteinContent": "26.85",
+    "carbohydrateContent": "72.9",
+    "fatContent": "8.35",
+    "fiberContent": "18.0"
+  }
+}
