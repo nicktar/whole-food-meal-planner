@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "CHIA PUDDING BEEREN MIT PROTEIN",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "3 EL Chiasamen (30g)",
+    "200ml Hafermilch",
+    "20g Erbsenprotein-Pulver",
+    "1 EL Mandelmus",
+    "1/2 TL Vanilleextrakt",
+    "100g gemischte Beeren (TK oder frisch)",
+    "1 EL Mandelsplitter",
+    "1 EL Hanfsamen"
+  ],
+  "recipeInstructions": "1. Chiasamen, Proteinpulver, Vanille mischen\n2. Hafermilch und Mandelmus kräftig unterrühren\n3. Nach 5 Min nochmal durchrühren\n4. Mindestens 4 Std quellen lassen\n5. Mit Beeren, Mandelsplittern und Hanfsamen toppen",
+  "nutrition": {
+    "calories": "365",
+    "proteinContent": "28g",
+    "carbohydrateContent": "38g",
+    "fatContent": "14g",
+    "fiberContent": "13g"
+  }
+}

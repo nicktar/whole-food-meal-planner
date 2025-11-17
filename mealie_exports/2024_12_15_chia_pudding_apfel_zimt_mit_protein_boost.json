@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "CHIA PUDDING APFEL-ZIMT MIT PROTEIN-BOOST",
+  "description": "Protein-reich mit 30g Protein - Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "3 EL Chiasamen (30g)",
+    "200ml Hafermilch",
+    "20g Erbsenprotein-Pulver",
+    "1 EL Cashewmus",
+    "1 TL Zimt",
+    "1/4 TL Kardamom",
+    "1 mittelgroßer Apfel, klein gewürfelt",
+    "1 EL Walnüsse, gehackt",
+    "1 EL Kürbiskerne"
+  ],
+  "recipeInstructions": "1. Chiasamen, Proteinpulver, Zimt und Kardamom mischen\n2. Hafermilch und Cashewmus hinzufügen, sehr kräftig schütteln/rühren\n3. Nach 5 Min nochmal durchrühren\n4. Mindestens 4 Std (ideal: über Nacht) quellen lassen\n5. Mit gewürfeltem Apfel, Walnüssen und Kürbiskernen toppen",
+  "nutrition": {
+    "calories": "380",
+    "proteinContent": "30g",
+    "carbohydrateContent": "42g",
+    "fatContent": "14g",
+    "fiberContent": "13g"
+  }
+}
