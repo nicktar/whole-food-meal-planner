@@ -12,6 +12,7 @@
 - **Chiasamen:** 486 kcal, 17g P, 42g C, 31g F, 34g Fiber
 - **Leinsamen (gemahlen):** 534 kcal, 18g P, 29g C, 42g F, 27g Fiber
 - **Walnüsse:** 654 kcal, 15g P, 14g C, 65g F, 7g Fiber
+- **Haselnüsse:** 628 kcal, 15g P, 17g C, 61g F, 10g Fiber
 - **Cashews:** 553 kcal, 18g P, 30g C, 44g F, 3g Fiber
 - **Kürbiskerne:** 559 kcal, 30g P, 11g C, 49g F, 6g Fiber
 - **Hanfsamen:** 553 kcal, 32g P, 9g C, 49g F, 4g Fiber
@@ -38,10 +39,14 @@
 ### Gemüse
 - **Apfel:** 52 kcal, 0.3g P, 14g C, 0.2g F, 2.4g Fiber
 - **Beeren (gemischt):** 57 kcal, 0.7g P, 14g C, 0.3g F, 2g Fiber
+- **TK-Heidelbeeren:** 57 kcal, 0.7g P, 14g C, 0.3g F, 2.4g Fiber
+- **TK-Kirschen (Sauerkirschen):** 50 kcal, 1g P, 12g C, 0.3g F, 1.6g Fiber
 - **Banane:** 89 kcal, 1.1g P, 23g C, 0.3g F, 2.6g Fiber
 - **Brokkoli:** 34 kcal, 2.8g P, 7g C, 0.4g F, 2.6g Fiber
 - **Karotten:** 41 kcal, 0.9g P, 10g C, 0.2g F, 2.8g Fiber
 - **Gurke:** 15 kcal, 0.7g P, 3.6g C, 0.1g F, 0.5g Fiber
+- **Zwiebel (gelb/weiß):** 40 kcal, 1g P, 9g C, 0.1g F, 1.7g Fiber
+- **Pastinaken:** 75 kcal, 1.2g P, 18g C, 0.3g F, 4.9g Fiber
 - **Rotkohl:** 31 kcal, 1.4g P, 7g C, 0.2g F, 2.5g Fiber
 - **Rote Bete gekocht:** 44 kcal, 1.6g P, 10g C, 0.2g F, 2g Fiber
 - **Kirschtomaten:** 18 kcal, 0.9g P, 3.9g C, 0.2g F, 1.2g Fiber
@@ -58,6 +63,16 @@
 - **Kokosöl:** 862 kcal, 0g P, 0g C, 100g F, 0g Fiber
 - **Sesamöl:** 884 kcal, 0g P, 0g C, 100g F, 0g Fiber
 
+### Gewürze & Aromen
+- **Zimt:** ~0 kcal (vernachlässigbar in üblichen Mengen)
+- **Vanillepulver:** 288 kcal, 0.1g P, 13g C, 0.1g F, 0g Fiber
+- **Vanilleextrakt:** ~12 kcal/TL (meist vernachlässigbar)
+- **Kurkuma:** ~0 kcal (vernachlässigbar)
+- **Kreuzkümmel:** ~0 kcal (vernachlässigbar)
+- **Koriander (gemahlen):** ~0 kcal (vernachlässigbar)
+- **Paprikapulver:** ~0 kcal (vernachlässigbar)
+- **Knoblauchpulver:** ~0 kcal (vernachlässigbar)
+
 ### Sonstiges
 - **Kokosmilch:** 230 kcal, 2.3g P, 6g C, 24g F, 2.2g Fiber
 - **Hummus:** 166 kcal, 8g P, 14g C, 10g F, 6g Fiber
@@ -70,7 +85,6 @@
 - **Dijon-Senf:** 66 kcal, 4g P, 5g C, 3g F, 3g Fiber
 - **Apfelessig:** 21 kcal, 0g P, 0.9g C, 0g F, 0g Fiber
 - **Balsamico-Essig:** 88 kcal, 0.5g P, 17g C, 0g F, 0g Fiber
-- **Vanillepulver:** 288 kcal, 0.1g P, 13g C, 0.1g F, 0g Fiber
 - **Cranberries (getrocknet):** 308 kcal, 0g P, 82g C, 1.4g F, 5g Fiber
 - **Wakame (Algen, getrocknet):** 45 kcal, 3g P, 9g C, 0.6g F, 0.5g Fiber
 - **Ingwer (frisch):** 80 kcal, 1.8g P, 18g C, 0.8g F, 2g Fiber
