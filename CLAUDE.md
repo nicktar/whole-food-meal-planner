@@ -92,9 +92,10 @@ See `references/external-recipes-guide.md` for detailed format requirements.
 
 ### Nutritional Verification
 ```bash
-python3 scripts/verify_nutrition.py
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json
 ```
-Validates meal plans against nutritional targets and challenge rules. After creating any meal plan, always run this script to verify compliance.
+Parser-based tool that automatically extracts nutrition data from Markdown meal plans and validates against targets. No manual coding required - just point it at your meal plan file!
 
 ### Mealie Recipe Export
 ```bash
@@ -140,7 +141,7 @@ The codebase uses **data-oriented architecture** with clear patterns:
 
 ```
 scripts/                        # Python automation tools
-  verify_nutrition.py           # Validates meal plans (381 lines)
+  verify_nutrition.py           # Parser-based nutrition validation (699 lines)
   mealie_export.py              # Parser-based Mealie export (495 lines)
 references/                     # Documentation and recipes
   meal-plan-workflow.md         # 8-step planning guide
@@ -194,31 +195,31 @@ The challenge has specific exclusions (check before suggesting recipes):
 
 ### verify_nutrition.py
 
-When creating meal plans, you must modify the script to add your meal data:
+**Parser-based validation tool** - automatically extracts nutrition data from Markdown meal plans:
 
-```python
-# Define meals using dataclasses
-breakfast = Meal(
-    name="Overnight Oats",
-    nutrition=NutritionInfo(calories=350, protein=12, carbs=55, fat=9, fiber=10),
-    ingredients=["Haferflocken", "Beeren", "Mandelmilch", "Chiasamen"]
-)
+```bash
+# Validate a meal plan file
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md
 
-# Create daily plan
-day1 = DailyPlan(
-    date="2024-01-15",
-    meals=[breakfast, lunch, dinner]
-)
-
-# Run verification
-verify_daily_plan(day1)
+# JSON output for programmatic processing
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json
 ```
 
-The script outputs:
+**Features:**
+- Automatically parses TAG structure and meal sections
+- Extracts nutrition values (Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe)
+- Validates against daily and per-meal targets
+- Handles repeated meals (e.g., "Wiederholung")
+- Weekly summary with averages
+- Actionable recommendations
+- No manual coding required
+
+**Output:**
 - Human-readable report with emojis (✅/⚠️/❌)
-- JSON format for programmatic processing
+- JSON format for programmatic processing (--json flag)
 - Detailed warnings for out-of-range values
 - Ingredient compliance checks
+- Weekly averages and pass/fail summary
 
 ### mealie_export.py
 

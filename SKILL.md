@@ -21,7 +21,7 @@ view recipe-database.md || view references/recipe-database.md
 # Dateiname: meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
 
 # 4. Nährwerte verifizieren (KRITISCH!)
-python3 scripts/verify_nutrition.py
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
 
 # 5. Optional: Mealie-Export
 python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --prefix 2024_12_08
@@ -35,15 +35,16 @@ python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --pr
 
 ### 1. 🧮 NÄHRWERTE KORREKT BERECHNET (HÄUFIGSTE FEHLERQUELLE!)
 
-**⚠️ KRITISCH:** Das `verify_nutrition.py` Script **validiert** nur hardcoded Werte gegen Targets. Es **berechnet NICHT** automatisch die Nährwerte aus Zutaten!
+**✅ NEU:** Das `verify_nutrition.py` Script **parst automatisch** Nährwerte aus Markdown-Meal-Plans! Es liest deine **Nährwerte:**-Sektionen und validiert sie gegen Targets.
 
-**MANUELLE Berechnung ist PFLICHT:**
+**MANUELLE Berechnung im Meal Plan ist PFLICHT:**
 
 1. **Zutatenliste mit exakten Mengen** erstellen
 2. **JEDE Zutat einzeln berechnen** mit Standardwerten aus `scripts/nutrition-recalculation.md`
 3. **Alle Werte summieren**
 4. **Gegen Meal-Ranges prüfen**
-5. **ERST DANN** in verify_nutrition.py eintragen
+5. **In Meal Plan eintragen** unter **Nährwerte:**-Sektion
+6. **DANN** `verify_nutrition.py meal-plans/dein-plan.md` ausführen
 
 **Häufigste Fehler (führen zu +180-420 kcal pro Mahlzeit!):**
 
@@ -145,7 +146,7 @@ python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --pr
 
 **Verifikation vor Finalisierung:**
 ```bash
-python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md  # PFLICHT!
 ```
 
 ## Challenge-Regeln
@@ -200,7 +201,7 @@ python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
 2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
 3. **Plan erstellen** → Template-Format verwenden, Dateiname: `wochenplan-YYYY-MM-DD-bis-DD.md`
 4. **Nährwerte MANUELL berechnen** → JEDE Zutat einzeln mit `scripts/nutrition-recalculation.md` Standardwerten
-5. **Verifikation** → `python3 scripts/verify_nutrition.py` ausführen (**KRITISCH!**)
+5. **Verifikation** → `python3 scripts/verify_nutrition.py meal-plans/wochenplan-file.md` (**KRITISCH!**)
 6. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
 
 **Optional (nur auf expliziten Nutzer-Wunsch):**
@@ -220,10 +221,12 @@ python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
 
 ### Scripts
 
-**`scripts/verify_nutrition.py`** - Nährwert-Validierung (nicht Berechnung!)
-- Validiert hardcoded Werte gegen Targets
-- Zeigt Abweichungen und Warnungen
-- **Wann verwenden:** Nach MANUELLER Nährwertberechnung, vor Finalisierung
+**`scripts/verify_nutrition.py`** - Parser-basierte Nährwert-Validierung
+- Parst **Nährwerte:**-Sektionen automatisch aus Markdown
+- Validiert gegen Daily und Meal-Ranges
+- `python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12.md`
+- Optional: `--json` Flag für programmatische Verarbeitung
+- **Wann verwenden:** Nach MANUELLER Nährwertberechnung im Meal Plan, vor Finalisierung
 
 **`scripts/mealie_export.py`** - Parser-basierte Mealie-Integration
 - Vollautomatischer Export aus Markdown-Rezepten
@@ -255,7 +258,7 @@ python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
 
 ## Nährwertberechnung - Prozess (PFLICHT!)
 
-**VOR dem Eintragen in verify_nutrition.py:**
+**VOR dem Ausführen von verify_nutrition.py:**
 
 ### Schritt 1: Zutatenliste mit exakten Mengen
 ```
@@ -287,7 +290,22 @@ SUMME: 486 kcal, 28.15g P, 38.3g C, 26.5g F, 9.3g Fiber
 - Frühstück sollte 300-400 kcal haben
 - 486 kcal ist zu viel! → Nussmus/Walnüsse reduzieren
 
-### Schritt 5: ERST JETZT in verify_nutrition.py eintragen
+### Schritt 5: In Meal Plan eintragen und verify_nutrition.py ausführen
+
+**Nährwerte in Markdown eintragen:**
+```markdown
+**Nährwerte:**
+- Kalorien: 486 kcal
+- Protein: 28.15g
+- Kohlenhydrate: 38.3g
+- Fett: 26.5g
+- Ballaststoffe: 9.3g
+```
+
+**Dann validieren:**
+```bash
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
+```
 
 **Wichtigste Standardwerte (pro 100g/100ml):**
 - Haferflocken: 370 kcal, 13g P
