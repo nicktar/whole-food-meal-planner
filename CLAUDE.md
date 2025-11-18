@@ -30,41 +30,62 @@ The SKILL.md file serves as the skill's prompt that gets loaded when the skill i
 
 When working on this codebase, remember that changes to SKILL.md affect how other Claude instances will use this skill.
 
-## External Recipe Database Architecture
+## External Resource Architecture
 
-**NEW**: The skill now supports project-specific recipe databases, allowing users to maintain recipes separately from the skill itself.
+**NEW**: The skill supports project-specific resources, allowing users to maintain their own versions separately from the skill itself.
+
+### Supported External Resources
+
+1. **`recipe-database.md`** - Recipe collections
+2. **`nutrition-recalculation.md`** - Nutritional standard values (NEW!)
 
 ### How It Works
 
 When the skill is invoked from a project:
-1. **Check external**: Look for `recipe-database.md` in the project root
-2. **Use external if found**: Load recipes from the project's database
-3. **Fall back to bundled**: Use `references/recipe-database.md` if no external database exists
-4. **Support custom paths**: Accept user-specified paths (e.g., `my-recipes/database.md`)
+1. **Check external**: Look for resource in the project root
+2. **Use external if found**: Load from the project's version
+3. **Fall back to bundled**: Use bundled version if no external resource exists
+4. **Support custom paths**: Accept user-specified paths
+
+**Example workflow:**
+```bash
+# Recipe database
+view recipe-database.md || view references/recipe-database.md
+
+# Nutrition values
+view nutrition-recalculation.md || view scripts/nutrition-recalculation.md
+```
 
 ### Benefits
 
-- ✅ **No skill releases needed**: Users update recipes without modifying the skill
-- ✅ **Multiple collections**: Different projects can have different recipe sets
-- ✅ **Version control**: Users can track recipe changes independently
-- ✅ **Privacy**: Personal recipes stay in user projects
-- ✅ **Sharing**: Recipe collections can be shared without the entire skill
+- ✅ **No skill releases needed**: Users update resources without modifying the skill
+- ✅ **Multiple collections**: Different projects can have different resource sets
+- ✅ **Version control**: Users can track changes independently
+- ✅ **Privacy**: Personal resources stay in user projects
+- ✅ **Sharing**: Resource collections can be shared without the entire skill
+- ✅ **Extensibility**: Add custom ingredients, recipes, or nutrition values
 
 ### File Structure
 
 ```
 User's project/
-├── recipe-database.md        # External recipes (auto-detected)
-└── meal-plans/              # Generated meal plans
+├── recipe-database.md              # External recipes (auto-detected)
+├── nutrition-recalculation.md      # External nutrition values (auto-detected)
+└── meal-plans/                    # Generated meal plans
 
 This skill repo/
+├── scripts/
+│   ├── nutrition-recalculation.md  # Bundled nutrition values (fallback)
+│   ├── verify_nutrition.py
+│   └── mealie_export.py
 ├── references/
 │   ├── recipe-database.md         # Bundled recipes (fallback)
-│   ├── external-recipes-guide.md  # Guide for external recipes
+│   ├── external-recipes-guide.md  # Guide for external resources
 │   └── meal-plan-workflow.md      # Workflow guide
 └── example-recipe-project/        # Template for users
     ├── README.md
     ├── recipe-database.md
+    ├── nutrition-recalculation.md  # Example custom nutrition values
     └── .gitignore
 ```
 
@@ -75,7 +96,11 @@ When working on the skill:
   - Default recipes when no external database exists
   - Reference templates for format
   - Examples for new users
-- **External recipe guide** at `references/external-recipes-guide.md` explains how users can create their own recipe databases
+- **Bundled nutrition values** in `scripts/nutrition-recalculation.md` serve as:
+  - Default nutritional standard values
+  - Reference for common ingredients
+  - Can be extended/overridden in user projects
+- **External resources guide** at `references/external-recipes-guide.md` explains how users can create their own resources
 - **Example project** in `example-recipe-project/` provides a ready-to-use template
 
 ### Maintaining Recipe Format

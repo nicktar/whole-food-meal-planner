@@ -17,6 +17,9 @@ view references/meal-plan-workflow.md
 # 2. Rezepte prüfen (externe recipe-database.md hat Vorrang)
 view recipe-database.md || view references/recipe-database.md
 
+# 2b. Nährwert-Standardwerte prüfen (externe nutrition-recalculation.md hat Vorrang)
+view nutrition-recalculation.md || view scripts/nutrition-recalculation.md
+
 # 3. Plan erstellen (Templates aus workflow.md)
 # Dateiname: meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
 
@@ -40,7 +43,7 @@ python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --pr
 **MANUELLE Berechnung im Meal Plan ist PFLICHT:**
 
 1. **Zutatenliste mit exakten Mengen** erstellen
-2. **JEDE Zutat einzeln berechnen** mit Standardwerten aus `scripts/nutrition-recalculation.md`
+2. **JEDE Zutat einzeln berechnen** mit Standardwerten (siehe `nutrition-recalculation.md` im Projekt oder `scripts/nutrition-recalculation.md`)
 3. **Alle Werte summieren**
 4. **Gegen Meal-Ranges prüfen**
 5. **In Meal Plan eintragen** unter **Nährwerte:**-Sektion
@@ -67,7 +70,7 @@ python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --pr
 - Kokosmilch (75ml+) + Nussmus + Nüsse
 - Mehrere EL Nussmus (2+ EL)
 
-**IMMER verwenden:** Standardwerte aus `scripts/nutrition-recalculation.md` (PFLICHTLEKTÜRE!)
+**IMMER verwenden:** Standardwerte aus `nutrition-recalculation.md` (projekt-spezifisch) oder `scripts/nutrition-recalculation.md` (bundled) - PFLICHTLEKTÜRE!
 
 ### 2. ⚠️ KALORIENLIMIT (HARTE GRENZE!)
 
@@ -200,7 +203,7 @@ python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md  
 1. **Anforderungen sammeln** → Zeitraum, Ernährungsziele, Präferenzen
 2. **Rezepte auswählen** → External `recipe-database.md` oder bundled `references/recipe-database.md`
 3. **Plan erstellen** → Template-Format verwenden, Dateiname: `wochenplan-YYYY-MM-DD-bis-DD.md`
-4. **Nährwerte MANUELL berechnen** → JEDE Zutat einzeln mit `scripts/nutrition-recalculation.md` Standardwerten
+4. **Nährwerte MANUELL berechnen** → JEDE Zutat einzeln mit Standardwerten aus `nutrition-recalculation.md`
 5. **Verifikation** → `python3 scripts/verify_nutrition.py meal-plans/wochenplan-file.md` (**KRITISCH!**)
 6. **Anpassungen** → Protein/Kalorien optimieren bei Abweichungen
 
@@ -233,11 +236,12 @@ python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md  
 - `python3 scripts/mealie_export.py meal-plans/wochenplan-08-12.md --prefix 2024_12_08`
 - **Wann verwenden:** Bei jedem neuen Wochenplan für Mealie-Import
 
-**`scripts/nutrition-recalculation.md`** - Nährwert-Standardwerte Referenz
+**`nutrition-recalculation.md`** - Nährwert-Standardwerte Referenz
 - **PFLICHTLEKTÜRE vor jeder Nährwertberechnung!**
 - Präzise Standardwerte für ALLE gängigen Zutaten (pro 100g/100ml)
 - Dokumentiert systematische Fehlerquellen (+180-420 kcal Fehler!)
-- **IMMER diese Werte verwenden** für manuelle Berechnungen
+- **Location**: Projekt-Root (`nutrition-recalculation.md`) oder bundled (`scripts/nutrition-recalculation.md`)
+- **Tipp**: Erstelle projekt-spezifische Version für eigene Zutat-Erweiterungen!
 
 ### References
 
@@ -271,7 +275,7 @@ python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md  
 ```
 
 ### Schritt 2: JEDE Zutat einzeln berechnen
-Nutze Standardwerte aus `scripts/nutrition-recalculation.md`:
+Nutze Standardwerte aus `nutrition-recalculation.md` (projekt-spezifisch) oder `scripts/nutrition-recalculation.md` (bundled):
 ```
 30g Haferflocken: 111 kcal, 3.9g P, 18g C, 2.1g F, 3g Fiber
 150ml Hafermilch: 52 kcal, 0.75g P, 9g C, 1.5g F, 0g Fiber
@@ -318,7 +322,7 @@ python3 scripts/verify_nutrition.py meal-plans/wochenplan-YYYY-MM-DD-bis-DD.md
 - **Kokosmilch: 230 kcal, 2.3g P** ⚠️
 - **Olivenöl: 884 kcal** ⚠️
 
-**Vollständige Liste:** Siehe `scripts/nutrition-recalculation.md`
+**Vollständige Liste:** Siehe `nutrition-recalculation.md` (Projekt) oder `scripts/nutrition-recalculation.md` (bundled)
 
 ## Neue Rezepte generieren
 
@@ -426,7 +430,7 @@ Miso-Sauce (25 kcal, 1g P)
 1. Anforderungen: 5 Tage, 1200 kcal, 75g+ Protein
 2. Rezepte wählen (externe oder bundled recipe-database.md)
 3. Plan nach Template erstellen
-4. Nährwerte MANUELL berechnen (scripts/nutrition-recalculation.md)
+4. Nährwerte MANUELL berechnen (nutrition-recalculation.md)
 5. verify_nutrition.py ausführen
 6. (Optional) Einkaufsliste + Meal Prep Strategie
 ```
@@ -456,7 +460,7 @@ Miso-Sauce (25 kcal, 1g P)
 
 **Problem:** Nährwerte stimmen nicht
 → Häufigste Ursache: Nüsse/Nussmus/Tahini/Kokosmilch unterschätzt
-→ JEDE Zutat mit `scripts/nutrition-recalculation.md` neu berechnen
+→ JEDE Zutat mit `nutrition-recalculation.md` neu berechnen
 → verify_nutrition.py zeigt Abweichungen
 
 **Problem:** Neue Rezepte schmecken fade
