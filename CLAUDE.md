@@ -98,9 +98,9 @@ Validates meal plans against nutritional targets and challenge rules. After crea
 
 ### Mealie Recipe Export
 ```bash
-python3 scripts/mealie_export.py
+python3 scripts/mealie_export.py <markdown-file> [--prefix YYYY_MM_DD]
 ```
-Generates Mealie-compatible JSON recipe files in `mealie_exports/` directory.
+Parser-based tool that automatically extracts recipes from Markdown meal plans and converts them to Mealie-compatible JSON format. No manual coding required - just point it at your meal plan file!
 
 ### View Documentation
 ```bash
@@ -141,7 +141,7 @@ The codebase uses **data-oriented architecture** with clear patterns:
 ```
 scripts/                        # Python automation tools
   verify_nutrition.py           # Validates meal plans (381 lines)
-  mealie_export.py              # Exports to Mealie format (340 lines)
+  mealie_export.py              # Parser-based Mealie export (495 lines)
 references/                     # Documentation and recipes
   meal-plan-workflow.md         # 8-step planning guide
   recipe-database.md            # Bundled recipes (fallback)
@@ -222,23 +222,27 @@ The script outputs:
 
 ### mealie_export.py
 
-To export recipes, add `MealieRecipe` objects:
+**Parser-based export tool** - automatically extracts recipes from Markdown files:
 
-```python
-recipe = MealieRecipe(
-    name="Recipe Name",
-    description="Description",
-    recipe_yield="2 servings",
-    prep_time="PT15M",  # ISO 8601 format
-    perform_time="PT30M",
-    total_time="PT45M",
-    recipe_category=["Breakfast"],
-    tags=["Whole Food Challenge", "Meal Prep"],
-    recipe_ingredient=[...],  # Use MealieIngredient objects
-    recipe_instructions=[...],
-    nutrition=MealieNutrition(...)
-)
+```bash
+# Export from meal plan file
+python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-15-bis-19.md
+
+# Export with custom date prefix
+python3 scripts/mealie_export.py rezepte-dezember.md --prefix 2024_12_15
 ```
+
+**Features:**
+- Automatically detects recipe formats (Wochenplan, standalone recipes)
+- Extracts nutrition info, ingredients, instructions
+- Generates clean filenames with date prefixes
+- Outputs schema.org-compliant JSON for Mealie
+- No manual coding required
+
+**Supported formats:**
+- Wochenplan format: `### Frühstück: Recipe Name`
+- Standalone format: `## RECIPE NAME`
+- Recipe database format: `references/recipe-database.md`
 
 ## Recipe Database
 

@@ -24,7 +24,7 @@ view recipe-database.md || view references/recipe-database.md
 python3 scripts/verify_nutrition.py
 
 # 5. Optional: Mealie-Export
-python3 scripts/mealie_export_v2.py meal-plans/wochenplan-2024-12-08-bis-12.md --prefix 2024_12_08
+python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-08-bis-12.md --prefix 2024_12_08
 ```
 
 **Schritte:** Anforderungen sammeln → Rezepte wählen → Plan erstellen → **Nährwerte manuell berechnen** → Verifizieren → Optional: Mealie-Export
@@ -206,7 +206,7 @@ python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
 **Optional (nur auf expliziten Nutzer-Wunsch):**
 7. **Einkaufsliste** → Nach Kategorien gruppieren, Dateiname: `einkaufsliste-YYYY-MM-DD-bis-DD.md`
 8. **Meal Prep Strategie** → 4-Phasen-Timeline, Dateiname: `meal-prep-strategie-YYYY-MM-DD-bis-DD.md`
-9. **Mealie-Export** → `python3 scripts/mealie_export_v2.py wochenplan-file.md --prefix YYYY_MM_DD`
+9. **Mealie-Export** → `python3 scripts/mealie_export.py wochenplan-file.md --prefix YYYY_MM_DD`
 
 **Wichtigste Punkte:**
 - ✅ **Nährwerte MANUELL berechnen** vor verify_nutrition.py!
@@ -225,9 +225,9 @@ python3 scripts/verify_nutrition.py  # PFLICHT nach Plan-Erstellung!
 - Zeigt Abweichungen und Warnungen
 - **Wann verwenden:** Nach MANUELLER Nährwertberechnung, vor Finalisierung
 
-**`scripts/mealie_export_v2.py`** - Parser-basierte Mealie-Integration
+**`scripts/mealie_export.py`** - Parser-basierte Mealie-Integration
 - Vollautomatischer Export aus Markdown-Rezepten
-- `python3 scripts/mealie_export_v2.py meal-plans/wochenplan-08-12.md --prefix 2024_12_08`
+- `python3 scripts/mealie_export.py meal-plans/wochenplan-08-12.md --prefix 2024_12_08`
 - **Wann verwenden:** Bei jedem neuen Wochenplan für Mealie-Import
 
 **`scripts/nutrition-recalculation.md`** - Nährwert-Standardwerte Referenz
