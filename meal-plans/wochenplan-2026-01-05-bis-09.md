@@ -120,7 +120,7 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 ## TAG 2 - Dienstag, 6. Januar 2026
 
 ### Frühstück: Chia Pudding Beeren-Power
-**Kalorien:** 505 | **Protein:** 34g | **Prep:** 5 Min (vorbereitet am Vorabend)
+**Kalorien:** 465 | **Protein:** 32g | **Prep:** 5 Min (vorbereitet am Vorabend)
 
 **Zutaten (ANGEPASST):**
 - 22g Chiasamen *(reduziert von 3 EL/30g)*
@@ -129,19 +129,19 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 - 1 TL Cashewmus (5g) *(reduziert von 1 EL/15g)*
 - 28g Erbsenprotein-Pulver *(erhöht von 20g)*
 - 100g gemischte Beeren (TK)
-- 1 EL Hanfsamen (10g)
-- 1 TL Mandelsplitter (5g) *(reduziert von 1 EL/10g)*
+- 1 TL Hanfsamen (5g) *(reduziert von 1 EL/10g)*
+- 1/2 TL Mandelsplitter (3g) *(reduziert von 5g)*
 - Prise Zimt
 
 **Zubereitung:**
 Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig mischen, über Nacht quellen lassen. Am Morgen mit Beeren, Hanfsamen und Mandeln toppen.
 
 **Nährwerte (KORRIGIERT):**
-- Kalorien: 505 kcal
-- Protein: 34.4g
-- Kohlenhydrate: 44.7g
-- Fett: 24.4g
-- Ballaststoffe: 11.1g
+- Kalorien: 465 kcal
+- Protein: 32.4g
+- Kohlenhydrate: 43.8g
+- Fett: 20.0g
+- Ballaststoffe: 10.3g
 
 ---
 
@@ -159,7 +159,7 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 ### Abendessen: Rotkohl-Buddha-Bowl mit Quinoa
-**Kalorien:** 515 | **Protein:** 24g | **Prep:** 15 Min (mit vorbereiteten Komponenten)
+**Kalorien:** 504 | **Protein:** 24g | **Prep:** 15 Min (mit vorbereiteten Komponenten)
 
 **Zutaten (ANGEPASST):**
 - 60g Quinoa (gekocht) *(reduziert von 80g)*
@@ -168,7 +168,7 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 - 60g Karotten, julienne
 - 50g Gurke, gewürfelt
 - 1 EL Tahini-Dressing (15g) *(reduziert von 2 EL/30g)*
-- 7g Kürbiskerne *(reduziert von 10g)*
+- 5g Kürbiskerne *(reduziert von 7g)*
 - Frische Petersilie
 
 **Tahini-Dressing (für mehrere Portionen):**
@@ -186,18 +186,18 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 4. Kürbiskerne und Petersilie darüber
 
 **Nährwerte (KORRIGIERT):**
-- Kalorien: 515 kcal
-- Protein: 23.9g
-- Kohlenhydrate: 72.9g
-- Fett: 18.6g
-- Ballaststoffe: 19.4g
+- Kalorien: 504 kcal
+- Protein: 23.3g
+- Kohlenhydrate: 72.7g
+- Fett: 17.6g
+- Ballaststoffe: 19.3g
 
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1406 kcal ⚠️ (etwas über Ziel)
-- Gesamt Protein: 83.7g ✅
-- Gesamt Ballaststoffe: 41.8g ✅
+- Gesamt Kalorien: 1355 kcal ⚠️ (etwas über Ziel)
+- Gesamt Protein: 81.1g ✅
+- Gesamt Ballaststoffe: 40.9g ✅
 
 ---
 
@@ -507,9 +507,9 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ## WOCHENZUSAMMENFASSUNG
 
 **Durchschnittliche Tageswerte:**
-- **Kalorien:** ~1346 kcal/Tag (Ziel: 1260, Maximum: 1300)
-- **Protein:** ~75.1g/Tag (Ziel: 75-80g) ✅
-- **Ballaststoffe:** ~42.0g/Tag (Ziel: 30g) ✅
+- **Kalorien:** ~1335 kcal/Tag (Ziel: 1260, Maximum: 1300)
+- **Protein:** ~74.6g/Tag (Ziel: 75-80g) ✅
+- **Ballaststoffe:** ~41.8g/Tag (Ziel: 30g) ✅
 
 **⚠️ Hinweis:** Die Kalorienwerte liegen leicht über dem ursprünglichen Ziel, aber diese Werte basieren auf korrekten Nährwert-Standardwerten. Die ursprünglichen Rezept-Nährwerte unterschätzten systematisch Nüsse, Öle und Nussmus um 180-420 kcal pro Rezept.
 
@@ -539,9 +539,9 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 - 25g Mandelmus (5 TL)
 - 5g Cashewmus (1 TL)
 - 52g Walnüsse (ca. 10 TL)
-- 21g Kürbiskerne
-- 10g Hanfsamen
-- 5g Mandelsplitter
+- 19g Kürbiskerne *(reduziert)*
+- 15g Hanfsamen *(Tag 2: 5g, Tag 3: 10g)*
+- 3g Mandelsplitter *(reduziert)*
 - 30g Tahini (für Dressings)
 
 ### Gemüse (frisch/TK)
