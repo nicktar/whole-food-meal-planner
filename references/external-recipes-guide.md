@@ -1,15 +1,20 @@
-# External Recipe Database Guide
+# External Resources Guide
 
-This guide explains how to use external recipe databases with the Whole Food Meal Planner skill.
+This guide explains how to use external resources (recipes, nutrition values) with the Whole Food Meal Planner skill.
 
 ## Overview
 
-The `whole-food-meal-planner` skill supports **project-specific recipe databases**, allowing you to:
-- Maintain your own recipe collections without modifying the skill
-- Update recipes without requiring skill releases
-- Version control recipes separately from the skill
-- Share recipe collections independently
-- Manage multiple recipe projects (family recipes, seasonal, experimental)
+The `whole-food-meal-planner` skill supports **project-specific resources**, allowing you to:
+- Maintain your own resource collections without modifying the skill
+- Update resources without requiring skill releases
+- Version control resources separately from the skill
+- Share resource collections independently
+- Manage multiple resource projects (family recipes, custom ingredients, seasonal variations)
+
+## Supported External Resources
+
+1. **`recipe-database.md`** - Recipe collections
+2. **`nutrition-recalculation.md`** - Nutritional standard values (NEW!)
 
 ## How It Works
 
@@ -80,6 +85,67 @@ When working in your project, invoke the skill as usual:
 ```
 
 The skill will automatically detect and use your `recipe-database.md`.
+
+## Setting Up External Nutrition Values
+
+### Why Custom Nutrition Values?
+
+You might want project-specific nutrition values if you:
+- Use different ingredient brands with varying nutrition profiles
+- Have custom ingredient sources (farmers market, specific stores)
+- Want to track specialty ingredients not in bundled values
+- Need regional ingredient variations
+- Maintain more precise values for specific products
+
+### Step 1: Create nutrition-recalculation.md
+
+Create `nutrition-recalculation.md` in your project root:
+
+```bash
+# Copy bundled template as starting point
+cp /path/to/whole-food-meal-planner/scripts/nutrition-recalculation.md ./nutrition-recalculation.md
+```
+
+### Step 2: Add Your Custom Values
+
+Add or modify ingredient values:
+
+```markdown
+## Vollkorn & Getreide
+
+### Haferflocken (Zarte)
+**Pro 100g:**
+- Kalorien: 370 kcal
+- Protein: 13g
+- Kohlenhydrate: 63g
+- Fett: 7g
+- Ballaststoffe: 10g
+
+### Quinoa (gekocht) - Meine Bio-Marke
+**Pro 100g:**
+- Kalorien: 125 kcal  # Leicht höher als Standard
+- Protein: 4.5g
+- Kohlenhydrate: 21g
+- Fett: 2g
+- Ballaststoffe: 3g
+```
+
+### Step 3: Use in Meal Planning
+
+When calculating nutrition, Claude will automatically use your custom values:
+
+```bash
+# Claude checks:
+view nutrition-recalculation.md || view scripts/nutrition-recalculation.md
+```
+
+### Format Requirements
+
+Follow the bundled format:
+- **Category headers**: `## Kategorie`
+- **Ingredient subsections**: `### Zutat Name`
+- **Values section**: `**Pro 100g:**` or `**Pro 100ml:**`
+- **Required nutrients**: Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe
 
 ## Recipe Database Format Requirements
 

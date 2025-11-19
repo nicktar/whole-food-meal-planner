@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 """
-Nutritional Verification Script for Whole Food Challenge Meal Plans
+Nutritional Verification Script for Whole Food Challenge Meal Plans - Parser-basierte Version
 
-This script validates meal plans against nutritional targets and ensures
-all ingredients comply with challenge rules.
+Parst Markdown-Meal-Plans und validiert sie automatisch gegen Nährwert-Targets
+und Challenge-Regeln. Kein manuelles Code-Schreiben mehr nötig!
+
+Usage:
+    python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md
+    python3 scripts/verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json
 """
 
 from dataclasses import dataclass
 from typing import List, Dict, Optional
+from pathlib import Path
 import json
+import re
+import sys
 
+
+# ============================================================================
+# DATA STRUCTURES
+# ============================================================================
 
 @dataclass
 class NutritionInfo:
@@ -53,6 +64,10 @@ class DailyPlan:
             total = total + meal.nutrition
         return total
 
+
+# ============================================================================
+# CHALLENGE RULES & TARGETS
+# ============================================================================
 
 # Challenge Rules Configuration
 CHALLENGE_RULES = {
@@ -115,6 +130,201 @@ NUTRITIONAL_TARGETS = {
 }
 
 
+# ============================================================================
+# MARKDOWN PARSER
+# ============================================================================
+
+class MealPlanParser:
+    """Parst Meal Plans aus Markdown-Dateien"""
+
+    def __init__(self, file_path: str):
+        self.file_path = Path(file_path)
+        with open(self.file_path, 'r', encoding='utf-8') as f:
+            self.content = f.read()
+
+    def parse_all_days(self) -> List[DailyPlan]:
+        """Extrahiert alle Tage aus dem Meal Plan"""
+        daily_plans = []
+
+        # Finde alle TAG-Blöcke (## TAG 1 - MONTAG 8. DEZEMBER)
+        tag_pattern = r'##\s+TAG\s+\d+\s*-\s*(.+?)(?=\n##|$)'
+        tags = list(re.finditer(tag_pattern, self.content, re.DOTALL | re.MULTILINE))
+
+        for i, tag_match in enumerate(tags):
+            date_info = tag_match.group(1).strip().split('\n')[0]  # Erste Zeile nach TAG
+
+            # Extrahiere Tag-Block
+            start_pos = tag_match.start()
+            if i + 1 < len(tags):
+                end_pos = tags[i + 1].start()
+            else:
+                end_pos = len(self.content)
+
+            day_block = self.content[start_pos:end_pos]
+
+            # Parse Mahlzeiten für diesen Tag
+            meals = self._parse_meals_in_day(day_block)
+
+            if meals:
+                daily_plan = DailyPlan(date=date_info, meals=meals)
+                daily_plans.append(daily_plan)
+
+        return daily_plans
+
+    def _parse_meals_in_day(self, day_block: str) -> List[Meal]:
+        """Parst alle Mahlzeiten in einem Tag-Block"""
+        meals = []
+
+        # Finde alle Mahlzeiten (### Frühstück:, ### Mittagessen:, ### Abendessen:)
+        meal_pattern = r'###\s+(Frühstück|Mittagessen|Abendessen):\s+(.+?)(?=\n###|\n##|$)'
+        meal_matches = list(re.finditer(meal_pattern, day_block, re.DOTALL))
+
+        for i, meal_match in enumerate(meal_matches):
+            meal_type = meal_match.group(1)
+            meal_name = meal_match.group(2).strip().split('\n')[0].strip()
+
+            # Extrahiere Mahlzeit-Block
+            start_pos = meal_match.start()
+            if i + 1 < len(meal_matches):
+                end_pos = meal_matches[i + 1].start()
+            else:
+                # Suche nach nächster Section
+                next_section = re.search(r'\n(###|##)', day_block[start_pos + 10:])
+                end_pos = start_pos + next_section.start() + 10 if next_section else len(day_block)
+
+            meal_block = day_block[start_pos:end_pos]
+
+            try:
+                parsed_meal = self._parse_meal_block(meal_name, meal_block)
+                if parsed_meal:
+                    meals.append(parsed_meal)
+                else:
+                    # Keine Nährwerte gefunden - vermutlich eine Referenz
+                    if "(siehe " in meal_name.lower() or "wiederholung" in meal_name.lower():
+                        pass  # Das ist erwartet
+                    else:
+                        print(f"⚠️  Keine Nährwerte gefunden für '{meal_name}'")
+            except Exception as e:
+                print(f"⚠️  Fehler beim Parsen von '{meal_name}': {e}")
+
+        return meals
+
+    def _parse_meal_block(self, name: str, block: str) -> Optional[Meal]:
+        """Parst einen einzelnen Mahlzeit-Block"""
+
+        # Extrahiere Nährwerte
+        nutrition = self._extract_nutrition(block)
+        if not nutrition:
+            return None
+
+        # Extrahiere Zutaten
+        ingredients = self._extract_ingredients(block)
+
+        return Meal(
+            name=name,
+            nutrition=nutrition,
+            ingredients=ingredients
+        )
+
+    def _extract_nutrition(self, block: str) -> Optional[NutritionInfo]:
+        """Extrahiert Nährwertangaben aus Mahlzeit-Block"""
+
+        # Suche nach Nährwerte-Sektion
+        # Format 1: **Nährwerte:** Header mit Liste
+        # Format 2: Inline im Titel **Kalorien:** 284 kcal | **Protein:** 20g
+
+        calories = protein = carbs = fat = fiber = None
+
+        # Versuche verschiedene Patterns
+        patterns = {
+            'calories': [
+                r'[*\s]*Kalorien[:\s]+(\d+(?:\.\d+)?)\s*kcal',
+                r'calories[:\s]+(\d+(?:\.\d+)?)',
+            ],
+            'protein': [
+                r'[*\s]*Protein[:\s]+(\d+(?:\.\d+)?)\s*g',
+                r'protein[:\s]+(\d+(?:\.\d+)?)',
+            ],
+            'carbs': [
+                r'[*\s]*Kohlenhydrate[:\s]+(\d+(?:\.\d+)?)\s*g',
+                r'[*\s]*Carbs[:\s]+(\d+(?:\.\d+)?)\s*g',
+            ],
+            'fat': [
+                r'[*\s]*Fett[:\s]+(\d+(?:\.\d+)?)\s*g',
+                r'fat[:\s]+(\d+(?:\.\d+)?)',
+            ],
+            'fiber': [
+                r'[*\s]*Ballaststoffe[:\s]+(\d+(?:\.\d+)?)\s*g',
+                r'[*\s]*Fiber[:\s]+(\d+(?:\.\d+)?)\s*g',
+            ]
+        }
+
+        for nutrient, pattern_list in patterns.items():
+            for pattern in pattern_list:
+                match = re.search(pattern, block, re.IGNORECASE)
+                if match:
+                    value = float(match.group(1))
+                    if nutrient == 'calories':
+                        calories = value
+                    elif nutrient == 'protein':
+                        protein = value
+                    elif nutrient == 'carbs':
+                        carbs = value
+                    elif nutrient == 'fat':
+                        fat = value
+                    elif nutrient == 'fiber':
+                        fiber = value
+                    break
+
+        # Validierung: Mindestens Kalorien und Protein müssen gefunden werden
+        if calories is None or protein is None:
+            return None
+
+        # Defaults für fehlende Werte
+        if carbs is None:
+            carbs = 0.0
+        if fat is None:
+            fat = 0.0
+        if fiber is None:
+            fiber = 0.0
+
+        return NutritionInfo(
+            calories=calories,
+            protein=protein,
+            carbs=carbs,
+            fat=fat,
+            fiber=fiber
+        )
+
+    def _extract_ingredients(self, block: str) -> List[str]:
+        """Extrahiert Zutatenliste aus Mahlzeit-Block"""
+        ingredients = []
+
+        # Finde Zutaten-Sektionen
+        # **Zutaten:**, **Komponenten:**, **Toppings:**
+        sections = re.findall(
+            r'\*\*(?:Zutaten|Komponenten|Toppings|Basis).*?\*\*\s*\n((?:^-\s+.+$\n?)+)',
+            block,
+            re.MULTILINE
+        )
+
+        for section in sections:
+            lines = section.strip().split('\n')
+            for line in lines:
+                line = line.strip()
+                if line.startswith('- '):
+                    ingredient = line[2:].strip()
+                    # Bereinige Markdown-Formatierung
+                    ingredient = re.sub(r'\*\*(.+?)\*\*', r'\1', ingredient)
+                    ingredients.append(ingredient)
+
+        return ingredients
+
+
+# ============================================================================
+# VERIFICATION FUNCTIONS
+# ============================================================================
+
 def verify_ingredient(ingredient: str) -> Dict[str, any]:
     """
     Verify if an ingredient is allowed in the challenge.
@@ -167,8 +377,19 @@ def verify_meal_nutrition(meal: Meal, meal_type: str) -> Dict[str, any]:
         }
     }
 
-    if meal_type in NUTRITIONAL_TARGETS["meal_ranges"]:
-        targets = NUTRITIONAL_TARGETS["meal_ranges"][meal_type]
+    # Normalisiere meal_type für Lookup
+    meal_type_normalized = meal_type.lower()
+    if "frühstück" in meal_type_normalized:
+        meal_type_key = "breakfast"
+    elif "mittag" in meal_type_normalized:
+        meal_type_key = "lunch"
+    elif "abend" in meal_type_normalized:
+        meal_type_key = "dinner"
+    else:
+        meal_type_key = meal_type_normalized
+
+    if meal_type_key in NUTRITIONAL_TARGETS["meal_ranges"]:
+        targets = NUTRITIONAL_TARGETS["meal_ranges"][meal_type_key]
 
         # Check calories
         if meal.nutrition.calories < targets["calories"]["min"]:
@@ -270,9 +491,14 @@ def verify_daily_plan(plan: DailyPlan) -> Dict[str, any]:
         results["target_compliance"]["fiber"] = "below_minimum"
 
     # Verify individual meals
-    meal_types = ["breakfast", "lunch", "dinner"]
-    for i, meal in enumerate(plan.meals):
-        meal_type = meal_types[i] if i < len(meal_types) else "additional_meal"
+    for meal in plan.meals:
+        # Bestimme meal_type aus dem ersten Wort des Namens oder Position
+        meal_type = "lunch"  # default
+        if any(word in meal.name.lower() for word in ["frühstück", "breakfast", "oats", "chia"]):
+            meal_type = "breakfast"
+        elif any(word in meal.name.lower() for word in ["abend", "dinner", "suppe"]):
+            meal_type = "dinner"
+
         meal_verification = verify_meal_nutrition(meal, meal_type)
         results["meal_verifications"].append(meal_verification)
 
@@ -331,7 +557,7 @@ def generate_verification_report(verification_results: Dict[str, any]) -> str:
     report.append("MEAL BREAKDOWN:")
     for meal_verify in verification_results["meal_verifications"]:
         status_emoji = "✅" if meal_verify["passed"] else "⚠️"
-        report.append(f"\n  {status_emoji} {meal_verify['meal_name']} ({meal_verify['meal_type']})")
+        report.append(f"\n  {status_emoji} {meal_verify['meal_name']}")
         report.append(f"     Calories: {meal_verify['nutrition']['calories']:.0f} kcal | "
                      f"Protein: {meal_verify['nutrition']['protein']:.1f}g")
 
@@ -344,139 +570,45 @@ def generate_verification_report(verification_results: Dict[str, any]) -> str:
     return "\n".join(report)
 
 
-# Example usage
-if __name__ == "__main__":
-    # Meal Plans für Woche 1.-5. Dezember 2025
-    # OPTIMIERT: Korrekte Nährwerte nach SKILL.md Standards
-    # Saisonale Dezember-Zutaten (Rotkohl, Rote Bete, Äpfel, TK-Beeren)
+# ============================================================================
+# CLI
+# ============================================================================
 
-    # TAG 1 - Montag, 1. Dezember
-    day1_breakfast = Meal(
-        name="Overnight Oats Apfel-Zimt",
-        nutrition=NutritionInfo(calories=414, protein=30.2, carbs=55.65, fat=22.55, fiber=10.3),
-        ingredients=["25g Haferflocken", "200ml Hafermilch", "10g Leinsamen", "10g Mandelmus",
-                    "25g Erbsenprotein", "150g Apfel", "10g Walnüsse", "Zimt"]
-    )
-    day1_lunch = Meal(
-        name="Linsen-Curry mit Rotkohl und Tofu",
-        nutrition=NutritionInfo(calories=380, protein=23.8, carbs=49.9, fat=11.3, fiber=17.8),
-        ingredients=["150g Rotkohl", "160g Linsen gekocht", "80g Tofu", "10g Currypaste",
-                    "150ml Gemüsebrühe", "Ingwer", "Knoblauch", "Zwiebel", "1 TL Olivenöl", "Gewürze"]
-    )
-    day1_dinner = Meal(
-        name="Rote-Bete-Salat mit Cannellini-Bohnen",
-        nutrition=NutritionInfo(calories=411, protein=20.4, carbs=54, fat=14.9, fiber=13.7),
-        ingredients=["150g Rote Bete", "120g Cannellini-Bohnen", "50g Karotten-Julienne",
-                    "40g Rucola", "40g Tofu", "10g Walnüsse", "Zitronen-Senf-Dressing", "1 TL Olivenöl"]
-    )
-    day1 = DailyPlan(
-        date="2025-12-01 (Montag)",
-        meals=[day1_breakfast, day1_lunch, day1_dinner]
-    )
+def main():
+    """Command-line interface"""
+    if len(sys.argv) < 2:
+        print("Usage: python3 verify_nutrition.py <meal_plan_file.md> [--json]")
+        print("\nBeispiele:")
+        print("  python3 verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md")
+        print("  python3 verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json")
+        sys.exit(1)
 
-    # TAG 2 - Dienstag, 2. Dezember
-    day2_breakfast = Meal(
-        name="Chia Pudding mit TK-Beeren",
-        nutrition=NutritionInfo(calories=455, protein=27.7, carbs=51.85, fat=17.35, fiber=11.8),
-        ingredients=["24g Chiasamen", "250ml Hafermilch", "25g Erbsenprotein",
-                    "150g TK-Beeren gemischt", "8g Walnüsse", "5g Ahornsirup", "Vanille", "Zimt"]
-    )
-    day2_lunch = Meal(
-        name="Kichererbsen-Buddha-Bowl mit Rotkohl",
-        nutrition=NutritionInfo(calories=423, protein=20.1, carbs=54.7, fat=15.1, fiber=14.3),
-        ingredients=["100g Kichererbsen geröstet", "80g Quinoa", "80g Brokkoli", "50g Rotkohl mariniert",
-                    "30g Tofu", "Zitronen-Senf-Dressing", "1 TL Olivenöl", "8g Kürbiskerne"]
-    )
-    day2_dinner = Meal(
-        name="Linsen-Feldsalat mit Apfel und Tofu",
-        nutrition=NutritionInfo(calories=401, protein=22, carbs=46.3, fat=16.5, fiber=15.7),
-        ingredients=["130g Linsen gekocht", "50g Feldsalat", "80g Apfel", "100g Kirschtomaten",
-                    "50g Gurke", "80g Tofu", "10g Walnüsse", "Apfelessig-Dressing", "1 TL Olivenöl"]
-    )
-    day2 = DailyPlan(
-        date="2025-12-02 (Dienstag)",
-        meals=[day2_breakfast, day2_lunch, day2_dinner]
-    )
+    meal_plan_file = sys.argv[1]
+    output_json = "--json" in sys.argv
 
-    # TAG 3 - Mittwoch, 3. Dezember
-    day3_breakfast = Meal(
-        name="Overnight Oats mit TK-Heidelbeeren",
-        nutrition=NutritionInfo(calories=422, protein=30.8, carbs=55.65, fat=22.05, fiber=9.7),
-        ingredients=["25g Haferflocken", "200ml Hafermilch", "10g Leinsamen", "10g Mandelmus",
-                    "25g Erbsenprotein", "150g TK-Heidelbeeren", "10g Walnüsse", "Zimt"]
-    )
-    day3_lunch = Meal(
-        name="Gerösteter Rotkohl mit Linsen und Tofu",
-        nutrition=NutritionInfo(calories=388, protein=22.4, carbs=42.2, fat=16.8, fiber=15.1),
-        ingredients=["150g Rotkohl geröstet", "120g Linsen gekocht", "90g Tofu", "30g Rucola",
-                    "10g Walnüsse geröstet", "1 TL Olivenöl", "5g Ahornsirup", "Balsamico"]
-    )
-    day3_dinner = Meal(
-        name="Rote-Bete-Karotten-Salat mit Cannellini-Bohnen",
-        nutrition=NutritionInfo(calories=439, protein=19.5, carbs=50.2, fat=19.1, fiber=13.1),
-        ingredients=["120g Rote Bete", "80g Karotten geröstet", "110g Cannellini-Bohnen",
-                    "50g Tofu", "40g Feldsalat", "10g Walnüsse", "Zitronen-Kreuzkümmel-Dressing", "2 TL Olivenöl"]
-    )
-    day3 = DailyPlan(
-        date="2025-12-03 (Mittwoch)",
-        meals=[day3_breakfast, day3_lunch, day3_dinner]
-    )
+    # Parse Meal Plan
+    print(f"📖 Lese Meal Plan aus: {meal_plan_file}\n")
 
-    # TAG 4 - Donnerstag, 4. Dezember
-    day4_breakfast = Meal(
-        name="Chia Pudding mit TK-Kirschen",
-        nutrition=NutritionInfo(calories=444, protein=28.1, carbs=48.85, fat=17.15, fiber=11.8),
-        ingredients=["24g Chiasamen", "250ml Hafermilch", "25g Erbsenprotein",
-                    "150g TK-Kirschen", "8g Walnüsse", "5g Ahornsirup", "Vanille", "Zimt"]
-    )
-    day4_lunch = Meal(
-        name="Pastinaken-Karotten-Curry mit Kichererbsen",
-        nutrition=NutritionInfo(calories=439, protein=18.6, carbs=57.3, fat=13.9, fiber=17),
-        ingredients=["120g Pastinaken", "80g Karotten", "110g Kichererbsen", "80g Tofu",
-                    "10g Currypaste", "150ml Gemüsebrühe", "1 TL Olivenöl", "Ingwer", "Gewürze"]
-    )
-    day4_dinner = Meal(
-        name="Linsen-Rucola-Salat mit Rote Bete und Tofu",
-        nutrition=NutritionInfo(calories=406, protein=24, carbs=45.5, fat=16.5, fiber=15.9),
-        ingredients=["145g Linsen gekocht", "100g Rote Bete", "40g Rucola", "80g Tofu",
-                    "50g Kirschtomaten", "10g Walnüsse", "Zitronen-Dressing", "1 TL Olivenöl"]
-    )
-    day4 = DailyPlan(
-        date="2025-12-04 (Donnerstag)",
-        meals=[day4_breakfast, day4_lunch, day4_dinner]
-    )
+    try:
+        parser = MealPlanParser(meal_plan_file)
+        daily_plans = parser.parse_all_days()
+    except FileNotFoundError:
+        print(f"❌ Datei nicht gefunden: {meal_plan_file}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ Fehler beim Parsen: {e}")
+        sys.exit(1)
 
-    # TAG 5 - Freitag, 5. Dezember
-    day5_breakfast = Meal(
-        name="Overnight Oats Apfel-Zimt (wie Montag)",
-        nutrition=NutritionInfo(calories=414, protein=30.2, carbs=55.65, fat=22.55, fiber=10.3),
-        ingredients=["25g Haferflocken", "200ml Hafermilch", "10g Leinsamen", "10g Mandelmus",
-                    "25g Erbsenprotein", "150g Apfel", "10g Walnüsse", "Zimt"]
-    )
-    day5_lunch = Meal(
-        name="Kichererbsen-Bowl mit Rote Bete",
-        nutrition=NutritionInfo(calories=421, protein=23.2, carbs=53.9, fat=14.2, fiber=15.2),
-        ingredients=["130g Kichererbsen geröstet", "100g Rote Bete", "80g Tofu", "50g Karotten roh",
-                    "30g Feldsalat", "8g Kürbiskerne", "5g Tahini", "Zitronen-Dressing"]
-    )
-    day5_dinner = Meal(
-        name="Cannellini-Apfel-Salat mit Haselnüssen",
-        nutrition=NutritionInfo(calories=436, protein=19.7, carbs=60.1, fat=15.1, fiber=13.6),
-        ingredients=["120g Cannellini-Bohnen", "100g Apfel", "100g Rote Bete", "40g Feldsalat",
-                    "50g Tofu", "10g Haselnüsse", "Apfel-Balsamico-Dressing", "1 TL Olivenöl", "5g Ahornsirup"]
-    )
-    day5 = DailyPlan(
-        date="2025-12-05 (Freitag)",
-        meals=[day5_breakfast, day5_lunch, day5_dinner]
-    )
+    if not daily_plans:
+        print("⚠️  Keine Tage im Meal Plan gefunden!")
+        sys.exit(1)
+
+    print(f"✅ {len(daily_plans)} Tage gefunden\n")
 
     # Verify all days
-    all_plans = [day1, day2, day3, day4, day5]
-
     print("═══════════════════════════════════════════════════════════════")
-    print("WHOLE FOOD CHALLENGE - WOCHENPLAN DEZEMBER 1-5, 2025")
-    print("OPTIMIERT: Korrekte Nährwerte nach SKILL.md Standards")
-    print("SAISONAL: Rotkohl, Rote Bete, Äpfel, TK-Beeren, Walnüsse")
+    print(f"WHOLE FOOD CHALLENGE - MEAL PLAN VERIFICATION")
+    print(f"File: {Path(meal_plan_file).name}")
     print("═══════════════════════════════════════════════════════════════\n")
 
     weekly_totals = {
@@ -484,14 +616,19 @@ if __name__ == "__main__":
         "protein": 0,
         "fiber": 0,
         "days_passed": 0,
-        "total_days": len(all_plans)
+        "total_days": len(daily_plans)
     }
 
-    for plan in all_plans:
+    all_results = []
+
+    for plan in daily_plans:
         results = verify_daily_plan(plan)
-        report = generate_verification_report(results)
-        print(report)
-        print("\n")
+        all_results.append(results)
+
+        if not output_json:
+            report = generate_verification_report(results)
+            print(report)
+            print("\n")
 
         # Track weekly totals
         weekly_totals["calories"] += results["total_nutrition"]["calories"]
@@ -500,43 +637,63 @@ if __name__ == "__main__":
         if results["passed"]:
             weekly_totals["days_passed"] += 1
 
-    # Weekly summary
-    print("═══════════════════════════════════════════════════════════════")
-    print("WOCHENZUSAMMENFASSUNG")
-    print("═══════════════════════════════════════════════════════════════")
-    print(f"\nTage bestanden: {weekly_totals['days_passed']}/{weekly_totals['total_days']}")
-    print(f"\nDurchschnittliche Tageswerte:")
-    print(f"  Kalorien: {weekly_totals['calories']/len(all_plans):.0f} kcal/Tag "
-          f"(Target: {NUTRITIONAL_TARGETS['daily']['calories']['target']})")
-    print(f"  Protein:  {weekly_totals['protein']/len(all_plans):.1f}g/Tag "
-          f"(Target: {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
-    print(f"  Ballaststoffe: {weekly_totals['fiber']/len(all_plans):.1f}g/Tag "
-          f"(Target: {NUTRITIONAL_TARGETS['daily']['fiber']['target']}g)")
-
-    # Recommendations
-    avg_protein = weekly_totals['protein']/len(all_plans)
-    avg_calories = weekly_totals['calories']/len(all_plans)
-
-    print("\n📋 EMPFEHLUNGEN:")
-    if avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['min']:
-        deficit = NUTRITIONAL_TARGETS['daily']['protein']['min'] - avg_protein
-        print(f"  ⚠️  Protein-Minimum nicht erreicht (Defizit: {deficit:.1f}g/Tag)")
-        print(f"     → Füge 80-100g Tofu zu Hauptmahlzeiten hinzu (+10-12g Protein)")
-        print(f"     → Erhöhe Erbsenprotein-Pulver auf 25-30g im Frühstück (+3-4g Protein)")
-        print(f"     → Füge zusätzliche Hülsenfrüchte hinzu (+8-12g Protein/100g)")
-    elif avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['target']:
-        print(f"  ℹ️  Protein über Minimum aber unter Target ({avg_protein:.1f}g vs {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
-        print(f"     → Gut im Zielbereich! Bei Bedarf leicht erhöhen.")
+    # Output format
+    if output_json:
+        # JSON output
+        output = {
+            "meal_plan_file": meal_plan_file,
+            "total_days": len(daily_plans),
+            "days_passed": weekly_totals["days_passed"],
+            "weekly_averages": {
+                "calories": weekly_totals["calories"] / len(daily_plans),
+                "protein": weekly_totals["protein"] / len(daily_plans),
+                "fiber": weekly_totals["fiber"] / len(daily_plans)
+            },
+            "daily_results": all_results
+        }
+        print(json.dumps(output, indent=2, ensure_ascii=False))
     else:
-        print(f"  ✅ Protein-Target erreicht oder übertroffen!")
+        # Human-readable summary
+        print("═══════════════════════════════════════════════════════════════")
+        print("WOCHENZUSAMMENFASSUNG")
+        print("═══════════════════════════════════════════════════════════════")
+        print(f"\nTage bestanden: {weekly_totals['days_passed']}/{weekly_totals['total_days']}")
+        print(f"\nDurchschnittliche Tageswerte:")
+        print(f"  Kalorien: {weekly_totals['calories']/len(daily_plans):.0f} kcal/Tag "
+              f"(Target: {NUTRITIONAL_TARGETS['daily']['calories']['target']})")
+        print(f"  Protein:  {weekly_totals['protein']/len(daily_plans):.1f}g/Tag "
+              f"(Target: {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
+        print(f"  Ballaststoffe: {weekly_totals['fiber']/len(daily_plans):.1f}g/Tag "
+              f"(Target: {NUTRITIONAL_TARGETS['daily']['fiber']['target']}g)")
 
-    if avg_calories < NUTRITIONAL_TARGETS['daily']['calories']['min']:
-        print(f"  ⚠️  Kalorien unter Minimum")
-        print(f"     → Füge Nüsse, Samen oder Avocado hinzu")
-    elif avg_calories > NUTRITIONAL_TARGETS['daily']['calories']['max']:
-        print(f"  ⚠️  Kalorien über Maximum")
-        print(f"     → Reduziere Öl in Dressings oder Nussportionen")
-    else:
-        print(f"  ✅ Kalorien im Zielbereich!")
+        # Recommendations
+        avg_protein = weekly_totals['protein']/len(daily_plans)
+        avg_calories = weekly_totals['calories']/len(daily_plans)
 
-    print("\n═══════════════════════════════════════════════════════════════")
+        print("\n📋 EMPFEHLUNGEN:")
+        if avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['min']:
+            deficit = NUTRITIONAL_TARGETS['daily']['protein']['min'] - avg_protein
+            print(f"  ⚠️  Protein-Minimum nicht erreicht (Defizit: {deficit:.1f}g/Tag)")
+            print(f"     → Füge 80-100g Tofu zu Hauptmahlzeiten hinzu (+10-12g Protein)")
+            print(f"     → Erhöhe Erbsenprotein-Pulver auf 25-30g im Frühstück (+3-4g Protein)")
+            print(f"     → Füge zusätzliche Hülsenfrüchte hinzu (+8-12g Protein/100g)")
+        elif avg_protein < NUTRITIONAL_TARGETS['daily']['protein']['target']:
+            print(f"  ℹ️  Protein über Minimum aber unter Target ({avg_protein:.1f}g vs {NUTRITIONAL_TARGETS['daily']['protein']['target']}g)")
+            print(f"     → Gut im Zielbereich! Bei Bedarf leicht erhöhen.")
+        else:
+            print(f"  ✅ Protein-Target erreicht oder übertroffen!")
+
+        if avg_calories < NUTRITIONAL_TARGETS['daily']['calories']['min']:
+            print(f"  ⚠️  Kalorien unter Minimum")
+            print(f"     → Füge Nüsse, Samen oder Avocado hinzu")
+        elif avg_calories > NUTRITIONAL_TARGETS['daily']['calories']['max']:
+            print(f"  ⚠️  Kalorien über Maximum")
+            print(f"     → Reduziere Öl in Dressings oder Nussportionen")
+        else:
+            print(f"  ✅ Kalorien im Zielbereich!")
+
+        print("\n═══════════════════════════════════════════════════════════════")
+
+
+if __name__ == "__main__":
+    main()
