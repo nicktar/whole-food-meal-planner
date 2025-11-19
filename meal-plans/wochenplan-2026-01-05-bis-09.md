@@ -120,7 +120,7 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 ## TAG 2 - Dienstag, 6. Januar 2026
 
 ### Frühstück: Chia Pudding Beeren-Power
-**Kalorien:** 465 | **Protein:** 32g | **Prep:** 5 Min (vorbereitet am Vorabend)
+**Kalorien:** 448 | **Protein:** 32g | **Prep:** 5 Min (vorbereitet am Vorabend)
 
 **Zutaten (ANGEPASST):**
 - 22g Chiasamen *(reduziert von 3 EL/30g)*
@@ -130,18 +130,17 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 - 28g Erbsenprotein-Pulver *(erhöht von 20g)*
 - 100g gemischte Beeren (TK)
 - 1 TL Hanfsamen (5g) *(reduziert von 1 EL/10g)*
-- 1/2 TL Mandelsplitter (3g) *(reduziert von 5g)*
 - Prise Zimt
 
 **Zubereitung:**
-Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig mischen, über Nacht quellen lassen. Am Morgen mit Beeren, Hanfsamen und Mandeln toppen.
+Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig mischen, über Nacht quellen lassen. Am Morgen mit Beeren und Hanfsamen toppen.
 
 **Nährwerte (KORRIGIERT):**
-- Kalorien: 465 kcal
-- Protein: 32.4g
-- Kohlenhydrate: 43.8g
-- Fett: 20.0g
-- Ballaststoffe: 10.3g
+- Kalorien: 448 kcal
+- Protein: 31.8g
+- Kohlenhydrate: 43.1g
+- Fett: 18.5g
+- Ballaststoffe: 9.9g
 
 ---
 
@@ -195,9 +194,9 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1355 kcal ⚠️ (etwas über Ziel)
-- Gesamt Protein: 81.1g ✅
-- Gesamt Ballaststoffe: 40.9g ✅
+- Gesamt Kalorien: 1338 kcal ⚠️ (etwas über Ziel)
+- Gesamt Protein: 80.5g ✅
+- Gesamt Ballaststoffe: 40.5g ✅
 
 ---
 
@@ -507,9 +506,9 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ## WOCHENZUSAMMENFASSUNG
 
 **Durchschnittliche Tageswerte:**
-- **Kalorien:** ~1335 kcal/Tag (Ziel: 1260, Maximum: 1300)
-- **Protein:** ~74.6g/Tag (Ziel: 75-80g) ✅
-- **Ballaststoffe:** ~41.8g/Tag (Ziel: 30g) ✅
+- **Kalorien:** ~1332 kcal/Tag (Ziel: 1260, Maximum: 1300)
+- **Protein:** ~74.5g/Tag (Ziel: 75-80g) ✅
+- **Ballaststoffe:** ~41.7g/Tag (Ziel: 30g) ✅
 
 **⚠️ Hinweis:** Die Kalorienwerte liegen leicht über dem ursprünglichen Ziel, aber diese Werte basieren auf korrekten Nährwert-Standardwerten. Die ursprünglichen Rezept-Nährwerte unterschätzten systematisch Nüsse, Öle und Nussmus um 180-420 kcal pro Rezept.
 
@@ -541,7 +540,6 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 - 52g Walnüsse (ca. 10 TL)
 - 19g Kürbiskerne *(reduziert)*
 - 15g Hanfsamen *(Tag 2: 5g, Tag 3: 10g)*
-- 3g Mandelsplitter *(reduziert)*
 - 30g Tahini (für Dressings)
 
 ### Gemüse (frisch/TK)
