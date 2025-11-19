@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Geröstete Karotten mit Quinoa und Tahini",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT35M",
+  "performTime": "PT60M",
+  "totalTime": "PT95M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "200g Karotten, längs halbiert",
+    "50g Quinoa (gekocht) *(reduziert von 80g)*",
+    "130g Kichererbsen (gekocht) *(erhöht von 100g)*",
+    "1 EL Tahini-Dressing (15g) *(reduziert von 2 EL/30g)*",
+    "7g Kürbiskerne *(reduziert von 10g)*",
+    "1/2 TL Olivenöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "1 TL Ahornsirup",
+    "1/2 TL Kreuzkümmel",
+    "1/2 TL Koriander",
+    "30g Rucola",
+    "Salz, Pfeffer",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "530",
+    "proteinContent": "22g",
+    "carbohydrateContent": "73g",
+    "fatContent": "21g",
+    "fiberContent": "20g"
+  }
+}

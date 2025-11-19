@@ -30,10 +30,10 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 472 kcal
-- Protein: 31.0g
-- Kohlenhydrate: 51.5g
-- Fett: 18.9g
-- Ballaststoffe: 9.7g
+- Protein: 31g
+- Kohlenhydrate: 52g
+- Fett: 19g
+- Ballaststoffe: 10g
 
 ---
 
@@ -71,10 +71,10 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 
 **Nährwerte pro Portion (KORRIGIERT):**
 - Kalorien: 386 kcal
-- Protein: 25.4g
-- Kohlenhydrate: 47.8g
-- Fett: 13.1g
-- Ballaststoffe: 11.3g
+- Protein: 25g
+- Kohlenhydrate: 48g
+- Fett: 13g
+- Ballaststoffe: 11g
 
 **Meal Prep:** Gesamte Suppe vorbereiten, in 3 Portionen aufteilen. Haltbarkeit: 5 Tage im Kühlschrank. Täglich eine Portion aufwärmen (3-4 Min Mikrowelle oder 5-7 Min Topf).
 
@@ -103,10 +103,10 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 390 kcal
-- Protein: 18.7g
-- Kohlenhydrate: 59.0g
-- Fett: 11.6g
-- Ballaststoffe: 18.2g
+- Protein: 19g
+- Kohlenhydrate: 59g
+- Fett: 12g
+- Ballaststoffe: 18g
 
 ---
 
@@ -137,10 +137,10 @@ Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 448 kcal
-- Protein: 31.8g
-- Kohlenhydrate: 43.1g
-- Fett: 18.5g
-- Ballaststoffe: 9.9g
+- Protein: 32g
+- Kohlenhydrate: 43g
+- Fett: 19g
+- Ballaststoffe: 10g
 
 ---
 
@@ -186,10 +186,10 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 504 kcal
-- Protein: 23.3g
-- Kohlenhydrate: 72.7g
-- Fett: 17.6g
-- Ballaststoffe: 19.3g
+- Protein: 23g
+- Kohlenhydrate: 73g
+- Fett: 18g
+- Ballaststoffe: 19g
 
 ---
 
@@ -218,10 +218,10 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 495 kcal
-- Protein: 34.0g
-- Kohlenhydrate: 44.4g
-- Fett: 23.5g
-- Ballaststoffe: 8.4g
+- Protein: 34g
+- Kohlenhydrate: 44g
+- Fett: 24g
+- Ballaststoffe: 8g
 
 ---
 
@@ -268,10 +268,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 487 kcal
-- Protein: 21.7g
-- Kohlenhydrate: 67.2g
-- Fett: 19.0g
-- Ballaststoffe: 17.6g
+- Protein: 22g
+- Kohlenhydrate: 67g
+- Fett: 19g
+- Ballaststoffe: 18g
 
 **Meal Prep:** Kann 1-2 Tage im Voraus zubereitet werden.
 
@@ -307,10 +307,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 504 kcal
-- Protein: 31.4g
-- Kohlenhydrate: 76.8g
-- Fett: 11.6g
-- Ballaststoffe: 8.6g
+- Protein: 31g
+- Kohlenhydrate: 77g
+- Fett: 12g
+- Ballaststoffe: 9g
 
 ---
 
@@ -344,10 +344,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 381 kcal
-- Protein: 15.1g
-- Kohlenhydrate: 73.0g
-- Fett: 4.8g
-- Ballaststoffe: 20.1g
+- Protein: 15g
+- Kohlenhydrate: 73g
+- Fett: 5g
+- Ballaststoffe: 20g
 
 **Meal Prep:** 3-4 Tage haltbar.
 
@@ -380,10 +380,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 456 kcal
-- Protein: 21.4g
-- Kohlenhydrate: 59.6g
-- Fett: 19.6g
-- Ballaststoffe: 18.6g
+- Protein: 21g
+- Kohlenhydrate: 60g
+- Fett: 20g
+- Ballaststoffe: 19g
 
 ---
 
@@ -413,10 +413,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 453 kcal
-- Protein: 30.6g
-- Kohlenhydrate: 42.4g
-- Fett: 20.9g
-- Ballaststoffe: 11.1g
+- Protein: 31g
+- Kohlenhydrate: 42g
+- Fett: 21g
+- Ballaststoffe: 11g
 
 ---
 
@@ -450,10 +450,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 382 kcal
-- Protein: 15.1g
-- Kohlenhydrate: 44.1g
-- Fett: 18.5g
-- Ballaststoffe: 15.8g
+- Protein: 15g
+- Kohlenhydrate: 44g
+- Fett: 19g
+- Ballaststoffe: 16g
 
 **Meal Prep:** 4-5 Tage haltbar.
 
@@ -489,10 +489,10 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 
 **Nährwerte (KORRIGIERT):**
 - Kalorien: 530 kcal
-- Protein: 22.2g
-- Kohlenhydrate: 73.1g
-- Fett: 20.7g
-- Ballaststoffe: 19.7g
+- Protein: 22g
+- Kohlenhydrate: 73g
+- Fett: 21g
+- Ballaststoffe: 20g
 
 ---
 

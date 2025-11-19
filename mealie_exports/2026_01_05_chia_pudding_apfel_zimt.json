@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Apfel-Zimt",
+  "description": "Protein-reich mit 31g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "22g Chiasamen *(reduziert von 3 EL/30g)*",
+    "250ml Hafermilch (ungesüßt)",
+    "1/2 TL Vanilleextrakt",
+    "1 TL Mandelmus (5g) *(reduziert von 1 EL/15g)*",
+    "28g Erbsenprotein-Pulver *(erhöht von 20g)*",
+    "1 TL Zimt",
+    "1/4 TL Kardamom",
+    "1 Apfel, klein gewürfelt (100g)",
+    "1 TL Walnüsse, gehackt (5g) *(reduziert von 1 EL/15g)*",
+    "Optional: 1 TL Ahornsirup"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "453",
+    "proteinContent": "31g",
+    "carbohydrateContent": "42g",
+    "fatContent": "21g",
+    "fiberContent": "11g"
+  }
+}

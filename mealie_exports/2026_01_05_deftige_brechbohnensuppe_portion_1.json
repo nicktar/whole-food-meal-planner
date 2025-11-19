@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Deftige Brechbohnensuppe (Portion 1)",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT30M",
+  "totalTime": "PT35M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "300g Brechbohnen (TK grüne Bohnen)",
+    "250g Kartoffeln, gewürfelt",
+    "100g Karotten, gewürfelt",
+    "80g Sellerie, gewürfelt",
+    "180g weiße Bohnen (gekocht)",
+    "270g geräucherter Tofu, gewürfelt *(erhöht von 210g)*",
+    "1 große Zwiebel (80g), gewürfelt",
+    "2 Knoblauchzehen, gehackt",
+    "1 Lorbeerblatt",
+    "1 TL Bohnenkraut (getrocknet)",
+    "1 TL Majoran",
+    "800ml Gemüsebrühe",
+    "2 TL Olivenöl (10ml) *(reduziert von 1 EL/13ml)*",
+    "Salz, Pfeffer",
+    "Optional: 1 EL frische Petersilie"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "386",
+    "proteinContent": "25g",
+    "carbohydrateContent": "48g",
+    "fatContent": "13g",
+    "fiberContent": "11g"
+  }
+}

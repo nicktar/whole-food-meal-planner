@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding Beeren-Power",
+  "description": "Protein-reich mit 32g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "22g Chiasamen *(reduziert von 3 EL/30g)*",
+    "250ml Hafermilch (ungesüßt)",
+    "1/2 TL Vanilleextrakt",
+    "1 TL Cashewmus (5g) *(reduziert von 1 EL/15g)*",
+    "28g Erbsenprotein-Pulver *(erhöht von 20g)*",
+    "100g gemischte Beeren (TK)",
+    "1 TL Hanfsamen (5g) *(reduziert von 1 EL/10g)*",
+    "Prise Zimt"
+  ],
+  "recipeInstructions": "Am Vorabend Chiasamen, Proteinpulver, Hafermilch, Vanille und Cashewmus kräftig mischen, über Nacht quellen lassen. Am Morgen mit Beeren und Hanfsamen toppen.",
+  "nutrition": {
+    "calories": "448",
+    "proteinContent": "32g",
+    "carbohydrateContent": "43g",
+    "fatContent": "19g",
+    "fiberContent": "10g"
+  }
+}
