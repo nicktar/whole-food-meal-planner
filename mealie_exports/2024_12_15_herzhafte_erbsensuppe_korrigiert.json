@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Herzhafte Erbsensuppe - Korrigiert",
+  "description": "Abendessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Abendessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "100g getrocknete grüne Erbsen",
+    "1 Möhre / 100g",
+    "1 Selleriestange / 40g",
+    "1 Zwiebel / 80g",
+    "2 Knoblauchzehen",
+    "1 Lorbeerblatt",
+    "1 TL Kreuzkümmel, Thymian",
+    "600ml Gemüsebrühe",
+    "Salz, Pfeffer",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "1. Erbsen 2-4 Stunden einweichen (oder über Nacht)\n2. Zwiebel, Knoblauch, Möhre, Sellerie klein würfeln\n3. Gemüse in Topf mit wenig Wasser andünsten\n4. Erbsen + Brühe + Gewürze hinzufügen\n5. 45-60 Min köcheln bis Erbsen weich\n6. Mit Stabmixer teilweise pürieren (rustikal)\n7. Mit Salz, Pfeffer abschmecken, Petersilie garnieren",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "418",
+    "proteinContent": "28.5",
+    "carbohydrateContent": "66.2",
+    "fatContent": "3.7",
+    "fiberContent": "24.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Winter-Edition - Korrigiert",
+  "description": "Frühstück aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Frühstück",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "**30g Haferflocken**",
+    "200ml Hafermilch ungesüßt",
+    "**❌ Chiasamen ENTFERNT**",
+    "15g Mandelmus",
+    "20g Erbsenprotein-Pulver",
+    "100g Apfel gewürfelt",
+    "Zimt, Vanille"
+  ],
+  "recipeInstructions": "1. Alle Zutaten (außer Apfel) über Nacht quellen lassen\n2. Morgens Apfelwürfel unterheben",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "351",
+    "proteinContent": "23.25",
+    "carbohydrateContent": "44.7",
+    "fatContent": "7.3",
+    "fiberContent": "7.7"
+  }
+}

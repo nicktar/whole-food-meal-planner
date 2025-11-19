@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Lauch-Miso-Suppe mit Tofu und Pilzen",
+  "description": "Schnell, leicht, wärmend. Miso ist probiotisch (nicht kochen!).",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "150g Lauch (in Ringen)",
+    "130g Tofu (gewürfelt)",
+    "100g Shiitake-Pilze",
+    "1 EL Miso-Paste",
+    "400ml Gemüsebrühe",
+    "1 TL Ingwer (gerieben)",
+    "2 Frühlingszwiebeln",
+    "0.5 TL Sesamöl",
+    "0.5 EL Hanfsamen (5g)",
+    "Wakame (optional)"
+  ],
+  "recipeInstructions": "Gemüsebrühe erhitzen, Lauch + Pilze 5 Min köcheln, vom Herd nehmen, Miso-Paste einrühren (nicht kochen!), Tofu + Sesamöl hinzufügen, mit Frühlingszwiebeln + Hanfsamen + Wakame toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Abendessen",
+  "performTime": "PT10M",
+  "nutrition": {
+    "calories": "327",
+    "proteinContent": "21g",
+    "carbohydrateContent": "36g",
+    "fatContent": "11g",
+    "fiberContent": "7g"
+  }
+}

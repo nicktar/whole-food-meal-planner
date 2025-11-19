@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Linsen-Feldsalat mit Apfel und Tofu",
+  "description": "Frischer Salat mit grünen Linsen, Feldsalat, Apfel und Tofu. Perfekt für den Abend!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "130g gekochte grüne Linsen",
+    "50g Feldsalat",
+    "80g Apfel, dünn geschnitten",
+    "100g Kirschtomaten, halbiert",
+    "50g Gurke, gewürfelt",
+    "80g Tofu, gewürfelt",
+    "10g Walnüsse, gehackt",
+    "Apfelessig-Dressing:",
+    "  - 2 EL Apfelessig",
+    "  - 1 TL Olivenöl (5ml)",
+    "  - 1 TL Dijon-Senf",
+    "  - Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine große Bowl geben.\nFür das Dressing Apfelessig, Olivenöl, Senf, Salz und Pfeffer gut verrühren.\nDressing über den Salat geben.\nMit Walnüssen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Abendessen,Woche 1-5",
+  "nutrition": {
+    "calories": "401 kcal",
+    "proteinContent": "22g",
+    "carbohydrateContent": "46g",
+    "fatContent": "17g",
+    "fiberContent": "16g"
+  }
+}

@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The **Whole Food Meal Planner** is a meal planning system for the "Whole Food Challenge" - a strict plant-based, whole-food dietary program. The project is written in **German** and provides tools for:
 
-- Creating nutritionally-balanced meal plans (typically 1200 kcal/day, 100+g protein)
+- Creating nutritionally-balanced meal plans (typically 1200 kcal/day, 75-90g protein)
 - Validating meals against challenge rules and nutritional targets
 - Managing a database of verified recipes
 - Exporting recipes to Mealie (self-hosted recipe manager)
@@ -30,41 +30,62 @@ The SKILL.md file serves as the skill's prompt that gets loaded when the skill i
 
 When working on this codebase, remember that changes to SKILL.md affect how other Claude instances will use this skill.
 
-## External Recipe Database Architecture
+## External Resource Architecture
 
-**NEW**: The skill now supports project-specific recipe databases, allowing users to maintain recipes separately from the skill itself.
+**NEW**: The skill supports project-specific resources, allowing users to maintain their own versions separately from the skill itself.
+
+### Supported External Resources
+
+1. **`recipe-database.md`** - Recipe collections
+2. **`nutrition-recalculation.md`** - Nutritional standard values (NEW!)
 
 ### How It Works
 
 When the skill is invoked from a project:
-1. **Check external**: Look for `recipe-database.md` in the project root
-2. **Use external if found**: Load recipes from the project's database
-3. **Fall back to bundled**: Use `references/recipe-database.md` if no external database exists
-4. **Support custom paths**: Accept user-specified paths (e.g., `my-recipes/database.md`)
+1. **Check external**: Look for resource in the project root
+2. **Use external if found**: Load from the project's version
+3. **Fall back to bundled**: Use bundled version if no external resource exists
+4. **Support custom paths**: Accept user-specified paths
+
+**Example workflow:**
+```bash
+# Recipe database
+view recipe-database.md || view references/recipe-database.md
+
+# Nutrition values
+view nutrition-recalculation.md || view scripts/nutrition-recalculation.md
+```
 
 ### Benefits
 
-- ✅ **No skill releases needed**: Users update recipes without modifying the skill
-- ✅ **Multiple collections**: Different projects can have different recipe sets
-- ✅ **Version control**: Users can track recipe changes independently
-- ✅ **Privacy**: Personal recipes stay in user projects
-- ✅ **Sharing**: Recipe collections can be shared without the entire skill
+- ✅ **No skill releases needed**: Users update resources without modifying the skill
+- ✅ **Multiple collections**: Different projects can have different resource sets
+- ✅ **Version control**: Users can track changes independently
+- ✅ **Privacy**: Personal resources stay in user projects
+- ✅ **Sharing**: Resource collections can be shared without the entire skill
+- ✅ **Extensibility**: Add custom ingredients, recipes, or nutrition values
 
 ### File Structure
 
 ```
 User's project/
-├── recipe-database.md        # External recipes (auto-detected)
-└── meal-plans/              # Generated meal plans
+├── recipe-database.md              # External recipes (auto-detected)
+├── nutrition-recalculation.md      # External nutrition values (auto-detected)
+└── meal-plans/                    # Generated meal plans
 
 This skill repo/
+├── scripts/
+│   ├── nutrition-recalculation.md  # Bundled nutrition values (fallback)
+│   ├── verify_nutrition.py
+│   └── mealie_export.py
 ├── references/
 │   ├── recipe-database.md         # Bundled recipes (fallback)
-│   ├── external-recipes-guide.md  # Guide for external recipes
+│   ├── external-recipes-guide.md  # Guide for external resources
 │   └── meal-plan-workflow.md      # Workflow guide
 └── example-recipe-project/        # Template for users
     ├── README.md
     ├── recipe-database.md
+    ├── nutrition-recalculation.md  # Example custom nutrition values
     └── .gitignore
 ```
 
@@ -75,7 +96,11 @@ When working on the skill:
   - Default recipes when no external database exists
   - Reference templates for format
   - Examples for new users
-- **External recipe guide** at `references/external-recipes-guide.md` explains how users can create their own recipe databases
+- **Bundled nutrition values** in `scripts/nutrition-recalculation.md` serve as:
+  - Default nutritional standard values
+  - Reference for common ingredients
+  - Can be extended/overridden in user projects
+- **External resources guide** at `references/external-recipes-guide.md` explains how users can create their own resources
 - **Example project** in `example-recipe-project/` provides a ready-to-use template
 
 ### Maintaining Recipe Format
@@ -92,15 +117,16 @@ See `references/external-recipes-guide.md` for detailed format requirements.
 
 ### Nutritional Verification
 ```bash
-python3 scripts/verify_nutrition.py
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json
 ```
-Validates meal plans against nutritional targets and challenge rules. After creating any meal plan, always run this script to verify compliance.
+Parser-based tool that automatically extracts nutrition data from Markdown meal plans and validates against targets. No manual coding required - just point it at your meal plan file!
 
 ### Mealie Recipe Export
 ```bash
-python3 scripts/mealie_export.py
+python3 scripts/mealie_export.py <markdown-file> [--prefix YYYY_MM_DD]
 ```
-Generates Mealie-compatible JSON recipe files in `mealie_exports/` directory.
+Parser-based tool that automatically extracts recipes from Markdown meal plans and converts them to Mealie-compatible JSON format. No manual coding required - just point it at your meal plan file!
 
 ### View Documentation
 ```bash
@@ -140,8 +166,8 @@ The codebase uses **data-oriented architecture** with clear patterns:
 
 ```
 scripts/                        # Python automation tools
-  verify_nutrition.py           # Validates meal plans (381 lines)
-  mealie_export.py              # Exports to Mealie format (340 lines)
+  verify_nutrition.py           # Parser-based nutrition validation (699 lines)
+  mealie_export.py              # Parser-based Mealie export (495 lines)
 references/                     # Documentation and recipes
   meal-plan-workflow.md         # 8-step planning guide
   recipe-database.md            # Bundled recipes (fallback)
@@ -166,13 +192,13 @@ The challenge has specific exclusions (check before suggesting recipes):
 
 ### Nutritional Targets (Daily)
 - **Calories**: 1200 kcal (acceptable range: 1100-1300)
-- **Protein**: 110g target (minimum: 100g)
+- **Protein**: 80g target (minimum: 75g)
 - **Fiber**: 30g target (minimum: 25g)
 
 ### Meal Ranges
 - **Frühstück (Breakfast)**: 300-400 kcal, 15-30g protein
-- **Mittagessen (Lunch)**: 350-450 kcal, 25-45g protein
-- **Abendessen (Dinner)**: 350-400 kcal, 25-45g protein
+- **Mittagessen (Lunch)**: 350-450 kcal, 20-35g protein
+- **Abendessen (Dinner)**: 350-400 kcal, 20-35g protein
 
 ## Meal Planning Workflow
 
@@ -194,51 +220,55 @@ The challenge has specific exclusions (check before suggesting recipes):
 
 ### verify_nutrition.py
 
-When creating meal plans, you must modify the script to add your meal data:
+**Parser-based validation tool** - automatically extracts nutrition data from Markdown meal plans:
 
-```python
-# Define meals using dataclasses
-breakfast = Meal(
-    name="Overnight Oats",
-    nutrition=NutritionInfo(calories=350, protein=12, carbs=55, fat=9, fiber=10),
-    ingredients=["Haferflocken", "Beeren", "Mandelmilch", "Chiasamen"]
-)
+```bash
+# Validate a meal plan file
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-08-12-dezember.md
 
-# Create daily plan
-day1 = DailyPlan(
-    date="2024-01-15",
-    meals=[breakfast, lunch, dinner]
-)
-
-# Run verification
-verify_daily_plan(day1)
+# JSON output for programmatic processing
+python3 scripts/verify_nutrition.py meal-plans/wochenplan-2024-12-15-bis-19.md --json
 ```
 
-The script outputs:
+**Features:**
+- Automatically parses TAG structure and meal sections
+- Extracts nutrition values (Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe)
+- Validates against daily and per-meal targets
+- Handles repeated meals (e.g., "Wiederholung")
+- Weekly summary with averages
+- Actionable recommendations
+- No manual coding required
+
+**Output:**
 - Human-readable report with emojis (✅/⚠️/❌)
-- JSON format for programmatic processing
+- JSON format for programmatic processing (--json flag)
 - Detailed warnings for out-of-range values
 - Ingredient compliance checks
+- Weekly averages and pass/fail summary
 
 ### mealie_export.py
 
-To export recipes, add `MealieRecipe` objects:
+**Parser-based export tool** - automatically extracts recipes from Markdown files:
 
-```python
-recipe = MealieRecipe(
-    name="Recipe Name",
-    description="Description",
-    recipe_yield="2 servings",
-    prep_time="PT15M",  # ISO 8601 format
-    perform_time="PT30M",
-    total_time="PT45M",
-    recipe_category=["Breakfast"],
-    tags=["Whole Food Challenge", "Meal Prep"],
-    recipe_ingredient=[...],  # Use MealieIngredient objects
-    recipe_instructions=[...],
-    nutrition=MealieNutrition(...)
-)
+```bash
+# Export from meal plan file
+python3 scripts/mealie_export.py meal-plans/wochenplan-2024-12-15-bis-19.md
+
+# Export with custom date prefix
+python3 scripts/mealie_export.py rezepte-dezember.md --prefix 2024_12_15
 ```
+
+**Features:**
+- Automatically detects recipe formats (Wochenplan, standalone recipes)
+- Extracts nutrition info, ingredients, instructions
+- Generates clean filenames with date prefixes
+- Outputs schema.org-compliant JSON for Mealie
+- No manual coding required
+
+**Supported formats:**
+- Wochenplan format: `### Frühstück: Recipe Name`
+- Standalone format: `## RECIPE NAME`
+- Recipe database format: `references/recipe-database.md`
 
 ## Recipe Database
 
@@ -295,10 +325,11 @@ The skill can be created/updated using the `session-start-hook` skill if needed.
 
 ### Common Adjustments
 
-**Protein too low (<100g)**:
-- Add 100g tofu (+15g protein)
+**Protein too low (<75g)**:
+- Add 80-100g tofu to meals (+10-15g protein)
 - Add extra Nussmus to breakfast (+4g protein)
 - Add extra legumes to meals (+8-12g protein per 100g)
+- Increase Erbsenprotein-Pulver in liquid meals (Overnight Oats, Smoothies)
 
 **Calories too high (>1300)**:
 - Reduce oil in dressings

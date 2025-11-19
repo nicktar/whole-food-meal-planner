@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Quinoa-Frühstücksbowl (REDUZIERT)",
+  "description": "Herzhaftes warmes Frühstück. Quinoa vorkochen für schnelle Zubereitung.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "30g Quinoa (roh) → 90g gekocht",
+    "100ml Hafermilch",
+    "12.5g Erbsenprotein-Pulver",
+    "60g Apfel, gewürfelt",
+    "1 TL Zimt",
+    "0.5 EL getrocknete Cranberries (7.5g)",
+    "0.5 EL Mandelmus (7.5g)",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Meal Prep: Quinoa vorkochen, portionieren (5 Tage haltbar).\nMorgens: Quinoa mit Hafermilch und Proteinpulver 2-3 Min aufwärmen (nicht kochen!).\nApfel würfeln, mit Zimt, Cranberries und Mandelmus toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Frühstück",
+  "performTime": "PT3M",
+  "nutrition": {
+    "calories": "290",
+    "proteinContent": "16g",
+    "carbohydrateContent": "44g",
+    "fatContent": "6g",
+    "fiberContent": "5g"
+  }
+}

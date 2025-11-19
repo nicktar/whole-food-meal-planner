@@ -2,15 +2,15 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Vollkorn-Wrap mit Pilz-Nuss-Füllung und mariniertem Rotkohl",
-  "description": "Herzhafter Wrap mit 28g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
+  "description": "Herzhafter Wrap mit 24g Protein. Pilz-Nuss-Füllung hält 4-5 Tage, Wrap morgens frisch zusammenstellen. Marinierter Rotkohl gibt würzigen Kick!",
   "prepTime": "PT15M",
   "recipeIngredient": [
     "1 Vollkorn-Wrap (groß)",
     "150g gemischte Pilze (klein gehackt)",
-    "20g Walnüsse (fein gehackt)",
-    "15g Cashews (fein gehackt)",
+    "10g Walnüsse (fein gehackt)",
+    "7.5g Cashews (fein gehackt)",
     "60g Rotkohl (fein gehobelt, mariniert)",
-    "50g Hummus",
+    "40g Hummus",
     "20g Rucola (frisch)",
     "1 EL Tahini-Dressing",
     "1,5 EL Sojasauce (für Pilzfüllung)",
@@ -23,10 +23,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
   "performTime": "PT12M",
   "nutrition": {
-    "calories": "450",
-    "proteinContent": "28g",
-    "carbohydrateContent": "52g",
-    "fatContent": "16g",
-    "fiberContent": "12g"
+    "calories": "588.5",
+    "proteinContent": "24g",
+    "carbohydrateContent": "56g",
+    "fatContent": "32g",
+    "fiberContent": "14g"
   }
 }

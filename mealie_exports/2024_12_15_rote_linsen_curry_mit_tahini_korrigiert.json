@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rote Linsen Curry mit Tahini - Korrigiert",
+  "description": "Abendessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Abendessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "60g rote Linsen trocken",
+    "100ml Kokosmilch",
+    "**1 EL Tahini / 15g**",
+    "100g Spinat",
+    "1 Tomate / 100g",
+    "1 Zwiebel / 80g",
+    "2 Knoblauchzehen",
+    "1 TL Ingwer frisch",
+    "2 TL Curry-Pulver, 1 TL Kreuzkümmel",
+    "200ml Gemüsebrühe",
+    "Salz, Zitronensaft",
+    "Frischer Koriander"
+  ],
+  "recipeInstructions": "1. Zwiebel, Knoblauch, Ingwer in Topf mit wenig Wasser andünsten\n2. Curry + Kreuzkümmel kurz anrösten\n3. Linsen + Kokosmilch + Brühe hinzufügen\n4. 15-20 Min köcheln\n5. Tomate + Spinat + Tahini einrühren, 5 Min köcheln\n6. Mit Zitronensaft + Salz abschmecken, Koriander garnieren",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "407",
+    "proteinContent": "23.25",
+    "carbohydrateContent": "59.0",
+    "fatContent": "9.2",
+    "fiberContent": "15.4"
+  }
+}

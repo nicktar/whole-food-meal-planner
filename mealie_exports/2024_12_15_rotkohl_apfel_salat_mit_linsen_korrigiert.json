@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Apfel-Salat mit Linsen - Korrigiert",
+  "description": "Abendessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Abendessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "200g Rotkohl roh",
+    "150g braune Linsen gekocht",
+    "2 Äpfel / 300g",
+    "50g Rucola",
+    "**0.5 EL Walnüsse gehackt / 5g**"
+  ],
+  "recipeInstructions": "1. Rotkohl fein hobeln\n2. Mit Salz + Kümmel massieren (15 Min ziehen lassen)\n3. Äpfel würfeln, Linsen hinzufügen\n4. Dressing vermischen, über Salat geben\n5. Mit Rucola + Walnüssen toppen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "481",
+    "proteinContent": "26.05",
+    "carbohydrateContent": "73.9",
+    "fatContent": "9.1",
+    "fiberContent": "21.5"
+  }
+}

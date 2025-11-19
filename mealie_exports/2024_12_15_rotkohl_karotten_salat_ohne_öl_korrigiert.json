@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Karotten-Salat OHNE Öl - Korrigiert",
+  "description": "Mittagessen aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Mittagessen",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "150g Rotkohl roh",
+    "2 Möhren / 200g",
+    "150g Kichererbsen gekocht",
+    "50g Edamame TK",
+    "1 Apfel / 150g",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "1. Rotkohl + Möhren fein hobeln/raspeln\n2. Mit Salz + Kümmel kurz massieren (macht weicher)\n3. Kichererbsen + Edamame + Apfelwürfel hinzufügen\n4. Dressing vermischen, über Salat geben\n5. 15 Min ziehen lassen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "457",
+    "proteinContent": "27.8",
+    "carbohydrateContent": "64.4",
+    "fatContent": "8.3",
+    "fiberContent": "21.7"
+  }
+}

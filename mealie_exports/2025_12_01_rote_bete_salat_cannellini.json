@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rote-Bete-Salat mit Cannellini-Bohnen",
+  "description": "Frischer Salat mit Rote Bete, Cannellini-Bohnen, Karotten und Walnüssen. Schnell zubereitet!",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "150g Rote Bete (vorgekocht), gewürfelt",
+    "120g Cannellini-Bohnen, gekocht",
+    "50g Karotten-Julienne (roh)",
+    "40g Rucola",
+    "40g Tofu, gewürfelt",
+    "10g Walnüsse, gehackt",
+    "Zitronen-Senf-Dressing:",
+    "  - Saft 1/2 Zitrone",
+    "  - 1 TL Olivenöl (5ml)",
+    "  - 1 TL Dijon-Senf (5g)",
+    "  - 1 TL Apfelessig",
+    "  - Salz, Pfeffer, Kreuzkümmel"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine große Bowl geben.\nFür das Dressing Zitronensaft, Olivenöl, Senf, Apfelessig und Gewürze gut verrühren.\nDressing über den Salat geben, gut vermischen.\nMit Walnüssen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Abendessen,Woche 1-5",
+  "nutrition": {
+    "calories": "411 kcal",
+    "proteinContent": "20g",
+    "carbohydrateContent": "54g",
+    "fatContent": "15g",
+    "fiberContent": "14g"
+  }
+}

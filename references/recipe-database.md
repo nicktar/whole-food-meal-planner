@@ -443,14 +443,14 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 **Portion: 1 Person | Kalorien: ~340 | Protein: ~16g | Prep: 15 Min**
 
 **Zutaten:**
-- 120g Rotkohl, fein gehobelt
-- 80g Apfel, dünn geschnitten
-- 100g gekochte Cannellini-Bohnen
-- 2 EL Walnüsse, gehackt
-- 2 EL Apfelessig
-- 1 TL Ahornsirup
-- 1 TL Olivenöl
-- 1 TL Dijon-Senf
+- 90g Rotkohl, fein gehobelt
+- 60g Apfel, dünn geschnitten
+- 75g gekochte Cannellini-Bohnen
+- 1,5 EL Walnüsse, gehackt (~10g)
+- 3 EL Apfelessig
+- 1,5 TL Ahornsirup
+- 1,5 TL Olivenöl
+- 1,5 TL Dijon-Senf
 - Salz, Pfeffer
 
 **Marinade:**
@@ -464,6 +464,10 @@ Diese Datenbank enthält verifizierte, getestete Rezepte die den Challenge-Regel
 3. Mit Walnüssen toppen
 
 **Meal Prep:** Marinade 5 Tage haltbar, Salat täglich frisch zusammenstellen
+
+**Anpassungshinweise:**
+- Mit Tofu: +60-80g gewürfelten Tofu für extra Protein (+6-8g Protein, +50-65 kcal)
+- Die Dressing-Menge (ca. 4,5 EL gesamt) ist bewusst großzügig bemessen, da der Rotkohl viel Flüssigkeit aufnimmt
 
 ---
 

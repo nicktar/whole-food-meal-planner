@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pilz-Lauch-Pfanne mit Tofu und Quinoa",
+  "description": "Umami-reich! Pilz-Nuss-Füllung vorkochen spart Zeit.",
+  "prepTime": "PT10M",
+  "recipeIngredient": [
+    "140g Pilze (Champignons + Shiitake)",
+    "9g Walnüsse",
+    "6g Cashews",
+    "100g Lauch (in Ringen)",
+    "150g Tofu (angebraten)",
+    "60g Quinoa (gekocht)",
+    "2 EL Sojasauce",
+    "1 TL Olivenöl",
+    "Paprika geräuchert, Thymian",
+    "5g Hanfsamen"
+  ],
+  "recipeInstructions": "Meal Prep: Pilz-Füllung vorkochen (Pilze + Nüsse + Sojasauce + Gewürze braten, 5 Tage haltbar).\nTäglich: Pilz-Füllung mit Lauch in Pfanne aufwärmen, Tofu separat braten, über Quinoa servieren, Hanfsamen toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Mittagessen",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "471",
+    "proteinContent": "27g",
+    "carbohydrateContent": "45g",
+    "fatContent": "20g",
+    "fiberContent": "10g"
+  }
+}
