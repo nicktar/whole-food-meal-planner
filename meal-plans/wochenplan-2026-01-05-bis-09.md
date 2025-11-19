@@ -12,12 +12,11 @@
 ## TAG 1 - Montag, 5. Januar 2026
 
 ### Frühstück: Overnight Oats Apfel-Zimt
-**Kalorien:** 530 | **Protein:** 33g | **Prep:** 5 Min (vorbereitet am Vorabend)
+**Kalorien:** 472 | **Protein:** 31g | **Prep:** 5 Min (vorbereitet am Vorabend)
 
 **Zutaten (ANGEPASST):**
 - 22g Haferflocken *(reduziert von 30g)*
 - 150ml Hafermilch (ungesüßt)
-- 1 EL Chiasamen (12g)
 - 1 EL gemahlene Leinsamen (10g)
 - 1 TL Mandelmus (5g) *(reduziert von 1 EL/15g)*
 - 28g Erbsenprotein-Pulver *(erhöht von 20g)*
@@ -30,11 +29,11 @@
 Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und Mandelmus mischen, über Nacht quellen lassen. Am Morgen mit Apfel, Walnüssen und Zimt toppen.
 
 **Nährwerte (KORRIGIERT):**
-- Kalorien: 530 kcal
-- Protein: 33.0g
-- Kohlenhydrate: 56.5g
-- Fett: 22.0g
-- Ballaststoffe: 13.8g
+- Kalorien: 472 kcal
+- Protein: 31.0g
+- Kohlenhydrate: 51.5g
+- Fett: 18.9g
+- Ballaststoffe: 9.7g
 
 ---
 
@@ -112,9 +111,9 @@ Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1306 kcal ✅
-- Gesamt Protein: 77.1g ✅
-- Gesamt Ballaststoffe: 43.3g ✅
+- Gesamt Kalorien: 1248 kcal ✅
+- Gesamt Protein: 75.1g ✅
+- Gesamt Ballaststoffe: 39.2g ✅
 
 ---
 
@@ -205,12 +204,11 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ## TAG 3 - Mittwoch, 7. Januar 2026
 
 ### Frühstück: Overnight Oats Beeren-Power
-**Kalorien:** 553 | **Protein:** 36g | **Prep:** 5 Min (vorbereitet am Vorabend)
+**Kalorien:** 495 | **Protein:** 34g | **Prep:** 5 Min (vorbereitet am Vorabend)
 
 **Zutaten (ANGEPASST):**
 - 22g Haferflocken *(reduziert von 30g)*
 - 150ml Hafermilch (ungesüßt)
-- 1 EL Chiasamen (12g)
 - 1 EL gemahlene Leinsamen (10g)
 - 1 TL Mandelmus (5g) *(reduziert von 1 EL/15g)*
 - 28g Erbsenprotein-Pulver *(erhöht von 20g)*
@@ -220,11 +218,11 @@ Portion 2 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 - Prise Zimt
 
 **Nährwerte (KORRIGIERT):**
-- Kalorien: 553 kcal
-- Protein: 36.0g
-- Kohlenhydrate: 49.4g
-- Fett: 26.6g
-- Ballaststoffe: 12.5g
+- Kalorien: 495 kcal
+- Protein: 34.0g
+- Kohlenhydrate: 44.4g
+- Fett: 23.5g
+- Ballaststoffe: 8.4g
 
 ---
 
@@ -281,9 +279,9 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ---
 
 **Tageszusammenfassung:**
-- Gesamt Kalorien: 1426 kcal ⚠️ (über Ziel)
-- Gesamt Protein: 83.1g ✅
-- Gesamt Ballaststoffe: 41.4g ✅
+- Gesamt Kalorien: 1368 kcal ⚠️ (über Ziel)
+- Gesamt Protein: 81.1g ✅
+- Gesamt Ballaststoffe: 37.3g ✅
 
 ---
 
@@ -509,9 +507,9 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ## WOCHENZUSAMMENFASSUNG
 
 **Durchschnittliche Tageswerte:**
-- **Kalorien:** ~1369 kcal/Tag (Ziel: 1260, Maximum: 1300)
-- **Protein:** ~75.9g/Tag (Ziel: 75-80g) ✅
-- **Ballaststoffe:** ~44.1g/Tag (Ziel: 30g) ✅
+- **Kalorien:** ~1346 kcal/Tag (Ziel: 1260, Maximum: 1300)
+- **Protein:** ~75.1g/Tag (Ziel: 75-80g) ✅
+- **Ballaststoffe:** ~42.0g/Tag (Ziel: 30g) ✅
 
 **⚠️ Hinweis:** Die Kalorienwerte liegen leicht über dem ursprünglichen Ziel, aber diese Werte basieren auf korrekten Nährwert-Standardwerten. Die ursprünglichen Rezept-Nährwerte unterschätzten systematisch Nüsse, Öle und Nussmus um 180-420 kcal pro Rezept.
 
@@ -526,7 +524,7 @@ Portion 3 aus Kühlschrank nehmen, 3-4 Min in Mikrowelle oder 5-7 Min im Topf au
 ### Basis-Getreide & Hülsenfrüchte
 - 110g Haferflocken (88g + Reserve)
 - ~150g Quinoa (trocken) → 400g gekocht
-- 88g Chiasamen
+- 44g Chiasamen *(nur für Chia Puddings)*
 - 40g Leinsamen (gemahlen)
 - 390g Kichererbsen (gekocht)
 - 300g grüne Linsen (gekocht)
