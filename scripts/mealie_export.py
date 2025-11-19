@@ -186,10 +186,11 @@ class RecipeMarkdownParser:
     def _extract_nutrition(self, block: str) -> Optional[RecipeNutrition]:
         """Extrahiert Nährwertangaben"""
         # Suche nach Nährwerte-Sektion
+        # Unterstützt sowohl Ganzzahlen als auch Dezimalzahlen (z.B. 31.0g)
         patterns = [
-            r'\*\*Nährwerte:\*\*.*?Kalorien:\s*(\d+)\s*kcal.*?Protein:\s*(\d+)g.*?Kohlenhydrate:\s*(\d+)g.*?Fett:\s*(\d+)g.*?Ballaststoffe:\s*(\d+)g',
-            r'Kalorien:\s*(\d+)\s*kcal.*?Protein:\s*(\d+)g.*?Carbs:\s*(\d+)g.*?Fett:\s*(\d+)g.*?Fiber:\s*(\d+)g',
-            r'\*\*Kalorien:\*\*\s*(\d+)\s*kcal.*?\*\*Protein:\*\*\s*(\d+)g'
+            r'\*\*Nährwerte.*?:\*\*.*?Kalorien:\s*([\d.]+)\s*kcal.*?Protein:\s*([\d.]+)g.*?Kohlenhydrate:\s*([\d.]+)g.*?Fett:\s*([\d.]+)g.*?Ballaststoffe:\s*([\d.]+)g',
+            r'Kalorien:\s*([\d.]+)\s*kcal.*?Protein:\s*([\d.]+)g.*?Carbs:\s*([\d.]+)g.*?Fett:\s*([\d.]+)g.*?Fiber:\s*([\d.]+)g',
+            r'\*\*Kalorien:\*\*\s*([\d.]+)\s*kcal.*?\*\*Protein:\*\*\s*([\d.]+)g'
         ]
 
         for pattern in patterns:
@@ -293,8 +294,8 @@ class RecipeMarkdownParser:
         """Generiert Rezept-Beschreibung"""
         desc_parts = []
 
-        # Füge Protein-Highlight hinzu
-        protein_value = int(nutrition.protein.replace('g', ''))
+        # Füge Protein-Highlight hinzu (unterstützt Ganzzahlen und Dezimalzahlen)
+        protein_value = float(nutrition.protein.replace('g', ''))
         if protein_value >= 30:
             desc_parts.append(f"Protein-reich mit {nutrition.protein} Protein")
 

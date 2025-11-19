@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Linsen-Curry",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT30M",
+  "performTime": "PT30M",
+  "totalTime": "PT60M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "150g Rotkohl, fein geschnitten",
+    "120g rote Linsen (trocken)",
+    "40g Zwiebel, gewürfelt",
+    "1 Knoblauchzehe, gehackt",
+    "1 TL Currypaste (gelb oder rot)",
+    "1/2 TL Ingwer, gerieben",
+    "50ml Kokosmilch (aus Dose) *(reduziert von 80ml)*",
+    "300ml Gemüsebrühe",
+    "1/2 TL Kurkuma",
+    "1/2 TL Kreuzkümmel",
+    "1/2 TL Kokosöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "Saft von 1/4 Limette",
+    "Salz, Pfeffer",
+    "Frischer Koriander (optional)"
+  ],
+  "recipeInstructions": "1. Zwiebel und Knoblauch in Kokosöl anbraten\n2. Currypaste, Ingwer und Gewürze hinzufügen, anrösten\n3. Rotkohl hinzufügen, 3 Min anbraten\n4. Linsen, Kokosmilch und Brühe hinzufügen\n5. 20 Min köcheln bis Linsen und Rotkohl weich sind\n6. Mit Limettensaft, Salz und Pfeffer abschmecken\n7. Mit frischem Koriander servieren",
+  "nutrition": {
+    "calories": "382",
+    "proteinContent": "15g",
+    "carbohydrateContent": "44g",
+    "fatContent": "19g",
+    "fiberContent": "16g"
+  }
+}

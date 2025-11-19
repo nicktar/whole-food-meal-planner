@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Quinoa-Frühstücksbowl mit Apfel-Zimt",
+  "description": "Protein-reich mit 31g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT10M",
+  "performTime": "PT10M",
+  "totalTime": "PT20M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "140g Quinoa (gekocht) *(reduziert)*",
+    "200ml Hafermilch",
+    "1 TL Walnüsse, gehackt (5g) *(reduziert von 1 EL/15g)*",
+    "1 kleiner Apfel (120g), gewürfelt",
+    "1 TL Zimt",
+    "1 EL getrocknete Cranberries (15g)",
+    "28g Erbsenprotein-Pulver (in Hafermilch eingerührt) *(erhöht von 15g)*",
+    "Prise Salz",
+    "Optional: 1 TL Ahornsirup"
+  ],
+  "recipeInstructions": "1. Quinoa (vorgekocht) mit Hafermilch und Proteinpulver erwärmen\n2. Mit Apfel, Walnüssen, Cranberries toppen\n3. Mit Zimt würzen",
+  "nutrition": {
+    "calories": "504",
+    "proteinContent": "31g",
+    "carbohydrateContent": "77g",
+    "fatContent": "12g",
+    "fiberContent": "9g"
+  }
+}

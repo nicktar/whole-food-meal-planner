@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rote-Beete-Salat mit Linsen und Walnüssen",
+  "description": "390 kcal, 19g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT15M",
+  "performTime": "PT15M",
+  "totalTime": "PT30M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "150g Rote Beete, gekocht und gewürfelt",
+    "150g gekochte grüne Linsen *(erhöht von 120g)*",
+    "30g Rucola",
+    "12g Walnüsse, gehackt *(reduziert von 2 EL/20g)*",
+    "1 kleiner Apfel (80g), gewürfelt",
+    "2 EL Apfelessig",
+    "1/2 TL Olivenöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "1 TL Ahornsirup",
+    "1 TL Dijon-Senf",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Dressing aus Essig, Öl, Ahornsirup, Senf mischen\n2. Rote Beete und Linsen mit Dressing vermischen\n3. Rucola als Basis, Rote-Beete-Linsen-Mix darauf\n4. Mit Apfel und Walnüssen toppen",
+  "nutrition": {
+    "calories": "390",
+    "proteinContent": "19g",
+    "carbohydrateContent": "59g",
+    "fatContent": "12g",
+    "fiberContent": "18g"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Apfel-Zimt",
+  "description": "Protein-reich mit 31g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "22g Haferflocken *(reduziert von 30g)*",
+    "150ml Hafermilch (ungesüßt)",
+    "1 EL gemahlene Leinsamen (10g)",
+    "1 TL Mandelmus (5g) *(reduziert von 1 EL/15g)*",
+    "28g Erbsenprotein-Pulver *(erhöht von 20g)*",
+    "1 mittelgroßer Apfel (150g), gewürfelt",
+    "1 TL gehackte Walnüsse (5g) *(reduziert von 1 EL/15g)*",
+    "1 TL Zimt",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Am Vorabend alle trockenen Zutaten (ohne Apfel und Walnüsse) mit Hafermilch und Mandelmus mischen, über Nacht quellen lassen. Am Morgen mit Apfel, Walnüssen und Zimt toppen.",
+  "nutrition": {
+    "calories": "472",
+    "proteinContent": "31g",
+    "carbohydrateContent": "52g",
+    "fatContent": "19g",
+    "fiberContent": "10g"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Hokkaido-Curry mit weißen Bohnen",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT30M",
+  "performTime": "PT30M",
+  "totalTime": "PT60M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "200g Hokkaido-Kürbis, gewürfelt (mit Schale)",
+    "150g weiße Bohnen (gekocht) *(erhöht von 120g)*",
+    "80g Spinat (frisch oder TK)",
+    "40g Zwiebel, gewürfelt",
+    "1 Knoblauchzehe, gehackt",
+    "1 TL Currypaste (rot)",
+    "1/2 TL Ingwer, gerieben",
+    "50ml Kokosmilch (aus Dose) *(reduziert von 80ml)*",
+    "100ml Gemüsebrühe",
+    "1/2 TL Kurkuma",
+    "1/2 TL Kreuzkümmel",
+    "1/2 TL Kokosöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "Saft von 1/4 Limette",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Zwiebel und Knoblauch in Kokosöl anbraten\n2. Currypaste, Ingwer und Gewürze hinzufügen, kurz anrösten\n3. Kürbis hinzufügen, 3 Min anbraten\n4. Mit Kokosmilch und Brühe ablöschen\n5. 15 Min köcheln bis Kürbis weich ist\n6. Weiße Bohnen und Spinat hinzufügen, 2 Min köcheln\n7. Mit Limettensaft, Salz und Pfeffer abschmecken",
+  "nutrition": {
+    "calories": "487",
+    "proteinContent": "22g",
+    "carbohydrateContent": "67g",
+    "fatContent": "19g",
+    "fiberContent": "18g"
+  }
+}
