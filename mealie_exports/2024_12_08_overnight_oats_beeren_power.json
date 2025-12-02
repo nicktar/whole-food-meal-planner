@@ -20,9 +20,8 @@
     "50g gemischte Beeren (TK)",
     "Prise Zimt"
   ],
-  "recipeInstructions": "Am Vorabend alle Basis-Zutaten (Haferflocken, Hafermilch, Leinsamen, Nussmus, Proteinpulver, Salz) in einem verschließbaren Glas vermischen. Gut umrühren. Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, besser 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen, umrühren, gefrorene Beeren und Zimt hinzufügen, genießen!",
+  "recipeInstructions": "Am Vorabend: Haferflocken, Hafermilch, Leinsamen, Nussmus, Erbsenprotein-Pulver und Salz in Glas geben, gut vermischen. Über Nacht (mind. 8h) im Kühlschrank quellen lassen. Am Morgen: Glas aus Kühlschrank nehmen, umrühren, Beeren und Zimt hinzufügen, genießen!",
   "nutrition": {
-    "@type": "NutritionInformation",
     "calories": "284",
     "proteinContent": "20g",
     "carbohydrateContent": "30g",

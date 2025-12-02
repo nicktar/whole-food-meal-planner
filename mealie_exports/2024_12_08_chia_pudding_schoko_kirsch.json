@@ -2,14 +2,14 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Chia Pudding Schoko-Kirsch",
-  "description": "Schokoladiger Chia Pudding mit Kirschen. 20g Protein, 9g Ballaststoffe - schmeckt wie Dessert!",
+  "description": "Schokoladiger Chia Pudding mit Kirschen. 20g Protein, perfekt für Meal Prep.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
   "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food challenge,meal prep,chia pudding,schoko,proteinreich,vegan,ballaststoffreich",
+  "keywords": "whole food challenge,meal prep,chia pudding,proteinreich,vegan,schokolade,kirschen",
   "recipeIngredient": [
     "2 EL Chiasamen (~20g)",
     "125ml Hafermilch (ungesüßt)",
@@ -19,11 +19,10 @@
     "1/4 TL Vanille",
     "Prise Salz",
     "40g Kirschen (TK, aufgetaut)",
-    "Optional: Dunkle Schokoraspeln (85%+, ca. 5g)"
+    "Optional: Dunkle Schokoraspeln (85%+)"
   ],
-  "recipeInstructions": "Am Vorabend Chiasamen, Hafermilch, Kakaopulver, Mandel-Nussmus, Proteinpulver, Vanille und Salz in einem Glas vermischen. Besonders kräftig umrühren, da Kakaopulver zu Klumpen neigt. Nach 5 Minuten nochmals umrühren (verhindert Absätze am Boden). Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, ideal 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen. Gefrorene Kirschen am Vorabend oder am Morgen auftauen lassen. Aufgetaute Kirschen über den Chia Pudding geben. Optional mit dunklen Schokoraspeln garnieren und genießen!",
+  "recipeInstructions": "Am Vorabend: Chiasamen, Hafermilch, Kakaopulver, Nussmus, Erbsenprotein-Pulver, Vanille und Salz in Glas geben, gut vermischen. Über Nacht (mind. 8h) im Kühlschrank quellen lassen. Am Morgen: Glas aus Kühlschrank nehmen, umrühren, aufgetaute Kirschen hinzufügen, optional mit Schokoraspeln garnieren, genießen!",
   "nutrition": {
-    "@type": "NutritionInformation",
     "calories": "279",
     "proteinContent": "20g",
     "carbohydrateContent": "25g",

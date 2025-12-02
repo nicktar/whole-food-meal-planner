@@ -2,17 +2,17 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Overnight Oats Apfel-Zimt",
-  "description": "Klassische Apfel-Zimt Overnight Oats mit 20g Protein. Perfekt für die Winterzeit und Meal Prep geeignet.",
+  "description": "Herbstliche Overnight Oats mit Apfel und Zimt. 20g Protein, optimiert für Meal Prep.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
   "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food challenge,meal prep,overnight oats,apfel zimt,proteinreich,vegan",
+  "keywords": "whole food challenge,meal prep,overnight oats,proteinreich,vegan,apfel,zimt",
   "recipeIngredient": [
-    "25g Haferflocken (Vollkorn)",
-    "100ml Hafermilch (ungesüßt)",
+    "25g Haferflocken",
+    "100ml Hafermilch",
     "1/2 EL gemahlene Leinsamen (ca. 5g)",
     "1/2 EL Cashew-Nussmus (ca. 7g)",
     "17g Erbsenprotein-Pulver",
@@ -21,9 +21,8 @@
     "1/2 mittelgroßer Apfel, gewürfelt (ca. 75g)",
     "Extra Zimt zum Bestreuen"
   ],
-  "recipeInstructions": "Am Vorabend alle Basis-Zutaten (Haferflocken, Hafermilch, Leinsamen, Cashew-Nussmus, Proteinpulver, Zimt, Salz) in einem verschließbaren Glas vermischen. Gut umrühren. Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, besser 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen, umrühren. Apfel waschen, entkernen und in kleine Würfel schneiden. Gewürfelten Apfel über die Overnight Oats geben, mit zusätzlichem Zimt bestreuen und genießen!",
+  "recipeInstructions": "Am Vorabend: Haferflocken, Hafermilch, Leinsamen, Nussmus, Erbsenprotein-Pulver, Zimt und Salz in Glas geben, gut vermischen. Über Nacht (mind. 8h) im Kühlschrank quellen lassen. Am Morgen: Glas aus Kühlschrank nehmen, umrühren, frische Apfelwürfel hinzufügen, mit extra Zimt bestreuen, genießen!",
   "nutrition": {
-    "@type": "NutritionInformation",
     "calories": "298",
     "proteinContent": "20g",
     "carbohydrateContent": "36g",

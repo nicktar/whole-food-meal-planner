@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Linsen-Gemüse-Salat mit Tofu",
-  "description": "430 kcal, 29g Protein.",
+  "description": "526 kcal, 30g Protein. Mit Avocado ergänzt.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
   "performTime": "PT5M",
@@ -10,22 +10,23 @@
   "recipeCategory": [
     "Mittagessen"
   ],
-  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen,avocado",
   "recipeIngredient": [
     "150g gekochte grüne Linsen",
     "100g Kirschtomaten, halbiert",
     "50g Gurke, gewürfelt",
     "30g Rucola (frisch)",
     "100g Tofu, gewürfelt und mariniert",
+    "60g Avocado, gewürfelt",
     "2 EL Walnüsse, gehackt",
     "Zitronen-Öl-Dressing (separat)"
   ],
   "recipeInstructions": "Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüberstreuen.",
   "nutrition": {
-    "calories": "430",
-    "proteinContent": "29g",
-    "carbohydrateContent": "38g",
-    "fatContent": "16g",
-    "fiberContent": "13g"
+    "calories": "526",
+    "proteinContent": "30g",
+    "carbohydrateContent": "44g",
+    "fatContent": "25g",
+    "fiberContent": "17g"
   }
 }

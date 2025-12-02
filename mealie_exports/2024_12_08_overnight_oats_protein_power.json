@@ -2,26 +2,25 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Overnight Oats Protein-Power",
-  "description": "Protein-optimierte Overnight Oats mit 20g Protein. Cremige Konsistenz durch extra Hafermilch. Einfach und vielseitig.",
+  "description": "Klassische Protein-Overnight-Oats. 20g Protein, perfekt für Meal Prep.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
   "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food challenge,meal prep,overnight oats,protein power,proteinreich,vegan",
+  "keywords": "whole food challenge,meal prep,overnight oats,proteinreich,vegan",
   "recipeIngredient": [
-    "25g Haferflocken (Vollkorn)",
-    "125ml Hafermilch (ungesüßt)",
+    "25g Haferflocken",
+    "125ml Hafermilch",
     "1/2 EL gemahlene Leinsamen (ca. 5g)",
     "1/2 EL Mandel-Nussmus (ca. 7g)",
     "17g Erbsenprotein-Pulver",
     "Prise Salz",
-    "25g gemischte Beeren (TK)"
+    "25g Beeren"
   ],
-  "recipeInstructions": "Am Vorabend alle Basis-Zutaten (Haferflocken, Hafermilch, Leinsamen, Mandel-Nussmus, Proteinpulver, Salz) in einem verschließbaren Glas vermischen. Gut umrühren. Im Kühlschrank über Nacht quellen lassen (mindestens 4 Stunden, besser 8-12 Stunden). Am Morgen Glas aus Kühlschrank nehmen, kurz umrühren, gefrorene Beeren hinzufügen und sofort genießen oder für unterwegs mitnehmen!",
+  "recipeInstructions": "Am Vorabend: Haferflocken, Hafermilch, Leinsamen, Nussmus, Erbsenprotein-Pulver und Salz in Glas geben, gut vermischen. Über Nacht (mind. 8h) im Kühlschrank quellen lassen. Am Morgen: Glas aus Kühlschrank nehmen, umrühren, Beeren hinzufügen, genießen!",
   "nutrition": {
-    "@type": "NutritionInformation",
     "calories": "281",
     "proteinContent": "20g",
     "carbohydrateContent": "29g",
