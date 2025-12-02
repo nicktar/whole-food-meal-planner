@@ -2,34 +2,31 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Overnight Oats Apfel-Zimt",
-  "description": "Protein-reich mit 33g Protein.",
+  "description": "Herbstliche Overnight Oats mit Apfel und Zimt. 20g Protein, optimiert für Meal Prep.",
   "recipeYield": "1 Portion",
   "prepTime": "PT5M",
-  "performTime": "PT5M",
-  "totalTime": "PT10M",
+  "totalTime": "PT8H",
   "recipeCategory": [
     "Frühstück"
   ],
-  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "keywords": "whole food challenge,meal prep,overnight oats,proteinreich,vegan,apfel,zimt",
   "recipeIngredient": [
-    "30g Haferflocken",
-    "150ml Hafermilch",
-    "1 EL Chiasamen",
-    "1 EL gemahlene Leinsamen",
-    "1 EL Cashew-Nussmus",
-    "25g Erbsenprotein-Pulver",
-    "1 TL Zimt",
+    "25g Haferflocken",
+    "100ml Hafermilch",
+    "1/2 EL gemahlene Leinsamen (ca. 5g)",
+    "1/2 EL Cashew-Nussmus (ca. 7g)",
+    "17g Erbsenprotein-Pulver",
+    "1/2 TL Zimt",
     "Prise Salz",
-    "1 mittelgroßer Apfel, gewürfelt",
-    "1 EL gehackte Walnüsse",
+    "1/2 mittelgroßer Apfel, gewürfelt (ca. 75g)",
     "Extra Zimt zum Bestreuen"
   ],
-  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "recipeInstructions": "Am Vorabend: Haferflocken, Hafermilch, Leinsamen, Nussmus, Erbsenprotein-Pulver, Zimt und Salz in Glas geben, gut vermischen. Über Nacht (mind. 8h) im Kühlschrank quellen lassen. Am Morgen: Glas aus Kühlschrank nehmen, umrühren, frische Apfelwürfel hinzufügen, mit extra Zimt bestreuen, genießen!",
   "nutrition": {
-    "calories": "390",
-    "proteinContent": "33g",
-    "carbohydrateContent": "35g",
-    "fatContent": "13g",
-    "fiberContent": "12g"
+    "calories": "298",
+    "proteinContent": "20g",
+    "carbohydrateContent": "36g",
+    "fatContent": "10g",
+    "fiberContent": "6g"
   }
 }
