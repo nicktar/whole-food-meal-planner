@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Buddha-Bowl mit Quinoa",
+  "description": "mit knackigem Rohkost-Anteil.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT15M",
+  "performTime": "PT15M",
+  "totalTime": "PT30M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "60g Quinoa (gekocht) *(reduziert von 80g)*",
+    "130g geröstete Kichererbsen *(Gewürze: Kreuzkümmel, Paprika, Knoblauchpulver)*",
+    "80g Rotkohl, roh gehobelt",
+    "60g Karotten, julienne",
+    "50g Gurke, gewürfelt",
+    "1 EL Tahini-Dressing (15g) *(reduziert von 2 EL/30g)*",
+    "5g Kürbiskerne *(reduziert von 7g)*",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "1. Quinoa als Basis in Bowl\n2. Kichererbsen, Rotkohl, Karotten, Gurke arrangieren\n3. Mit Tahini-Dressing beträufeln\n4. Kürbiskerne und Petersilie darüber",
+  "nutrition": {
+    "calories": "504",
+    "proteinContent": "23g",
+    "carbohydrateContent": "73g",
+    "fatContent": "18g",
+    "fiberContent": "19g"
+  }
+}

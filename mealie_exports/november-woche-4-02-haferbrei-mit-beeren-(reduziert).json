@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Haferbrei mit Beeren (REDUZIERT)",
+  "description": "Ersetzt Chia Pudding. Warm oder kalt genießbar.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "15g Haferflocken",
+    "100ml Hafermilch",
+    "0.5 EL Cashewmus (7.5g)",
+    "10g Erbsenprotein-Pulver",
+    "50g gemischte Beeren (TK)",
+    "1/2 TL Vanillepulver",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Variante 1 (kalt): Alle Zutaten außer Beeren in Glas mischen, über Nacht kühl stellen, morgens mit Beeren toppen.\nVariante 2 (warm): Haferflocken mit Hafermilch 2 Min kochen, Proteinpulver einrühren (nicht kochen!), mit TK-Beeren toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Frühstück",
+  "performTime": "PT2M",
+  "nutrition": {
+    "calories": "204",
+    "proteinContent": "12g",
+    "carbohydrateContent": "26g",
+    "fatContent": "5g",
+    "fiberContent": "3g"
+  }
+}

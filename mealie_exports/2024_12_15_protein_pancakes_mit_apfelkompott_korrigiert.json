@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Protein-Pancakes mit Apfelkompott - Korrigiert",
+  "description": "Frühstück aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Frühstück",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "50g Haferflocken",
+    "20g Erbsenprotein-Pulver",
+    "100ml Hafermilch",
+    "**1 TL Mandelmus / 5g**",
+    "1 TL Backpulver",
+    "Prise Zimt, Vanille"
+  ],
+  "recipeInstructions": "1. Haferflocken fein mahlen\n2. Mit Proteinpulver, Backpulver, Gewürzen mischen\n3. Hafermilch + Mandelmus einrühren zu dickflüssigem Teig\n4. In beschichteter Pfanne (OHNE Öl!) 6 kleine Pancakes backen\n1. Äpfel würfeln, in Topf mit 50ml Wasser\n2. Mit Zimt + Zitrone 10-15 Min köcheln\n3. Optional mit Ahornsirup süßen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "451",
+    "proteinContent": "27.95",
+    "carbohydrateContent": "61.3",
+    "fatContent": "9.75",
+    "fiberContent": "13.7"
+  }
+}

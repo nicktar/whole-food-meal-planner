@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Kichererbsen-Curry mit Spinat, Pilzen und Tofu",
-  "description": "Protein-reiches Curry mit 41g Protein! Tofu wird separat angebraten für perfekte Textur. Spinat erst am Ende hinzufügen. Frisch zubereiten - 20 Min.",
+  "description": "Protein-reiches Curry mit 38g Protein! Tofu wird separat angebraten für perfekte Textur. Spinat erst am Ende hinzufügen. Frisch zubereiten - 20 Min.",
   "prepTime": "PT10M",
   "recipeIngredient": [
     "50g Kichererbsen (ca. 150g gekocht)",
@@ -13,7 +13,7 @@
     "2 Knoblauchzehen (gehackt)",
     "2 EL Currypaste (z.B. gelbe Currypaste)",
     "1 TL Ingwer (frisch, gerieben)",
-    "150ml Kokosmilch",
+    "40ml Kokosmilch",
     "50ml Gemüsebrühe",
     "1 TL Kurkuma",
     "1/2 TL Kreuzkümmel",
@@ -25,10 +25,10 @@
   "keywords": "whole food,KI Rezepte,food prep,vegetarisch,vegan,Mittagessen",
   "performTime": "PT20M",
   "nutrition": {
-    "calories": "540",
-    "proteinContent": "41g",
-    "carbohydrateContent": "56g",
-    "fatContent": "18g",
-    "fiberContent": "13g"
+    "calories": "740",
+    "proteinContent": "38g",
+    "carbohydrateContent": "70g",
+    "fatContent": "33g",
+    "fiberContent": "19g"
   }
 }

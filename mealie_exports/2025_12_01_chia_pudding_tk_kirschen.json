@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chia Pudding mit TK-Kirschen",
+  "description": "Cremiger Chia Pudding mit TK-Kirschen und Protein-Boost. Die Kirschen geben eine herrlich fruchtige Note!",
+  "prepTime": "PT2M",
+  "recipeIngredient": [
+    "2 EL Chiasamen (24g)",
+    "250ml Hafermilch",
+    "1/2 TL Vanilleextrakt",
+    "25g Erbsenprotein-Pulver",
+    "1 TL Zimt",
+    "150g TK-Kirschen (entsteint)",
+    "8g Walnüsse, gehackt",
+    "5g Ahornsirup",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Am Vorabend Chiasamen, Hafermilch, Vanilleextrakt, Erbsenprotein, Zimt und Salz in ein Glas geben.\nGut umrühren, verschließen, über Nacht im Kühlschrank quellen lassen.\nAm Morgen TK-Kirschen leicht antauen lassen (5 Min), mit Ahornsirup und Walnüssen toppen, genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Frühstück,Woche 1-5",
+  "nutrition": {
+    "calories": "444 kcal",
+    "proteinContent": "28g",
+    "carbohydrateContent": "49g",
+    "fatContent": "17g",
+    "fiberContent": "12g"
+  }
+}

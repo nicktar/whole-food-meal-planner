@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Weißkohl-Karotten-Salat mit Kichererbsen",
+  "description": "456 kcal, 21g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT15M",
+  "performTime": "PT15M",
+  "totalTime": "PT30M",
+  "recipeCategory": [
+    "Abendessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Abendessen",
+  "recipeIngredient": [
+    "120g Weißkohl, fein gehobelt",
+    "80g Karotten, geraspelt",
+    "150g geröstete Kichererbsen *(Gewürze: Paprika, Kreuzkümmel)*",
+    "12g Walnüsse, gehackt *(reduziert von 2 EL/20g)*",
+    "30g Rucola",
+    "2 EL Apfelessig",
+    "1/2 TL Olivenöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "1 TL Ahornsirup",
+    "1 TL Dijon-Senf",
+    "7g Kürbiskerne *(reduziert von 10g)*",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "456",
+    "proteinContent": "21g",
+    "carbohydrateContent": "60g",
+    "fatContent": "20g",
+    "fiberContent": "19g"
+  }
+}

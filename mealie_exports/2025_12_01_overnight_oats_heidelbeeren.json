@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats mit TK-Heidelbeeren",
+  "description": "Protein-optimierte Overnight Oats mit TK-Heidelbeeren. Die Beeren tauen über Nacht auf und geben einen leckeren Geschmack!",
+  "prepTime": "PT2M",
+  "recipeIngredient": [
+    "25g Haferflocken",
+    "200ml Hafermilch (ungesüßt)",
+    "1 EL gemahlene Leinsamen (10g)",
+    "10g Mandelmus",
+    "25g Erbsenprotein-Pulver (pur)",
+    "150g TK-Heidelbeeren",
+    "10g Walnüsse, gehackt",
+    "1 TL Zimt",
+    "Prise Salz"
+  ],
+  "recipeInstructions": "Am Vorabend alle Zutaten außer Walnüssen in ein Glas schichten.\nGut umrühren, verschließen, über Nacht im Kühlschrank quellen lassen (TK-Beeren tauen auf).\nAm Morgen aus dem Kühlschrank nehmen, 5 Min antauen lassen, umrühren, mit Walnüssen toppen, genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Frühstück,Woche 1-5",
+  "nutrition": {
+    "calories": "422 kcal",
+    "proteinContent": "31g",
+    "carbohydrateContent": "56g",
+    "fatContent": "22g",
+    "fiberContent": "10g"
+  }
+}

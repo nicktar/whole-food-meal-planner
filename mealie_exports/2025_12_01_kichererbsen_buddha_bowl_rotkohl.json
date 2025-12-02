@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Kichererbsen-Buddha-Bowl mit Rotkohl",
+  "description": "Bunte Buddha Bowl mit gerösteten Kichererbsen, Quinoa, Brokkoli und mariniertem Rotkohl.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "100g Kichererbsen, geröstet mit Gewürzen (Kreuzkümmel, Paprika, Knoblauchpulver)",
+    "80g Quinoa, gekocht",
+    "80g Brokkoli, gedämpft",
+    "50g Rotkohl, roh gehobelt und mariniert (Apfelessig, Zitrone)",
+    "30g Tofu, gewürfelt",
+    "8g Kürbiskerne",
+    "Zitronen-Senf-Dressing:",
+    "  - Saft 1/2 Zitrone",
+    "  - 1 TL Olivenöl (5ml)",
+    "  - 1 TL Dijon-Senf",
+    "  - Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine Bowl arrangieren.\nDressing aus Zitrone, Olivenöl, Senf, Salz und Pfeffer mischen.\nDressing über die Bowl träufeln.\nMit Kürbiskernen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Mittagessen,Woche 1-5",
+  "nutrition": {
+    "calories": "423 kcal",
+    "proteinContent": "20g",
+    "carbohydrateContent": "55g",
+    "fatContent": "15g",
+    "fiberContent": "14g"
+  }
+}

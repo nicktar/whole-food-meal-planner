@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Beeren-Power Overnight Oats (REDUZIERT)",
+  "description": "Alle Samen entfernt. Reich an Antioxidantien aus Beeren.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "15g Haferflocken",
+    "75ml Hafermilch",
+    "0.5 EL Mandelmus (7.5g)",
+    "12.5g Erbsenprotein-Pulver",
+    "50g gemischte Beeren",
+    "Prise Zimt"
+  ],
+  "recipeInstructions": "Abends: Haferflocken, Hafermilch, Mandelmus, Proteinpulver und Zimt gründlich vermischen.\nGlas verschließen, über Nacht kühl stellen.\nMorgens: Mit Beeren toppen!",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Frühstück",
+  "nutrition": {
+    "calories": "204",
+    "proteinContent": "14g",
+    "carbohydrateContent": "25g",
+    "fatContent": "5g",
+    "fiberContent": "3g"
+  }
+}

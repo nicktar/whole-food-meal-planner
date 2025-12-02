@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Rotkohl-Apfel-Salat mit Cannellini",
+  "description": "Frisch & knackig! Süß-sauer, saisonal (Rotkohl + Äpfel).",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "120g Rotkohl (fein gehobelt)",
+    "80g Apfel (dünn geschnitten)",
+    "150g Cannellini-Bohnen (gekocht)",
+    "80g Tofu (gewürfelt)",
+    "15g Walnüsse (gehackt)",
+    "2 EL Apfelessig",
+    "1 EL Balsamico",
+    "2 TL Ahornsirup",
+    "1 TL Dijon-Senf",
+    "2 TL Olivenöl"
+  ],
+  "recipeInstructions": "Rotkohl fein hobeln, mit Apfelessig marinieren (10 Min).\nVinaigrette: Balsamico + Ahornsirup + Senf + Olivenöl mixen.\nRotkohl mit Apfel + Bohnen + Tofu mischen, Vinaigrette drüber, Walnüsse toppen.",
+  "keywords": "whole food,WFC,November 2025,HYBRID-Reduktion,Abendessen",
+  "nutrition": {
+    "calories": "586",
+    "proteinContent": "25g",
+    "carbohydrateContent": "62g",
+    "fatContent": "27g",
+    "fiberContent": "16g"
+  }
+}

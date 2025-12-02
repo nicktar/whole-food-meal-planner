@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Cannellini-Apfel-Salat mit Haselnüssen",
+  "description": "Herbstlicher Salat mit Cannellini-Bohnen, Apfel, Rote Bete und gerösteten Haselnüssen.",
+  "prepTime": "PT5M",
+  "recipeIngredient": [
+    "120g Cannellini-Bohnen",
+    "100g Apfel, dünn geschnitten",
+    "100g Rote Bete, gewürfelt",
+    "40g Feldsalat",
+    "50g Tofu, gewürfelt",
+    "10g Haselnüsse, geröstet & gehackt",
+    "Apfel-Balsamico-Dressing:",
+    "  - 2 EL Apfelessig",
+    "  - 1/2 TL Balsamico",
+    "  - 1 TL Olivenöl (5ml)",
+    "  - 5g Ahornsirup",
+    "  - 1 TL Dijon-Senf",
+    "  - Salz, Pfeffer"
+  ],
+  "recipeInstructions": "Alle Komponenten in eine große Bowl geben.\nFür das Dressing Apfelessig, Balsamico, Olivenöl, Ahornsirup, Senf, Salz und Pfeffer gut verrühren.\nDressing über den Salat geben.\nMit gerösteten Haselnüssen toppen und genießen!",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Abendessen,Woche 1-5",
+  "nutrition": {
+    "calories": "436 kcal",
+    "proteinContent": "20g",
+    "carbohydrateContent": "60g",
+    "fatContent": "15g",
+    "fiberContent": "14g"
+  }
+}

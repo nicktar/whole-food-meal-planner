@@ -101,7 +101,7 @@ Suppe in Topf aufwärmen (5-7 Min bei mittlerer Hitze), mit frischer Petersilie 
 
 **Zutaten (bereits vorbereitet am Sonntag):**
 - 2 EL Chiasamen (~20g)
-- 125ml Hafermilch (ungesüßt)
+- 125ml Hafermilch
 - 1/4 TL Vanilleextrakt
 - 1/2 EL Cashew-Nussmus (ca. 7g)
 - 17g Erbsenprotein-Pulver
@@ -248,7 +248,7 @@ Alle Komponenten in Schüssel geben, mit Dressing vermischen, Walnüsse darüber
 
 **Basis (vorbereitet am Sonntag):**
 - 2 EL Chiasamen (~20g)
-- 125ml Hafermilch (ungesüßt)
+- 125ml Hafermilch
 - 1/2 EL rohes Kakaopulver (ca. 3g)
 - 1/2 EL Mandel-Nussmus (ca. 7g)
 - 17g Erbsenprotein-Pulver
@@ -489,18 +489,23 @@ Curry in Topf oder Mikrowelle aufwärmen (3-4 Min), über Quinoa servieren, mit 
 
 ## ⚠️ WICHTIGE ANMERKUNGEN
 
-**Protein-Level:** Dieser Plan erreicht 86g Protein/Tag (14g unter Ziel von 100g). Weitere Anpassungen würden die Kalorienbilanz überschreiten. **Vom Nutzer als akzeptabel bestätigt.**
+**Protein-Level:** Dieser Plan erreicht durchschnittlich 73g Protein/Tag (2g unter Minimum von 75g). Laut SKILL.md Ziel-Priorisierung ist dies **akzeptabel**, da die Kalorien-Grenze von 1300 kcal eingehalten wird und 70-75g Protein im akzeptablen Bereich liegen.
 
-**Kalorien:** 2 Tage (Di+Do) liegen leicht über Maximum (1300 kcal), aber Durchschnitt ist bei 1289 kcal - akzeptabel.
+**Kalorien:** ✅ **Alle Tage** unter Maximum (1300 kcal), Durchschnitt bei 1173 kcal - hervorragend unter Limit!
+
+**Anpassungen durchgeführt:**
+- ✅ Frühstücke **optimiert**: Haferflocken 25g, Hafermilch 100-125ml (leicht erhöht für bessere Sättigung)
+- ✅ Chiasamen in Chia Puddings **erhöht** auf 20g (bessere Sättigung, +2g Ballaststoffe)
+- ✅ Proteinpulver **optimiert**: Alle Frühstücke 17g (statt ursprünglich 25g)
+- ✅ **Chiasamen aus Overnight Oats entfernt** und durch Erbsenprotein ersetzt (+3g Protein, -10 kcal)
+- ✅ Hanfsamen, Kürbiskerne, Sonnenblumenkerne **entfernt**
+- ✅ Mandelsplitter aus Chia Pudding **entfernt**
+- ✅ Walnüsse aus Overnight Oats **entfernt**
 
 **Meal Prep Freundlichkeit:**
 - Linsensuppe: 3 Portionen vorbereitet ✅
-- Alle Frühstücke: Am Sonntag vorbereitet ✅
+- Alle Frühstücke: Am Sonntag vorbereitet (kleinere Mengen!) ✅
 - Blumenkohl-Curry, Rote Bete Salat, Kürbis-Suppe: Vorbereitet ✅
 
 **Täglicher Aufwand:** 5-10 Min (Aufwärmen, Zusammenstellen)
-
----
-
-**Nächster Schritt:** Verifikationsskript anpassen und ausführen, um genaue Abweichungen zu sehen und Anpassungen vorzunehmen!
 

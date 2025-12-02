@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pastinaken-Sellerie-Suppe mit Linsen",
+  "description": "Meal-Prep-freundlich.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT35M",
+  "performTime": "PT35M",
+  "totalTime": "PT70M",
+  "recipeCategory": [
+    "Mittagessen"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Mittagessen",
+  "recipeIngredient": [
+    "150g Pastinaken, gewürfelt",
+    "100g Sellerie (Knolle), gewürfelt",
+    "120g rote Linsen (trocken)",
+    "50g Karotten, gewürfelt",
+    "30g Zwiebel, gewürfelt",
+    "1 Knoblauchzehe, gehackt",
+    "500ml Gemüsebrühe",
+    "1/2 TL Kreuzkümmel",
+    "1/2 TL Koriander",
+    "1/2 TL Olivenöl (2.5ml) *(reduziert von 1 TL/5ml)*",
+    "100ml Hafermilch (für Cremigkeit)",
+    "Salz, Pfeffer",
+    "Frische Petersilie"
+  ],
+  "recipeInstructions": "1. Zwiebel und Knoblauch in Öl anbraten\n2. Pastinaken, Sellerie, Karotten hinzufügen, 5 Min anbraten\n3. Gewürze hinzufügen, kurz anrösten\n4. Linsen und Gemüsebrühe hinzufügen\n5. 20-25 Min köcheln bis Linsen und Gemüse weich sind\n6. Mit Stabmixer teilweise pürieren (für cremige Konsistenz mit Stückchen)\n7. Hafermilch unterrühren, mit Salz und Pfeffer abschmecken\n8. Mit Petersilie servieren",
+  "nutrition": {
+    "calories": "381",
+    "proteinContent": "15g",
+    "carbohydrateContent": "73g",
+    "fatContent": "5g",
+    "fiberContent": "20g"
+  }
+}

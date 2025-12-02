@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pastinaken-Karotten-Curry mit Kichererbsen",
+  "description": "Winterliches Wurzelgemüse-Curry mit Pastinaken, Karotten, Kichererbsen und Tofu. Frisch gekocht am besten!",
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "120g Pastinaken, gewürfelt",
+    "80g Karotten, gewürfelt",
+    "110g Kichererbsen, gekocht",
+    "80g Tofu, gewürfelt",
+    "1 TL Currypaste (10g)",
+    "150ml Gemüsebrühe",
+    "1 TL Ingwer, gerieben",
+    "1 Knoblauchzehe",
+    "1/2 TL Kurkuma, Kreuzkümmel",
+    "1 TL Olivenöl",
+    "Frischer Koriander",
+    "Salz, Pfeffer"
+  ],
+  "recipeInstructions": "1. Olivenöl in Pfanne erhitzen, Ingwer + Knoblauch anbraten\n2. Currypaste + Gewürze dazugeben und kurz mitbraten\n3. Pastinaken, Karotten und Tofu 5 Min anbraten\n4. Kichererbsen + Gemüsebrühe hinzufügen, 10 Min köcheln lassen\n5. Mit frischem Koriander garnieren und servieren",
+  "keywords": "whole food,Dezember 2025,meal prep,vegan,Mittagessen,Woche 1-5",
+  "performTime": "PT15M",
+  "nutrition": {
+    "calories": "439 kcal",
+    "proteinContent": "19g",
+    "carbohydrateContent": "57g",
+    "fatContent": "14g",
+    "fiberContent": "17g"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Beeren-Power",
+  "description": "Protein-reich mit 34g Protein.",
+  "recipeYield": "1 Portion",
+  "prepTime": "PT5M",
+  "performTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeCategory": [
+    "Frühstück"
+  ],
+  "keywords": "whole food,food prep,vegetarisch,vegan,Frühstück",
+  "recipeIngredient": [
+    "22g Haferflocken *(reduziert von 30g)*",
+    "150ml Hafermilch (ungesüßt)",
+    "1 EL gemahlene Leinsamen (10g)",
+    "1 TL Mandelmus (5g) *(reduziert von 1 EL/15g)*",
+    "28g Erbsenprotein-Pulver *(erhöht von 20g)*",
+    "80g gemischte Beeren (TK) *(reduziert von 100g)*",
+    "1 EL Hanfsamen (10g)",
+    "1 TL Walnüsse, gehackt (5g) *(reduziert von 1 EL/15g)*",
+    "Prise Zimt"
+  ],
+  "recipeInstructions": "Aus Kühlschrank nehmen und servieren. Details siehe Meal Prep Strategie.",
+  "nutrition": {
+    "calories": "495",
+    "proteinContent": "34g",
+    "carbohydrateContent": "44g",
+    "fatContent": "24g",
+    "fiberContent": "8g"
+  }
+}

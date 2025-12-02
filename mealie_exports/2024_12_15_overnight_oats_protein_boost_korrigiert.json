@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Overnight Oats Protein-Boost - Korrigiert",
+  "description": "Frühstück aus Wochenplan 15.-19. Dezember 2024 (korrigierte Nährwerte)",
+  "recipeYield": "1 Portion",
+  "recipeCategory": [
+    "Frühstück",
+    "Whole Food Challenge"
+  ],
+  "keywords": [
+    "whole food",
+    "plant-based",
+    "vollwertig",
+    "pflanzlich"
+  ],
+  "prepTime": "PT15M",
+  "recipeIngredient": [
+    "**25g Haferflocken**",
+    "200ml Hafermilch ungesüßt",
+    "**❌ Chiasamen ENTFERNT**",
+    "1 EL Leinsamen / 10g",
+    "1 EL Mandelmus / 15g",
+    "20g Erbsenprotein-Pulver",
+    "**1 EL Sonnenblumenkerne / 10g**",
+    "50g Beeren",
+    "Prise Zimt, 1 TL Vanilleextrakt"
+  ],
+  "recipeInstructions": "1. Alle Zutaten (außer Beeren) in ein Glas/Dose schichten\n2. Gut umrühren, über Nacht (min. 6h) im Kühlschrank quellen lassen\n3. Morgens Beeren hinzufügen",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "470",
+    "proteinContent": "30.75",
+    "carbohydrateContent": "41.2",
+    "fatContent": "19.6",
+    "fiberContent": "6.4"
+  }
+}
